@@ -1,37 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Puzzle Launcher</title>
+<title>KVN Telugu Crossword</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+</style>
 </head>
 <body>
 
-<h3>Select Puzzle</h3>
-
-Folder:
-<select id="folder">
-    <option value="1EEEXPORTED">1EEEXPORTED</option>
-    <option value="2AJEXPORTED">2AJEXPORTED</option>
-    <option value="3SAEXPORTED">3SAEXPORTED</option>
-    <option value="4SSEXPORTED">4SSEXPORTED</option>
-    <option value="5HEXPORTED">5HEXPORTED</option>
-</select>
-
-<br><br>
-
-Puzzle Date:
-<input type="text" id="pdate" value="260607">
-
-<br><br>
-
-<button onclick="openPuzzle()">Open Puzzle</button>
+<h3>Loading latest puzzle...</h3>
 
 <script>
-function openPuzzle() {
-    let folder = document.getElementById("folder").value;
-    let pdate  = document.getElementById("pdate").value;
-
-    location.href = "./" + folder + "/" + pdate + ".html";
-}
+window.location.href = "./1EEEXPORTED/260531.html";
 </script>
 
 </body>
