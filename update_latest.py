@@ -5,7 +5,7 @@ Run this locally before pushing to Git
 """
 
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 def update_latest_html():
 
@@ -13,7 +13,10 @@ def update_latest_html():
     print("Update Latest Puzzle")
     print("=" * 50)
 
-    # Show available folders
+    # ============================================
+    # Folder Selection
+    # ============================================
+
     print("\nAvailable Folders:")
     print("1. 1EEEXPORTED")
     print("2. 2AJEXPORTED")
@@ -21,7 +24,6 @@ def update_latest_html():
     print("4. 4SSEXPORTED")
     print("5. 5HEXPORTED")
 
-    # Get folder number
     choice = input("\nEnter folder number (1-5): ").strip()
 
     folders = {
@@ -39,40 +41,82 @@ def update_latest_html():
 
     folder = folders[choice]
 
-    # Default date = today (YYMMDD)
-    default_date = datetime.now().strftime("%y%m%d")
+    # ============================================
+    # Recent Sundays
+    # ============================================
 
-    # Get puzzle date
-    pdate = input(
-        f"Enter puzzle date [{default_date}]: "
-    ).strip()
+    today = datetime.now()
 
-    if pdate == "":
-        # Enter pressed
-        pdate = default_date
+    days_since_sunday = (today.weekday() + 1) % 7
+    latest_sunday = today - timedelta(days=days_since_sunday)
 
-    elif len(pdate) == 2 and pdate.isdigit():
-        # Day only (08 -> 260608)
-        pdate = default_date[:4] + pdate
+    sundays = []
 
-    elif len(pdate) == 4 and pdate.isdigit():
-        # MMDD (0531 -> 260531)
-        pdate = default_date[:2] + pdate
+    for i in range(5):
+        sunday = latest_sunday - timedelta(days=i * 7)
+        sundays.append(sunday.strftime("%y%m%d"))
 
-    elif len(pdate) == 6 and pdate.isdigit():
-        # Full YYMMDD
-        pass
+    print("\nRecent Sundays:")
+
+    for i, d in enumerate(sundays, start=1):
+        print(f"{i}. {d}")
+
+    print("0. Custom Date")
+
+    date_choice = input("\nChoose date (0-5): ").strip()
+
+    if date_choice in ["1", "2", "3", "4", "5"]:
+
+        pdate = sundays[int(date_choice) - 1]
+
+    elif date_choice == "0":
+
+        default_date = sundays[0]
+
+        pdate = input(
+            f"Enter puzzle date [{default_date}]: "
+        ).strip()
+
+        if pdate == "":
+
+            pdate = default_date
+
+        elif len(pdate) == 2 and pdate.isdigit():
+
+            # DD
+            pdate = default_date[:4] + pdate
+
+        elif len(pdate) == 4 and pdate.isdigit():
+
+            # MMDD
+            pdate = default_date[:2] + pdate
+
+        elif len(pdate) == 6 and pdate.isdigit():
+
+            # YYMMDD
+            pass
+
+        else:
+
+            print("❌ Invalid date format!")
+            print("Use DD, MMDD, or YYMMDD")
+            input("\nPress Enter to exit...")
+            return
 
     else:
-        print("❌ Invalid date format!")
-        print("Use DD, MMDD, or YYMMDD")
+
+        print("❌ Invalid selection!")
         input("\nPress Enter to exit...")
         return
 
+    # ============================================
     # Check if puzzle exists
+    # ============================================
+
     puzzle_path = os.path.join(folder, f"{pdate}.html")
 
     if not os.path.exists(puzzle_path):
+
         print(f"\n⚠️ Warning: {puzzle_path} does not exist!")
 
         proceed = input(
@@ -80,11 +124,15 @@ def update_latest_html():
         ).strip().lower()
 
         if proceed != "y":
+
             print("Cancelled.")
             input("\nPress Enter to exit...")
             return
 
-    # Generate latest.html content
+    # ============================================
+    # Generate latest.html
+    # ============================================
+
     html_content = f"""<!DOCTYPE html>
 <html>
 <head>
@@ -108,7 +156,10 @@ window.location.href = "./{folder}/{pdate}.html";
 </body>
 </html>"""
 
+    # ============================================
     # Write latest.html
+    # ============================================
+
     try:
 
         with open("latest.html", "w", encoding="utf-8") as f:
@@ -124,6 +175,7 @@ window.location.href = "./{folder}/{pdate}.html";
         print("3. Push")
 
     except Exception as e:
+
         print(f"❌ Error writing file: {e}")
 
     input("\nPress Enter to exit...")
@@ -132,12 +184,15 @@ window.location.href = "./{folder}/{pdate}.html";
 if __name__ == "__main__":
 
     try:
+
         update_latest_html()
 
     except KeyboardInterrupt:
+
         print("\n\nCancelled by user.")
         input("\nPress Enter to exit...")
 
     except Exception as e:
+
         print(f"\n❌ Error: {e}")
         input("\nPress Enter to exit...")
