@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head>
+﻿<!DOCTYPE html><html><head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu&amp;display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -75,7 +75,23 @@
     function move(r,c){
       let next = document.querySelector('input[data-row="'+r+'"][data-col="'+c+'"]');
       if(next){next.focus()}
-    }
+}
+
+function showClue(r,c){
+      let key = r+"-"+c;
+      let num = numbers[key];
+
+      if(!num){
+          return;
+      }
+
+      let across = clues.across[num] || "";
+      let down = clues.down[num] || "";
+
+      clueBox.innerHTML =
+          "<b>"+num+" Across:</b> "+across+
+          "<br><br><b>"+num+" Down:</b> "+down;
+}
     
     function createGrid(){
       let w = img.clientWidth;
@@ -109,6 +125,13 @@
           input.maxLength = 10;
           input.dataset.row = r;
           input.dataset.col = c;
+
+input.addEventListener("focus",function(){
+    showClue(
+        parseInt(this.dataset.row),
+        parseInt(this.dataset.col)
+    );
+});
 
           // Font scales as a percentage of the current cell size.
           let cellBase = Math.min(cw, ch);
