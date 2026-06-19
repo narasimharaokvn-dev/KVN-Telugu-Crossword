@@ -1,0 +1,353 @@
+﻿{
+  "sheetName": "180416",
+  "identity": "180416C",
+  "rows": [
+    {
+      "leftNumber": 1,
+      "leftText": "కాబట్టి ఎటు చూసినా...",
+      "rightNumber": 1,
+      "rightText": "నారద భోజనం"
+    },
+    {
+      "leftNumber": 3,
+      "leftText": "హిందీలో ప్రజలు",
+      "rightNumber": 2,
+      "rightText": "ఈవారు ధనవంతులు"
+    },
+    {
+      "leftNumber": 4,
+      "leftText": "చూడు 4 నిలువు",
+      "rightNumber": 4,
+      "rightText": "నిలువైనా అడ్డమైనా ఈ చోటనే."
+    },
+    {
+      "leftNumber": 6,
+      "leftText": "సగం ఇవతల తల తిరిగిన తీగ",
+      "rightNumber": 5,
+      "rightText": "జిత్తులమారి"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "సినిమాలో తిరుగు టపా, రేడియోలో కూడా",
+      "rightNumber": 7,
+      "rightText": "22 నిలువుకు పర్యాయపదం"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "రామకృష్ణ పరమ ఇది.",
+      "rightNumber": 8,
+      "rightText": "ఒక సూత్రకారుడు"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "అయిదుగురిలో ఆఖరిది. ఎనమండుగురిలో మొదటిది.",
+      "rightNumber": 10,
+      "rightText": "3తో కలసి మన పార్లమెంటు"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "వాళ్ళయొక్క నీళ్ళు",
+      "rightNumber": 12,
+      "rightText": "వామనుడి సంతకం ప్రారంభాలే ఇల్లు"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "కుంకుమ ఉంచే నక్షత్రం.",
+      "rightNumber": 14,
+      "rightText": "నాలుక నరస మార్పు"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "రెండో ఊపిరి",
+      "rightNumber": 16,
+      "rightText": "పులి"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "ఆహ్వానపత్రిక నిన్నేమంటుంది?",
+      "rightNumber": 20,
+      "rightText": "నిత్యబహువచనం బేబీకి అవసరం."
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "శూన్యం ఒక ఇంగ్లీషు అచ్చు.",
+      "rightNumber": 21,
+      "rightText": "రోడ్డు మరమత్తు"
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "అరసున్న చేర్చితే అంగీకారం",
+      "rightNumber": 22,
+      "rightText": "స్త్రీ"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "మంగళగిరిలో దొరికేదా?",
+      "rightNumber": 23,
+      "rightText": "తైలానికి మూలం."
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "సంస్కృతంలో అంటారు ఈ పుకారు",
+      "rightNumber": 24,
+      "rightText": "ఉదాహరణకు ఆకాశవాణి"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "ఎవరేలుతున్నా లోపల దొరికేది చీకటే.",
+      "rightNumber": 27,
+      "rightText": "నిమిషాని కరవై"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "ఖరీదైన లోహం.",
+      "rightNumber": 28,
+      "rightText": "ఇది రూపాయల రూపంలోనే ఉండక్కరలేదు."
+    },
+    {
+      "leftNumber": 26,
+      "leftText": "ఒకటీ, అయిదు సున్నలు.",
+      "rightNumber": 30,
+      "rightText": "అబ్జాక్షి మేను ఆననాకార రహితం."
+    },
+    {
+      "leftNumber": 28,
+      "leftText": "భూమి ఖరీదు",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "పోలేని పోతన స్వకీయం.",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 31,
+      "leftText": "ఆలోచన చాలాదూరం",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 32,
+      "leftText": "ఇంగ్లీషు నాటక ప్రారంభంలో ఎవరికీ గెలుపు లేదు.",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 33,
+      "leftText": "లోనికి చూస్తే కొనగలుగు వారికి దొరుకుతాయి.",
+      "rightNumber": null,
+      "rightText": null
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "కాబట్టి ఎటు చూసినా..."
+    },
+    {
+      "row": 2,
+      "number": 3,
+      "text": "హిందీలో ప్రజలు"
+    },
+    {
+      "row": 3,
+      "number": 4,
+      "text": "చూడు 4 నిలువు"
+    },
+    {
+      "row": 4,
+      "number": 6,
+      "text": "సగం ఇవతల తల తిరిగిన తీగ"
+    },
+    {
+      "row": 5,
+      "number": 8,
+      "text": "సినిమాలో తిరుగు టపా, రేడియోలో కూడా"
+    },
+    {
+      "row": 6,
+      "number": 9,
+      "text": "రామకృష్ణ పరమ ఇది."
+    },
+    {
+      "row": 7,
+      "number": 11,
+      "text": "అయిదుగురిలో ఆఖరిది. ఎనమండుగురిలో మొదటిది."
+    },
+    {
+      "row": 8,
+      "number": 12,
+      "text": "వాళ్ళయొక్క నీళ్ళు"
+    },
+    {
+      "row": 9,
+      "number": 13,
+      "text": "కుంకుమ ఉంచే నక్షత్రం."
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "రెండో ఊపిరి"
+    },
+    {
+      "row": 11,
+      "number": 17,
+      "text": "ఆహ్వానపత్రిక నిన్నేమంటుంది?"
+    },
+    {
+      "row": 12,
+      "number": 18,
+      "text": "శూన్యం ఒక ఇంగ్లీషు అచ్చు."
+    },
+    {
+      "row": 13,
+      "number": 19,
+      "text": "అరసున్న చేర్చితే అంగీకారం"
+    },
+    {
+      "row": 14,
+      "number": 20,
+      "text": "మంగళగిరిలో దొరికేదా?"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "సంస్కృతంలో అంటారు ఈ పుకారు"
+    },
+    {
+      "row": 16,
+      "number": 24,
+      "text": "ఎవరేలుతున్నా లోపల దొరికేది చీకటే."
+    },
+    {
+      "row": 17,
+      "number": 25,
+      "text": "ఖరీదైన లోహం."
+    },
+    {
+      "row": 18,
+      "number": 26,
+      "text": "ఒకటీ, అయిదు సున్నలు."
+    },
+    {
+      "row": 19,
+      "number": 28,
+      "text": "భూమి ఖరీదు"
+    },
+    {
+      "row": 20,
+      "number": 29,
+      "text": "పోలేని పోతన స్వకీయం."
+    },
+    {
+      "row": 21,
+      "number": 31,
+      "text": "ఆలోచన చాలాదూరం"
+    },
+    {
+      "row": 22,
+      "number": 32,
+      "text": "ఇంగ్లీషు నాటక ప్రారంభంలో ఎవరికీ గెలుపు లేదు."
+    },
+    {
+      "row": 23,
+      "number": 33,
+      "text": "లోనికి చూస్తే కొనగలుగు వారికి దొరుకుతాయి."
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "నారద భోజనం"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "ఈవారు ధనవంతులు"
+    },
+    {
+      "row": 3,
+      "number": 4,
+      "text": "నిలువైనా అడ్డమైనా ఈ చోటనే."
+    },
+    {
+      "row": 4,
+      "number": 5,
+      "text": "జిత్తులమారి"
+    },
+    {
+      "row": 5,
+      "number": 7,
+      "text": "22 నిలువుకు పర్యాయపదం"
+    },
+    {
+      "row": 6,
+      "number": 8,
+      "text": "ఒక సూత్రకారుడు"
+    },
+    {
+      "row": 7,
+      "number": 10,
+      "text": "3తో కలసి మన పార్లమెంటు"
+    },
+    {
+      "row": 8,
+      "number": 12,
+      "text": "వామనుడి సంతకం ప్రారంభాలే ఇల్లు"
+    },
+    {
+      "row": 9,
+      "number": 14,
+      "text": "నాలుక నరస మార్పు"
+    },
+    {
+      "row": 10,
+      "number": 16,
+      "text": "పులి"
+    },
+    {
+      "row": 11,
+      "number": 20,
+      "text": "నిత్యబహువచనం బేబీకి అవసరం."
+    },
+    {
+      "row": 12,
+      "number": 21,
+      "text": "రోడ్డు మరమత్తు"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "స్త్రీ"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "తైలానికి మూలం."
+    },
+    {
+      "row": 15,
+      "number": 24,
+      "text": "ఉదాహరణకు ఆకాశవాణి"
+    },
+    {
+      "row": 16,
+      "number": 27,
+      "text": "నిమిషాని కరవై"
+    },
+    {
+      "row": 17,
+      "number": 28,
+      "text": "ఇది రూపాయల రూపంలోనే ఉండక్కరలేదు."
+    },
+    {
+      "row": 18,
+      "number": 30,
+      "text": "అబ్జాక్షి మేను ఆననాకార రహితం."
+    }
+  ]
+}

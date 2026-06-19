@@ -1,0 +1,372 @@
+﻿{
+  "sheetName": "210555",
+  "identity": "210555C",
+  "rows": [
+    {
+      "leftNumber": 3,
+      "leftText": "“అడవి” నాయకుని ఇంటిపేరు",
+      "rightNumber": 1,
+      "rightText": "ప్రసిద్ధ సోదరి"
+    },
+    {
+      "leftNumber": "14,40",
+      "leftText": "ఆ బాధ ఒక బాధ",
+      "rightNumber": 2,
+      "rightText": "దీన్ని తిప్పితే దాహం"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "ఎడమొగం (పెడమొగం కూడా!)",
+      "rightNumber": 3,
+      "rightText": "గోముఖ వ్యాఘ్రపు ముఖవికాసం"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "ఎడారిలో పారదు",
+      "rightNumber": 4,
+      "rightText": "మిథున వాంఛ"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "క్రౌర్యంలో ఉన్నది కరుణలో లేదు",
+      "rightNumber": 5,
+      "rightText": "కాచినపాలు ఈవాలు"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "తొలి పరీక్ష, తుది వినతి",
+      "rightNumber": 6,
+      "rightText": "పైసలు (అపూర్వం)"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "ఒప్పు",
+      "rightNumber": 7,
+      "rightText": "తెలిసినవాడు నాటితే ఫలిస్తుంది"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "పండితుని తండ్రి (ప్రారంభాలతో పోటీ)",
+      "rightNumber": 8,
+      "rightText": "వికారం ఉన్నా లేకున్నా సమూహం"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "కవి సమర్థుడు",
+      "rightNumber": 11,
+      "rightText": "నోరు పెట్టుకు బతికేవాడు"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "డెబిట్ పద్దుకాదు",
+      "rightNumber": 14,
+      "rightText": "2"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "జంతువుకు చెట్టుకు సహజం",
+      "rightNumber": 15,
+      "rightText": "చాచా నెహ్రు"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "చిరం - 18 నిలువు",
+      "rightNumber": 18,
+      "rightText": "నక్కకు చుట్టం?"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "శిఖండి",
+      "rightNumber": 19,
+      "rightText": "కాబట్టి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 23,
+      "rightText": "స్వగతం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 25,
+      "rightText": "కల-కోకిలది"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 27,
+      "rightText": "మంచి చెడ్డల కలగలపు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 29,
+      "rightText": "పెరుమాళ్ళ కెరుక"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 31,
+      "rightText": "32 విరాటపర్వంలో కుంతీసుత మధ్యముడు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 32,
+      "rightText": "చూ"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 31,
+      "rightText": null
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 21,
+      "rightText": "పంతులు కుండదా? (మధురవాణి ప్రశ్న)"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 22,
+      "rightText": "KKK"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 23,
+      "rightText": "13"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 24,
+      "rightText": "ఆమ్రేడిత విభక్తి ప్రత్యయం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 26,
+      "rightText": "తెలుగు కవి ప్రత్యేకత"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 28,
+      "rightText": "ముగ్ధ గోదావరి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 30,
+      "rightText": "పోలీసు సంజ్ఞ"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 3,
+      "text": "“అడవి” నాయకుని ఇంటిపేరు"
+    },
+    {
+      "row": 2,
+      "number": "14,40",
+      "text": "ఆ బాధ ఒక బాధ"
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": "ఎడమొగం (పెడమొగం కూడా!)"
+    },
+    {
+      "row": 4,
+      "number": 9,
+      "text": "ఎడారిలో పారదు"
+    },
+    {
+      "row": 5,
+      "number": 10,
+      "text": "క్రౌర్యంలో ఉన్నది కరుణలో లేదు"
+    },
+    {
+      "row": 6,
+      "number": 12,
+      "text": "తొలి పరీక్ష, తుది వినతి"
+    },
+    {
+      "row": 7,
+      "number": 13,
+      "text": "ఒప్పు"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "పండితుని తండ్రి (ప్రారంభాలతో పోటీ)"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "కవి సమర్థుడు"
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "డెబిట్ పద్దుకాదు"
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "జంతువుకు చెట్టుకు సహజం"
+    },
+    {
+      "row": 12,
+      "number": 20,
+      "text": "చిరం - 18 నిలువు"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "శిఖండి"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "ప్రసిద్ధ సోదరి"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "దీన్ని తిప్పితే దాహం"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "గోముఖ వ్యాఘ్రపు ముఖవికాసం"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "మిథున వాంఛ"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "కాచినపాలు ఈవాలు"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "పైసలు (అపూర్వం)"
+    },
+    {
+      "row": 7,
+      "number": 7,
+      "text": "తెలిసినవాడు నాటితే ఫలిస్తుంది"
+    },
+    {
+      "row": 8,
+      "number": 8,
+      "text": "వికారం ఉన్నా లేకున్నా సమూహం"
+    },
+    {
+      "row": 9,
+      "number": 11,
+      "text": "నోరు పెట్టుకు బతికేవాడు"
+    },
+    {
+      "row": 10,
+      "number": 14,
+      "text": "2"
+    },
+    {
+      "row": 11,
+      "number": 15,
+      "text": "చాచా నెహ్రు"
+    },
+    {
+      "row": 12,
+      "number": 18,
+      "text": "నక్కకు చుట్టం?"
+    },
+    {
+      "row": 13,
+      "number": 19,
+      "text": "కాబట్టి"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "స్వగతం"
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "కల-కోకిలది"
+    },
+    {
+      "row": 16,
+      "number": 27,
+      "text": "మంచి చెడ్డల కలగలపు"
+    },
+    {
+      "row": 17,
+      "number": 29,
+      "text": "పెరుమాళ్ళ కెరుక"
+    },
+    {
+      "row": 18,
+      "number": 31,
+      "text": "32 విరాటపర్వంలో కుంతీసుత మధ్యముడు"
+    },
+    {
+      "row": 19,
+      "number": 32,
+      "text": "చూ"
+    },
+    {
+      "row": 20,
+      "number": 31,
+      "text": null
+    },
+    {
+      "row": 21,
+      "number": 21,
+      "text": "పంతులు కుండదా? (మధురవాణి ప్రశ్న)"
+    },
+    {
+      "row": 22,
+      "number": 22,
+      "text": "KKK"
+    },
+    {
+      "row": 23,
+      "number": 23,
+      "text": "13"
+    },
+    {
+      "row": 24,
+      "number": 24,
+      "text": "ఆమ్రేడిత విభక్తి ప్రత్యయం"
+    },
+    {
+      "row": 25,
+      "number": 26,
+      "text": "తెలుగు కవి ప్రత్యేకత"
+    },
+    {
+      "row": 26,
+      "number": 28,
+      "text": "ముగ్ధ గోదావరి"
+    },
+    {
+      "row": 27,
+      "number": 30,
+      "text": "పోలీసు సంజ్ఞ"
+    }
+  ]
+}

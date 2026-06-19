@@ -1,0 +1,293 @@
+﻿{
+  "sheetName": "220567",
+  "identity": "220567C",
+  "rows": [
+    {
+      "leftNumber": 5,
+      "leftText": "మనిషికి కాకుంటే మానుకా?",
+      "rightNumber": 1,
+      "rightText": "పరమేశ్వరునితో పార్వతి"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "పాశ్చాత్యులకి అరిష్ట సూచకం",
+      "rightNumber": 2,
+      "rightText": "కోటాను కలిపి లెక్కకు మిక్కిలి"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "నడుంలేని నాణెం",
+      "rightNumber": 3,
+      "rightText": "అనుబంధంతో జాలి"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "మరో హిరణ్యాక్షుడి చిరునామం",
+      "rightNumber": 4,
+      "rightText": "గుంపుతో సంబంధించినది"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "నామాలతో దస్తావేజాలు",
+      "rightNumber": 6,
+      "rightText": "లేక, ఇంకా కావాలా?"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "తినగ తినగ తీయన",
+      "rightNumber": 8,
+      "rightText": "రెండు సంగీత స్వరాలు"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "దీనికి లేనిది ఇంకోదానికా?",
+      "rightNumber": 10,
+      "rightText": "కట్టడం అంటే మరణం"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "అహింసావాదులకు అక్కరలేనిది",
+      "rightNumber": 12,
+      "rightText": "గాలి"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "ఉదాహరణకు తిక్కన",
+      "rightNumber": 13,
+      "rightText": "అనుదినం నవోదయం"
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "అతిశయం",
+      "rightNumber": 14,
+      "rightText": "సుమతి శతకం ఇతడు చదవకూడదా?"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "ఉండడానికి చోటు",
+      "rightNumber": 16,
+      "rightText": "తీస్తే పరుగు చేస్తే దాడి"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "ఆరు నిలువు",
+      "rightNumber": 20,
+      "rightText": "రత్నగర్భ"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "మద్యం (దేవతలకా?)",
+      "rightNumber": 22,
+      "rightText": "జవాబడిగేది"
+    },
+    {
+      "leftNumber": 26,
+      "leftText": "ఆఫ్రికాలో ఒకదేశం",
+      "rightNumber": 23,
+      "rightText": "అంతమించిన దురాచారం"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "తెనాలి రామన్న వెక్కిరించిన పెద్దన ప్రయోగం",
+      "rightNumber": 25,
+      "rightText": "ఆమ్రేడితంలో పోటీ"
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "అవతార పురుషుని ఆయుధం",
+      "rightNumber": 26,
+      "rightText": "మద్దితో ఒక వూరు"
+    },
+    {
+      "leftNumber": 30,
+      "leftText": "మణివిశేష",
+      "rightNumber": 28,
+      "rightText": "ఏడాది"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 29,
+      "rightText": "ఇకమీద రెండులేని మూడోయుగం"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 5,
+      "text": "మనిషికి కాకుంటే మానుకా?"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "పాశ్చాత్యులకి అరిష్ట సూచకం"
+    },
+    {
+      "row": 3,
+      "number": 9,
+      "text": "నడుంలేని నాణెం"
+    },
+    {
+      "row": 4,
+      "number": 11,
+      "text": "మరో హిరణ్యాక్షుడి చిరునామం"
+    },
+    {
+      "row": 5,
+      "number": 12,
+      "text": "నామాలతో దస్తావేజాలు"
+    },
+    {
+      "row": 6,
+      "number": 13,
+      "text": "తినగ తినగ తీయన"
+    },
+    {
+      "row": 7,
+      "number": 15,
+      "text": "దీనికి లేనిది ఇంకోదానికా?"
+    },
+    {
+      "row": 8,
+      "number": 17,
+      "text": "అహింసావాదులకు అక్కరలేనిది"
+    },
+    {
+      "row": 9,
+      "number": 18,
+      "text": "ఉదాహరణకు తిక్కన"
+    },
+    {
+      "row": 10,
+      "number": 19,
+      "text": "అతిశయం"
+    },
+    {
+      "row": 11,
+      "number": 21,
+      "text": "ఉండడానికి చోటు"
+    },
+    {
+      "row": 12,
+      "number": 23,
+      "text": "ఆరు నిలువు"
+    },
+    {
+      "row": 13,
+      "number": 24,
+      "text": "మద్యం (దేవతలకా?)"
+    },
+    {
+      "row": 14,
+      "number": 26,
+      "text": "ఆఫ్రికాలో ఒకదేశం"
+    },
+    {
+      "row": 15,
+      "number": 27,
+      "text": "తెనాలి రామన్న వెక్కిరించిన పెద్దన ప్రయోగం"
+    },
+    {
+      "row": 16,
+      "number": 29,
+      "text": "అవతార పురుషుని ఆయుధం"
+    },
+    {
+      "row": 17,
+      "number": 30,
+      "text": "మణివిశేష"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "పరమేశ్వరునితో పార్వతి"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "కోటాను కలిపి లెక్కకు మిక్కిలి"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "అనుబంధంతో జాలి"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "గుంపుతో సంబంధించినది"
+    },
+    {
+      "row": 5,
+      "number": 6,
+      "text": "లేక, ఇంకా కావాలా?"
+    },
+    {
+      "row": 6,
+      "number": 8,
+      "text": "రెండు సంగీత స్వరాలు"
+    },
+    {
+      "row": 7,
+      "number": 10,
+      "text": "కట్టడం అంటే మరణం"
+    },
+    {
+      "row": 8,
+      "number": 12,
+      "text": "గాలి"
+    },
+    {
+      "row": 9,
+      "number": 13,
+      "text": "అనుదినం నవోదయం"
+    },
+    {
+      "row": 10,
+      "number": 14,
+      "text": "సుమతి శతకం ఇతడు చదవకూడదా?"
+    },
+    {
+      "row": 11,
+      "number": 16,
+      "text": "తీస్తే పరుగు చేస్తే దాడి"
+    },
+    {
+      "row": 12,
+      "number": 20,
+      "text": "రత్నగర్భ"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "జవాబడిగేది"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "అంతమించిన దురాచారం"
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "ఆమ్రేడితంలో పోటీ"
+    },
+    {
+      "row": 16,
+      "number": 26,
+      "text": "మద్దితో ఒక వూరు"
+    },
+    {
+      "row": 17,
+      "number": 28,
+      "text": "ఏడాది"
+    },
+    {
+      "row": 18,
+      "number": 29,
+      "text": "ఇకమీద రెండులేని మూడోయుగం"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+﻿{
+  "sheetName": "200240",
+  "identity": "200240C",
+  "rows": [
+    {
+      "leftNumber": 4,
+      "leftText": "అష్టావధానికి పరీక్ష",
+      "rightNumber": 1,
+      "rightText": "నమస్కారం"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "వాద్యం (కృష్ణ కర్ణామృతానికి)",
+      "rightNumber": 2,
+      "rightText": "జలాశయం"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "వంశానుక్రమం",
+      "rightNumber": 3,
+      "rightText": "వాడు చెప్పేది నమ్మకు"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "ఒక దిక్కులో సగం",
+      "rightNumber": 4,
+      "rightText": "వృక్ష విశేషం"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "12 నిలువు కలగలుపు",
+      "rightNumber": 5,
+      "rightText": "తలకొట్టి తలకిందులు చేసి దీవిస్తా"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "శత్రువులు రోదించితే నియమాలు",
+      "rightNumber": 6,
+      "rightText": "రెమ్మలు"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "పూలచెట్టు",
+      "rightNumber": 9,
+      "rightText": "శూద్రకుని సృష్టి"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "అలంకరణ",
+      "rightNumber": 10,
+      "rightText": "తేనెటీగ"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "ఇదో విద్య",
+      "rightNumber": 12,
+      "rightText": "శృంఖలాలు"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "వర్షం వత్సరం కాదు",
+      "rightNumber": 15,
+      "rightText": "భట్రాజుల ప్రత్యేకత"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "శరీరభాగం",
+      "rightNumber": 17,
+      "rightText": "తరంగిణి కలగలపు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 19,
+      "rightText": "స్నిగ్ధత"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 22,
+      "rightText": "కవచము"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 20,
+      "rightText": "శిరోభాగం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 24,
+      "rightText": "మాజీ మంత్రిగారి ఇంటి పేరు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 22,
+      "rightText": "ఒక్కొక్కరికి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 25,
+      "rightText": "ఇదిప్పుడు కాదు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 23,
+      "rightText": "నడుం జారిన ముగ్గురు"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 4,
+      "text": "అష్టావధానికి పరీక్ష"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "వాద్యం (కృష్ణ కర్ణామృతానికి)"
+    },
+    {
+      "row": 3,
+      "number": 8,
+      "text": "వంశానుక్రమం"
+    },
+    {
+      "row": 4,
+      "number": 10,
+      "text": "ఒక దిక్కులో సగం"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "12 నిలువు కలగలుపు"
+    },
+    {
+      "row": 6,
+      "number": 13,
+      "text": "శత్రువులు రోదించితే నియమాలు"
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "పూలచెట్టు"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "అలంకరణ"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "ఇదో విద్య"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "వర్షం వత్సరం కాదు"
+    },
+    {
+      "row": 11,
+      "number": 21,
+      "text": "శరీరభాగం"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "నమస్కారం"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "జలాశయం"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "వాడు చెప్పేది నమ్మకు"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "వృక్ష విశేషం"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "తలకొట్టి తలకిందులు చేసి దీవిస్తా"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "రెమ్మలు"
+    },
+    {
+      "row": 7,
+      "number": 9,
+      "text": "శూద్రకుని సృష్టి"
+    },
+    {
+      "row": 8,
+      "number": 10,
+      "text": "తేనెటీగ"
+    },
+    {
+      "row": 9,
+      "number": 12,
+      "text": "శృంఖలాలు"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "భట్రాజుల ప్రత్యేకత"
+    },
+    {
+      "row": 11,
+      "number": 17,
+      "text": "తరంగిణి కలగలపు"
+    },
+    {
+      "row": 12,
+      "number": 19,
+      "text": "స్నిగ్ధత"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "కవచము"
+    },
+    {
+      "row": 14,
+      "number": 20,
+      "text": "శిరోభాగం"
+    },
+    {
+      "row": 15,
+      "number": 24,
+      "text": "మాజీ మంత్రిగారి ఇంటి పేరు"
+    },
+    {
+      "row": 16,
+      "number": 22,
+      "text": "ఒక్కొక్కరికి"
+    },
+    {
+      "row": 17,
+      "number": 25,
+      "text": "ఇదిప్పుడు కాదు"
+    },
+    {
+      "row": 18,
+      "number": 23,
+      "text": "నడుం జారిన ముగ్గురు"
+    }
+  ]
+}

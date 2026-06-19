@@ -1,0 +1,245 @@
+﻿{
+  "sheetName": "200442",
+  "identity": "200442C",
+  "rows": [
+    {
+      "leftNumber": 4,
+      "leftText": "విప్లవకవి తిరుగుబాటు",
+      "rightNumber": 1,
+      "rightText": "కస్తూరి అకటా వికటం"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "ఒక ఆటకు సంబంధించి -",
+      "rightNumber": 2,
+      "rightText": "పంట పండించేవాడు"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "జీవితానికి మరణం",
+      "rightNumber": 3,
+      "rightText": "చలితం, కలతపడింది."
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "గోవిందం రెండు గణాలు",
+      "rightNumber": 4,
+      "rightText": "ఒక నది కల్లోలమయింది."
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "వెదక దగ్గది",
+      "rightNumber": 5,
+      "rightText": "సమయం"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "ఆడు పక్షి",
+      "rightNumber": 6,
+      "rightText": "నీళ్ళధార"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "9",
+      "rightNumber": 9,
+      "rightText": "ఒక అలంకారికుని జీవితం"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "2\nలేదు",
+      "rightNumber": 10,
+      "rightText": "హాస్య రచయిత ఇంటి పేరు"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "ఆపద సమయంలో అరుపు",
+      "rightNumber": 12,
+      "rightText": "అల్లుడికి హాయి"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "ఎవరి వంతు? (వెదుక్కోవాలి)",
+      "rightNumber": 15,
+      "rightText": "దేశభక్తికి తుది కానుక"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "సుల్తాను సూది మొన",
+      "rightNumber": 17,
+      "rightText": "ఆనాడు తోకనుంచి తలదాకా"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "యోగబోధిని",
+      "rightNumber": 19,
+      "rightText": "కొంచెం నంచుకొన్న సెనగలు"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "ధనికుల నివాసాలు",
+      "rightNumber": 20,
+      "rightText": "వాంతి"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "పూర్తికాలేదు, అటుకాదు ఇటు",
+      "rightNumber": 22,
+      "rightText": "ఆశ్చర్యానికి, ప్రశంసకి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 23,
+      "rightText": "పువ్వులపని తలకిందులు"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 4,
+      "text": "విప్లవకవి తిరుగుబాటు"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "ఒక ఆటకు సంబంధించి -"
+    },
+    {
+      "row": 3,
+      "number": 8,
+      "text": "జీవితానికి మరణం"
+    },
+    {
+      "row": 4,
+      "number": 10,
+      "text": "గోవిందం రెండు గణాలు"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "వెదక దగ్గది"
+    },
+    {
+      "row": 6,
+      "number": 13,
+      "text": "ఆడు పక్షి"
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "9"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "2\nలేదు"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "ఆపద సమయంలో అరుపు"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "ఎవరి వంతు? (వెదుక్కోవాలి)"
+    },
+    {
+      "row": 11,
+      "number": 21,
+      "text": "సుల్తాను సూది మొన"
+    },
+    {
+      "row": 12,
+      "number": 22,
+      "text": "యోగబోధిని"
+    },
+    {
+      "row": 13,
+      "number": 24,
+      "text": "ధనికుల నివాసాలు"
+    },
+    {
+      "row": 14,
+      "number": 25,
+      "text": "పూర్తికాలేదు, అటుకాదు ఇటు"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "కస్తూరి అకటా వికటం"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "పంట పండించేవాడు"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "చలితం, కలతపడింది."
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "ఒక నది కల్లోలమయింది."
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "సమయం"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "నీళ్ళధార"
+    },
+    {
+      "row": 7,
+      "number": 9,
+      "text": "ఒక అలంకారికుని జీవితం"
+    },
+    {
+      "row": 8,
+      "number": 10,
+      "text": "హాస్య రచయిత ఇంటి పేరు"
+    },
+    {
+      "row": 9,
+      "number": 12,
+      "text": "అల్లుడికి హాయి"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "దేశభక్తికి తుది కానుక"
+    },
+    {
+      "row": 11,
+      "number": 17,
+      "text": "ఆనాడు తోకనుంచి తలదాకా"
+    },
+    {
+      "row": 12,
+      "number": 19,
+      "text": "కొంచెం నంచుకొన్న సెనగలు"
+    },
+    {
+      "row": 13,
+      "number": 20,
+      "text": "వాంతి"
+    },
+    {
+      "row": 14,
+      "number": 22,
+      "text": "ఆశ్చర్యానికి, ప్రశంసకి"
+    },
+    {
+      "row": 15,
+      "number": 23,
+      "text": "పువ్వులపని తలకిందులు"
+    }
+  ]
+}

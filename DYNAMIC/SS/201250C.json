@@ -1,0 +1,325 @@
+﻿{
+  "sheetName": "201250",
+  "identity": "201250C",
+  "rows": [
+    {
+      "leftNumber": 3,
+      "leftText": "పడకపోతే అనావృష్టి",
+      "rightNumber": 1,
+      "rightText": "వేమన - కవి"
+    },
+    {
+      "leftNumber": 5,
+      "leftText": "అర",
+      "rightNumber": 2,
+      "rightText": "సత్యానికి సుందరానికి మధ్య"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "వృత్త",
+      "rightNumber": 3,
+      "rightText": "అయిన - ఆత్మీయులు"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "తెగించడం మొండితనం (తలక్రిందులు)",
+      "rightNumber": 4,
+      "rightText": "పత్రిక పబ్లిషర్లు"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "డిటెక్టివులు కనిపెట్టేది",
+      "rightNumber": 5,
+      "rightText": "రెండు నోటులు"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "అప్పారావు (బసవరాజు) గారి యీత",
+      "rightNumber": 6,
+      "rightText": "తప్పకుండా రాయాలి"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "శ్రీ",
+      "rightNumber": 7,
+      "rightText": "తమరా? (మధ్యమపుష్టి లేదు)"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "అసురుడి పేరిట ఊరు",
+      "rightNumber": 8,
+      "rightText": "శ్రేష్ఠవాచకం"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "కరటకుడు (లేదా, దమనకుడు)",
+      "rightNumber": 11,
+      "rightText": "మనడం మరణం"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "వాళ్ళ నీళ్ళు",
+      "rightNumber": 14,
+      "rightText": "మాV, మీ V"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "అవిశ్వాస తీర్మానానికి ముందు",
+      "rightNumber": 15,
+      "rightText": "8 లో ఒక సిద్ధి"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "శివుడే దేవుడు, దేవుడే శివుడు",
+      "rightNumber": 18,
+      "rightText": "అందంలేనిది ఆకాశం"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "మైనస్",
+      "rightNumber": 19,
+      "rightText": "ఆది మానవుల రాష్ట్రపతి భవనం"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "ఆ యిది పిలుపు",
+      "rightNumber": 21,
+      "rightText": "పాలకడలి తొలి కానుపు"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "ఇజారు ఈడ్వమంటుంది",
+      "rightNumber": 22,
+      "rightText": "ఒక పురం (మధ్యది లేదు)"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "ఇకశ్యాలకుడు",
+      "rightNumber": 23,
+      "rightText": "కొనకపో ఉపయోగం లేదు."
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "రాగ విశేషం",
+      "rightNumber": 24,
+      "rightText": "నాకు లోకువ"
+    },
+    {
+      "leftNumber": 31,
+      "leftText": "అబ్బే! ఏంలేదు",
+      "rightNumber": 26,
+      "rightText": "14 రికమండేషన్లలో లక్ష్యం"
+    },
+    {
+      "leftNumber": 32,
+      "leftText": "చదరంగంలో సత్తువ",
+      "rightNumber": 28,
+      "rightText": "మరుత్తరాట్చరిత్రలో హేమవాచకం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 30,
+      "rightText": "ఆమ్రేడిస్తే ఆరాటం"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 3,
+      "text": "పడకపోతే అనావృష్టి"
+    },
+    {
+      "row": 2,
+      "number": 5,
+      "text": "అర"
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": "వృత్త"
+    },
+    {
+      "row": 4,
+      "number": 9,
+      "text": "తెగించడం మొండితనం (తలక్రిందులు)"
+    },
+    {
+      "row": 5,
+      "number": 10,
+      "text": "డిటెక్టివులు కనిపెట్టేది"
+    },
+    {
+      "row": 6,
+      "number": 12,
+      "text": "అప్పారావు (బసవరాజు) గారి యీత"
+    },
+    {
+      "row": 7,
+      "number": 13,
+      "text": "శ్రీ"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "అసురుడి పేరిట ఊరు"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "కరటకుడు (లేదా, దమనకుడు)"
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "వాళ్ళ నీళ్ళు"
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "అవిశ్వాస తీర్మానానికి ముందు"
+    },
+    {
+      "row": 12,
+      "number": 20,
+      "text": "శివుడే దేవుడు, దేవుడే శివుడు"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "మైనస్"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "ఆ యిది పిలుపు"
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "ఇజారు ఈడ్వమంటుంది"
+    },
+    {
+      "row": 16,
+      "number": 27,
+      "text": "ఇకశ్యాలకుడు"
+    },
+    {
+      "row": 17,
+      "number": 29,
+      "text": "రాగ విశేషం"
+    },
+    {
+      "row": 18,
+      "number": 31,
+      "text": "అబ్బే! ఏంలేదు"
+    },
+    {
+      "row": 19,
+      "number": 32,
+      "text": "చదరంగంలో సత్తువ"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "వేమన - కవి"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "సత్యానికి సుందరానికి మధ్య"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "అయిన - ఆత్మీయులు"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "పత్రిక పబ్లిషర్లు"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "రెండు నోటులు"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "తప్పకుండా రాయాలి"
+    },
+    {
+      "row": 7,
+      "number": 7,
+      "text": "తమరా? (మధ్యమపుష్టి లేదు)"
+    },
+    {
+      "row": 8,
+      "number": 8,
+      "text": "శ్రేష్ఠవాచకం"
+    },
+    {
+      "row": 9,
+      "number": 11,
+      "text": "మనడం మరణం"
+    },
+    {
+      "row": 10,
+      "number": 14,
+      "text": "మాV, మీ V"
+    },
+    {
+      "row": 11,
+      "number": 15,
+      "text": "8 లో ఒక సిద్ధి"
+    },
+    {
+      "row": 12,
+      "number": 18,
+      "text": "అందంలేనిది ఆకాశం"
+    },
+    {
+      "row": 13,
+      "number": 19,
+      "text": "ఆది మానవుల రాష్ట్రపతి భవనం"
+    },
+    {
+      "row": 14,
+      "number": 21,
+      "text": "పాలకడలి తొలి కానుపు"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "ఒక పురం (మధ్యది లేదు)"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "కొనకపో ఉపయోగం లేదు."
+    },
+    {
+      "row": 17,
+      "number": 24,
+      "text": "నాకు లోకువ"
+    },
+    {
+      "row": 18,
+      "number": 26,
+      "text": "14 రికమండేషన్లలో లక్ష్యం"
+    },
+    {
+      "row": 19,
+      "number": 28,
+      "text": "మరుత్తరాట్చరిత్రలో హేమవాచకం"
+    },
+    {
+      "row": 20,
+      "number": 30,
+      "text": "ఆమ్రేడిస్తే ఆరాటం"
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+﻿{
+  "sheetName": "210959",
+  "identity": "210959C",
+  "rows": [
+    {
+      "leftNumber": 3,
+      "leftText": "సనాతనాధునాతనా సంగీతంలో దరువు",
+      "rightNumber": 1,
+      "rightText": "ఒక మహమ్మదు"
+    },
+    {
+      "leftNumber": 5,
+      "leftText": "భాస్కరుని ముద్దు పేరు",
+      "rightNumber": 2,
+      "rightText": "భాష సజీవం"
+    },
+    {
+      "leftNumber": 6,
+      "leftText": "వాడు బ్రతుకనేర్చిన వాడు",
+      "rightNumber": 3,
+      "rightText": "లాట లేకున్నా ఉన్నా కలహం"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "గొంతుకలో పచ్చి వెలక్కాయ",
+      "rightNumber": 4,
+      "rightText": "24 గంట దేశం"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "కొందరి మాటలు",
+      "rightNumber": 5,
+      "rightText": "గజాష్టకంలో కవి"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "జాతరగాలుల ప్రారంభస్థలం",
+      "rightNumber": 7,
+      "rightText": "ఒకనాటి పత్రిక, ఈ నాటి సినిమా"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "చేసి చాయం గలది",
+      "rightNumber": 8,
+      "rightText": "ప్రాణం వున్నంతవరకే"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "అత్యున్నతికి హేతువు",
+      "rightNumber": 10,
+      "rightText": "పడకటిళ్ళలో నిలువుటద్దాల లోవుంటాయి"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "జైల్ సింగ్ కేంద్ర కాబినెట్ లో తల లేని పి.వి.",
+      "rightNumber": 12,
+      "rightText": "వినిపించనిది మరీ మధురం"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "ఖనిజం",
+      "rightNumber": 14,
+      "rightText": "వరాహ నది"
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "నీరం నీరజం",
+      "rightNumber": 15,
+      "rightText": "ఒకనాటి 7"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "పంచమం చక్కెర",
+      "rightNumber": 17,
+      "rightText": "రంగస్థ నటుని ఇంటి పేరు"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "మూషికాలయం",
+      "rightNumber": 18,
+      "rightText": "వాడు కలిగించేది, వినోదం"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "చూసేది కన్నుకాదు",
+      "rightNumber": 20,
+      "rightText": "గాలి, వేలుపు"
+    },
+    {
+      "leftNumber": 26,
+      "leftText": "తలపడు",
+      "rightNumber": 21,
+      "rightText": "ఇంగ్లీషు తిండికి క్రికెట్ లో బ్రేకు"
+    },
+    {
+      "leftNumber": 28,
+      "leftText": "గొడ్డులో లేదు, గొడ్లలో వుంది",
+      "rightNumber": 23,
+      "rightText": "తిలకించండి"
+    },
+    {
+      "leftNumber": 30,
+      "leftText": "మంతరంలో సిరి",
+      "rightNumber": 24,
+      "rightText": "సాదీస్తాన్"
+    },
+    {
+      "leftNumber": 31,
+      "leftText": "గడియారంలో వెంట్రుక",
+      "rightNumber": 27,
+      "rightText": "సాగితేనే సిద్ధి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 29,
+      "rightText": "పిట్ట వాగుతుంది."
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 3,
+      "text": "సనాతనాధునాతనా సంగీతంలో దరువు"
+    },
+    {
+      "row": 2,
+      "number": 5,
+      "text": "భాస్కరుని ముద్దు పేరు"
+    },
+    {
+      "row": 3,
+      "number": 6,
+      "text": "వాడు బ్రతుకనేర్చిన వాడు"
+    },
+    {
+      "row": 4,
+      "number": 8,
+      "text": "గొంతుకలో పచ్చి వెలక్కాయ"
+    },
+    {
+      "row": 5,
+      "number": 9,
+      "text": "కొందరి మాటలు"
+    },
+    {
+      "row": 6,
+      "number": 11,
+      "text": "జాతరగాలుల ప్రారంభస్థలం"
+    },
+    {
+      "row": 7,
+      "number": 13,
+      "text": "చేసి చాయం గలది"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "అత్యున్నతికి హేతువు"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "జైల్ సింగ్ కేంద్ర కాబినెట్ లో తల లేని పి.వి."
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "ఖనిజం"
+    },
+    {
+      "row": 11,
+      "number": 19,
+      "text": "నీరం నీరజం"
+    },
+    {
+      "row": 12,
+      "number": 22,
+      "text": "పంచమం చక్కెర"
+    },
+    {
+      "row": 13,
+      "number": 23,
+      "text": "మూషికాలయం"
+    },
+    {
+      "row": 14,
+      "number": 25,
+      "text": "చూసేది కన్నుకాదు"
+    },
+    {
+      "row": 15,
+      "number": 26,
+      "text": "తలపడు"
+    },
+    {
+      "row": 16,
+      "number": 28,
+      "text": "గొడ్డులో లేదు, గొడ్లలో వుంది"
+    },
+    {
+      "row": 17,
+      "number": 30,
+      "text": "మంతరంలో సిరి"
+    },
+    {
+      "row": 18,
+      "number": 31,
+      "text": "గడియారంలో వెంట్రుక"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "ఒక మహమ్మదు"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "భాష సజీవం"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "లాట లేకున్నా ఉన్నా కలహం"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "24 గంట దేశం"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "గజాష్టకంలో కవి"
+    },
+    {
+      "row": 6,
+      "number": 7,
+      "text": "ఒకనాటి పత్రిక, ఈ నాటి సినిమా"
+    },
+    {
+      "row": 7,
+      "number": 8,
+      "text": "ప్రాణం వున్నంతవరకే"
+    },
+    {
+      "row": 8,
+      "number": 10,
+      "text": "పడకటిళ్ళలో నిలువుటద్దాల లోవుంటాయి"
+    },
+    {
+      "row": 9,
+      "number": 12,
+      "text": "వినిపించనిది మరీ మధురం"
+    },
+    {
+      "row": 10,
+      "number": 14,
+      "text": "వరాహ నది"
+    },
+    {
+      "row": 11,
+      "number": 15,
+      "text": "ఒకనాటి 7"
+    },
+    {
+      "row": 12,
+      "number": 17,
+      "text": "రంగస్థ నటుని ఇంటి పేరు"
+    },
+    {
+      "row": 13,
+      "number": 18,
+      "text": "వాడు కలిగించేది, వినోదం"
+    },
+    {
+      "row": 14,
+      "number": 20,
+      "text": "గాలి, వేలుపు"
+    },
+    {
+      "row": 15,
+      "number": 21,
+      "text": "ఇంగ్లీషు తిండికి క్రికెట్ లో బ్రేకు"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "తిలకించండి"
+    },
+    {
+      "row": 17,
+      "number": 24,
+      "text": "సాదీస్తాన్"
+    },
+    {
+      "row": 18,
+      "number": 27,
+      "text": "సాగితేనే సిద్ధి"
+    },
+    {
+      "row": 19,
+      "number": 29,
+      "text": "పిట్ట వాగుతుంది."
+    }
+  ]
+}

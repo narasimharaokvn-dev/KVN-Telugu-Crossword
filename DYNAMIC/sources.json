@@ -1,0 +1,12 @@
+{
+  "latestFolder": "SS",
+  "folders": [
+    {
+      "id": "SS",
+      "title": "Sri Sri",
+      "index": "SS/index.json",
+      "assetBase": "SS/",
+      "solutionBase": "PUZZLE/"
+    }
+  ]
+}

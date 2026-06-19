@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Puzzle Library</title>
+<style>
+:root{
+  --bg:#eef3f7;
+  --panel:#ffffff;
+  --border:#d5dde6;
+  --text:#152431;
+  --muted:#657687;
+  --accent:#0f7390;
+  --accent-soft:#d8eef5;
+  --shadow:0 12px 28px rgba(21,36,49,0.08);
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family:Arial, "Nirmala UI", "Noto Sans Telugu", sans-serif;
+  background:
+    radial-gradient(circle at top right, rgba(15,115,144,0.08), transparent 24%),
+    linear-gradient(180deg, #fafcfd 0%, var(--bg) 100%);
+  color:var(--text);
+}
+
+.page{
+  max-width:1180px;
+  margin:0 auto;
+  padding:32px 16px 48px;
+}
+
+.hero{
+  text-align:center;
+  margin-bottom:24px;
+}
+
+.hero h1{
+  margin:0 0 10px;
+  font-size:clamp(2rem,4vw,3.2rem);
+}
+
+.hero p{
+  margin:0 auto;
+  max-width:780px;
+  color:var(--muted);
+  line-height:1.6;
+}
+
+.toolbar{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-bottom:24px;
+}
+
+.toolbar a{
+  text-decoration:none;
+  color:var(--text);
+  background:#ffffff;
+  border:1px solid var(--border);
+  border-radius:999px;
+  padding:10px 16px;
+}
+
+.toolbar a:hover{
+  background:#f5fafc;
+}
+
+.status{
+  width:min(100%, 780px);
+  margin:0 auto 24px;
+  padding:14px 16px;
+  border-radius:14px;
+  background:#fff8ec;
+  border:1px solid #efd5a8;
+  color:#8a5710;
+  line-height:1.5;
+}
+
+.status[hidden]{
+  display:none;
+}
+
+.summary{
+  width:min(100%, 780px);
+  margin:0 auto 24px;
+  padding:16px 18px;
+  background:#ffffff;
+  border:1px solid var(--border);
+  border-radius:18px;
+  box-shadow:var(--shadow);
+  color:var(--muted);
+  line-height:1.6;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+  gap:18px;
+}
+
+.card{
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:20px;
+  box-shadow:var(--shadow);
+  overflow:hidden;
+}
+
+.card img{
+  display:block;
+  width:100%;
+  aspect-ratio:1 / 1;
+  object-fit:cover;
+  background:#dde5eb;
+}
+
+.card-body{
+  padding:18px;
+}
+
+.card-body h2{
+  margin:0 0 8px;
+  font-size:1.2rem;
+}
+
+.card-body p{
+  margin:0 0 14px;
+  color:var(--muted);
+  line-height:1.55;
+}
+
+.meta{
+  margin:0 0 14px;
+  font-size:0.93rem;
+  color:#4c5d6d;
+}
+
+.actions{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.actions a{
+  flex:1 1 120px;
+  text-decoration:none;
+  text-align:center;
+  padding:11px 14px;
+  border-radius:12px;
+  font-weight:700;
+}
+
+.actions .primary{
+  background:var(--accent);
+  color:#ffffff;
+}
+
+.actions .secondary{
+  background:var(--accent-soft);
+  color:#0d5568;
+}
+
+.actions .disabled{
+  background:#eceff3;
+  color:#8d98a5;
+  pointer-events:none;
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="hero">
+    <h1>Dynamic Puzzle Library</h1>
+    <p>This library uses your new model: each puzzle stays as three separate files in <code>SS</code> and the shared view in <code>puzzle.html</code> fetches them at runtime.</p>
+  </div>
+
+  <div class="toolbar">
+    <a href="../index.html">Main Site</a>
+    <a href="puzzle.html">Open Latest Dynamic Puzzle</a>
+  </div>
+
+  <div class="status" id="status" hidden></div>
+  <div class="summary" id="summary">Loading puzzle index...</div>
+  <div class="grid" id="libraryGrid"></div>
+</div>
+
+<script>
+const summary = document.getElementById("summary");
+const statusBox = document.getElementById("status");
+const libraryGrid = document.getElementById("libraryGrid");
+
+document.addEventListener("DOMContentLoaded", loadLibrary);
+
+async function loadLibrary(){
+  try{
+    const response = await fetch("SS/index.json", { cache: "no-store" });
+    if(!response.ok){
+      throw new Error("Could not load SS/index.json");
+    }
+
+    const text = await response.text();
+    const payload = JSON.parse(text.replace(/^\uFEFF/, ""));
+    const puzzles = Array.isArray(payload.puzzles) ? payload.puzzles : [];
+
+    const complete = puzzles.filter(function(item){ return item.complete; });
+    const incomplete = puzzles.filter(function(item){ return !item.complete; });
+
+    summary.textContent = "Loaded " + puzzles.length + " puzzle ids. " + complete.length + " are complete triples and " + incomplete.length + " are incomplete. The latest complete puzzle is " + (payload.latestCompleteId || "not set") + ".";
+
+    libraryGrid.innerHTML = "";
+    complete.forEach(function(puzzle){
+      libraryGrid.appendChild(createCard(puzzle, true));
+    });
+
+    incomplete.forEach(function(puzzle){
+      libraryGrid.appendChild(createCard(puzzle, false));
+    });
+  }catch(error){
+    summary.textContent = "Could not load the puzzle index.";
+    const suffix = location.protocol === "file:"
+      ? " If you open this outside Codex, use GitHub Pages or a local web server."
+      : "";
+    showStatus((error.message || "Unknown error") + suffix);
+  }
+}
+
+function createCard(puzzle, complete){
+  const card = document.createElement("article");
+  card.className = "card";
+
+  const image = document.createElement("img");
+  image.alt = puzzle.title || puzzle.id;
+  image.src = complete ? ("SS/" + puzzle.imageFile) : "../Telugu_image.png";
+
+  const body = document.createElement("div");
+  body.className = "card-body";
+
+  const title = document.createElement("h2");
+  title.textContent = puzzle.title || puzzle.id;
+
+  const description = document.createElement("p");
+  description.textContent = complete
+    ? "Three-file puzzle: image, grid JSON, and clues JSON."
+    : "This id is incomplete in SS and needs missing files before it can open.";
+
+  const meta = document.createElement("div");
+  meta.className = "meta";
+  meta.textContent = [
+    "ID: " + puzzle.id,
+    "Image: " + (puzzle.imageFile || "missing"),
+    "Grid: " + (puzzle.gridFile || "missing"),
+    "Clues: " + (puzzle.clueFile || "missing")
+  ].join(" | ");
+
+  const actions = document.createElement("div");
+  actions.className = "actions";
+
+  const openLink = document.createElement("a");
+  openLink.textContent = complete ? "Open Puzzle" : "Incomplete";
+  openLink.className = complete ? "primary" : "disabled";
+  openLink.href = complete ? ("puzzle.html?puzzle=" + encodeURIComponent(puzzle.id)) : "#";
+
+  const dataLink = document.createElement("a");
+  dataLink.textContent = "Grid JSON";
+  dataLink.className = "secondary";
+  dataLink.href = complete ? ("SS/" + puzzle.gridFile) : "#";
+
+  actions.appendChild(openLink);
+  actions.appendChild(dataLink);
+  body.appendChild(title);
+  body.appendChild(description);
+  body.appendChild(meta);
+  body.appendChild(actions);
+  card.appendChild(image);
+  card.appendChild(body);
+  return card;
+}
+
+function showStatus(message){
+  statusBox.hidden = false;
+  statusBox.textContent = message;
+}
+</script>
+</body>
+</html>

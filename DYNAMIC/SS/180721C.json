@@ -1,0 +1,301 @@
+﻿{
+  "sheetName": "180721",
+  "identity": "180721C",
+  "rows": [
+    {
+      "leftNumber": 1,
+      "leftText": "ఎక్కడుంది రాజమండ్రి",
+      "rightNumber": 1,
+      "rightText": "రేపల్లె ఆవుల మంద"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "దైత్యుల తల్లి",
+      "rightNumber": 2,
+      "rightText": "20లో సగం"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "ధాన్యం అందరిలో లేదు ఎవరిలోనో ఉంది",
+      "rightNumber": 3,
+      "rightText": "ఒక ఆలంకారిక మతం"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "శ్రీకారంతో ఒక దేశ",
+      "rightNumber": 4,
+      "rightText": "ఆశీస్సులు"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "పూర్వ జన్మలకిది ఉంటుందట",
+      "rightNumber": 5,
+      "rightText": "సమయం"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "సుమీ అని కూడా అనవచ్చు",
+      "rightNumber": 6,
+      "rightText": "అప్పుడే పుట్టిన శిశువు వయస్పుకావచ్చు"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "సిద్ధాంతపూర్వ పక్షాలు?",
+      "rightNumber": 10,
+      "rightText": "... అనునామంబు నీటి కాకికి లేదే!"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "తక్కువ, లోటు",
+      "rightNumber": 14,
+      "rightText": "కొనగోళ్ళకు పెద్దనార్యుని విశేషణం"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "ఇంగ్లీషులో అలాగా కాని హిందీలో గోబద్ధం కాదు",
+      "rightNumber": 16,
+      "rightText": "గులేబకావళిలో ఊరు తిరగబడింది."
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "తమరు జబ్బుపడితే ఏముంది?",
+      "rightNumber": 17,
+      "rightText": "పర్యవేక్షణ (తిరగబడింది)"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "పేదవాడు తిరగబడ్డ రికాబి!",
+      "rightNumber": 20,
+      "rightText": "నేటి సినిమాతార"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "తినగా తినగా తీపు",
+      "rightNumber": 21,
+      "rightText": "ఒక సంవత్సరం (అటునుంచి ఇటు)"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 22,
+      "rightText": "ఋషభం, దైవతం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 4,
+      "rightText": null
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 25,
+      "rightText": "పడినా, చేసినా మోసమే!"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 26,
+      "rightText": "తినగా తినగా చేదు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 27,
+      "rightText": "సుడి (వెనుకబడి)"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 27,
+      "rightText": "బండి బోల్తా పడింది"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 29,
+      "rightText": "విరహం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 28,
+      "rightText": "నూయి (తిరగబడి)"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 30,
+      "rightText": "శ్రీ శ్రీ కల్పన"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "ఎక్కడుంది రాజమండ్రి"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "దైత్యుల తల్లి"
+    },
+    {
+      "row": 3,
+      "number": 8,
+      "text": "ధాన్యం అందరిలో లేదు ఎవరిలోనో ఉంది"
+    },
+    {
+      "row": 4,
+      "number": 9,
+      "text": "శ్రీకారంతో ఒక దేశ"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "పూర్వ జన్మలకిది ఉంటుందట"
+    },
+    {
+      "row": 6,
+      "number": 12,
+      "text": "సుమీ అని కూడా అనవచ్చు"
+    },
+    {
+      "row": 7,
+      "number": 13,
+      "text": "సిద్ధాంతపూర్వ పక్షాలు?"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "తక్కువ, లోటు"
+    },
+    {
+      "row": 9,
+      "number": 18,
+      "text": "ఇంగ్లీషులో అలాగా కాని హిందీలో గోబద్ధం కాదు"
+    },
+    {
+      "row": 10,
+      "number": 19,
+      "text": "తమరు జబ్బుపడితే ఏముంది?"
+    },
+    {
+      "row": 11,
+      "number": 21,
+      "text": "పేదవాడు తిరగబడ్డ రికాబి!"
+    },
+    {
+      "row": 12,
+      "number": 23,
+      "text": "తినగా తినగా తీపు"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "రేపల్లె ఆవుల మంద"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "20లో సగం"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "ఒక ఆలంకారిక మతం"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "ఆశీస్సులు"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "సమయం"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "అప్పుడే పుట్టిన శిశువు వయస్పుకావచ్చు"
+    },
+    {
+      "row": 7,
+      "number": 10,
+      "text": "... అనునామంబు నీటి కాకికి లేదే!"
+    },
+    {
+      "row": 8,
+      "number": 14,
+      "text": "కొనగోళ్ళకు పెద్దనార్యుని విశేషణం"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "గులేబకావళిలో ఊరు తిరగబడింది."
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "పర్యవేక్షణ (తిరగబడింది)"
+    },
+    {
+      "row": 11,
+      "number": 20,
+      "text": "నేటి సినిమాతార"
+    },
+    {
+      "row": 12,
+      "number": 21,
+      "text": "ఒక సంవత్సరం (అటునుంచి ఇటు)"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "ఋషభం, దైవతం"
+    },
+    {
+      "row": 14,
+      "number": 4,
+      "text": null
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "పడినా, చేసినా మోసమే!"
+    },
+    {
+      "row": 16,
+      "number": 26,
+      "text": "తినగా తినగా చేదు"
+    },
+    {
+      "row": 17,
+      "number": 27,
+      "text": "సుడి (వెనుకబడి)"
+    },
+    {
+      "row": 18,
+      "number": 27,
+      "text": "బండి బోల్తా పడింది"
+    },
+    {
+      "row": 19,
+      "number": 29,
+      "text": "విరహం"
+    },
+    {
+      "row": 20,
+      "number": 28,
+      "text": "నూయి (తిరగబడి)"
+    },
+    {
+      "row": 21,
+      "number": 30,
+      "text": "శ్రీ శ్రీ కల్పన"
+    }
+  ]
+}

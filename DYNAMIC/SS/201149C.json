@@ -1,0 +1,325 @@
+﻿{
+  "sheetName": "201149",
+  "identity": "201149C",
+  "rows": [
+    {
+      "leftNumber": 3,
+      "leftText": "తి కలిస్తే ఆజ్ఞ",
+      "rightNumber": 1,
+      "rightText": "కృష్ణపక్షి?"
+    },
+    {
+      "leftNumber": 5,
+      "leftText": "బియ్యపు గింజకు రక్షణా కవచం",
+      "rightNumber": 2,
+      "rightText": "అడిగింది అది లేక"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "ఒక భూతం",
+      "rightNumber": 3,
+      "rightText": "ఇంతకు రెండింతలు"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "వ్యవసాయి వేసేది (తలక్రిందులు)",
+      "rightNumber": 4,
+      "rightText": "ఒక సంఖ్య"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "వృక్ష విశేషం",
+      "rightNumber": 5,
+      "rightText": "గారె వేడిగా ఉంది"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "దూర్వాసుడు",
+      "rightNumber": 6,
+      "rightText": "ఒకటి, రెండూ"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "పిల్లలకి ఏడుపు",
+      "rightNumber": 7,
+      "rightText": "30 ఉత్తరానికి చివర"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "సూత్రధారిణి",
+      "rightNumber": 8,
+      "rightText": "కొన్ని భాషలకి లేదు"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "మూడో విష్ణువు",
+      "rightNumber": 11,
+      "rightText": "కీర్తనమౌను, మనికి నర్తనమౌను (కృష్ణశాస్త్రి)"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "ఎగురుతుందె కాని పక్షి కాదు",
+      "rightNumber": 14,
+      "rightText": "సిరిమావో?"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "వినబడుతుంది గాని కనబడదు",
+      "rightNumber": 15,
+      "rightText": "25 రం."
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "ఉదాహరణకి ఊదా",
+      "rightNumber": 18,
+      "rightText": "కిటికీ"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "మహి జననీ జనని",
+      "rightNumber": 19,
+      "rightText": "నల్లవాడి తిరుగుబాటు"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "ఇంగ్లండులో తేనెటీగ",
+      "rightNumber": 21,
+      "rightText": "ఒక ఉపకరణము"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "ఇది పానగల్లు పార్కులోనే దొరుకుతుంది",
+      "rightNumber": 22,
+      "rightText": "ఉభయపక్షాలు కలిస్తే"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "ఋషుల నిష్ఠ",
+      "rightNumber": 23,
+      "rightText": "వాపోయిన వాహనం"
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "దాశరథి",
+      "rightNumber": 24,
+      "rightText": "క్రీ.పూ."
+    },
+    {
+      "leftNumber": 31,
+      "leftText": "కొందరు దీన్ని 16గా మార్చగలరు",
+      "rightNumber": 26,
+      "rightText": "ప్రకారంలో అభ్యుదయం"
+    },
+    {
+      "leftNumber": 32,
+      "leftText": "ఒక కాలమానం",
+      "rightNumber": 28,
+      "rightText": "మనది మధ్యాక్కర లేని మనస్సు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 30,
+      "rightText": "చూడు 7"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 3,
+      "text": "తి కలిస్తే ఆజ్ఞ"
+    },
+    {
+      "row": 2,
+      "number": 5,
+      "text": "బియ్యపు గింజకు రక్షణా కవచం"
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": "ఒక భూతం"
+    },
+    {
+      "row": 4,
+      "number": 9,
+      "text": "వ్యవసాయి వేసేది (తలక్రిందులు)"
+    },
+    {
+      "row": 5,
+      "number": 10,
+      "text": "వృక్ష విశేషం"
+    },
+    {
+      "row": 6,
+      "number": 12,
+      "text": "దూర్వాసుడు"
+    },
+    {
+      "row": 7,
+      "number": 13,
+      "text": "పిల్లలకి ఏడుపు"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "సూత్రధారిణి"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "మూడో విష్ణువు"
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "ఎగురుతుందె కాని పక్షి కాదు"
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "వినబడుతుంది గాని కనబడదు"
+    },
+    {
+      "row": 12,
+      "number": 20,
+      "text": "ఉదాహరణకి ఊదా"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "మహి జననీ జనని"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "ఇంగ్లండులో తేనెటీగ"
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "ఇది పానగల్లు పార్కులోనే దొరుకుతుంది"
+    },
+    {
+      "row": 16,
+      "number": 27,
+      "text": "ఋషుల నిష్ఠ"
+    },
+    {
+      "row": 17,
+      "number": 29,
+      "text": "దాశరథి"
+    },
+    {
+      "row": 18,
+      "number": 31,
+      "text": "కొందరు దీన్ని 16గా మార్చగలరు"
+    },
+    {
+      "row": 19,
+      "number": 32,
+      "text": "ఒక కాలమానం"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "కృష్ణపక్షి?"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "అడిగింది అది లేక"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "ఇంతకు రెండింతలు"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "ఒక సంఖ్య"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "గారె వేడిగా ఉంది"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "ఒకటి, రెండూ"
+    },
+    {
+      "row": 7,
+      "number": 7,
+      "text": "30 ఉత్తరానికి చివర"
+    },
+    {
+      "row": 8,
+      "number": 8,
+      "text": "కొన్ని భాషలకి లేదు"
+    },
+    {
+      "row": 9,
+      "number": 11,
+      "text": "కీర్తనమౌను, మనికి నర్తనమౌను (కృష్ణశాస్త్రి)"
+    },
+    {
+      "row": 10,
+      "number": 14,
+      "text": "సిరిమావో?"
+    },
+    {
+      "row": 11,
+      "number": 15,
+      "text": "25 రం."
+    },
+    {
+      "row": 12,
+      "number": 18,
+      "text": "కిటికీ"
+    },
+    {
+      "row": 13,
+      "number": 19,
+      "text": "నల్లవాడి తిరుగుబాటు"
+    },
+    {
+      "row": 14,
+      "number": 21,
+      "text": "ఒక ఉపకరణము"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "ఉభయపక్షాలు కలిస్తే"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "వాపోయిన వాహనం"
+    },
+    {
+      "row": 17,
+      "number": 24,
+      "text": "క్రీ.పూ."
+    },
+    {
+      "row": 18,
+      "number": 26,
+      "text": "ప్రకారంలో అభ్యుదయం"
+    },
+    {
+      "row": 19,
+      "number": 28,
+      "text": "మనది మధ్యాక్కర లేని మనస్సు"
+    },
+    {
+      "row": 20,
+      "number": 30,
+      "text": "చూడు 7"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+﻿{
+  "sheetName": "220264",
+  "identity": "220264C",
+  "rows": [
+    {
+      "leftNumber": 3,
+      "leftText": "ఇది చెయ్యడం మన విస్తరిముందు",
+      "rightNumber": 1,
+      "rightText": "అడవి మృగం"
+    },
+    {
+      "leftNumber": 5,
+      "leftText": "పిల్లికి బిచ్చం పెట్టడు",
+      "rightNumber": 2,
+      "rightText": "దూరం! భారం!"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "సంపెంగవనంలోని తిరిగీ దుఖమా ?",
+      "rightNumber": 3,
+      "rightText": "సింహాలుకు జూలుండును"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "ఇక్కడే నా ఈతకు ముందు మేత",
+      "rightNumber": 4,
+      "rightText": "తీగకాని తీగ"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "తేనే తాగే ఛందోవిశేషం",
+      "rightNumber": 6,
+      "rightText": "నేటివు డాక్టరు"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "మతం మార్కు ప్రసాదం",
+      "rightNumber": 7,
+      "rightText": "దగ్గర బంధువు"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "ఇంగ్లీషు ఔషధం",
+      "rightNumber": 9,
+      "rightText": "అయ్యో!"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "ఆప్రాచీనం",
+      "rightNumber": 11,
+      "rightText": "నీవు, నేను, అదీ వాడూ!"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "కొత్త దారిలో కాదు, పాత రస్తాలో\nబయటపడుతుంది",
+      "rightNumber": 13,
+      "rightText": "చండశాసనుడు"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "మూడువందలు",
+      "rightNumber": 15,
+      "rightText": "సారాకొట్లో వేదాంతి (చూ. కన్యాశుల్కం)"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "భూమి విషయంలో ఒప్పందం",
+      "rightNumber": 16,
+      "rightText": "భాగం తాగవచ్చు"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "గ్రహణం ముగింపు",
+      "rightNumber": 17,
+      "rightText": "భారవి కవిత్వంలో కంచుకం"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "తెనాలి రామలింగని రచనల్లోనిది.",
+      "rightNumber": 18,
+      "rightText": "ఒక రాష్ట్రం"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "కొన్ని ఉపన్యాసాల ముడిసరుకు",
+      "rightNumber": 19,
+      "rightText": "4 నిలువు"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "ఈ రమి సుమారు",
+      "rightNumber": 20,
+      "rightText": "కార్తిక పూర్ణిమ"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "దీపానికి ముందు స్వర్గం, తర్వాత తేనీరు",
+      "rightNumber": 23,
+      "rightText": "నియమమే భాగ్యం"
+    },
+    {
+      "leftNumber": 28,
+      "leftText": "భారతంలో ఒకరాజు",
+      "rightNumber": 24,
+      "rightText": "టీ తోటల చల్లని సిటీ"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 26,
+      "rightText": "బుద్ధుని తల్లి తాడును చూసి పాము అని భ్రమపడటం"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 3,
+      "text": "ఇది చెయ్యడం మన విస్తరిముందు"
+    },
+    {
+      "row": 2,
+      "number": 5,
+      "text": "పిల్లికి బిచ్చం పెట్టడు"
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": "సంపెంగవనంలోని తిరిగీ దుఖమా ?"
+    },
+    {
+      "row": 4,
+      "number": 8,
+      "text": "ఇక్కడే నా ఈతకు ముందు మేత"
+    },
+    {
+      "row": 5,
+      "number": 10,
+      "text": "తేనే తాగే ఛందోవిశేషం"
+    },
+    {
+      "row": 6,
+      "number": 11,
+      "text": "మతం మార్కు ప్రసాదం"
+    },
+    {
+      "row": 7,
+      "number": 12,
+      "text": "ఇంగ్లీషు ఔషధం"
+    },
+    {
+      "row": 8,
+      "number": 14,
+      "text": "ఆప్రాచీనం"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "కొత్త దారిలో కాదు, పాత రస్తాలో\nబయటపడుతుంది"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "మూడువందలు"
+    },
+    {
+      "row": 11,
+      "number": 20,
+      "text": "భూమి విషయంలో ఒప్పందం"
+    },
+    {
+      "row": 12,
+      "number": 21,
+      "text": "గ్రహణం ముగింపు"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "తెనాలి రామలింగని రచనల్లోనిది."
+    },
+    {
+      "row": 14,
+      "number": 24,
+      "text": "కొన్ని ఉపన్యాసాల ముడిసరుకు"
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "ఈ రమి సుమారు"
+    },
+    {
+      "row": 16,
+      "number": 27,
+      "text": "దీపానికి ముందు స్వర్గం, తర్వాత తేనీరు"
+    },
+    {
+      "row": 17,
+      "number": 28,
+      "text": "భారతంలో ఒకరాజు"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "అడవి మృగం"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "దూరం! భారం!"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "సింహాలుకు జూలుండును"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "తీగకాని తీగ"
+    },
+    {
+      "row": 5,
+      "number": 6,
+      "text": "నేటివు డాక్టరు"
+    },
+    {
+      "row": 6,
+      "number": 7,
+      "text": "దగ్గర బంధువు"
+    },
+    {
+      "row": 7,
+      "number": 9,
+      "text": "అయ్యో!"
+    },
+    {
+      "row": 8,
+      "number": 11,
+      "text": "నీవు, నేను, అదీ వాడూ!"
+    },
+    {
+      "row": 9,
+      "number": 13,
+      "text": "చండశాసనుడు"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "సారాకొట్లో వేదాంతి (చూ. కన్యాశుల్కం)"
+    },
+    {
+      "row": 11,
+      "number": 16,
+      "text": "భాగం తాగవచ్చు"
+    },
+    {
+      "row": 12,
+      "number": 17,
+      "text": "భారవి కవిత్వంలో కంచుకం"
+    },
+    {
+      "row": 13,
+      "number": 18,
+      "text": "ఒక రాష్ట్రం"
+    },
+    {
+      "row": 14,
+      "number": 19,
+      "text": "4 నిలువు"
+    },
+    {
+      "row": 15,
+      "number": 20,
+      "text": "కార్తిక పూర్ణిమ"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "నియమమే భాగ్యం"
+    },
+    {
+      "row": 17,
+      "number": 24,
+      "text": "టీ తోటల చల్లని సిటీ"
+    },
+    {
+      "row": 18,
+      "number": 26,
+      "text": "బుద్ధుని తల్లి తాడును చూసి పాము అని భ్రమపడటం"
+    }
+  ]
+}

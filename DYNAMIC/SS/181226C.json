@@ -1,0 +1,250 @@
+﻿{
+  "sheetName": "181226",
+  "identity": "181226C",
+  "rows": [
+    {
+      "leftNumber": 1,
+      "leftText": "రష్యన్ డాక్టరు",
+      "rightNumber": 2,
+      "rightText": "ప్రవహించేది"
+    },
+    {
+      "leftNumber": 4,
+      "leftText": "దో ' అర్థాలంకారం",
+      "rightNumber": 3,
+      "rightText": "పోతన భాగవతంలోనిది. పూతన కాదు"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "సినీమా నటుడైన రంగస్థల నటుడి ఇంటి పేరు",
+      "rightNumber": 4,
+      "rightText": "రంభతో ఒక ఋషి చేసింది"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "మధ్యలో ఆగమంటుంది",
+      "rightNumber": 5,
+      "rightText": "కై"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "అంతరం",
+      "rightNumber": 6,
+      "rightText": "మొగ్గల లక్షణం"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "చుట్ట",
+      "rightNumber": 8,
+      "rightText": "వెనుకకు తిరుగు"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "సిగొల్పులు కావు ఉసిగొల్పులు",
+      "rightNumber": 10,
+      "rightText": "ఇటీవలి చలనచిత్రం"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "కొండ (తనన)",
+      "rightNumber": 11,
+      "rightText": "ఒక అగ్రాన్ని కని పెట్టినవాడు"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "విధము",
+      "rightNumber": 13,
+      "rightText": "అనర్హులు (15 ను తాకడానికా?)"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "19 € 12",
+      "rightNumber": 16,
+      "rightText": "దిక్కు నిప్పుతో ప్రాప్తిస్తుంది."
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "17 12",
+      "rightNumber": 18,
+      "rightText": "పురుషులు ధరించరు"
+    },
+    {
+      "leftNumber": 2,
+      "leftText": "విద్యున్మాల కావడానికి",
+      "rightNumber": 20,
+      "rightText": "కర్మలో మకారం ఎక్కడుంది?"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "ఉదాహరణకు “దుర్గేశనందిని”",
+      "rightNumber": 21,
+      "rightText": "పరాయి స్త్రీ -"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "చివరకు మిగిలేది ఐశ్వర్యం",
+      "rightNumber": 23,
+      "rightText": "– నడక నల్లేరుమీద"
+    },
+    {
+      "leftNumber": 26,
+      "leftText": "నిజంగా నిర్బంధమే!",
+      "rightNumber": 24,
+      "rightText": "జాగ్రత్త! అంటుకొంటే ప్రమాదం"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "రష్యన్ డాక్టరు"
+    },
+    {
+      "row": 2,
+      "number": 4,
+      "text": "దో ' అర్థాలంకారం"
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": "సినీమా నటుడైన రంగస్థల నటుడి ఇంటి పేరు"
+    },
+    {
+      "row": 4,
+      "number": 9,
+      "text": "మధ్యలో ఆగమంటుంది"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "అంతరం"
+    },
+    {
+      "row": 6,
+      "number": 12,
+      "text": "చుట్ట"
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "సిగొల్పులు కావు ఉసిగొల్పులు"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "కొండ (తనన)"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "విధము"
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "19 € 12"
+    },
+    {
+      "row": 11,
+      "number": 19,
+      "text": "17 12"
+    },
+    {
+      "row": 12,
+      "number": 2,
+      "text": "విద్యున్మాల కావడానికి"
+    },
+    {
+      "row": 13,
+      "number": 23,
+      "text": "ఉదాహరణకు “దుర్గేశనందిని”"
+    },
+    {
+      "row": 14,
+      "number": 25,
+      "text": "చివరకు మిగిలేది ఐశ్వర్యం"
+    },
+    {
+      "row": 15,
+      "number": 26,
+      "text": "నిజంగా నిర్బంధమే!"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 2,
+      "text": "ప్రవహించేది"
+    },
+    {
+      "row": 2,
+      "number": 3,
+      "text": "పోతన భాగవతంలోనిది. పూతన కాదు"
+    },
+    {
+      "row": 3,
+      "number": 4,
+      "text": "రంభతో ఒక ఋషి చేసింది"
+    },
+    {
+      "row": 4,
+      "number": 5,
+      "text": "కై"
+    },
+    {
+      "row": 5,
+      "number": 6,
+      "text": "మొగ్గల లక్షణం"
+    },
+    {
+      "row": 6,
+      "number": 8,
+      "text": "వెనుకకు తిరుగు"
+    },
+    {
+      "row": 7,
+      "number": 10,
+      "text": "ఇటీవలి చలనచిత్రం"
+    },
+    {
+      "row": 8,
+      "number": 11,
+      "text": "ఒక అగ్రాన్ని కని పెట్టినవాడు"
+    },
+    {
+      "row": 9,
+      "number": 13,
+      "text": "అనర్హులు (15 ను తాకడానికా?)"
+    },
+    {
+      "row": 10,
+      "number": 16,
+      "text": "దిక్కు నిప్పుతో ప్రాప్తిస్తుంది."
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "పురుషులు ధరించరు"
+    },
+    {
+      "row": 12,
+      "number": 20,
+      "text": "కర్మలో మకారం ఎక్కడుంది?"
+    },
+    {
+      "row": 13,
+      "number": 21,
+      "text": "పరాయి స్త్రీ -"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "– నడక నల్లేరుమీద"
+    },
+    {
+      "row": 15,
+      "number": 24,
+      "text": "జాగ్రత్త! అంటుకొంటే ప్రమాదం"
+    }
+  ]
+}

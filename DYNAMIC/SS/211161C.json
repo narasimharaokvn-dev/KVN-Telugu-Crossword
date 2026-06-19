@@ -1,0 +1,309 @@
+﻿{
+  "sheetName": "211161",
+  "identity": "211161C",
+  "rows": [
+    {
+      "leftNumber": 3,
+      "leftText": "పడతుల పక్షపాతి",
+      "rightNumber": 1,
+      "rightText": "తోకతెగిన ఋతువు"
+    },
+    {
+      "leftNumber": 5,
+      "leftText": "16 నక్సలిజానికి నాంది.",
+      "rightNumber": 2,
+      "rightText": "వెండిది సాధారణంగా రెండోది"
+    },
+    {
+      "leftNumber": 6,
+      "leftText": "అల్లసాని అగ్రహారం",
+      "rightNumber": 3,
+      "rightText": "వెన్నెల తిండి"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "ఆంధ్రదేశం అన్నం",
+      "rightNumber": 4,
+      "rightText": "చుట్టూ నీళ్ళు"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "బాలకృష్ణుడు",
+      "rightNumber": 5,
+      "rightText": "అంటే రంగులు పులమడమా?"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "కనుక",
+      "rightNumber": 7,
+      "rightText": "చప్పుడు వింటిని"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "శ్రుతి విభాగం",
+      "rightNumber": 8,
+      "rightText": "వయో విశేషం"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "నాటకానికి తెర ఎత్తడం",
+      "rightNumber": 10,
+      "rightText": "రాజమండ్రిలో ట్రాజెడీ"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "చూడు 5 అడ్డం",
+      "rightNumber": 12,
+      "rightText": "శ్రావణ మేఘం"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "ముగ్గురు కవుల ముద్దుబిడ్డ",
+      "rightNumber": 14,
+      "rightText": "కూడింది."
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "ఆకర్షించి",
+      "rightNumber": 15,
+      "rightText": "నమస్కారం"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "నావి (బహువచనం)",
+      "rightNumber": 17,
+      "rightText": "కూచిపూడి కలాపం"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "జనానాలలో కనిపించేది",
+      "rightNumber": 18,
+      "rightText": "రవి కవీంద్రుని 15 అడ్డం"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "విజాతి",
+      "rightNumber": 20,
+      "rightText": "అలంక్రియ"
+    },
+    {
+      "leftNumber": 26,
+      "leftText": "జంట",
+      "rightNumber": 21,
+      "rightText": "ప్రోగు"
+    },
+    {
+      "leftNumber": 28,
+      "leftText": "హైదరాబాదులో ఆఖరివాడు",
+      "rightNumber": 23,
+      "rightText": "పిట్ట గుడ్లగూబ"
+    },
+    {
+      "leftNumber": 30,
+      "leftText": "తగ్గు",
+      "rightNumber": 4,
+      "rightText": "రాక్షసి"
+    },
+    {
+      "leftNumber": 31,
+      "leftText": "వికారంతో విస్తృతి",
+      "rightNumber": 27,
+      "rightText": "తెలుగు యతి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 29,
+      "rightText": "జాతం పువ్వు, వాహం మబ్బు"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 3,
+      "text": "పడతుల పక్షపాతి"
+    },
+    {
+      "row": 2,
+      "number": 5,
+      "text": "16 నక్సలిజానికి నాంది."
+    },
+    {
+      "row": 3,
+      "number": 6,
+      "text": "అల్లసాని అగ్రహారం"
+    },
+    {
+      "row": 4,
+      "number": 8,
+      "text": "ఆంధ్రదేశం అన్నం"
+    },
+    {
+      "row": 5,
+      "number": 9,
+      "text": "బాలకృష్ణుడు"
+    },
+    {
+      "row": 6,
+      "number": 11,
+      "text": "కనుక"
+    },
+    {
+      "row": 7,
+      "number": 13,
+      "text": "శ్రుతి విభాగం"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "నాటకానికి తెర ఎత్తడం"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "చూడు 5 అడ్డం"
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "ముగ్గురు కవుల ముద్దుబిడ్డ"
+    },
+    {
+      "row": 11,
+      "number": 19,
+      "text": "ఆకర్షించి"
+    },
+    {
+      "row": 12,
+      "number": 22,
+      "text": "నావి (బహువచనం)"
+    },
+    {
+      "row": 13,
+      "number": 23,
+      "text": "జనానాలలో కనిపించేది"
+    },
+    {
+      "row": 14,
+      "number": 25,
+      "text": "విజాతి"
+    },
+    {
+      "row": 15,
+      "number": 26,
+      "text": "జంట"
+    },
+    {
+      "row": 16,
+      "number": 28,
+      "text": "హైదరాబాదులో ఆఖరివాడు"
+    },
+    {
+      "row": 17,
+      "number": 30,
+      "text": "తగ్గు"
+    },
+    {
+      "row": 18,
+      "number": 31,
+      "text": "వికారంతో విస్తృతి"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "తోకతెగిన ఋతువు"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "వెండిది సాధారణంగా రెండోది"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "వెన్నెల తిండి"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "చుట్టూ నీళ్ళు"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "అంటే రంగులు పులమడమా?"
+    },
+    {
+      "row": 6,
+      "number": 7,
+      "text": "చప్పుడు వింటిని"
+    },
+    {
+      "row": 7,
+      "number": 8,
+      "text": "వయో విశేషం"
+    },
+    {
+      "row": 8,
+      "number": 10,
+      "text": "రాజమండ్రిలో ట్రాజెడీ"
+    },
+    {
+      "row": 9,
+      "number": 12,
+      "text": "శ్రావణ మేఘం"
+    },
+    {
+      "row": 10,
+      "number": 14,
+      "text": "కూడింది."
+    },
+    {
+      "row": 11,
+      "number": 15,
+      "text": "నమస్కారం"
+    },
+    {
+      "row": 12,
+      "number": 17,
+      "text": "కూచిపూడి కలాపం"
+    },
+    {
+      "row": 13,
+      "number": 18,
+      "text": "రవి కవీంద్రుని 15 అడ్డం"
+    },
+    {
+      "row": 14,
+      "number": 20,
+      "text": "అలంక్రియ"
+    },
+    {
+      "row": 15,
+      "number": 21,
+      "text": "ప్రోగు"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "పిట్ట గుడ్లగూబ"
+    },
+    {
+      "row": 17,
+      "number": 4,
+      "text": "రాక్షసి"
+    },
+    {
+      "row": 18,
+      "number": 27,
+      "text": "తెలుగు యతి"
+    },
+    {
+      "row": 19,
+      "number": 29,
+      "text": "జాతం పువ్వు, వాహం మబ్బు"
+    }
+  ]
+}

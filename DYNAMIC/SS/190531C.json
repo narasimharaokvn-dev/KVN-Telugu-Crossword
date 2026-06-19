@@ -1,0 +1,245 @@
+﻿{
+  "sheetName": "190531",
+  "identity": "190531C",
+  "rows": [
+    {
+      "leftNumber": 4,
+      "leftText": "తమిళనాడులో గ్రామం",
+      "rightNumber": 1,
+      "rightText": "గుర్రాల భాష"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "తులసి వనంలో కళంకం",
+      "rightNumber": 2,
+      "rightText": "అదృష్టం ఒక అంశ"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "మోసగాడు",
+      "rightNumber": 3,
+      "rightText": "తమాషాలు"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "కరిగించే పాత్ర",
+      "rightNumber": 4,
+      "rightText": "మజిలీలు"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "శత్రువుల్ని కొట్టడం ఎలా?",
+      "rightNumber": 5,
+      "rightText": "స్తోత్ర పాఠకుడు"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "స్త్రీ (మకారాది)",
+      "rightNumber": 6,
+      "rightText": "ప్రమద్వర"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "మంగలికత్తి (ఎటుతిప్పినా(rf)",
+      "rightNumber": 9,
+      "rightText": "పార్వతి"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "ఉదాహరణకి పుష్పకం",
+      "rightNumber": 10,
+      "rightText": "బలి నడిగింది గజమే"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "వరి",
+      "rightNumber": 12,
+      "rightText": "మూడు గణాలు (దేవుడి దయకోసం)"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "ఒక కవి ఇంటి పేరు",
+      "rightNumber": 15,
+      "rightText": "పాత సరదాల పత్రిక"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "ఆవు కనేది.",
+      "rightNumber": 17,
+      "rightText": "గలాటాలు (ఛందో బద్దమైనవి)"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "ఎన్ని బిరుదులున్నా చెళ్ళపిళ్ళవారికి ఇదంటే ఇష్టం",
+      "rightNumber": 19,
+      "rightText": "జాతీయ - (- సన్నివేశం)"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "సమర్పణ",
+      "rightNumber": 20,
+      "rightText": "బ్రహ్మ"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "నోటికి పెదవులు",
+      "rightNumber": 22,
+      "rightText": "25"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 23,
+      "rightText": "ముందడుగు వద్దు (వెనుకంజ కాదు)"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 4,
+      "text": "తమిళనాడులో గ్రామం"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "తులసి వనంలో కళంకం"
+    },
+    {
+      "row": 3,
+      "number": 8,
+      "text": "మోసగాడు"
+    },
+    {
+      "row": 4,
+      "number": 10,
+      "text": "కరిగించే పాత్ర"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "శత్రువుల్ని కొట్టడం ఎలా?"
+    },
+    {
+      "row": 6,
+      "number": 13,
+      "text": "స్త్రీ (మకారాది)"
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "మంగలికత్తి (ఎటుతిప్పినా(rf)"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "ఉదాహరణకి పుష్పకం"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "వరి"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "ఒక కవి ఇంటి పేరు"
+    },
+    {
+      "row": 11,
+      "number": 21,
+      "text": "ఆవు కనేది."
+    },
+    {
+      "row": 12,
+      "number": 22,
+      "text": "ఎన్ని బిరుదులున్నా చెళ్ళపిళ్ళవారికి ఇదంటే ఇష్టం"
+    },
+    {
+      "row": 13,
+      "number": 24,
+      "text": "సమర్పణ"
+    },
+    {
+      "row": 14,
+      "number": 25,
+      "text": "నోటికి పెదవులు"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "గుర్రాల భాష"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "అదృష్టం ఒక అంశ"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "తమాషాలు"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "మజిలీలు"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "స్తోత్ర పాఠకుడు"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "ప్రమద్వర"
+    },
+    {
+      "row": 7,
+      "number": 9,
+      "text": "పార్వతి"
+    },
+    {
+      "row": 8,
+      "number": 10,
+      "text": "బలి నడిగింది గజమే"
+    },
+    {
+      "row": 9,
+      "number": 12,
+      "text": "మూడు గణాలు (దేవుడి దయకోసం)"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "పాత సరదాల పత్రిక"
+    },
+    {
+      "row": 11,
+      "number": 17,
+      "text": "గలాటాలు (ఛందో బద్దమైనవి)"
+    },
+    {
+      "row": 12,
+      "number": 19,
+      "text": "జాతీయ - (- సన్నివేశం)"
+    },
+    {
+      "row": 13,
+      "number": 20,
+      "text": "బ్రహ్మ"
+    },
+    {
+      "row": 14,
+      "number": 22,
+      "text": "25"
+    },
+    {
+      "row": 15,
+      "number": 23,
+      "text": "ముందడుగు వద్దు (వెనుకంజ కాదు)"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+﻿{
+  "sheetName": "220769",
+  "identity": "220769C",
+  "rows": [
+    {
+      "leftNumber": 3,
+      "leftText": "గుర్రం కాగలదా?",
+      "rightNumber": 1,
+      "rightText": "సువాసన గల ఇంటి పేరు"
+    },
+    {
+      "leftNumber": 5,
+      "leftText": "ఒక సాధువు",
+      "rightNumber": 2,
+      "rightText": "అరుపు"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "పగులు",
+      "rightNumber": 3,
+      "rightText": "రాజభవనం"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "24 గంటలు",
+      "rightNumber": 4,
+      "rightText": "ఆడువారు హరిశ్చంద్రులు కారు"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "-\n- తనం హర్షించరాదని",
+      "rightNumber": 6,
+      "rightText": "మిత్రలాభంలో పాత్ర"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "ఇంగ్లీషు నెలలు",
+      "rightNumber": 7,
+      "rightText": "దారిద్ర్యపు తిరుగుబాటులో బీరులో ఈగ"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "ఆశకు హద్దు",
+      "rightNumber": 9,
+      "rightText": "8 తిరుగుబాటు"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "కోట వాకిలి",
+      "rightNumber": 11,
+      "rightText": "శరీరం"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "ఒక మాదిరి నేల",
+      "rightNumber": 13,
+      "rightText": "గోళం అసభ్యం"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "చూ. 24 అడ్డం",
+      "rightNumber": 15,
+      "rightText": "మనస్సుకి లేదంటారు."
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "నీరు",
+      "rightNumber": 16,
+      "rightText": "మెహర్బానీకి సోదరుడా?"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "- బడ్జెట్ ఏ నాటికో?",
+      "rightNumber": 17,
+      "rightText": "చిన్న సభ"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "ఎరుపురంగులో ఏ ఊరు?",
+      "rightNumber": 18,
+      "rightText": "బతికుంటే తినవచ్చు"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "18 అడ్డం, మృత్యుదూతలు",
+      "rightNumber": 19,
+      "rightText": "తలలేని రంగు"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "దేవతలు సేవించేది",
+      "rightNumber": 20,
+      "rightText": "చాలా పెద్ద సంఖ్య"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "పూర్వకాలపు రేడియో",
+      "rightNumber": 23,
+      "rightText": "రాజకీయవేత్తలు మార్చేవి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 28,
+      "rightText": "కొనడం అగ్ని లక్షణం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 24,
+      "rightText": "కరక్కాయ - ఇప్పుడు దొరకదు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 26,
+      "rightText": "దినదిన ప్రవర్ధమానమవుతున్నది."
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 3,
+      "text": "గుర్రం కాగలదా?"
+    },
+    {
+      "row": 2,
+      "number": 5,
+      "text": "ఒక సాధువు"
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": "పగులు"
+    },
+    {
+      "row": 4,
+      "number": 8,
+      "text": "24 గంటలు"
+    },
+    {
+      "row": 5,
+      "number": 10,
+      "text": "-\n- తనం హర్షించరాదని"
+    },
+    {
+      "row": 6,
+      "number": 11,
+      "text": "ఇంగ్లీషు నెలలు"
+    },
+    {
+      "row": 7,
+      "number": 12,
+      "text": "ఆశకు హద్దు"
+    },
+    {
+      "row": 8,
+      "number": 14,
+      "text": "కోట వాకిలి"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "ఒక మాదిరి నేల"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "చూ. 24 అడ్డం"
+    },
+    {
+      "row": 11,
+      "number": 20,
+      "text": "నీరు"
+    },
+    {
+      "row": 12,
+      "number": 21,
+      "text": "- బడ్జెట్ ఏ నాటికో?"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "ఎరుపురంగులో ఏ ఊరు?"
+    },
+    {
+      "row": 14,
+      "number": 24,
+      "text": "18 అడ్డం, మృత్యుదూతలు"
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "దేవతలు సేవించేది"
+    },
+    {
+      "row": 16,
+      "number": 27,
+      "text": "పూర్వకాలపు రేడియో"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "సువాసన గల ఇంటి పేరు"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "అరుపు"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "రాజభవనం"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "ఆడువారు హరిశ్చంద్రులు కారు"
+    },
+    {
+      "row": 5,
+      "number": 6,
+      "text": "మిత్రలాభంలో పాత్ర"
+    },
+    {
+      "row": 6,
+      "number": 7,
+      "text": "దారిద్ర్యపు తిరుగుబాటులో బీరులో ఈగ"
+    },
+    {
+      "row": 7,
+      "number": 9,
+      "text": "8 తిరుగుబాటు"
+    },
+    {
+      "row": 8,
+      "number": 11,
+      "text": "శరీరం"
+    },
+    {
+      "row": 9,
+      "number": 13,
+      "text": "గోళం అసభ్యం"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "మనస్సుకి లేదంటారు."
+    },
+    {
+      "row": 11,
+      "number": 16,
+      "text": "మెహర్బానీకి సోదరుడా?"
+    },
+    {
+      "row": 12,
+      "number": 17,
+      "text": "చిన్న సభ"
+    },
+    {
+      "row": 13,
+      "number": 18,
+      "text": "బతికుంటే తినవచ్చు"
+    },
+    {
+      "row": 14,
+      "number": 19,
+      "text": "తలలేని రంగు"
+    },
+    {
+      "row": 15,
+      "number": 20,
+      "text": "చాలా పెద్ద సంఖ్య"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "రాజకీయవేత్తలు మార్చేవి"
+    },
+    {
+      "row": 17,
+      "number": 28,
+      "text": "కొనడం అగ్ని లక్షణం"
+    },
+    {
+      "row": 18,
+      "number": 24,
+      "text": "కరక్కాయ - ఇప్పుడు దొరకదు"
+    },
+    {
+      "row": 19,
+      "number": 26,
+      "text": "దినదిన ప్రవర్ధమానమవుతున్నది."
+    }
+  ]
+}

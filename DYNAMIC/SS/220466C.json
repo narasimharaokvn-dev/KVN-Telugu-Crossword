@@ -1,0 +1,293 @@
+﻿{
+  "sheetName": "220466",
+  "identity": "220466C",
+  "rows": [
+    {
+      "leftNumber": 3,
+      "leftText": "ఒకానొక కాలం",
+      "rightNumber": 1,
+      "rightText": "ఊపిరి లేని రూపు"
+    },
+    {
+      "leftNumber": 5,
+      "leftText": "విరిసిన దిరిసెనలో వెనుకటి భాగ్యం",
+      "rightNumber": 2,
+      "rightText": "సగటు మానిసిలో చీకటేనా?"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "నడిచేది నాలుగోవంతు",
+      "rightNumber": 3,
+      "rightText": "వింటే అయిదవదే వినాలి"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "తార (తెరమీద కాదు)",
+      "rightNumber": 4,
+      "rightText": "చెవికి పని చెప్పరు."
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "వెన్నెలతో పోలుస్తారు (తలకిందులు)",
+      "rightNumber": 6,
+      "rightText": "వడిగా"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "రీతికి మారు పేరు",
+      "rightNumber": 7,
+      "rightText": "కష్టం ఇతనిది ఫలితం కామందుది"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "నరస భూపాలీయంలో నలిగిన అభిరుచి",
+      "rightNumber": 9,
+      "rightText": "తీక్షణమైన సంవత్సరము"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "విలాసం చిరునామా కాదు.",
+      "rightNumber": 11,
+      "rightText": "గంగకద్దరి"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "పరమ భాగవతోత్తముడు",
+      "rightNumber": 13,
+      "rightText": "పొలిటీషియన్ల ఊతపదం"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "పడితే కడతేరినట్లే",
+      "rightNumber": 15,
+      "rightText": "నోటి దురుసుతనం అందామా?"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "తోక తెగిన రచయిత సంఖ్య",
+      "rightNumber": 16,
+      "rightText": "యుద్ధానికి వెళ్ళరు"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "వంచనాశిల్పి",
+      "rightNumber": 17,
+      "rightText": "అభినయ విశేషం"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "బంధించు (తలకిందులు)",
+      "rightNumber": 18,
+      "rightText": "- తనం హర్షించదగనిది"
+    },
+    {
+      "leftNumber": 4,
+      "leftText": "కొండకి నేస్తం?",
+      "rightNumber": 19,
+      "rightText": "రహస్యం"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "దూరపు కొలత",
+      "rightNumber": 20,
+      "rightText": "అయోమయం"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "ఒక పండుగ",
+      "rightNumber": 23,
+      "rightText": "ఉన్నారా అనే జబ్బు"
+    },
+    {
+      "leftNumber": 28,
+      "leftText": "ఇంకొక పండుగ",
+      "rightNumber": 24,
+      "rightText": "రామదాసు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 26,
+      "rightText": "పై"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 3,
+      "text": "ఒకానొక కాలం"
+    },
+    {
+      "row": 2,
+      "number": 5,
+      "text": "విరిసిన దిరిసెనలో వెనుకటి భాగ్యం"
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": "నడిచేది నాలుగోవంతు"
+    },
+    {
+      "row": 4,
+      "number": 8,
+      "text": "తార (తెరమీద కాదు)"
+    },
+    {
+      "row": 5,
+      "number": 10,
+      "text": "వెన్నెలతో పోలుస్తారు (తలకిందులు)"
+    },
+    {
+      "row": 6,
+      "number": 11,
+      "text": "రీతికి మారు పేరు"
+    },
+    {
+      "row": 7,
+      "number": 12,
+      "text": "నరస భూపాలీయంలో నలిగిన అభిరుచి"
+    },
+    {
+      "row": 8,
+      "number": 14,
+      "text": "విలాసం చిరునామా కాదు."
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "పరమ భాగవతోత్తముడు"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "పడితే కడతేరినట్లే"
+    },
+    {
+      "row": 11,
+      "number": 20,
+      "text": "తోక తెగిన రచయిత సంఖ్య"
+    },
+    {
+      "row": 12,
+      "number": 21,
+      "text": "వంచనాశిల్పి"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "బంధించు (తలకిందులు)"
+    },
+    {
+      "row": 14,
+      "number": 4,
+      "text": "కొండకి నేస్తం?"
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "దూరపు కొలత"
+    },
+    {
+      "row": 16,
+      "number": 27,
+      "text": "ఒక పండుగ"
+    },
+    {
+      "row": 17,
+      "number": 28,
+      "text": "ఇంకొక పండుగ"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "ఊపిరి లేని రూపు"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "సగటు మానిసిలో చీకటేనా?"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "వింటే అయిదవదే వినాలి"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "చెవికి పని చెప్పరు."
+    },
+    {
+      "row": 5,
+      "number": 6,
+      "text": "వడిగా"
+    },
+    {
+      "row": 6,
+      "number": 7,
+      "text": "కష్టం ఇతనిది ఫలితం కామందుది"
+    },
+    {
+      "row": 7,
+      "number": 9,
+      "text": "తీక్షణమైన సంవత్సరము"
+    },
+    {
+      "row": 8,
+      "number": 11,
+      "text": "గంగకద్దరి"
+    },
+    {
+      "row": 9,
+      "number": 13,
+      "text": "పొలిటీషియన్ల ఊతపదం"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "నోటి దురుసుతనం అందామా?"
+    },
+    {
+      "row": 11,
+      "number": 16,
+      "text": "యుద్ధానికి వెళ్ళరు"
+    },
+    {
+      "row": 12,
+      "number": 17,
+      "text": "అభినయ విశేషం"
+    },
+    {
+      "row": 13,
+      "number": 18,
+      "text": "- తనం హర్షించదగనిది"
+    },
+    {
+      "row": 14,
+      "number": 19,
+      "text": "రహస్యం"
+    },
+    {
+      "row": 15,
+      "number": 20,
+      "text": "అయోమయం"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "ఉన్నారా అనే జబ్బు"
+    },
+    {
+      "row": 17,
+      "number": 24,
+      "text": "రామదాసు"
+    },
+    {
+      "row": 18,
+      "number": 26,
+      "text": "పై"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+﻿{
+  "sheetName": "180822",
+  "identity": "180822C",
+  "rows": [
+    {
+      "leftNumber": 1,
+      "leftText": "24 నిలువు + 1 అడ్డం సృష్టి కదిలేదీ",
+      "rightNumber": 6,
+      "rightText": "శ్రీనాధుని రచన"
+    },
+    {
+      "leftNumber": 2,
+      "leftText": "ఆందాల అరటి చెట్టు",
+      "rightNumber": 7,
+      "rightText": "కాళిదాసు రచన"
+    },
+    {
+      "leftNumber": 3,
+      "leftText": "ఒట్టు",
+      "rightNumber": 9,
+      "rightText": "ఏడుపు కాదు (తలకిందులు)"
+    },
+    {
+      "leftNumber": 4,
+      "leftText": "ముక్కు (విసిగింపు)",
+      "rightNumber": 11,
+      "rightText": "పుష్పదళం"
+    },
+    {
+      "leftNumber": 5,
+      "leftText": "కరుణ",
+      "rightNumber": 13,
+      "rightText": "లక్ష పగళ్ళలో ఒక రాత్రి"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "మూర్తి కవి",
+      "rightNumber": 15,
+      "rightText": "ఎటు చూసినా విదూషకుడే."
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "అలాగే",
+      "rightNumber": 17,
+      "rightText": "- మహలు (జయపురంలో)"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "శివుడు కోరేది",
+      "rightNumber": 19,
+      "rightText": "చూడు 42 అడ్డం"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "అపవిత్రతలో ఇంద్రాయుధం",
+      "rightNumber": 21,
+      "rightText": "ఇచ్చేవాడు"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "- భక్తులు కుసుమ హరనాధ భక్తులా!",
+      "rightNumber": 24,
+      "rightText": "చూడు 1 అడ్డం"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "మరలిపోవడం కాదు",
+      "rightNumber": 25,
+      "rightText": "ఎగిరేది"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "కాదాకు రూపాంతరం",
+      "rightNumber": 27,
+      "rightText": "ఒక సరస్సు"
+    },
+    {
+      "leftNumber": 2,
+      "leftText": "ఇల్లు",
+      "rightNumber": 30,
+      "rightText": "రక్షణ (తలకిందులు)"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "పరుషాక్షరాలు",
+      "rightNumber": 32,
+      "rightText": "సమానం (తలకిందులు)"
+    },
+    {
+      "leftNumber": 26,
+      "leftText": "తిట్టు, ఒట్టు",
+      "rightNumber": 34,
+      "rightText": "రెండు స్వరాలు"
+    },
+    {
+      "leftNumber": 28,
+      "leftText": "పోక కాదు",
+      "rightNumber": 37,
+      "rightText": "పార్టీలో పార్టీ"
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "మనదేశంలోనిదే",
+      "rightNumber": 39,
+      "rightText": "గుర్రం గుడ్డిదైనా దీనికి లోటు లేదు"
+    },
+    {
+      "leftNumber": 31,
+      "leftText": "వెచ్చదనం ఇచ్చేది",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 33,
+      "leftText": "పుప్వు ఆకారం లేని పొగ",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 35,
+      "leftText": "ఫలించు (వెన్నెలలాగ)",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 36,
+      "leftText": "సగం",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 38,
+      "leftText": "ఎల్లప్పుడూ",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 40,
+      "leftText": "శ్రీకారంతో ఒక దేశం",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 41,
+      "leftText": "అఠాణా రాగంలో పోలీసు స్టేషను",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 42,
+      "leftText": "(19 నిలువు +42 ఆడ్డం) నీటి బిందువులు",
+      "rightNumber": null,
+      "rightText": null
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "24 నిలువు + 1 అడ్డం సృష్టి కదిలేదీ"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "ఆందాల అరటి చెట్టు"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "ఒట్టు"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "ముక్కు (విసిగింపు)"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "కరుణ"
+    },
+    {
+      "row": 6,
+      "number": 8,
+      "text": "మూర్తి కవి"
+    },
+    {
+      "row": 7,
+      "number": 10,
+      "text": "అలాగే"
+    },
+    {
+      "row": 8,
+      "number": 12,
+      "text": "శివుడు కోరేది"
+    },
+    {
+      "row": 9,
+      "number": 14,
+      "text": "అపవిత్రతలో ఇంద్రాయుధం"
+    },
+    {
+      "row": 10,
+      "number": 16,
+      "text": "- భక్తులు కుసుమ హరనాధ భక్తులా!"
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "మరలిపోవడం కాదు"
+    },
+    {
+      "row": 12,
+      "number": 20,
+      "text": "కాదాకు రూపాంతరం"
+    },
+    {
+      "row": 13,
+      "number": 2,
+      "text": "ఇల్లు"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "పరుషాక్షరాలు"
+    },
+    {
+      "row": 15,
+      "number": 26,
+      "text": "తిట్టు, ఒట్టు"
+    },
+    {
+      "row": 16,
+      "number": 28,
+      "text": "పోక కాదు"
+    },
+    {
+      "row": 17,
+      "number": 29,
+      "text": "మనదేశంలోనిదే"
+    },
+    {
+      "row": 18,
+      "number": 31,
+      "text": "వెచ్చదనం ఇచ్చేది"
+    },
+    {
+      "row": 19,
+      "number": 33,
+      "text": "పుప్వు ఆకారం లేని పొగ"
+    },
+    {
+      "row": 20,
+      "number": 35,
+      "text": "ఫలించు (వెన్నెలలాగ)"
+    },
+    {
+      "row": 21,
+      "number": 36,
+      "text": "సగం"
+    },
+    {
+      "row": 22,
+      "number": 38,
+      "text": "ఎల్లప్పుడూ"
+    },
+    {
+      "row": 23,
+      "number": 40,
+      "text": "శ్రీకారంతో ఒక దేశం"
+    },
+    {
+      "row": 24,
+      "number": 41,
+      "text": "అఠాణా రాగంలో పోలీసు స్టేషను"
+    },
+    {
+      "row": 25,
+      "number": 42,
+      "text": "(19 నిలువు +42 ఆడ్డం) నీటి బిందువులు"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 6,
+      "text": "శ్రీనాధుని రచన"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "కాళిదాసు రచన"
+    },
+    {
+      "row": 3,
+      "number": 9,
+      "text": "ఏడుపు కాదు (తలకిందులు)"
+    },
+    {
+      "row": 4,
+      "number": 11,
+      "text": "పుష్పదళం"
+    },
+    {
+      "row": 5,
+      "number": 13,
+      "text": "లక్ష పగళ్ళలో ఒక రాత్రి"
+    },
+    {
+      "row": 6,
+      "number": 15,
+      "text": "ఎటు చూసినా విదూషకుడే."
+    },
+    {
+      "row": 7,
+      "number": 17,
+      "text": "- మహలు (జయపురంలో)"
+    },
+    {
+      "row": 8,
+      "number": 19,
+      "text": "చూడు 42 అడ్డం"
+    },
+    {
+      "row": 9,
+      "number": 21,
+      "text": "ఇచ్చేవాడు"
+    },
+    {
+      "row": 10,
+      "number": 24,
+      "text": "చూడు 1 అడ్డం"
+    },
+    {
+      "row": 11,
+      "number": 25,
+      "text": "ఎగిరేది"
+    },
+    {
+      "row": 12,
+      "number": 27,
+      "text": "ఒక సరస్సు"
+    },
+    {
+      "row": 13,
+      "number": 30,
+      "text": "రక్షణ (తలకిందులు)"
+    },
+    {
+      "row": 14,
+      "number": 32,
+      "text": "సమానం (తలకిందులు)"
+    },
+    {
+      "row": 15,
+      "number": 34,
+      "text": "రెండు స్వరాలు"
+    },
+    {
+      "row": 16,
+      "number": 37,
+      "text": "పార్టీలో పార్టీ"
+    },
+    {
+      "row": 17,
+      "number": 39,
+      "text": "గుర్రం గుడ్డిదైనా దీనికి లోటు లేదు"
+    }
+  ]
+}

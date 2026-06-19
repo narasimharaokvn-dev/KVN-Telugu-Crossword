@@ -1,0 +1,325 @@
+﻿{
+  "sheetName": "210151",
+  "identity": "210151C",
+  "rows": [
+    {
+      "leftNumber": 3,
+      "leftText": "టాగూరు నవలలో నాస్తికుడు",
+      "rightNumber": 1,
+      "rightText": "అల్లసాని వాడకం అంతా చీకటి"
+    },
+    {
+      "leftNumber": 5,
+      "leftText": "ప్రాజెక్టు స్థలం",
+      "rightNumber": 2,
+      "rightText": "గాలిని గానం చేస్తుంది"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": null,
+      "rightNumber": 3,
+      "rightText": "అడ్డు-విభజిస్తుంది"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "కుశ - నాటకం",
+      "rightNumber": 4,
+      "rightText": "ఈ మధ్యనే విడుదలయింది"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "భారత చక్రవర్తి",
+      "rightNumber": 5,
+      "rightText": "కొలమానం"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "ముందు చూస్తే ఇది?",
+      "rightNumber": 6,
+      "rightText": "తప్పక పాడాలి"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "చదరంగంలో డ్రా",
+      "rightNumber": 7,
+      "rightText": "డాక్యుమెంటరీ నిపుణుడు"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "బిందువు ఫుల్ స్టాప్ కాదు",
+      "rightNumber": 8,
+      "rightText": "వాలడం 7 అడ్డులో"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "పాండవులు వాడిన చెట్టు",
+      "rightNumber": 11,
+      "rightText": "కాలమానం"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "నిద్రపుచ్చేది నల్లమందు కాదు",
+      "rightNumber": 14,
+      "rightText": "ప్రాసించని ద్విపద"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "కొందరి కూతపదం",
+      "rightNumber": 15,
+      "rightText": "ఇటు కర్ర అటు రాయి"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "21 నిలువు పని కావలిస్తే పడవలసిందే",
+      "rightNumber": 18,
+      "rightText": "అతకార పురాణం చాలా బరువు"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "రం కలిస్తే ఓగిరం",
+      "rightNumber": 19,
+      "rightText": "మొదట ముందు పిదప వెనుక"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "నీటిలో నిప్పు పుట్టించేది",
+      "rightNumber": 21,
+      "rightText": "చూ. 21 అడ్డం"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "వస్తాదు.",
+      "rightNumber": 22,
+      "rightText": "ఊర్పు"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "చల్లని వెన్నెల రేయి",
+      "rightNumber": 23,
+      "rightText": "తెగిస్తారు కొందరు"
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "రావణేశ్వరం",
+      "rightNumber": 24,
+      "rightText": "తేల్చుకుంటారు కొందరు"
+    },
+    {
+      "leftNumber": 31,
+      "leftText": "మీ కాహ్వానం",
+      "rightNumber": 26,
+      "rightText": "పెట్ట - మగడు?"
+    },
+    {
+      "leftNumber": 32,
+      "leftText": "పావలా వంతు శరీరాంగం",
+      "rightNumber": 28,
+      "rightText": "తెలుగు యతి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 30,
+      "rightText": "పడితే రొట్టె నేతిలో పడవచ్చు"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 3,
+      "text": "టాగూరు నవలలో నాస్తికుడు"
+    },
+    {
+      "row": 2,
+      "number": 5,
+      "text": "ప్రాజెక్టు స్థలం"
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": null
+    },
+    {
+      "row": 4,
+      "number": 9,
+      "text": "కుశ - నాటకం"
+    },
+    {
+      "row": 5,
+      "number": 10,
+      "text": "భారత చక్రవర్తి"
+    },
+    {
+      "row": 6,
+      "number": 12,
+      "text": "ముందు చూస్తే ఇది?"
+    },
+    {
+      "row": 7,
+      "number": 13,
+      "text": "చదరంగంలో డ్రా"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "బిందువు ఫుల్ స్టాప్ కాదు"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "పాండవులు వాడిన చెట్టు"
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "నిద్రపుచ్చేది నల్లమందు కాదు"
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "కొందరి కూతపదం"
+    },
+    {
+      "row": 12,
+      "number": 20,
+      "text": "21 నిలువు పని కావలిస్తే పడవలసిందే"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "రం కలిస్తే ఓగిరం"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "నీటిలో నిప్పు పుట్టించేది"
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "వస్తాదు."
+    },
+    {
+      "row": 16,
+      "number": 27,
+      "text": "చల్లని వెన్నెల రేయి"
+    },
+    {
+      "row": 17,
+      "number": 29,
+      "text": "రావణేశ్వరం"
+    },
+    {
+      "row": 18,
+      "number": 31,
+      "text": "మీ కాహ్వానం"
+    },
+    {
+      "row": 19,
+      "number": 32,
+      "text": "పావలా వంతు శరీరాంగం"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "అల్లసాని వాడకం అంతా చీకటి"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "గాలిని గానం చేస్తుంది"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "అడ్డు-విభజిస్తుంది"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "ఈ మధ్యనే విడుదలయింది"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "కొలమానం"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "తప్పక పాడాలి"
+    },
+    {
+      "row": 7,
+      "number": 7,
+      "text": "డాక్యుమెంటరీ నిపుణుడు"
+    },
+    {
+      "row": 8,
+      "number": 8,
+      "text": "వాలడం 7 అడ్డులో"
+    },
+    {
+      "row": 9,
+      "number": 11,
+      "text": "కాలమానం"
+    },
+    {
+      "row": 10,
+      "number": 14,
+      "text": "ప్రాసించని ద్విపద"
+    },
+    {
+      "row": 11,
+      "number": 15,
+      "text": "ఇటు కర్ర అటు రాయి"
+    },
+    {
+      "row": 12,
+      "number": 18,
+      "text": "అతకార పురాణం చాలా బరువు"
+    },
+    {
+      "row": 13,
+      "number": 19,
+      "text": "మొదట ముందు పిదప వెనుక"
+    },
+    {
+      "row": 14,
+      "number": 21,
+      "text": "చూ. 21 అడ్డం"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "ఊర్పు"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "తెగిస్తారు కొందరు"
+    },
+    {
+      "row": 17,
+      "number": 24,
+      "text": "తేల్చుకుంటారు కొందరు"
+    },
+    {
+      "row": 18,
+      "number": 26,
+      "text": "పెట్ట - మగడు?"
+    },
+    {
+      "row": 19,
+      "number": 28,
+      "text": "తెలుగు యతి"
+    },
+    {
+      "row": 20,
+      "number": 30,
+      "text": "పడితే రొట్టె నేతిలో పడవచ్చు"
+    }
+  ]
+}

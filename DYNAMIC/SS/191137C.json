@@ -1,0 +1,245 @@
+﻿{
+  "sheetName": "191137",
+  "identity": "191137C",
+  "rows": [
+    {
+      "leftNumber": 4,
+      "leftText": "అసమగ్రాంధ్ర సాహిత్య చరిత్రంలో ఆరుద్ర దూడ",
+      "rightNumber": 1,
+      "rightText": "తరుచుకాదు"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "సంక్రాంతి సందేశం",
+      "rightNumber": 2,
+      "rightText": "చేమిరి"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "స్! తగ్గు! నవ్వు",
+      "rightNumber": 3,
+      "rightText": "ఆకాశవాణి చెప్పేది"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "శ్రీపాద వారి భారతం (పొడి అక్షరాలు)",
+      "rightNumber": 4,
+      "rightText": "దంచినమ్మకు బుక్కిందే ..."
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "తామరసాక్షి",
+      "rightNumber": 5,
+      "rightText": "కాపు మాసిన పుస్తకాలు"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "లక్ష్మి",
+      "rightNumber": 6,
+      "rightText": "తిరిగింది వెన్నెల రేయి"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "మానవ విపరిణామం. అరణ్యమా?",
+      "rightNumber": 9,
+      "rightText": "ఎక్కడ బృహదీశ్వరుడు? ఎక్కడి సరస్వతీ మహలు?"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "బాకీకి వేధించే చెట్టు",
+      "rightNumber": 10,
+      "rightText": "నటీమణినదికి ప్రమాదం"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "మిశ్రం ప్రాణ గొడ్డం",
+      "rightNumber": 12,
+      "rightText": "వేదాల్లో ఒక చెట్టు"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "రాజుల సరదా",
+      "rightNumber": 15,
+      "rightText": "ఉపనిషన్మధువు లొలికిన చోటు"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "ముక్కాలు తెగిన ఉపశాఖ",
+      "rightNumber": 17,
+      "rightText": "శతపత్ర పత్రం"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "రఘువంశం (రామ ణంకాదు)",
+      "rightNumber": 19,
+      "rightText": "జింక"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "ప్రహేళికకు విరుగుడు?",
+      "rightNumber": 20,
+      "rightText": "ఉజ్జయినీ ఆక్క"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "ఇది పెట్టేది ఇదే!",
+      "rightNumber": 22,
+      "rightText": "పాముదయితే జాగ్రత్త!"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 23,
+      "rightText": "డౌటేహం అన్నాడు భ.కా.రా."
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 4,
+      "text": "అసమగ్రాంధ్ర సాహిత్య చరిత్రంలో ఆరుద్ర దూడ"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "సంక్రాంతి సందేశం"
+    },
+    {
+      "row": 3,
+      "number": 8,
+      "text": "స్! తగ్గు! నవ్వు"
+    },
+    {
+      "row": 4,
+      "number": 10,
+      "text": "శ్రీపాద వారి భారతం (పొడి అక్షరాలు)"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "తామరసాక్షి"
+    },
+    {
+      "row": 6,
+      "number": 13,
+      "text": "లక్ష్మి"
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "మానవ విపరిణామం. అరణ్యమా?"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "బాకీకి వేధించే చెట్టు"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "మిశ్రం ప్రాణ గొడ్డం"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "రాజుల సరదా"
+    },
+    {
+      "row": 11,
+      "number": 21,
+      "text": "ముక్కాలు తెగిన ఉపశాఖ"
+    },
+    {
+      "row": 12,
+      "number": 22,
+      "text": "రఘువంశం (రామ ణంకాదు)"
+    },
+    {
+      "row": 13,
+      "number": 24,
+      "text": "ప్రహేళికకు విరుగుడు?"
+    },
+    {
+      "row": 14,
+      "number": 25,
+      "text": "ఇది పెట్టేది ఇదే!"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "తరుచుకాదు"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "చేమిరి"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "ఆకాశవాణి చెప్పేది"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "దంచినమ్మకు బుక్కిందే ..."
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "కాపు మాసిన పుస్తకాలు"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "తిరిగింది వెన్నెల రేయి"
+    },
+    {
+      "row": 7,
+      "number": 9,
+      "text": "ఎక్కడ బృహదీశ్వరుడు? ఎక్కడి సరస్వతీ మహలు?"
+    },
+    {
+      "row": 8,
+      "number": 10,
+      "text": "నటీమణినదికి ప్రమాదం"
+    },
+    {
+      "row": 9,
+      "number": 12,
+      "text": "వేదాల్లో ఒక చెట్టు"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "ఉపనిషన్మధువు లొలికిన చోటు"
+    },
+    {
+      "row": 11,
+      "number": 17,
+      "text": "శతపత్ర పత్రం"
+    },
+    {
+      "row": 12,
+      "number": 19,
+      "text": "జింక"
+    },
+    {
+      "row": 13,
+      "number": 20,
+      "text": "ఉజ్జయినీ ఆక్క"
+    },
+    {
+      "row": 14,
+      "number": 22,
+      "text": "పాముదయితే జాగ్రత్త!"
+    },
+    {
+      "row": 15,
+      "number": 23,
+      "text": "డౌటేహం అన్నాడు భ.కా.రా."
+    }
+  ]
+}

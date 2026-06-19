@@ -1,0 +1,348 @@
+﻿{
+  "sheetName": "180214",
+  "identity": "180214C",
+  "rows": [
+    {
+      "leftNumber": 1,
+      "leftText": "సరదా",
+      "rightNumber": 1,
+      "rightText": "ఉపన్యసించడానికి"
+    },
+    {
+      "leftNumber": 3,
+      "leftText": "తెలుగు సినిమాలలో ఇంగ్లీషు నేరం",
+      "rightNumber": 2,
+      "rightText": "ఆకలిచ్చే అంబలివంటిది"
+    },
+    {
+      "leftNumber": 4,
+      "leftText": "స్వగతం",
+      "rightNumber": 4,
+      "rightText": "అంతరిక్షంలో సమయం"
+    },
+    {
+      "leftNumber": 6,
+      "leftText": "కొన్ని భాషలకిది లేదు",
+      "rightNumber": 5,
+      "rightText": "ఇది పెరుమాళ్ళకెరుక"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "వింటికీ, ఇంటికీ!",
+      "rightNumber": 7,
+      "rightText": "అరటికి అయ్యవారికి ఉండేది"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "డిల్లీ, లేక సిమ్లాలో అక్కసు",
+      "rightNumber": 8,
+      "rightText": "పద్యానికి పాదాలు"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "కోటిలో వంద",
+      "rightNumber": 10,
+      "rightText": "శిఖికి వికృతి"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "ఒక బిరుదు కవిసమ్",
+      "rightNumber": 12,
+      "rightText": "పూర్ణిమ రావడం"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "నాగరిక దేశాల్లో మొలిచేది",
+      "rightNumber": 14,
+      "rightText": "ఏలినవారి పులుసులో ఎవరూ స్నేహితులు కారు"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "నువ్వు పెట్టేది నీకు వినిపించదు",
+      "rightNumber": 16,
+      "rightText": "వెన్నెల రేయి"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "ఎడమ",
+      "rightNumber": 20,
+      "rightText": "నడిచే నాలుగోవంతు"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "సిగ్గు",
+      "rightNumber": 21,
+      "rightText": "కవితాలతలతో ఆలంబనం కోరేది"
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "ఈజిప్షియన్ల సూర్యదేవుడు రమ్మంటాడు",
+      "rightNumber": 23,
+      "rightText": "తిరగబడ్డ 26, గంటలు 24"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "కృష్ణకు ఉంది, గోదావరికి కూడా",
+      "rightNumber": 24,
+      "rightText": "శీతాకాలం తర్వాత"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "అయినదానికి విరుద్ధం",
+      "rightNumber": 27,
+      "rightText": "ఆనెగొంది టవున్లో ధైర్యం"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "సంఖ్యలు శరీరభాగం",
+      "rightNumber": 28,
+      "rightText": "మేధావులు తొడిగే గౌను. ఆద్యంతాలే శరీరం"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "పొడుగ్గా ఆగు",
+      "rightNumber": 30,
+      "rightText": "తూర్పు ఇదే, పడమరా ఇదే!"
+    },
+    {
+      "leftNumber": 26,
+      "leftText": "దీన్ని కొందరు పందిని చేయగల సమర్థులు",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 28,
+      "leftText": "ఆహారం ఈ ఆధారం",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "ఇరుకైన దిక్కులలో ప్రవహిస్తుంది",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 31,
+      "leftText": "మంచి చెబితే “.....” అంటాడు మూర్ఖుడు",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 32,
+      "leftText": "– కొడితే బిడ్డ నిద్రపోతుంది",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 33,
+      "leftText": "ఏకవచనంలో 14",
+      "rightNumber": null,
+      "rightText": null
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "సరదా"
+    },
+    {
+      "row": 2,
+      "number": 3,
+      "text": "తెలుగు సినిమాలలో ఇంగ్లీషు నేరం"
+    },
+    {
+      "row": 3,
+      "number": 4,
+      "text": "స్వగతం"
+    },
+    {
+      "row": 4,
+      "number": 6,
+      "text": "కొన్ని భాషలకిది లేదు"
+    },
+    {
+      "row": 5,
+      "number": 8,
+      "text": "వింటికీ, ఇంటికీ!"
+    },
+    {
+      "row": 6,
+      "number": 9,
+      "text": "డిల్లీ, లేక సిమ్లాలో అక్కసు"
+    },
+    {
+      "row": 7,
+      "number": 11,
+      "text": "కోటిలో వంద"
+    },
+    {
+      "row": 8,
+      "number": 12,
+      "text": "ఒక బిరుదు కవిసమ్"
+    },
+    {
+      "row": 9,
+      "number": 13,
+      "text": "నాగరిక దేశాల్లో మొలిచేది"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "నువ్వు పెట్టేది నీకు వినిపించదు"
+    },
+    {
+      "row": 11,
+      "number": 17,
+      "text": "ఎడమ"
+    },
+    {
+      "row": 12,
+      "number": 18,
+      "text": "సిగ్గు"
+    },
+    {
+      "row": 13,
+      "number": 19,
+      "text": "ఈజిప్షియన్ల సూర్యదేవుడు రమ్మంటాడు"
+    },
+    {
+      "row": 14,
+      "number": 20,
+      "text": "కృష్ణకు ఉంది, గోదావరికి కూడా"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "అయినదానికి విరుద్ధం"
+    },
+    {
+      "row": 16,
+      "number": 24,
+      "text": "సంఖ్యలు శరీరభాగం"
+    },
+    {
+      "row": 17,
+      "number": 25,
+      "text": "పొడుగ్గా ఆగు"
+    },
+    {
+      "row": 18,
+      "number": 26,
+      "text": "దీన్ని కొందరు పందిని చేయగల సమర్థులు"
+    },
+    {
+      "row": 19,
+      "number": 28,
+      "text": "ఆహారం ఈ ఆధారం"
+    },
+    {
+      "row": 20,
+      "number": 29,
+      "text": "ఇరుకైన దిక్కులలో ప్రవహిస్తుంది"
+    },
+    {
+      "row": 21,
+      "number": 31,
+      "text": "మంచి చెబితే “.....” అంటాడు మూర్ఖుడు"
+    },
+    {
+      "row": 22,
+      "number": 32,
+      "text": "– కొడితే బిడ్డ నిద్రపోతుంది"
+    },
+    {
+      "row": 23,
+      "number": 33,
+      "text": "ఏకవచనంలో 14"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "ఉపన్యసించడానికి"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "ఆకలిచ్చే అంబలివంటిది"
+    },
+    {
+      "row": 3,
+      "number": 4,
+      "text": "అంతరిక్షంలో సమయం"
+    },
+    {
+      "row": 4,
+      "number": 5,
+      "text": "ఇది పెరుమాళ్ళకెరుక"
+    },
+    {
+      "row": 5,
+      "number": 7,
+      "text": "అరటికి అయ్యవారికి ఉండేది"
+    },
+    {
+      "row": 6,
+      "number": 8,
+      "text": "పద్యానికి పాదాలు"
+    },
+    {
+      "row": 7,
+      "number": 10,
+      "text": "శిఖికి వికృతి"
+    },
+    {
+      "row": 8,
+      "number": 12,
+      "text": "పూర్ణిమ రావడం"
+    },
+    {
+      "row": 9,
+      "number": 14,
+      "text": "ఏలినవారి పులుసులో ఎవరూ స్నేహితులు కారు"
+    },
+    {
+      "row": 10,
+      "number": 16,
+      "text": "వెన్నెల రేయి"
+    },
+    {
+      "row": 11,
+      "number": 20,
+      "text": "నడిచే నాలుగోవంతు"
+    },
+    {
+      "row": 12,
+      "number": 21,
+      "text": "కవితాలతలతో ఆలంబనం కోరేది"
+    },
+    {
+      "row": 13,
+      "number": 23,
+      "text": "తిరగబడ్డ 26, గంటలు 24"
+    },
+    {
+      "row": 14,
+      "number": 24,
+      "text": "శీతాకాలం తర్వాత"
+    },
+    {
+      "row": 15,
+      "number": 27,
+      "text": "ఆనెగొంది టవున్లో ధైర్యం"
+    },
+    {
+      "row": 16,
+      "number": 28,
+      "text": "మేధావులు తొడిగే గౌను. ఆద్యంతాలే శరీరం"
+    },
+    {
+      "row": 17,
+      "number": 30,
+      "text": "తూర్పు ఇదే, పడమరా ఇదే!"
+    }
+  ]
+}

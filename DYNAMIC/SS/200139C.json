@@ -1,0 +1,328 @@
+﻿{
+  "sheetName": "200139",
+  "identity": "200139C",
+  "rows": [
+    {
+      "leftNumber": "14,29",
+      "leftText": "విశ్వామిత్రుడు కోరింది",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "మేఘాలలో మేటి",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "జలచరాలలో గొప్పది",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "తిను (గడ్డి మొదలైనవి)",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "ఎన్నిక",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "ఇవి దూరని చోటు లేదంటారు.",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "బోలెడు మంది",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "బంగారు కొండ",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "చతుర్ముఖ బ్రహ్మ (తలకిందులు)",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "వెదకటానికి -\n-\nమూలలు",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "చింతలో చావనిది",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "పాత ఢిల్లీ",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "19కి గ్రాంథిక రూపం",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 1,
+      "leftText": "ఆరు",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 2,
+      "leftText": "కులం ఫలించటం",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 3,
+      "leftText": "సహజ కర్మకాదు",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 4,
+      "leftText": "అంతా ఉంది కావ్యంలో",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 5,
+      "leftText": "గుంట",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 6,
+      "leftText": "రెండో తరగతి పౌరులా?",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "విస్ఫులింగాలు",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "సుప్రభాతం?",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "శివుడు",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "దగ్గర చుట్టం",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "ఆఫ్రికా అమ్మాయి",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "24కి వాడుక రూపం",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "చేరువలో",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 2,
+      "leftText": "దెబ్బ",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "అమూల్యమైనదా?",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "ఏం లేదు",
+      "rightNumber": null,
+      "rightText": null
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": "14,29",
+      "text": "విశ్వామిత్రుడు కోరింది"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "మేఘాలలో మేటి"
+    },
+    {
+      "row": 3,
+      "number": 8,
+      "text": "జలచరాలలో గొప్పది"
+    },
+    {
+      "row": 4,
+      "number": 10,
+      "text": "తిను (గడ్డి మొదలైనవి)"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "ఎన్నిక"
+    },
+    {
+      "row": 6,
+      "number": 13,
+      "text": "ఇవి దూరని చోటు లేదంటారు."
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "బోలెడు మంది"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "బంగారు కొండ"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "చతుర్ముఖ బ్రహ్మ (తలకిందులు)"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "వెదకటానికి -\n-\nమూలలు"
+    },
+    {
+      "row": 11,
+      "number": 21,
+      "text": "చింతలో చావనిది"
+    },
+    {
+      "row": 12,
+      "number": 22,
+      "text": "పాత ఢిల్లీ"
+    },
+    {
+      "row": 13,
+      "number": 24,
+      "text": "19కి గ్రాంథిక రూపం"
+    },
+    {
+      "row": 14,
+      "number": 1,
+      "text": "ఆరు"
+    },
+    {
+      "row": 15,
+      "number": 2,
+      "text": "కులం ఫలించటం"
+    },
+    {
+      "row": 16,
+      "number": 3,
+      "text": "సహజ కర్మకాదు"
+    },
+    {
+      "row": 17,
+      "number": 4,
+      "text": "అంతా ఉంది కావ్యంలో"
+    },
+    {
+      "row": 18,
+      "number": 5,
+      "text": "గుంట"
+    },
+    {
+      "row": 19,
+      "number": 6,
+      "text": "రెండో తరగతి పౌరులా?"
+    },
+    {
+      "row": 20,
+      "number": 9,
+      "text": "విస్ఫులింగాలు"
+    },
+    {
+      "row": 21,
+      "number": 10,
+      "text": "సుప్రభాతం?"
+    },
+    {
+      "row": 22,
+      "number": 12,
+      "text": "శివుడు"
+    },
+    {
+      "row": 23,
+      "number": 15,
+      "text": "దగ్గర చుట్టం"
+    },
+    {
+      "row": 24,
+      "number": 17,
+      "text": "ఆఫ్రికా అమ్మాయి"
+    },
+    {
+      "row": 25,
+      "number": 19,
+      "text": "24కి వాడుక రూపం"
+    },
+    {
+      "row": 26,
+      "number": 20,
+      "text": "చేరువలో"
+    },
+    {
+      "row": 27,
+      "number": 2,
+      "text": "దెబ్బ"
+    },
+    {
+      "row": 28,
+      "number": 25,
+      "text": "అమూల్యమైనదా?"
+    },
+    {
+      "row": 29,
+      "number": 23,
+      "text": "ఏం లేదు"
+    }
+  ],
+  "rightEntries": []
+}

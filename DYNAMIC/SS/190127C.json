@@ -1,0 +1,250 @@
+﻿{
+  "sheetName": "190127",
+  "identity": "190127C",
+  "rows": [
+    {
+      "leftNumber": 1,
+      "leftText": "నాకు జూతో చెలగాటమా? ఎంత వాటం.",
+      "rightNumber": 2,
+      "rightText": "పులి ఆడదు, ఆడిస్తుంది."
+    },
+    {
+      "leftNumber": 4,
+      "leftText": "ఆ జోరు ఈవూరు.",
+      "rightNumber": 3,
+      "rightText": "తయారు చేస్తా చొక్కాయి"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "సరస్వతి మహల్ లైబ్రరీలో దొరకవచ్చు.",
+      "rightNumber": 4,
+      "rightText": "ఆనన"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "చెట్టు వెళ్ళడం.",
+      "rightNumber": 5,
+      "rightText": "ఇల్లా (లేక అల్లా)"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "21 అయితే వెళ్ళకు.",
+      "rightNumber": 6,
+      "rightText": "ఆడు పక్షి"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "భ్రమించు మరలు",
+      "rightNumber": 8,
+      "rightText": "చెట్లకి, బండి చక్రాలకి ఉత్తరాలు"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "చింతలకు ముందు పుట్టేయా",
+      "rightNumber": 10,
+      "rightText": "తమిళనాయకుడు(అతని ఉచ్చారణలో)"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "షష్ఠి (60, LX)",
+      "rightNumber": 11,
+      "rightText": "ఎప్పుడని తురకసాయిబునా ఆడగటం"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "బ్రతుకు, బ్రతికేచోటు.",
+      "rightNumber": 13,
+      "rightText": "నిగమాంత శర్మ"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "ఇదెంత ఐదా?",
+      "rightNumber": 16,
+      "rightText": "చెయ్యడానికి నీవీ, నావి"
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "ఉదాహరణకు నర్మద.",
+      "rightNumber": 18,
+      "rightText": "కవిత్వానికి, పైత్యానికి"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "సంగీత సాంకేతికం.",
+      "rightNumber": 20,
+      "rightText": "పోలీసు స్టేషనుకాదు పాడటానికి"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "పి. ఆర్. కాలేజీలోని ఊరు.",
+      "rightNumber": 21,
+      "rightText": "ఇది తీరడానికి 11 అడ్డు"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "కన్నం వేసిన పాతనాణెం.",
+      "rightNumber": 23,
+      "rightText": "దీన్ని ఆమ్రేడిస్తే మూగడానికి అనుకరణ"
+    },
+    {
+      "leftNumber": 26,
+      "leftText": "దంచినమ్మక బొక్కిందే -",
+      "rightNumber": 24,
+      "rightText": "జల - మేఘం"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "నాకు జూతో చెలగాటమా? ఎంత వాటం."
+    },
+    {
+      "row": 2,
+      "number": 4,
+      "text": "ఆ జోరు ఈవూరు."
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": "సరస్వతి మహల్ లైబ్రరీలో దొరకవచ్చు."
+    },
+    {
+      "row": 4,
+      "number": 9,
+      "text": "చెట్టు వెళ్ళడం."
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "21 అయితే వెళ్ళకు."
+    },
+    {
+      "row": 6,
+      "number": 12,
+      "text": "భ్రమించు మరలు"
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "చింతలకు ముందు పుట్టేయా"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "షష్ఠి (60, LX)"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "బ్రతుకు, బ్రతికేచోటు."
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "ఇదెంత ఐదా?"
+    },
+    {
+      "row": 11,
+      "number": 19,
+      "text": "ఉదాహరణకు నర్మద."
+    },
+    {
+      "row": 12,
+      "number": 22,
+      "text": "సంగీత సాంకేతికం."
+    },
+    {
+      "row": 13,
+      "number": 23,
+      "text": "పి. ఆర్. కాలేజీలోని ఊరు."
+    },
+    {
+      "row": 14,
+      "number": 25,
+      "text": "కన్నం వేసిన పాతనాణెం."
+    },
+    {
+      "row": 15,
+      "number": 26,
+      "text": "దంచినమ్మక బొక్కిందే -"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 2,
+      "text": "పులి ఆడదు, ఆడిస్తుంది."
+    },
+    {
+      "row": 2,
+      "number": 3,
+      "text": "తయారు చేస్తా చొక్కాయి"
+    },
+    {
+      "row": 3,
+      "number": 4,
+      "text": "ఆనన"
+    },
+    {
+      "row": 4,
+      "number": 5,
+      "text": "ఇల్లా (లేక అల్లా)"
+    },
+    {
+      "row": 5,
+      "number": 6,
+      "text": "ఆడు పక్షి"
+    },
+    {
+      "row": 6,
+      "number": 8,
+      "text": "చెట్లకి, బండి చక్రాలకి ఉత్తరాలు"
+    },
+    {
+      "row": 7,
+      "number": 10,
+      "text": "తమిళనాయకుడు(అతని ఉచ్చారణలో)"
+    },
+    {
+      "row": 8,
+      "number": 11,
+      "text": "ఎప్పుడని తురకసాయిబునా ఆడగటం"
+    },
+    {
+      "row": 9,
+      "number": 13,
+      "text": "నిగమాంత శర్మ"
+    },
+    {
+      "row": 10,
+      "number": 16,
+      "text": "చెయ్యడానికి నీవీ, నావి"
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "కవిత్వానికి, పైత్యానికి"
+    },
+    {
+      "row": 12,
+      "number": 20,
+      "text": "పోలీసు స్టేషనుకాదు పాడటానికి"
+    },
+    {
+      "row": 13,
+      "number": 21,
+      "text": "ఇది తీరడానికి 11 అడ్డు"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "దీన్ని ఆమ్రేడిస్తే మూగడానికి అనుకరణ"
+    },
+    {
+      "row": 15,
+      "number": 24,
+      "text": "జల - మేఘం"
+    }
+  ]
+}

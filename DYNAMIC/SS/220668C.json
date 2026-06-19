@@ -1,0 +1,293 @@
+﻿{
+  "sheetName": "220668",
+  "identity": "220668C",
+  "rows": [
+    {
+      "leftNumber": 5,
+      "leftText": "పాతకాలపు రూపాయలు",
+      "rightNumber": 1,
+      "rightText": "కొందరెలా చస్తారు?"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "పోరు",
+      "rightNumber": 2,
+      "rightText": "డాడా (యిజం కాదు)"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "మనవడి సగం కట్టు",
+      "rightNumber": 3,
+      "rightText": "తరుజగత్తులో కూడా తప్పదు"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "అతిశయోక్తికి ఆరంభం",
+      "rightNumber": 4,
+      "rightText": "15 అస్తమించేది"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "వచన కవితని ముట్టడించింది",
+      "rightNumber": 6,
+      "rightText": "కొంచెం - ఎండగా 27"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "నలుగురు బుద్ధిమంతులు (మూడక్షరాలు కలగలుపు)",
+      "rightNumber": 8,
+      "rightText": "ఒక పుణ్యక్షేత్రం"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "చూ. 4",
+      "rightNumber": 10,
+      "rightText": "విల్లుకోరేది"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "కారాగృహమా",
+      "rightNumber": 12,
+      "rightText": "అడియాస వల్ల తిరుగుడు ప్రయాణం"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "వాక్యానికి చివర",
+      "rightNumber": 13,
+      "rightText": "బానిస ( పాకిస్థాన్లో)"
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "అంటే ఒప్పుకున్నట్టే",
+      "rightNumber": 14,
+      "rightText": "ఇవి 6"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "- లేని భారతమా?",
+      "rightNumber": 16,
+      "rightText": "ఇది ముందు, తర్వాత వడ్డన"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "కలవారి 16లో తలకిందైన పువ్వు",
+      "rightNumber": 20,
+      "rightText": "త్వరలో"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "మనకవి (నకారంలేదు)",
+      "rightNumber": 22,
+      "rightText": "కారం భాషకు తీపి"
+    },
+    {
+      "leftNumber": 26,
+      "leftText": "మయునికి 2 అడ్డం అనవసరం",
+      "rightNumber": 23,
+      "rightText": "వెలుగు"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "చూడు 6 నిలువు",
+      "rightNumber": 25,
+      "rightText": "గతితో దర్జా"
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "ఒకప్పుడు లంకలో, ప్రిన్సాఫ్ వేల్స్",
+      "rightNumber": 26,
+      "rightText": "ప్రాణికోటికి సహజం"
+    },
+    {
+      "leftNumber": 30,
+      "leftText": "ఊరికే తిరగడం",
+      "rightNumber": 28,
+      "rightText": "మీరడం అనర్ధాన్ని కోరడం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 9,
+      "rightText": "బయట కాదు"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 5,
+      "text": "పాతకాలపు రూపాయలు"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "పోరు"
+    },
+    {
+      "row": 3,
+      "number": 9,
+      "text": "మనవడి సగం కట్టు"
+    },
+    {
+      "row": 4,
+      "number": 11,
+      "text": "అతిశయోక్తికి ఆరంభం"
+    },
+    {
+      "row": 5,
+      "number": 12,
+      "text": "వచన కవితని ముట్టడించింది"
+    },
+    {
+      "row": 6,
+      "number": 13,
+      "text": "నలుగురు బుద్ధిమంతులు (మూడక్షరాలు కలగలుపు)"
+    },
+    {
+      "row": 7,
+      "number": 15,
+      "text": "చూ. 4"
+    },
+    {
+      "row": 8,
+      "number": 17,
+      "text": "కారాగృహమా"
+    },
+    {
+      "row": 9,
+      "number": 18,
+      "text": "వాక్యానికి చివర"
+    },
+    {
+      "row": 10,
+      "number": 19,
+      "text": "అంటే ఒప్పుకున్నట్టే"
+    },
+    {
+      "row": 11,
+      "number": 21,
+      "text": "- లేని భారతమా?"
+    },
+    {
+      "row": 12,
+      "number": 23,
+      "text": "కలవారి 16లో తలకిందైన పువ్వు"
+    },
+    {
+      "row": 13,
+      "number": 24,
+      "text": "మనకవి (నకారంలేదు)"
+    },
+    {
+      "row": 14,
+      "number": 26,
+      "text": "మయునికి 2 అడ్డం అనవసరం"
+    },
+    {
+      "row": 15,
+      "number": 27,
+      "text": "చూడు 6 నిలువు"
+    },
+    {
+      "row": 16,
+      "number": 29,
+      "text": "ఒకప్పుడు లంకలో, ప్రిన్సాఫ్ వేల్స్"
+    },
+    {
+      "row": 17,
+      "number": 30,
+      "text": "ఊరికే తిరగడం"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "కొందరెలా చస్తారు?"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "డాడా (యిజం కాదు)"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "తరుజగత్తులో కూడా తప్పదు"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "15 అస్తమించేది"
+    },
+    {
+      "row": 5,
+      "number": 6,
+      "text": "కొంచెం - ఎండగా 27"
+    },
+    {
+      "row": 6,
+      "number": 8,
+      "text": "ఒక పుణ్యక్షేత్రం"
+    },
+    {
+      "row": 7,
+      "number": 10,
+      "text": "విల్లుకోరేది"
+    },
+    {
+      "row": 8,
+      "number": 12,
+      "text": "అడియాస వల్ల తిరుగుడు ప్రయాణం"
+    },
+    {
+      "row": 9,
+      "number": 13,
+      "text": "బానిస ( పాకిస్థాన్లో)"
+    },
+    {
+      "row": 10,
+      "number": 14,
+      "text": "ఇవి 6"
+    },
+    {
+      "row": 11,
+      "number": 16,
+      "text": "ఇది ముందు, తర్వాత వడ్డన"
+    },
+    {
+      "row": 12,
+      "number": 20,
+      "text": "త్వరలో"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "కారం భాషకు తీపి"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "వెలుగు"
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "గతితో దర్జా"
+    },
+    {
+      "row": 16,
+      "number": 26,
+      "text": "ప్రాణికోటికి సహజం"
+    },
+    {
+      "row": 17,
+      "number": 28,
+      "text": "మీరడం అనర్ధాన్ని కోరడం"
+    },
+    {
+      "row": 18,
+      "number": 9,
+      "text": "బయట కాదు"
+    }
+  ]
+}

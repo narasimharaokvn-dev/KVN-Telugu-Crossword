@@ -1,0 +1,325 @@
+﻿{
+  "sheetName": "210656",
+  "identity": "210656C",
+  "rows": [
+    {
+      "leftNumber": 3,
+      "leftText": "జరిగి",
+      "rightNumber": 1,
+      "rightText": "మునసబు పాట్లు"
+    },
+    {
+      "leftNumber": "20,39",
+      "leftText": "రేడియో వార్తలు",
+      "rightNumber": 2,
+      "rightText": "అన్నిటికన్నా ప్రాచీనం ఈ వృత్తి"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "మాజీ గవర్నరు",
+      "rightNumber": 3,
+      "rightText": "రావిశాస్త్రి కథావస్తువు"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "పొగడ్త",
+      "rightNumber": 4,
+      "rightText": "పచ్చపిట్ట"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "రామదాసు",
+      "rightNumber": 5,
+      "rightText": "కొరడా"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "ప్రహేళిక – పెట్టవచ్చు",
+      "rightNumber": 6,
+      "rightText": "23 నిలువు నవ్వు"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "గంధద్రవ్య విశేషము",
+      "rightNumber": 7,
+      "rightText": "12 నెలలు"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "కలడు! లేడు! (కలలేలేవు)",
+      "rightNumber": 8,
+      "rightText": "12 గంటలు"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "29",
+      "rightNumber": 11,
+      "rightText": "అగ్ని శేషం"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "24 చూ.",
+      "rightNumber": 14,
+      "rightText": "ప్రజ్వరిల్లి"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "మేరలుంటాయి ఊళ్ళకు",
+      "rightNumber": 15,
+      "rightText": "ప్రమద్వరుడు (తలక్రిందులు)"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "లేకుంటే ఆరోగ్యం",
+      "rightNumber": 18,
+      "rightText": "నికుంజాలు"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "పై",
+      "rightNumber": 19,
+      "rightText": "బహువచనంలో తాంబూలం"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "శృంగారవతి",
+      "rightNumber": 21,
+      "rightText": "కాల్బలం"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "ఇదంటే దున్నపోతుకు లక్ష్యం లేదు",
+      "rightNumber": 22,
+      "rightText": "రకారంతో మృగశిర"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "స్త్రీలకు ఇటువంటి చీరలిష్టం",
+      "rightNumber": 23,
+      "rightText": "చూ. 6"
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "పొట్టి, విష్ణువు",
+      "rightNumber": 24,
+      "rightText": "17 పేల్తుంది జాగ్రత్త"
+    },
+    {
+      "leftNumber": 31,
+      "leftText": "ఉన్న చెట్లకేరాళ్ళు (తలక్రిందులు)",
+      "rightNumber": 26,
+      "rightText": "పద"
+    },
+    {
+      "leftNumber": 32,
+      "leftText": "మద్దెల కన్నా నయం",
+      "rightNumber": 28,
+      "rightText": "మేదరి సృష్టి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 30,
+      "rightText": "ఇంకో"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 3,
+      "text": "జరిగి"
+    },
+    {
+      "row": 2,
+      "number": "20,39",
+      "text": "రేడియో వార్తలు"
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": "మాజీ గవర్నరు"
+    },
+    {
+      "row": 4,
+      "number": 9,
+      "text": "పొగడ్త"
+    },
+    {
+      "row": 5,
+      "number": 10,
+      "text": "రామదాసు"
+    },
+    {
+      "row": 6,
+      "number": 12,
+      "text": "ప్రహేళిక – పెట్టవచ్చు"
+    },
+    {
+      "row": 7,
+      "number": 13,
+      "text": "గంధద్రవ్య విశేషము"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "కలడు! లేడు! (కలలేలేవు)"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "29"
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "24 చూ."
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "మేరలుంటాయి ఊళ్ళకు"
+    },
+    {
+      "row": 12,
+      "number": 20,
+      "text": "లేకుంటే ఆరోగ్యం"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "పై"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "శృంగారవతి"
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "ఇదంటే దున్నపోతుకు లక్ష్యం లేదు"
+    },
+    {
+      "row": 16,
+      "number": 27,
+      "text": "స్త్రీలకు ఇటువంటి చీరలిష్టం"
+    },
+    {
+      "row": 17,
+      "number": 29,
+      "text": "పొట్టి, విష్ణువు"
+    },
+    {
+      "row": 18,
+      "number": 31,
+      "text": "ఉన్న చెట్లకేరాళ్ళు (తలక్రిందులు)"
+    },
+    {
+      "row": 19,
+      "number": 32,
+      "text": "మద్దెల కన్నా నయం"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "మునసబు పాట్లు"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "అన్నిటికన్నా ప్రాచీనం ఈ వృత్తి"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "రావిశాస్త్రి కథావస్తువు"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "పచ్చపిట్ట"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "కొరడా"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "23 నిలువు నవ్వు"
+    },
+    {
+      "row": 7,
+      "number": 7,
+      "text": "12 నెలలు"
+    },
+    {
+      "row": 8,
+      "number": 8,
+      "text": "12 గంటలు"
+    },
+    {
+      "row": 9,
+      "number": 11,
+      "text": "అగ్ని శేషం"
+    },
+    {
+      "row": 10,
+      "number": 14,
+      "text": "ప్రజ్వరిల్లి"
+    },
+    {
+      "row": 11,
+      "number": 15,
+      "text": "ప్రమద్వరుడు (తలక్రిందులు)"
+    },
+    {
+      "row": 12,
+      "number": 18,
+      "text": "నికుంజాలు"
+    },
+    {
+      "row": 13,
+      "number": 19,
+      "text": "బహువచనంలో తాంబూలం"
+    },
+    {
+      "row": 14,
+      "number": 21,
+      "text": "కాల్బలం"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "రకారంతో మృగశిర"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "చూ. 6"
+    },
+    {
+      "row": 17,
+      "number": 24,
+      "text": "17 పేల్తుంది జాగ్రత్త"
+    },
+    {
+      "row": 18,
+      "number": 26,
+      "text": "పద"
+    },
+    {
+      "row": 19,
+      "number": 28,
+      "text": "మేదరి సృష్టి"
+    },
+    {
+      "row": 20,
+      "number": 30,
+      "text": "ఇంకో"
+    }
+  ]
+}

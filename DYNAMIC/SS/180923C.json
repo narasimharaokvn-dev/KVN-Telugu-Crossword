@@ -1,0 +1,358 @@
+﻿{
+  "sheetName": "180923",
+  "identity": "180923C",
+  "rows": [
+    {
+      "leftNumber": 1,
+      "leftText": "బాల్, పాల్, లాల్ త్రయంలో ప్రథముడు",
+      "rightNumber": 1,
+      "rightText": "తృవ్వట"
+    },
+    {
+      "leftNumber": 6,
+      "leftText": "గోముఖ వ్యాఘ్రం కూడా అందంగానే ఆరంభమౌతుంది",
+      "rightNumber": 2,
+      "rightText": "ఒక పుణ్యతీర్థం"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "కట్టనూ, విప్పనూ సమూహం",
+      "rightNumber": 3,
+      "rightText": "గ్రహం"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "ఆత్రేయ నాన్న",
+      "rightNumber": 4,
+      "rightText": "బెంగాలీ నవలలో కథానాయిక"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "భుజించి",
+      "rightNumber": 5,
+      "rightText": "ఒక రకం కవిత్వం. తెలుగు వారి ప్రత్యేకత"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "అహం",
+      "rightNumber": 8,
+      "rightText": "తల కాచుకోవాలంటే దీనికి పెత్తనం ఇవ్వవద్దు"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "తిరగేసి తీస్తే డొంకంతా కదుల్తుంది",
+      "rightNumber": 9,
+      "rightText": "12 అడ్డుతో చహరా"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "వెళ్ళరు (యుద్ధానికా?)",
+      "rightNumber": 10,
+      "rightText": "అలివేలు మంగాపురం"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "తెనాలి రాముని వర్ణన",
+      "rightNumber": 11,
+      "rightText": "మొనగాడు (అల్లికలో కాబోలు)"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "ఒక వృత్త విశేషం",
+      "rightNumber": 12,
+      "rightText": "– ప్రభువు ఒక కవి"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "ఆఖరికి ప్రవహించునది",
+      "rightNumber": 13,
+      "rightText": "పరక (ఎనిమిదో వంతు)"
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "నూ x N",
+      "rightNumber": 14,
+      "rightText": "ఏడు రోజులు"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "ఫాషన్",
+      "rightNumber": 15,
+      "rightText": "పన్నీరు మెచ్చనిది"
+    },
+    {
+      "leftNumber": 1,
+      "leftText": "దూరం",
+      "rightNumber": 16,
+      "rightText": "రెండవ (సమాసంలో)"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "రుచులూ, విరోధులు",
+      "rightNumber": 17,
+      "rightText": "ఇక్కడున్న వాటిలో ఇదొకటి"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "పత్రవనం, ధారావ్రతం దీనితోనే ప్రారంభం",
+      "rightNumber": 18,
+      "rightText": "హసించు"
+    },
+    {
+      "leftNumber": 4,
+      "leftText": "ఒక చరం",
+      "rightNumber": 20,
+      "rightText": "ప్రసిద్ధి (తేడా కూడా)"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "రాయి, సాని దీనితోనే ప్రారంభం",
+      "rightNumber": 21,
+      "rightText": "ఇది చెయ్యడం, రావడం, పోవడం"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "ప్రబంధానికి ముఖ్య లక్షణం",
+      "rightNumber": 22,
+      "rightText": "ఇడుమ"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 23,
+      "rightText": "పార్వతికి మరో పేరు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 24,
+      "rightText": "కార్యమా? వాలకమా?"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 25,
+      "rightText": "18 అడ్డు- దాటడానికి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 26,
+      "rightText": "8 నిలువుకు బహువచనం"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "బాల్, పాల్, లాల్ త్రయంలో ప్రథముడు"
+    },
+    {
+      "row": 2,
+      "number": 6,
+      "text": "గోముఖ వ్యాఘ్రం కూడా అందంగానే ఆరంభమౌతుంది"
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": "కట్టనూ, విప్పనూ సమూహం"
+    },
+    {
+      "row": 4,
+      "number": 9,
+      "text": "ఆత్రేయ నాన్న"
+    },
+    {
+      "row": 5,
+      "number": 10,
+      "text": "భుజించి"
+    },
+    {
+      "row": 6,
+      "number": 11,
+      "text": "అహం"
+    },
+    {
+      "row": 7,
+      "number": 12,
+      "text": "తిరగేసి తీస్తే డొంకంతా కదుల్తుంది"
+    },
+    {
+      "row": 8,
+      "number": 13,
+      "text": "వెళ్ళరు (యుద్ధానికా?)"
+    },
+    {
+      "row": 9,
+      "number": 14,
+      "text": "తెనాలి రాముని వర్ణన"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "ఒక వృత్త విశేషం"
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "ఆఖరికి ప్రవహించునది"
+    },
+    {
+      "row": 12,
+      "number": 19,
+      "text": "నూ x N"
+    },
+    {
+      "row": 13,
+      "number": 20,
+      "text": "ఫాషన్"
+    },
+    {
+      "row": 14,
+      "number": 1,
+      "text": "దూరం"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "రుచులూ, విరోధులు"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "పత్రవనం, ధారావ్రతం దీనితోనే ప్రారంభం"
+    },
+    {
+      "row": 17,
+      "number": 4,
+      "text": "ఒక చరం"
+    },
+    {
+      "row": 18,
+      "number": 25,
+      "text": "రాయి, సాని దీనితోనే ప్రారంభం"
+    },
+    {
+      "row": 19,
+      "number": 27,
+      "text": "ప్రబంధానికి ముఖ్య లక్షణం"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "తృవ్వట"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "ఒక పుణ్యతీర్థం"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "గ్రహం"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "బెంగాలీ నవలలో కథానాయిక"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "ఒక రకం కవిత్వం. తెలుగు వారి ప్రత్యేకత"
+    },
+    {
+      "row": 6,
+      "number": 8,
+      "text": "తల కాచుకోవాలంటే దీనికి పెత్తనం ఇవ్వవద్దు"
+    },
+    {
+      "row": 7,
+      "number": 9,
+      "text": "12 అడ్డుతో చహరా"
+    },
+    {
+      "row": 8,
+      "number": 10,
+      "text": "అలివేలు మంగాపురం"
+    },
+    {
+      "row": 9,
+      "number": 11,
+      "text": "మొనగాడు (అల్లికలో కాబోలు)"
+    },
+    {
+      "row": 10,
+      "number": 12,
+      "text": "– ప్రభువు ఒక కవి"
+    },
+    {
+      "row": 11,
+      "number": 13,
+      "text": "పరక (ఎనిమిదో వంతు)"
+    },
+    {
+      "row": 12,
+      "number": 14,
+      "text": "ఏడు రోజులు"
+    },
+    {
+      "row": 13,
+      "number": 15,
+      "text": "పన్నీరు మెచ్చనిది"
+    },
+    {
+      "row": 14,
+      "number": 16,
+      "text": "రెండవ (సమాసంలో)"
+    },
+    {
+      "row": 15,
+      "number": 17,
+      "text": "ఇక్కడున్న వాటిలో ఇదొకటి"
+    },
+    {
+      "row": 16,
+      "number": 18,
+      "text": "హసించు"
+    },
+    {
+      "row": 17,
+      "number": 20,
+      "text": "ప్రసిద్ధి (తేడా కూడా)"
+    },
+    {
+      "row": 18,
+      "number": 21,
+      "text": "ఇది చెయ్యడం, రావడం, పోవడం"
+    },
+    {
+      "row": 19,
+      "number": 22,
+      "text": "ఇడుమ"
+    },
+    {
+      "row": 20,
+      "number": 23,
+      "text": "పార్వతికి మరో పేరు"
+    },
+    {
+      "row": 21,
+      "number": 24,
+      "text": "కార్యమా? వాలకమా?"
+    },
+    {
+      "row": 22,
+      "number": 25,
+      "text": "18 అడ్డు- దాటడానికి"
+    },
+    {
+      "row": 23,
+      "number": 26,
+      "text": "8 నిలువుకు బహువచనం"
+    }
+  ]
+}

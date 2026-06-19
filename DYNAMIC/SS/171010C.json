@@ -1,0 +1,326 @@
+﻿{
+  "sheetName": "171010",
+  "identity": "171010C",
+  "rows": [
+    {
+      "leftNumber": 2,
+      "leftText": "10 నిలువు! గాంధీ శిష్యుడు 1 నిలువు కోరుతాడు.",
+      "rightNumber": 1,
+      "rightText": "చూడు"
+    },
+    {
+      "leftNumber": 5,
+      "leftText": "ఒక నది ఒక రైల్వే స్టేషన్",
+      "rightNumber": 2,
+      "rightText": null
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "(1971 లో) మన రాష్ట్రపతి",
+      "rightNumber": 10,
+      "rightText": null
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "ద్రాక్షపళ్ళ విమర్శకుడు",
+      "rightNumber": 2,
+      "rightText": "పువ్వు ఆకారం లేని ఆవిరి"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "తిరగేస్తే జంతువు ఇంగ్లీషులో ఆలస్యం",
+      "rightNumber": 3,
+      "rightText": "వంగ పెరట్లో మాత్రం కాదు"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "సర్వనామము",
+      "rightNumber": 4,
+      "rightText": "23 నిలువు. బుచ్చిబాబు నవల"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "దక్షిణ గంగ",
+      "rightNumber": 6,
+      "rightText": "ఇది లేకుంటే విడాకులే!"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "టీ కలిపితే వెలుగిచ్చే స్వర్గం",
+      "rightNumber": 8,
+      "rightText": "ఖరీదైన లోహం"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "18 కోసం (ఎలుక కోసం కూడా)",
+      "rightNumber": 10,
+      "rightText": "చూడు 2 అడ్డం"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "పుట్ర, కాదు దాని ముందు ఉండేది.",
+      "rightNumber": 12,
+      "rightText": "ప్రాచీనాభరణం"
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "కవలలలో ఒకడు",
+      "rightNumber": 13,
+      "rightText": "బహుమతి"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "కవలలు స్వప్నాలు కావడానికి ఒక అక్షరమే అడ్డు",
+      "rightNumber": 14,
+      "rightText": "శత్రులు"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "చితికిన బ్రతుకులకు చివరిగతి మొదటే ఉంది",
+      "rightNumber": 16,
+      "rightText": "మనవి, విజ్ఞాపన"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "అరవనాణెం ఆకారమా?",
+      "rightNumber": 20,
+      "rightText": "మనుచరిత్రలో సైన్యం"
+    },
+    {
+      "leftNumber": 26,
+      "leftText": "తన కవసరమైన దానిలో 2",
+      "rightNumber": 22,
+      "rightText": "భారతంలో ఇల్లు"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "సభకు తలకట్టు",
+      "rightNumber": 23,
+      "rightText": "చూడు 4 నిలువు"
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "ఇబ్సెన్ నాటకం",
+      "rightNumber": 25,
+      "rightText": "కంట్లోనూ ఇంట్లోనూ ఉంటుంది"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 26,
+      "rightText": "కులం ఉత్తరం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 28,
+      "rightText": "దకాలు చేరిస్తే నువ్వుల నీళ్ళు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 30,
+      "rightText": "పెరుమాళ్ళ కెరుక!"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 29,
+      "rightText": "తిలకం, నాణెం, బిందువు"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 2,
+      "text": "10 నిలువు! గాంధీ శిష్యుడు 1 నిలువు కోరుతాడు."
+    },
+    {
+      "row": 2,
+      "number": 5,
+      "text": "ఒక నది ఒక రైల్వే స్టేషన్"
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": "(1971 లో) మన రాష్ట్రపతి"
+    },
+    {
+      "row": 4,
+      "number": 9,
+      "text": "ద్రాక్షపళ్ళ విమర్శకుడు"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "తిరగేస్తే జంతువు ఇంగ్లీషులో ఆలస్యం"
+    },
+    {
+      "row": 6,
+      "number": 12,
+      "text": "సర్వనామము"
+    },
+    {
+      "row": 7,
+      "number": 13,
+      "text": "దక్షిణ గంగ"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "టీ కలిపితే వెలుగిచ్చే స్వర్గం"
+    },
+    {
+      "row": 9,
+      "number": 17,
+      "text": "18 కోసం (ఎలుక కోసం కూడా)"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "పుట్ర, కాదు దాని ముందు ఉండేది."
+    },
+    {
+      "row": 11,
+      "number": 19,
+      "text": "కవలలలో ఒకడు"
+    },
+    {
+      "row": 12,
+      "number": 21,
+      "text": "కవలలు స్వప్నాలు కావడానికి ఒక అక్షరమే అడ్డు"
+    },
+    {
+      "row": 13,
+      "number": 23,
+      "text": "చితికిన బ్రతుకులకు చివరిగతి మొదటే ఉంది"
+    },
+    {
+      "row": 14,
+      "number": 24,
+      "text": "అరవనాణెం ఆకారమా?"
+    },
+    {
+      "row": 15,
+      "number": 26,
+      "text": "తన కవసరమైన దానిలో 2"
+    },
+    {
+      "row": 16,
+      "number": 27,
+      "text": "సభకు తలకట్టు"
+    },
+    {
+      "row": 17,
+      "number": 29,
+      "text": "ఇబ్సెన్ నాటకం"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "చూడు"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": null
+    },
+    {
+      "row": 3,
+      "number": 10,
+      "text": null
+    },
+    {
+      "row": 4,
+      "number": 2,
+      "text": "పువ్వు ఆకారం లేని ఆవిరి"
+    },
+    {
+      "row": 5,
+      "number": 3,
+      "text": "వంగ పెరట్లో మాత్రం కాదు"
+    },
+    {
+      "row": 6,
+      "number": 4,
+      "text": "23 నిలువు. బుచ్చిబాబు నవల"
+    },
+    {
+      "row": 7,
+      "number": 6,
+      "text": "ఇది లేకుంటే విడాకులే!"
+    },
+    {
+      "row": 8,
+      "number": 8,
+      "text": "ఖరీదైన లోహం"
+    },
+    {
+      "row": 9,
+      "number": 10,
+      "text": "చూడు 2 అడ్డం"
+    },
+    {
+      "row": 10,
+      "number": 12,
+      "text": "ప్రాచీనాభరణం"
+    },
+    {
+      "row": 11,
+      "number": 13,
+      "text": "బహుమతి"
+    },
+    {
+      "row": 12,
+      "number": 14,
+      "text": "శత్రులు"
+    },
+    {
+      "row": 13,
+      "number": 16,
+      "text": "మనవి, విజ్ఞాపన"
+    },
+    {
+      "row": 14,
+      "number": 20,
+      "text": "మనుచరిత్రలో సైన్యం"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "భారతంలో ఇల్లు"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "చూడు 4 నిలువు"
+    },
+    {
+      "row": 17,
+      "number": 25,
+      "text": "కంట్లోనూ ఇంట్లోనూ ఉంటుంది"
+    },
+    {
+      "row": 18,
+      "number": 26,
+      "text": "కులం ఉత్తరం"
+    },
+    {
+      "row": 19,
+      "number": 28,
+      "text": "దకాలు చేరిస్తే నువ్వుల నీళ్ళు"
+    },
+    {
+      "row": 20,
+      "number": 30,
+      "text": "పెరుమాళ్ళ కెరుక!"
+    },
+    {
+      "row": 21,
+      "number": 29,
+      "text": "తిలకం, నాణెం, బిందువు"
+    }
+  ]
+}

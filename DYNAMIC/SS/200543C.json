@@ -1,0 +1,245 @@
+﻿{
+  "sheetName": "200543",
+  "identity": "200543C",
+  "rows": [
+    {
+      "leftNumber": 4,
+      "leftText": "ఎడిటర్ చేసేది?",
+      "rightNumber": 1,
+      "rightText": "స్టీమరు"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "ఫుట్ బాల్ ఆట",
+      "rightNumber": 2,
+      "rightText": "రచనంలో పచనం"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "వినిపించేది",
+      "rightNumber": 3,
+      "rightText": "నగలేని నగదు ముమ్మారు"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "తల లేని అల",
+      "rightNumber": 4,
+      "rightText": "టెక్నిక్"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "ముఖం",
+      "rightNumber": 5,
+      "rightText": "సమూహం"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "పంచాది",
+      "rightNumber": 6,
+      "rightText": "- కవులు ముగ్గురు"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "- మనడం అంటే మరణం",
+      "rightNumber": 9,
+      "rightText": "1970వ దశాబ్దాన్ని ఇలా వర్ణించారు కొందరు విప్లవకవులు"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "ఖయ్యాం చెయ్యనిది",
+      "rightNumber": 10,
+      "rightText": "వాక్యం ఇదయితే కావ్యం"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "ఇసుక రసికుని గుణానికి శిరచ్ఛేదం",
+      "rightNumber": 12,
+      "rightText": "ఇందులో ఇది ఇక్కడే ఉంది"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "24 తిరిగిన రోజు",
+      "rightNumber": 15,
+      "rightText": "బహుదిన విపర్యాసం"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "వడతో ఒక పాండవుడు",
+      "rightNumber": 17,
+      "rightText": "కొందరు వాడేది (కుత్తుక కోతకు)"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "చలి యిసుక",
+      "rightNumber": 19,
+      "rightText": "శతకకారుడు"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "ప్రధానం చేసేది",
+      "rightNumber": 20,
+      "rightText": "రుద్దు"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "అనుపమ సృష్టి. అదో చిత్రం",
+      "rightNumber": 22,
+      "rightText": "తలకిందైన ధరణి పాలకూర"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 23,
+      "rightText": "కలదు"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 4,
+      "text": "ఎడిటర్ చేసేది?"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "ఫుట్ బాల్ ఆట"
+    },
+    {
+      "row": 3,
+      "number": 8,
+      "text": "వినిపించేది"
+    },
+    {
+      "row": 4,
+      "number": 10,
+      "text": "తల లేని అల"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "ముఖం"
+    },
+    {
+      "row": 6,
+      "number": 13,
+      "text": "పంచాది"
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "- మనడం అంటే మరణం"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "ఖయ్యాం చెయ్యనిది"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "ఇసుక రసికుని గుణానికి శిరచ్ఛేదం"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "24 తిరిగిన రోజు"
+    },
+    {
+      "row": 11,
+      "number": 21,
+      "text": "వడతో ఒక పాండవుడు"
+    },
+    {
+      "row": 12,
+      "number": 22,
+      "text": "చలి యిసుక"
+    },
+    {
+      "row": 13,
+      "number": 24,
+      "text": "ప్రధానం చేసేది"
+    },
+    {
+      "row": 14,
+      "number": 25,
+      "text": "అనుపమ సృష్టి. అదో చిత్రం"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "స్టీమరు"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "రచనంలో పచనం"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "నగలేని నగదు ముమ్మారు"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "టెక్నిక్"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "సమూహం"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "- కవులు ముగ్గురు"
+    },
+    {
+      "row": 7,
+      "number": 9,
+      "text": "1970వ దశాబ్దాన్ని ఇలా వర్ణించారు కొందరు విప్లవకవులు"
+    },
+    {
+      "row": 8,
+      "number": 10,
+      "text": "వాక్యం ఇదయితే కావ్యం"
+    },
+    {
+      "row": 9,
+      "number": 12,
+      "text": "ఇందులో ఇది ఇక్కడే ఉంది"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "బహుదిన విపర్యాసం"
+    },
+    {
+      "row": 11,
+      "number": 17,
+      "text": "కొందరు వాడేది (కుత్తుక కోతకు)"
+    },
+    {
+      "row": 12,
+      "number": 19,
+      "text": "శతకకారుడు"
+    },
+    {
+      "row": 13,
+      "number": 20,
+      "text": "రుద్దు"
+    },
+    {
+      "row": 14,
+      "number": 22,
+      "text": "తలకిందైన ధరణి పాలకూర"
+    },
+    {
+      "row": 15,
+      "number": 23,
+      "text": "కలదు"
+    }
+  ]
+}

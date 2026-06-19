@@ -1,0 +1,250 @@
+﻿{
+  "sheetName": "190733",
+  "identity": "190733C",
+  "rows": [
+    {
+      "leftNumber": 4,
+      "leftText": "పెద్ద సైజు భూతం",
+      "rightNumber": 1,
+      "rightText": "శిరచ్ఛేదం?"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "పొట్టి చెట్టు",
+      "rightNumber": 2,
+      "rightText": "వంక"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "అచ్చ తెలుగు గ్రహం",
+      "rightNumber": 3,
+      "rightText": "కన్నప్ప"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "తలపై నా, కోటలోనా",
+      "rightNumber": 4,
+      "rightText": "పరిహరించినా అపరిమితం."
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "ఇచ్ఛ",
+      "rightNumber": 5,
+      "rightText": "ఈ కారం చమత్కారం."
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "8లో ఒకటి",
+      "rightNumber": 6,
+      "rightText": "ఊరి పేరు."
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "చే",
+      "rightNumber": 9,
+      "rightText": "లక్షణం (కవులకీ నియంతలకీ)"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "4, లేక 8, లేక",
+      "rightNumber": 10,
+      "rightText": "చెట్టబట్టినది"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": null,
+      "rightNumber": 12,
+      "rightText": "3000"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "లేనిది",
+      "rightNumber": 15,
+      "rightText": "రాగం లాగడం"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "5",
+      "rightNumber": 17,
+      "rightText": "రాలేని నర్తకి చేసేవి."
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "దీవించకు",
+      "rightNumber": 19,
+      "rightText": "కత్తి"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "ఇది పోతన కవికి ఇష్టం",
+      "rightNumber": 20,
+      "rightText": "ఉదాహరణకు ద"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "భారతంలో దుష్టులు.",
+      "rightNumber": 22,
+      "rightText": "తొడుక్కోవలె"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "ఇవికానీ సినిమా పత్రికలు లేవు.",
+      "rightNumber": 23,
+      "rightText": "ఈతం ఇప్పటి కర్మకాదు."
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 4,
+      "text": "పెద్ద సైజు భూతం"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "పొట్టి చెట్టు"
+    },
+    {
+      "row": 3,
+      "number": 8,
+      "text": "అచ్చ తెలుగు గ్రహం"
+    },
+    {
+      "row": 4,
+      "number": 10,
+      "text": "తలపై నా, కోటలోనా"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "ఇచ్ఛ"
+    },
+    {
+      "row": 6,
+      "number": 13,
+      "text": "8లో ఒకటి"
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "చే"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "4, లేక 8, లేక"
+    },
+    {
+      "row": 9,
+      "number": 10,
+      "text": null
+    },
+    {
+      "row": 10,
+      "number": 16,
+      "text": "లేనిది"
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "5"
+    },
+    {
+      "row": 12,
+      "number": 21,
+      "text": "దీవించకు"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "ఇది పోతన కవికి ఇష్టం"
+    },
+    {
+      "row": 14,
+      "number": 24,
+      "text": "భారతంలో దుష్టులు."
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "ఇవికానీ సినిమా పత్రికలు లేవు."
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "శిరచ్ఛేదం?"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "వంక"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "కన్నప్ప"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "పరిహరించినా అపరిమితం."
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "ఈ కారం చమత్కారం."
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "ఊరి పేరు."
+    },
+    {
+      "row": 7,
+      "number": 9,
+      "text": "లక్షణం (కవులకీ నియంతలకీ)"
+    },
+    {
+      "row": 8,
+      "number": 10,
+      "text": "చెట్టబట్టినది"
+    },
+    {
+      "row": 9,
+      "number": 12,
+      "text": "3000"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "రాగం లాగడం"
+    },
+    {
+      "row": 11,
+      "number": 17,
+      "text": "రాలేని నర్తకి చేసేవి."
+    },
+    {
+      "row": 12,
+      "number": 19,
+      "text": "కత్తి"
+    },
+    {
+      "row": 13,
+      "number": 20,
+      "text": "ఉదాహరణకు ద"
+    },
+    {
+      "row": 14,
+      "number": 22,
+      "text": "తొడుక్కోవలె"
+    },
+    {
+      "row": 15,
+      "number": 23,
+      "text": "ఈతం ఇప్పటి కర్మకాదు."
+    }
+  ]
+}

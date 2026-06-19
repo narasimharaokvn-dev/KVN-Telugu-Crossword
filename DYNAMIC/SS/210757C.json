@@ -1,0 +1,330 @@
+﻿{
+  "sheetName": "210757",
+  "identity": "210757C",
+  "rows": [
+    {
+      "leftNumber": 3,
+      "leftText": "ప్రమాణమా?",
+      "rightNumber": 1,
+      "rightText": "అహింసా ప్రవక్త ఆశ్రమం"
+    },
+    {
+      "leftNumber": 5,
+      "leftText": null,
+      "rightNumber": 2,
+      "rightText": "కోట చరిత్ర ప్రసిద్ధం"
+    },
+    {
+      "leftNumber": 6,
+      "leftText": "నిలువు సర్కారుకి కట్టేది",
+      "rightNumber": 3,
+      "rightText": "దగ్గర బంధువు"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "-గా వినమంటారు",
+      "rightNumber": 4,
+      "rightText": "గడచిన సంవత్సరం"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "కొన్ని క్రియలకు లేదు",
+      "rightNumber": 5,
+      "rightText": "రావడం శుక్ల పక్షంలో"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "సోలిన కన్ను (తలక్రిందులు)",
+      "rightNumber": 6,
+      "rightText": "చూ. 5 అడ్డం"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "జపాన్ లో ఉదయిస్తే జర్మనీలో కనిపించదు",
+      "rightNumber": 7,
+      "rightText": "19 ఎన్నో అంతరించాయి"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "ఉదకంతో దానం",
+      "rightNumber": 8,
+      "rightText": "పెట్ట"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "“భారతీయ” వాద్యం",
+      "rightNumber": 11,
+      "rightText": "భీముని విష్ణుమూర్తి"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "నా పురం ఢిల్లీ",
+      "rightNumber": 14,
+      "rightText": "ఇలకాదు అల"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "కథలకి గమ్యం",
+      "rightNumber": 15,
+      "rightText": "ఇదీ అదే"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "అచ్చ తెలుగులో నిదర్శనం",
+      "rightNumber": 18,
+      "rightText": "ఫోటోలో లేదు, సినిమాలో ఉం"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "కర్పూర తద్భవం",
+      "rightNumber": 19,
+      "rightText": "చూ. 7 నిలువు"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "కాలం సత్యకాలం",
+      "rightNumber": 21,
+      "rightText": "రు"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "హిమసహితంగా కర్పూరం",
+      "rightNumber": 22,
+      "rightText": "ఒక శతక మకుటాంతం"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "దారి అటునుంచి ఇటు",
+      "rightNumber": 23,
+      "rightText": "అగ్నికి తల్లి"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "ఆ తర్వాత",
+      "rightNumber": 24,
+      "rightText": "18 నిలువు దతుదిమొదళ్ళు"
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "పోరు",
+      "rightNumber": 26,
+      "rightText": "స్ఫురించు"
+    },
+    {
+      "leftNumber": 31,
+      "leftText": "హిందీలో చెప్పు",
+      "rightNumber": 28,
+      "rightText": "హెచ్చరిక"
+    },
+    {
+      "leftNumber": 32,
+      "leftText": "రతా",
+      "rightNumber": 30,
+      "rightText": "ఈ ఇల్లు భారతంలో ఉంది"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 3,
+      "text": "ప్రమాణమా?"
+    },
+    {
+      "row": 2,
+      "number": 5,
+      "text": null
+    },
+    {
+      "row": 3,
+      "number": 6,
+      "text": "నిలువు సర్కారుకి కట్టేది"
+    },
+    {
+      "row": 4,
+      "number": 7,
+      "text": "-గా వినమంటారు"
+    },
+    {
+      "row": 5,
+      "number": 9,
+      "text": "కొన్ని క్రియలకు లేదు"
+    },
+    {
+      "row": 6,
+      "number": 10,
+      "text": "సోలిన కన్ను (తలక్రిందులు)"
+    },
+    {
+      "row": 7,
+      "number": 12,
+      "text": "జపాన్ లో ఉదయిస్తే జర్మనీలో కనిపించదు"
+    },
+    {
+      "row": 8,
+      "number": 13,
+      "text": "ఉదకంతో దానం"
+    },
+    {
+      "row": 9,
+      "number": 15,
+      "text": "“భారతీయ” వాద్యం"
+    },
+    {
+      "row": 10,
+      "number": 16,
+      "text": "నా పురం ఢిల్లీ"
+    },
+    {
+      "row": 11,
+      "number": 17,
+      "text": "కథలకి గమ్యం"
+    },
+    {
+      "row": 12,
+      "number": 18,
+      "text": "అచ్చ తెలుగులో నిదర్శనం"
+    },
+    {
+      "row": 13,
+      "number": 20,
+      "text": "కర్పూర తద్భవం"
+    },
+    {
+      "row": 14,
+      "number": 22,
+      "text": "కాలం సత్యకాలం"
+    },
+    {
+      "row": 15,
+      "number": 23,
+      "text": "హిమసహితంగా కర్పూరం"
+    },
+    {
+      "row": 16,
+      "number": 25,
+      "text": "దారి అటునుంచి ఇటు"
+    },
+    {
+      "row": 17,
+      "number": 27,
+      "text": "ఆ తర్వాత"
+    },
+    {
+      "row": 18,
+      "number": 29,
+      "text": "పోరు"
+    },
+    {
+      "row": 19,
+      "number": 31,
+      "text": "హిందీలో చెప్పు"
+    },
+    {
+      "row": 20,
+      "number": 32,
+      "text": "రతా"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "అహింసా ప్రవక్త ఆశ్రమం"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "కోట చరిత్ర ప్రసిద్ధం"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "దగ్గర బంధువు"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "గడచిన సంవత్సరం"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "రావడం శుక్ల పక్షంలో"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "చూ. 5 అడ్డం"
+    },
+    {
+      "row": 7,
+      "number": 7,
+      "text": "19 ఎన్నో అంతరించాయి"
+    },
+    {
+      "row": 8,
+      "number": 8,
+      "text": "పెట్ట"
+    },
+    {
+      "row": 9,
+      "number": 11,
+      "text": "భీముని విష్ణుమూర్తి"
+    },
+    {
+      "row": 10,
+      "number": 14,
+      "text": "ఇలకాదు అల"
+    },
+    {
+      "row": 11,
+      "number": 15,
+      "text": "ఇదీ అదే"
+    },
+    {
+      "row": 12,
+      "number": 18,
+      "text": "ఫోటోలో లేదు, సినిమాలో ఉం"
+    },
+    {
+      "row": 13,
+      "number": 19,
+      "text": "చూ. 7 నిలువు"
+    },
+    {
+      "row": 14,
+      "number": 21,
+      "text": "రు"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "ఒక శతక మకుటాంతం"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "అగ్నికి తల్లి"
+    },
+    {
+      "row": 17,
+      "number": 24,
+      "text": "18 నిలువు దతుదిమొదళ్ళు"
+    },
+    {
+      "row": 18,
+      "number": 26,
+      "text": "స్ఫురించు"
+    },
+    {
+      "row": 19,
+      "number": 28,
+      "text": "హెచ్చరిక"
+    },
+    {
+      "row": 20,
+      "number": 30,
+      "text": "ఈ ఇల్లు భారతంలో ఉంది"
+    }
+  ]
+}

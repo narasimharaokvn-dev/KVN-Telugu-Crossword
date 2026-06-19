@@ -1,0 +1,342 @@
+﻿{
+  "sheetName": "180113",
+  "identity": "180113C",
+  "rows": [
+    {
+      "leftNumber": 1,
+      "leftText": "పిల్లిలేని పినతల్లి వికారంతో కూడితే గరుత్మంతుని తల్లి",
+      "rightNumber": 1,
+      "rightText": "అసమర్థుడు దీన్ని నిందిస్తాడు."
+    },
+    {
+      "leftNumber": 3,
+      "leftText": "కాగితం సైజు కిరీటం, ఇంగ్లీషులో",
+      "rightNumber": 2,
+      "rightText": "కుచేల సంతతిలో లెక్కకు మిక్కిలి"
+    },
+    {
+      "leftNumber": 4,
+      "leftText": "తమలపాకు",
+      "rightNumber": 4,
+      "rightText": "దొరికింది"
+    },
+    {
+      "leftNumber": 6,
+      "leftText": "-కాష్టమహిషబన్ధనం తెనాలివాని కల్పన",
+      "rightNumber": 5,
+      "rightText": "అనంతకాలంలో అతి స్వల్పభాగం"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "సముద్రం",
+      "rightNumber": 7,
+      "rightText": "తాళాల వంటివే పాటకు కావాలి"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "పోలీసు శాఖకు అవసరం",
+      "rightNumber": 8,
+      "rightText": "17కు పర్యాయపదం"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "ఇతని చరిత్రం ఒక ప్రబంధం",
+      "rightNumber": 10,
+      "rightText": "కొండదారి"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "ప్రథమావతారాలు",
+      "rightNumber": 12,
+      "rightText": "పై"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "ఇవి వేయించుకోవాలి, ముఖ్యంగా పిల్లలు",
+      "rightNumber": 14,
+      "rightText": "తెలంగాణ కవి"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "ప్రవాహం. ఆనకట్ట లేకుంటే ప్రమాదం.",
+      "rightNumber": 16,
+      "rightText": "రచయితల ధర్మం"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "ఈ పురుషులే అందం",
+      "rightNumber": 20,
+      "rightText": "ఉదాహరణకు 20"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "తొలి విభక్తిలో ఆఖరిది",
+      "rightNumber": 21,
+      "rightText": "విశాలమైనది పృధ్వి"
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "అమెరికన్ కవి పొమ్మంటాడు",
+      "rightNumber": 22,
+      "rightText": "పొడుగు"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "బ్రతికించే పర్వతం",
+      "rightNumber": 23,
+      "rightText": "దాసుడి తప్పు దీనితో సరి"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "ధ్వని",
+      "rightNumber": 24,
+      "rightText": "సినీమా కవి"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "సుమరజం",
+      "rightNumber": 27,
+      "rightText": "సువర్ణం"
+    },
+    {
+      "leftNumber": 26,
+      "leftText": "కొట్టడం, బంధించడం అందులోనే ఒక దుర్గుణం",
+      "rightNumber": 28,
+      "rightText": "బడబానలంలో కడప"
+    },
+    {
+      "leftNumber": 28,
+      "leftText": "రేపటి పౌరులు, ఈ బాలికలు",
+      "rightNumber": 30,
+      "rightText": "నీళ్ళలో తడిసి"
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "లేకుండా",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 31,
+      "leftText": "సూర్యకుమారి",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 32,
+      "leftText": "బహువచనంలో నీ",
+      "rightNumber": null,
+      "rightText": null
+    },
+    {
+      "leftNumber": 33,
+      "leftText": "నిప్పును కప్పేది",
+      "rightNumber": null,
+      "rightText": null
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "పిల్లిలేని పినతల్లి వికారంతో కూడితే గరుత్మంతుని తల్లి"
+    },
+    {
+      "row": 2,
+      "number": 3,
+      "text": "కాగితం సైజు కిరీటం, ఇంగ్లీషులో"
+    },
+    {
+      "row": 3,
+      "number": 4,
+      "text": "తమలపాకు"
+    },
+    {
+      "row": 4,
+      "number": 6,
+      "text": "-కాష్టమహిషబన్ధనం తెనాలివాని కల్పన"
+    },
+    {
+      "row": 5,
+      "number": 8,
+      "text": "సముద్రం"
+    },
+    {
+      "row": 6,
+      "number": 9,
+      "text": "పోలీసు శాఖకు అవసరం"
+    },
+    {
+      "row": 7,
+      "number": 11,
+      "text": "ఇతని చరిత్రం ఒక ప్రబంధం"
+    },
+    {
+      "row": 8,
+      "number": 12,
+      "text": "ప్రథమావతారాలు"
+    },
+    {
+      "row": 9,
+      "number": 13,
+      "text": "ఇవి వేయించుకోవాలి, ముఖ్యంగా పిల్లలు"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "ప్రవాహం. ఆనకట్ట లేకుంటే ప్రమాదం."
+    },
+    {
+      "row": 11,
+      "number": 17,
+      "text": "ఈ పురుషులే అందం"
+    },
+    {
+      "row": 12,
+      "number": 18,
+      "text": "తొలి విభక్తిలో ఆఖరిది"
+    },
+    {
+      "row": 13,
+      "number": 19,
+      "text": "అమెరికన్ కవి పొమ్మంటాడు"
+    },
+    {
+      "row": 14,
+      "number": 20,
+      "text": "బ్రతికించే పర్వతం"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "ధ్వని"
+    },
+    {
+      "row": 16,
+      "number": 25,
+      "text": "సుమరజం"
+    },
+    {
+      "row": 17,
+      "number": 26,
+      "text": "కొట్టడం, బంధించడం అందులోనే ఒక దుర్గుణం"
+    },
+    {
+      "row": 18,
+      "number": 28,
+      "text": "రేపటి పౌరులు, ఈ బాలికలు"
+    },
+    {
+      "row": 19,
+      "number": 29,
+      "text": "లేకుండా"
+    },
+    {
+      "row": 20,
+      "number": 31,
+      "text": "సూర్యకుమారి"
+    },
+    {
+      "row": 21,
+      "number": 32,
+      "text": "బహువచనంలో నీ"
+    },
+    {
+      "row": 22,
+      "number": 33,
+      "text": "నిప్పును కప్పేది"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "అసమర్థుడు దీన్ని నిందిస్తాడు."
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "కుచేల సంతతిలో లెక్కకు మిక్కిలి"
+    },
+    {
+      "row": 3,
+      "number": 4,
+      "text": "దొరికింది"
+    },
+    {
+      "row": 4,
+      "number": 5,
+      "text": "అనంతకాలంలో అతి స్వల్పభాగం"
+    },
+    {
+      "row": 5,
+      "number": 7,
+      "text": "తాళాల వంటివే పాటకు కావాలి"
+    },
+    {
+      "row": 6,
+      "number": 8,
+      "text": "17కు పర్యాయపదం"
+    },
+    {
+      "row": 7,
+      "number": 10,
+      "text": "కొండదారి"
+    },
+    {
+      "row": 8,
+      "number": 12,
+      "text": "పై"
+    },
+    {
+      "row": 9,
+      "number": 14,
+      "text": "తెలంగాణ కవి"
+    },
+    {
+      "row": 10,
+      "number": 16,
+      "text": "రచయితల ధర్మం"
+    },
+    {
+      "row": 11,
+      "number": 20,
+      "text": "ఉదాహరణకు 20"
+    },
+    {
+      "row": 12,
+      "number": 21,
+      "text": "విశాలమైనది పృధ్వి"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "పొడుగు"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "దాసుడి తప్పు దీనితో సరి"
+    },
+    {
+      "row": 15,
+      "number": 24,
+      "text": "సినీమా కవి"
+    },
+    {
+      "row": 16,
+      "number": 27,
+      "text": "సువర్ణం"
+    },
+    {
+      "row": 17,
+      "number": 28,
+      "text": "బడబానలంలో కడప"
+    },
+    {
+      "row": 18,
+      "number": 30,
+      "text": "నీళ్ళలో తడిసి"
+    }
+  ]
+}

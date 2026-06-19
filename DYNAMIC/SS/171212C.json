@@ -1,0 +1,241 @@
+﻿{
+  "sheetName": "171212",
+  "identity": "171212C",
+  "rows": [
+    {
+      "leftNumber": 1,
+      "leftText": "సామ్యవాద సిద్ధాంతి (గురుద్వయం)",
+      "rightNumber": 1,
+      "rightText": "పూర్వ సహోదరులు"
+    },
+    {
+      "leftNumber": 2,
+      "leftText": "వజ్రం",
+      "rightNumber": 3,
+      "rightText": "అష్టపదుల్లో ఒకటి"
+    },
+    {
+      "leftNumber": 6,
+      "leftText": "బీడీల్లో ఏదైనా",
+      "rightNumber": 4,
+      "rightText": "పేదల హరికథల్లో ప్రవహిస్తుంది"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "అహింసాయుధం",
+      "rightNumber": 5,
+      "rightText": "నేస్తమా"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "గజేంద్ర మోక్షానికి కారణం",
+      "rightNumber": 8,
+      "rightText": "పల్లెటూరి పిల్ల"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "వి. ర. సం. చిహ్నంలో ఉంది",
+      "rightNumber": 10,
+      "rightText": "మానవుని రేపు"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "ఇతడొక యిల్లు",
+      "rightNumber": 11,
+      "rightText": "2 x 2 = 4 మాత్రమే"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "అన్నానంతరం మరో మద్రాసు డాక్టరు",
+      "rightNumber": 13,
+      "rightText": "విప్లవం తెస్తాయి"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "పాదుషావారి ఫర్మానా",
+      "rightNumber": 17,
+      "rightText": "అవతారాలు"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "నోట్లోనూ, నోట్లోకీ",
+      "rightNumber": 18,
+      "rightText": "పిల్ల – చల్లగా వీస్తుంది -"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "ఏ రంగంలో చెప్పు",
+      "rightNumber": 19,
+      "rightText": "తెలుగు బోండా"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 20,
+      "rightText": "తెలుగు యతి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 20,
+      "rightText": "ఏం మరిది"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 21,
+      "rightText": "కూలీకి ఆయుధం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 22,
+      "rightText": "సినిమాల వాళ్ళలో చాలా మంది"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 23,
+      "rightText": "సిపిఐ నేత, ఈయన ఇంటిపేరు శ్రీపాద"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "సామ్యవాద సిద్ధాంతి (గురుద్వయం)"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "వజ్రం"
+    },
+    {
+      "row": 3,
+      "number": 6,
+      "text": "బీడీల్లో ఏదైనా"
+    },
+    {
+      "row": 4,
+      "number": 7,
+      "text": "అహింసాయుధం"
+    },
+    {
+      "row": 5,
+      "number": 9,
+      "text": "గజేంద్ర మోక్షానికి కారణం"
+    },
+    {
+      "row": 6,
+      "number": 12,
+      "text": "వి. ర. సం. చిహ్నంలో ఉంది"
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "ఇతడొక యిల్లు"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "అన్నానంతరం మరో మద్రాసు డాక్టరు"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "పాదుషావారి ఫర్మానా"
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "నోట్లోనూ, నోట్లోకీ"
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "ఏ రంగంలో చెప్పు"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "పూర్వ సహోదరులు"
+    },
+    {
+      "row": 2,
+      "number": 3,
+      "text": "అష్టపదుల్లో ఒకటి"
+    },
+    {
+      "row": 3,
+      "number": 4,
+      "text": "పేదల హరికథల్లో ప్రవహిస్తుంది"
+    },
+    {
+      "row": 4,
+      "number": 5,
+      "text": "నేస్తమా"
+    },
+    {
+      "row": 5,
+      "number": 8,
+      "text": "పల్లెటూరి పిల్ల"
+    },
+    {
+      "row": 6,
+      "number": 10,
+      "text": "మానవుని రేపు"
+    },
+    {
+      "row": 7,
+      "number": 11,
+      "text": "2 x 2 = 4 మాత్రమే"
+    },
+    {
+      "row": 8,
+      "number": 13,
+      "text": "విప్లవం తెస్తాయి"
+    },
+    {
+      "row": 9,
+      "number": 17,
+      "text": "అవతారాలు"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "పిల్ల – చల్లగా వీస్తుంది -"
+    },
+    {
+      "row": 11,
+      "number": 19,
+      "text": "తెలుగు బోండా"
+    },
+    {
+      "row": 12,
+      "number": 20,
+      "text": "తెలుగు యతి"
+    },
+    {
+      "row": 13,
+      "number": 20,
+      "text": "ఏం మరిది"
+    },
+    {
+      "row": 14,
+      "number": 21,
+      "text": "కూలీకి ఆయుధం"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "సినిమాల వాళ్ళలో చాలా మంది"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "సిపిఐ నేత, ఈయన ఇంటిపేరు శ్రీపాద"
+    }
+  ]
+}

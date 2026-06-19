@@ -1,0 +1,314 @@
+﻿{
+  "sheetName": "171111",
+  "identity": "171111C",
+  "rows": [
+    {
+      "leftNumber": 1,
+      "leftText": "కథారంభం",
+      "rightNumber": 1,
+      "rightText": "శరీరభాగం"
+    },
+    {
+      "leftNumber": 3,
+      "leftText": "కెమికల్",
+      "rightNumber": 2,
+      "rightText": "భక్ష్యం"
+    },
+    {
+      "leftNumber": 6,
+      "leftText": "స్నో",
+      "rightNumber": 3,
+      "rightText": "తొడుగు (స్త్రీలకు మాత్రమే)"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "-సేవి",
+      "rightNumber": 4,
+      "rightText": "పర్యాయం"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "వాహన విశేషం",
+      "rightNumber": 5,
+      "rightText": "ఇంటిపేరు (గేయకవిది)"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "సినీ తార",
+      "rightNumber": 7,
+      "rightText": "పైనే! తమదే!"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "తి",
+      "rightNumber": 10,
+      "rightText": "అస్వస్థత"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "తిరగబడ్డ జనం",
+      "rightNumber": 12,
+      "rightText": "జ్వాలాముఖి"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "కళ",
+      "rightNumber": 13,
+      "rightText": "దురాక్రమణ"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "రాగం",
+      "rightNumber": 15,
+      "rightText": "ఒక సినిమా"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "ఒక రకం నైవేద్యం",
+      "rightNumber": 16,
+      "rightText": "ఉదాహరణలో ఉంది"
+    },
+    {
+      "leftNumber": 19,
+      "leftText": "శాంతి చిహ్నం",
+      "rightNumber": 18,
+      "rightText": "ఉదాహరణకు ఆస్ట్రేలియా"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "3 నిలువు",
+      "rightNumber": 20,
+      "rightText": "దయ చెయ్యరా"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "చెబితే వినాలి",
+      "rightNumber": 21,
+      "rightText": "ఊరు పేరు"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "నేపథ్య గాయకుడు",
+      "rightNumber": 22,
+      "rightText": "-- పర్వతం"
+    },
+    {
+      "leftNumber": 26,
+      "leftText": "అయిదో వాడు",
+      "rightNumber": 23,
+      "rightText": "అబద్ధాలా?"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "కార్యం వెనుకబడింది",
+      "rightNumber": 24,
+      "rightText": "సమూహం"
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "శాశ్వతమా?",
+      "rightNumber": 26,
+      "rightText": "పాలిచ్చేది"
+    },
+    {
+      "leftNumber": 30,
+      "leftText": "శుభకార్యాలకి",
+      "rightNumber": 28,
+      "rightText": "కృష్ణశాస్త్రీయం (పొడి అక్షరాలు)"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "కథారంభం"
+    },
+    {
+      "row": 2,
+      "number": 3,
+      "text": "కెమికల్"
+    },
+    {
+      "row": 3,
+      "number": 6,
+      "text": "స్నో"
+    },
+    {
+      "row": 4,
+      "number": 8,
+      "text": "-సేవి"
+    },
+    {
+      "row": 5,
+      "number": 9,
+      "text": "వాహన విశేషం"
+    },
+    {
+      "row": 6,
+      "number": 11,
+      "text": "సినీ తార"
+    },
+    {
+      "row": 7,
+      "number": 13,
+      "text": "తి"
+    },
+    {
+      "row": 8,
+      "number": 14,
+      "text": "తిరగబడ్డ జనం"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "కళ"
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "రాగం"
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "ఒక రకం నైవేద్యం"
+    },
+    {
+      "row": 12,
+      "number": 19,
+      "text": "శాంతి చిహ్నం"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "3 నిలువు"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "చెబితే వినాలి"
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "నేపథ్య గాయకుడు"
+    },
+    {
+      "row": 16,
+      "number": 26,
+      "text": "అయిదో వాడు"
+    },
+    {
+      "row": 17,
+      "number": 27,
+      "text": "కార్యం వెనుకబడింది"
+    },
+    {
+      "row": 18,
+      "number": 29,
+      "text": "శాశ్వతమా?"
+    },
+    {
+      "row": 19,
+      "number": 30,
+      "text": "శుభకార్యాలకి"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "శరీరభాగం"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "భక్ష్యం"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "తొడుగు (స్త్రీలకు మాత్రమే)"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "పర్యాయం"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "ఇంటిపేరు (గేయకవిది)"
+    },
+    {
+      "row": 6,
+      "number": 7,
+      "text": "పైనే! తమదే!"
+    },
+    {
+      "row": 7,
+      "number": 10,
+      "text": "అస్వస్థత"
+    },
+    {
+      "row": 8,
+      "number": 12,
+      "text": "జ్వాలాముఖి"
+    },
+    {
+      "row": 9,
+      "number": 13,
+      "text": "దురాక్రమణ"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "ఒక సినిమా"
+    },
+    {
+      "row": 11,
+      "number": 16,
+      "text": "ఉదాహరణలో ఉంది"
+    },
+    {
+      "row": 12,
+      "number": 18,
+      "text": "ఉదాహరణకు ఆస్ట్రేలియా"
+    },
+    {
+      "row": 13,
+      "number": 20,
+      "text": "దయ చెయ్యరా"
+    },
+    {
+      "row": 14,
+      "number": 21,
+      "text": "ఊరు పేరు"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "-- పర్వతం"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "అబద్ధాలా?"
+    },
+    {
+      "row": 17,
+      "number": 24,
+      "text": "సమూహం"
+    },
+    {
+      "row": 18,
+      "number": 26,
+      "text": "పాలిచ్చేది"
+    },
+    {
+      "row": 19,
+      "number": 28,
+      "text": "కృష్ణశాస్త్రీయం (పొడి అక్షరాలు)"
+    }
+  ]
+}

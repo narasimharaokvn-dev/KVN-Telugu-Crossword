@@ -1,0 +1,269 @@
+﻿{
+  "sheetName": "190935",
+  "identity": "190935C",
+  "rows": [
+    {
+      "leftNumber": 4,
+      "leftText": "మర్యాదకాదు",
+      "rightNumber": 1,
+      "rightText": "నవాబులకు కానుక"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "శ్రీరంగంలో శ్రీరంగనాథుడు",
+      "rightNumber": 2,
+      "rightText": "కచేరీలో రాగం తర్వాత"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "పోకముందు",
+      "rightNumber": 3,
+      "rightText": "66 33"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "చవకైనది నీతి",
+      "rightNumber": 4,
+      "rightText": "తిథి"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "పృథివీపతిని ఇలా అంటారు.",
+      "rightNumber": 5,
+      "rightText": "తిరు\n' పక్షికి కలిగిన పాట్లు"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "గౌరీకి గంగ",
+      "rightNumber": 6,
+      "rightText": "భారతంలో ఒక స్త్రీ"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "దంచడానికి డబ్బుతో చూస్తాయి",
+      "rightNumber": 9,
+      "rightText": "శతక కారుడు."
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "వాయ",
+      "rightNumber": 10,
+      "rightText": "శృంగారాదులు"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "వ్యక్తి ఆ దేవుడు",
+      "rightNumber": 12,
+      "rightText": "ఇతగాడు కాడు నీరు కాకి"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "ఉభయచరం",
+      "rightNumber": 15,
+      "rightText": "చాంచల్యం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 17,
+      "rightText": "మిక్కటము అనికూడా అనవచ్చును"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 19,
+      "rightText": "అశ్వగతి విశేషం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 21,
+      "rightText": "సమాసంలో వెలితి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 22,
+      "rightText": "మంత్రులు తరుచు చేసేది"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 20,
+      "rightText": "పలు ముమ్మారు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 24,
+      "rightText": "ఆలోచించడు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 25,
+      "rightText": "ఇంటికన్న గుడి"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 22,
+      "rightText": "లత కాని లత"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 23,
+      "rightText": "తెలిసిన దిక్కులో ప్రవహిస్తుంది."
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 4,
+      "text": "మర్యాదకాదు"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "శ్రీరంగంలో శ్రీరంగనాథుడు"
+    },
+    {
+      "row": 3,
+      "number": 8,
+      "text": "పోకముందు"
+    },
+    {
+      "row": 4,
+      "number": 10,
+      "text": "చవకైనది నీతి"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "పృథివీపతిని ఇలా అంటారు."
+    },
+    {
+      "row": 6,
+      "number": 13,
+      "text": "గౌరీకి గంగ"
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "దంచడానికి డబ్బుతో చూస్తాయి"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "వాయ"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "వ్యక్తి ఆ దేవుడు"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "ఉభయచరం"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "నవాబులకు కానుక"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "కచేరీలో రాగం తర్వాత"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "66 33"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "తిథి"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "తిరు\n' పక్షికి కలిగిన పాట్లు"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "భారతంలో ఒక స్త్రీ"
+    },
+    {
+      "row": 7,
+      "number": 9,
+      "text": "శతక కారుడు."
+    },
+    {
+      "row": 8,
+      "number": 10,
+      "text": "శృంగారాదులు"
+    },
+    {
+      "row": 9,
+      "number": 12,
+      "text": "ఇతగాడు కాడు నీరు కాకి"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "చాంచల్యం"
+    },
+    {
+      "row": 11,
+      "number": 17,
+      "text": "మిక్కటము అనికూడా అనవచ్చును"
+    },
+    {
+      "row": 12,
+      "number": 19,
+      "text": "అశ్వగతి విశేషం"
+    },
+    {
+      "row": 13,
+      "number": 21,
+      "text": "సమాసంలో వెలితి"
+    },
+    {
+      "row": 14,
+      "number": 22,
+      "text": "మంత్రులు తరుచు చేసేది"
+    },
+    {
+      "row": 15,
+      "number": 20,
+      "text": "పలు ముమ్మారు"
+    },
+    {
+      "row": 16,
+      "number": 24,
+      "text": "ఆలోచించడు"
+    },
+    {
+      "row": 17,
+      "number": 25,
+      "text": "ఇంటికన్న గుడి"
+    },
+    {
+      "row": 18,
+      "number": 22,
+      "text": "లత కాని లత"
+    },
+    {
+      "row": 19,
+      "number": 23,
+      "text": "తెలిసిన దిక్కులో ప్రవహిస్తుంది."
+    }
+  ]
+}

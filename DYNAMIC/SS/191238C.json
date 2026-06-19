@@ -1,0 +1,245 @@
+﻿{
+  "sheetName": "191238",
+  "identity": "191238C",
+  "rows": [
+    {
+      "leftNumber": 4,
+      "leftText": "బహువచనంలో బాధలు",
+      "rightNumber": 1,
+      "rightText": "వాయవ్యాస్త్రం"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "ఆరోజుల్లో ఇదీ ఒక పజిలే!",
+      "rightNumber": 2,
+      "rightText": "కీలెరిగి పెట్టేది"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "తులాభారం",
+      "rightNumber": 3,
+      "rightText": "కుక్కకి మనిషిమీద, ఆస్తికులకు దేవుని మీద"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "అగ్గికి ఆచూకి",
+      "rightNumber": 4,
+      "rightText": "జాస్తి"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "అప్పుడప్పుడువడకుతుంది",
+      "rightNumber": 5,
+      "rightText": "విషం"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "నలుపు",
+      "rightNumber": 6,
+      "rightText": "పల్లెటూళ్ళలో దొరుకుతుంది"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "కవి నక్షత్రం",
+      "rightNumber": 9,
+      "rightText": "జబర్దస్తీకి కావాలి"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "అశ్వధాటి",
+      "rightNumber": 10,
+      "rightText": "ఉదాహరణకి కురుక్షేత్రం"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "జలం ధరిత్రి",
+      "rightNumber": 12,
+      "rightText": "మొల్లం కావాలన్నాడు అల్లసాని"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "రాకపోవడం అమ్మాయి పేరు",
+      "rightNumber": 15,
+      "rightText": "స్త్రీ"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "పిడిలో ధాన్యాదులను రాల్చడం",
+      "rightNumber": 17,
+      "rightText": "ఊరిపేరు, ఇంటిపేరు"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "తిరుపతి పంచశిఖలలో దిగువది (చూ. కృష్ణశాస్త్రి\nవేమన శతకం)",
+      "rightNumber": 19,
+      "rightText": "బెనెగల్ పాత్ర"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "చిన్న కుంపటి",
+      "rightNumber": 20,
+      "rightText": "ముక్కిడి"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "కవితకి, కడగడానికీ",
+      "rightNumber": 22,
+      "rightText": "సంతో సంతానం"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 23,
+      "rightText": "కొరగానితనానికి ఉపమానం"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 4,
+      "text": "బహువచనంలో బాధలు"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "ఆరోజుల్లో ఇదీ ఒక పజిలే!"
+    },
+    {
+      "row": 3,
+      "number": 8,
+      "text": "తులాభారం"
+    },
+    {
+      "row": 4,
+      "number": 10,
+      "text": "అగ్గికి ఆచూకి"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "అప్పుడప్పుడువడకుతుంది"
+    },
+    {
+      "row": 6,
+      "number": 13,
+      "text": "నలుపు"
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "కవి నక్షత్రం"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "అశ్వధాటి"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "జలం ధరిత్రి"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "రాకపోవడం అమ్మాయి పేరు"
+    },
+    {
+      "row": 11,
+      "number": 21,
+      "text": "పిడిలో ధాన్యాదులను రాల్చడం"
+    },
+    {
+      "row": 12,
+      "number": 22,
+      "text": "తిరుపతి పంచశిఖలలో దిగువది (చూ. కృష్ణశాస్త్రి\nవేమన శతకం)"
+    },
+    {
+      "row": 13,
+      "number": 24,
+      "text": "చిన్న కుంపటి"
+    },
+    {
+      "row": 14,
+      "number": 25,
+      "text": "కవితకి, కడగడానికీ"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "వాయవ్యాస్త్రం"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "కీలెరిగి పెట్టేది"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "కుక్కకి మనిషిమీద, ఆస్తికులకు దేవుని మీద"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "జాస్తి"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "విషం"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "పల్లెటూళ్ళలో దొరుకుతుంది"
+    },
+    {
+      "row": 7,
+      "number": 9,
+      "text": "జబర్దస్తీకి కావాలి"
+    },
+    {
+      "row": 8,
+      "number": 10,
+      "text": "ఉదాహరణకి కురుక్షేత్రం"
+    },
+    {
+      "row": 9,
+      "number": 12,
+      "text": "మొల్లం కావాలన్నాడు అల్లసాని"
+    },
+    {
+      "row": 10,
+      "number": 15,
+      "text": "స్త్రీ"
+    },
+    {
+      "row": 11,
+      "number": 17,
+      "text": "ఊరిపేరు, ఇంటిపేరు"
+    },
+    {
+      "row": 12,
+      "number": 19,
+      "text": "బెనెగల్ పాత్ర"
+    },
+    {
+      "row": 13,
+      "number": 20,
+      "text": "ముక్కిడి"
+    },
+    {
+      "row": 14,
+      "number": 22,
+      "text": "సంతో సంతానం"
+    },
+    {
+      "row": 15,
+      "number": 23,
+      "text": "కొరగానితనానికి ఉపమానం"
+    }
+  ]
+}

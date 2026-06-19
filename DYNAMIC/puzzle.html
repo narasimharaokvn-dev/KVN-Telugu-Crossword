@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Puzzle</title>
+<link rel="stylesheet" href="assets/dynamic-puzzle.css">
+</head>
+<body>
+<div class="page">
+  <div id="headerSection">
+    <header class="hero">
+      <h1 id="puzzleTitle">Dynamic Puzzle</h1>
+      <p id="puzzleSubtitle">Shared view reading image, grid JSON, and clues JSON from the three files in <code>SS</code>.</p>
+    </header>
+
+    <div class="toolbar">
+      <a id="libraryLink" href="index.html">Puzzle Library</a>
+      <div class="picker">
+        <label for="folderSelect" class="picker-label">Folder</label>
+        <select id="folderSelect" aria-label="Select folder"></select>
+      </div>
+      <div class="picker">
+        <label for="puzzleSelect" class="picker-label">Puzzle</label>
+        <select id="puzzleSelect" aria-label="Select puzzle"></select>
+      </div>
+      <button type="button" id="solutionButton" hidden>Solution</button>
+      <button type="button" id="saveButton">Save Progress</button>
+      <button type="button" id="clearButton">Clear All</button>
+    </div>
+
+    <div class="status-banner" id="statusBanner" hidden></div>
+
+    <div class="clue-box">
+      <div class="clue-line">
+        <span id="acrossLabel">- Across</span>
+        <span class="detail muted" id="acrossText">No clue</span>
+      </div>
+      <div class="clue-line">
+        <span id="downLabel">- Down</span>
+        <span class="detail muted" id="downText">No clue</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="scrollRegion">
+    <div class="loading" id="loadingCard">Loading puzzle data from the three source files...</div>
+
+    <div class="puzzle-shell">
+      <div class="puzzle-frame">
+        <img id="puzzleImage" alt="Puzzle image">
+        <div id="grid"></div>
+      </div>
+    </div>
+
+    <div class="clue-columns">
+      <section class="clue-panel">
+        <h2>Across</h2>
+        <div class="clue-list" id="acrossList"></div>
+      </section>
+
+      <section class="clue-panel">
+        <h2>Down</h2>
+        <div class="clue-list" id="downList"></div>
+      </section>
+    </div>
+
+    <p class="note">Open with <code>?puzzle=170101</code> or leave it blank to load the latest complete puzzle from <code>SS/index.json</code>.</p>
+  </div>
+</div>
+
+<div class="overlay" id="solutionOverlay" hidden>
+  <div class="overlay-card">
+    <button class="overlay-close" type="button" id="solutionClose" aria-label="Close solution">×</button>
+    <img id="solutionImage" alt="Puzzle solution">
+  </div>
+</div>
+
+<script src="assets/dynamic-puzzle.js"></script>
+</body>
+</html>

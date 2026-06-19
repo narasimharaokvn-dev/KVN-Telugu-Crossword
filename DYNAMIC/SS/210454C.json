@@ -1,0 +1,314 @@
+﻿{
+  "sheetName": "210454",
+  "identity": "210454C",
+  "rows": [
+    {
+      "leftNumber": 3,
+      "leftText": "ఇదే అనుమానం",
+      "rightNumber": 1,
+      "rightText": "సాక్షి సంతకం"
+    },
+    {
+      "leftNumber": 5,
+      "leftText": "సరే",
+      "rightNumber": 2,
+      "rightText": "శ్రీ"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "హిందీ నవల",
+      "rightNumber": 3,
+      "rightText": "దీని ప్రభ క్షణం"
+    },
+    {
+      "leftNumber": 9,
+      "leftText": "ఇదే దీని కుదాహరణ",
+      "rightNumber": 4,
+      "rightText": "తెలుగు నాటకం"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "హఠాత్తు",
+      "rightNumber": 5,
+      "rightText": "వైకుంఠపురంలో తరంగం"
+    },
+    {
+      "leftNumber": 12,
+      "leftText": "గ్రీష్మం తెలుపు",
+      "rightNumber": 6,
+      "rightText": "కాళ్ళదేవర నిప్పు"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "తుమ్మెద తలక్రిందులుగా",
+      "rightNumber": 7,
+      "rightText": "జోసెఫ్ స్టాలిన్ లో ఉందంటారు"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "ఇంగ్లీషులో స్వాగతం",
+      "rightNumber": 8,
+      "rightText": "వెయ్యి రూపాయల పిల్లికూన"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "చంద్రిక చిన్నయసూరిది",
+      "rightNumber": 11,
+      "rightText": "పాప తిండి"
+    },
+    {
+      "leftNumber": 17,
+      "leftText": "కొనడం వ్యాపించడం",
+      "rightNumber": 14,
+      "rightText": "పానీయం"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "కొనడం మౌనం",
+      "rightNumber": 15,
+      "rightText": "వంశం"
+    },
+    {
+      "leftNumber": 20,
+      "leftText": "కాలం మారింది",
+      "rightNumber": 18,
+      "rightText": "కొందరు రాజకీయ వేత్తల 7 అడ్డు\n19"
+    },
+    {
+      "leftNumber": 22,
+      "leftText": "అర్ధ వివరణ",
+      "rightNumber": 21,
+      "rightText": "నిరుడు"
+    },
+    {
+      "leftNumber": 23,
+      "leftText": "అరసం వారసులు",
+      "rightNumber": 22,
+      "rightText": "కలరా రాకుండా"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "విష్ణు భార్య తలక్రిందులు",
+      "rightNumber": 23,
+      "rightText": "విలుకాడు మన్మథుడు"
+    },
+    {
+      "leftNumber": 27,
+      "leftText": "మద్య కావ్యం",
+      "rightNumber": 24,
+      "rightText": "సాయంకాలం"
+    },
+    {
+      "leftNumber": 29,
+      "leftText": "రెక్క తెగిన పక్షి",
+      "rightNumber": 26,
+      "rightText": "సర్వనామం"
+    },
+    {
+      "leftNumber": 31,
+      "leftText": "ఈ అయ్య డైరెక్టరు",
+      "rightNumber": 28,
+      "rightText": "కడుపునొప్పికి కారణం"
+    },
+    {
+      "leftNumber": 32,
+      "leftText": "బంతి",
+      "rightNumber": 30,
+      "rightText": "పంటా? (అలాక్కాదు)"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": 3,
+      "text": "ఇదే అనుమానం"
+    },
+    {
+      "row": 2,
+      "number": 5,
+      "text": "సరే"
+    },
+    {
+      "row": 3,
+      "number": 7,
+      "text": "హిందీ నవల"
+    },
+    {
+      "row": 4,
+      "number": 9,
+      "text": "ఇదే దీని కుదాహరణ"
+    },
+    {
+      "row": 5,
+      "number": 10,
+      "text": "హఠాత్తు"
+    },
+    {
+      "row": 6,
+      "number": 12,
+      "text": "గ్రీష్మం తెలుపు"
+    },
+    {
+      "row": 7,
+      "number": 13,
+      "text": "తుమ్మెద తలక్రిందులుగా"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "ఇంగ్లీషులో స్వాగతం"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "చంద్రిక చిన్నయసూరిది"
+    },
+    {
+      "row": 10,
+      "number": 17,
+      "text": "కొనడం వ్యాపించడం"
+    },
+    {
+      "row": 11,
+      "number": 18,
+      "text": "కొనడం మౌనం"
+    },
+    {
+      "row": 12,
+      "number": 20,
+      "text": "కాలం మారింది"
+    },
+    {
+      "row": 13,
+      "number": 22,
+      "text": "అర్ధ వివరణ"
+    },
+    {
+      "row": 14,
+      "number": 23,
+      "text": "అరసం వారసులు"
+    },
+    {
+      "row": 15,
+      "number": 25,
+      "text": "విష్ణు భార్య తలక్రిందులు"
+    },
+    {
+      "row": 16,
+      "number": 27,
+      "text": "మద్య కావ్యం"
+    },
+    {
+      "row": 17,
+      "number": 29,
+      "text": "రెక్క తెగిన పక్షి"
+    },
+    {
+      "row": 18,
+      "number": 31,
+      "text": "ఈ అయ్య డైరెక్టరు"
+    },
+    {
+      "row": 19,
+      "number": 32,
+      "text": "బంతి"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "సాక్షి సంతకం"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "శ్రీ"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "దీని ప్రభ క్షణం"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "తెలుగు నాటకం"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "వైకుంఠపురంలో తరంగం"
+    },
+    {
+      "row": 6,
+      "number": 6,
+      "text": "కాళ్ళదేవర నిప్పు"
+    },
+    {
+      "row": 7,
+      "number": 7,
+      "text": "జోసెఫ్ స్టాలిన్ లో ఉందంటారు"
+    },
+    {
+      "row": 8,
+      "number": 8,
+      "text": "వెయ్యి రూపాయల పిల్లికూన"
+    },
+    {
+      "row": 9,
+      "number": 11,
+      "text": "పాప తిండి"
+    },
+    {
+      "row": 10,
+      "number": 14,
+      "text": "పానీయం"
+    },
+    {
+      "row": 11,
+      "number": 15,
+      "text": "వంశం"
+    },
+    {
+      "row": 12,
+      "number": 18,
+      "text": "కొందరు రాజకీయ వేత్తల 7 అడ్డు\n19"
+    },
+    {
+      "row": 13,
+      "number": 21,
+      "text": "నిరుడు"
+    },
+    {
+      "row": 14,
+      "number": 22,
+      "text": "కలరా రాకుండా"
+    },
+    {
+      "row": 15,
+      "number": 23,
+      "text": "విలుకాడు మన్మథుడు"
+    },
+    {
+      "row": 16,
+      "number": 24,
+      "text": "సాయంకాలం"
+    },
+    {
+      "row": 17,
+      "number": 26,
+      "text": "సర్వనామం"
+    },
+    {
+      "row": 18,
+      "number": 28,
+      "text": "కడుపునొప్పికి కారణం"
+    },
+    {
+      "row": 19,
+      "number": 30,
+      "text": "పంటా? (అలాక్కాదు)"
+    }
+  ]
+}

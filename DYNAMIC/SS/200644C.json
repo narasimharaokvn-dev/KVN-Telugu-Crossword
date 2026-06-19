@@ -1,0 +1,256 @@
+﻿{
+  "sheetName": "200644",
+  "identity": "200644C",
+  "rows": [
+    {
+      "leftNumber": "15,30",
+      "leftText": "ఈ పత్రం లేతది",
+      "rightNumber": 1,
+      "rightText": "మాట, పాట"
+    },
+    {
+      "leftNumber": 7,
+      "leftText": "చరిత్ర పరిశోధకులకు ఉపకరిస్తుంది",
+      "rightNumber": 2,
+      "rightText": "నడిచే నాలుగో వంతు"
+    },
+    {
+      "leftNumber": 8,
+      "leftText": "ఈ యింటికి మరో రెండు",
+      "rightNumber": 3,
+      "rightText": "దీని వెన్న చంద్రుడు"
+    },
+    {
+      "leftNumber": 10,
+      "leftText": "ఇది కానిది",
+      "rightNumber": 4,
+      "rightText": "కష్టపడి విప్పి, తర్వాత తలలు కలిపి"
+    },
+    {
+      "leftNumber": 11,
+      "leftText": "ఒక తిధి (8 మైనస్ 1)",
+      "rightNumber": 5,
+      "rightText": "ఇది లభ్యమవుతుంది"
+    },
+    {
+      "leftNumber": 13,
+      "leftText": "దీని భర్త దీన్ని మోస్తున్నాడు",
+      "rightNumber": 5,
+      "rightText": "లాగు"
+    },
+    {
+      "leftNumber": 14,
+      "leftText": "చిక్కు",
+      "rightNumber": 6,
+      "rightText": "కలువ, కొలను"
+    },
+    {
+      "leftNumber": 15,
+      "leftText": "లో గేయం",
+      "rightNumber": 9,
+      "rightText": "గు"
+    },
+    {
+      "leftNumber": 16,
+      "leftText": "భారత భూపతి",
+      "rightNumber": 10,
+      "rightText": "ఎవరివి వాళ్ళని"
+    },
+    {
+      "leftNumber": 18,
+      "leftText": "వైశ్యుల లెక్కలో ఒకటి",
+      "rightNumber": 12,
+      "rightText": "అలనాటి ఆంధ్రావని"
+    },
+    {
+      "leftNumber": 21,
+      "leftText": "ఆమ్రేడిస్తే పరుగెత్తడం",
+      "rightNumber": 15,
+      "rightText": "ఆద్యంతాలు"
+    },
+    {
+      "leftNumber": 2,
+      "leftText": "జీవిత",
+      "rightNumber": 17,
+      "rightText": "- పడతారేమో, జాగ్రత్త?"
+    },
+    {
+      "leftNumber": 24,
+      "leftText": "స్తన శల్యం లాంటిది",
+      "rightNumber": 19,
+      "rightText": "బురద నెరిసిందా?"
+    },
+    {
+      "leftNumber": 25,
+      "leftText": "చెట్టుమీద చెట్టు",
+      "rightNumber": 20,
+      "rightText": "ఈ నిప్పు 3లో వుందంటారు"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 22,
+      "rightText": "గడ్డికి నేస్తం?"
+    },
+    {
+      "leftNumber": null,
+      "leftText": null,
+      "rightNumber": 23,
+      "rightText": "ఒకనాటి గొప్ప ఆయుధం"
+    }
+  ],
+  "leftEntries": [
+    {
+      "row": 1,
+      "number": "15,30",
+      "text": "ఈ పత్రం లేతది"
+    },
+    {
+      "row": 2,
+      "number": 7,
+      "text": "చరిత్ర పరిశోధకులకు ఉపకరిస్తుంది"
+    },
+    {
+      "row": 3,
+      "number": 8,
+      "text": "ఈ యింటికి మరో రెండు"
+    },
+    {
+      "row": 4,
+      "number": 10,
+      "text": "ఇది కానిది"
+    },
+    {
+      "row": 5,
+      "number": 11,
+      "text": "ఒక తిధి (8 మైనస్ 1)"
+    },
+    {
+      "row": 6,
+      "number": 13,
+      "text": "దీని భర్త దీన్ని మోస్తున్నాడు"
+    },
+    {
+      "row": 7,
+      "number": 14,
+      "text": "చిక్కు"
+    },
+    {
+      "row": 8,
+      "number": 15,
+      "text": "లో గేయం"
+    },
+    {
+      "row": 9,
+      "number": 16,
+      "text": "భారత భూపతి"
+    },
+    {
+      "row": 10,
+      "number": 18,
+      "text": "వైశ్యుల లెక్కలో ఒకటి"
+    },
+    {
+      "row": 11,
+      "number": 21,
+      "text": "ఆమ్రేడిస్తే పరుగెత్తడం"
+    },
+    {
+      "row": 12,
+      "number": 2,
+      "text": "జీవిత"
+    },
+    {
+      "row": 13,
+      "number": 24,
+      "text": "స్తన శల్యం లాంటిది"
+    },
+    {
+      "row": 14,
+      "number": 25,
+      "text": "చెట్టుమీద చెట్టు"
+    }
+  ],
+  "rightEntries": [
+    {
+      "row": 1,
+      "number": 1,
+      "text": "మాట, పాట"
+    },
+    {
+      "row": 2,
+      "number": 2,
+      "text": "నడిచే నాలుగో వంతు"
+    },
+    {
+      "row": 3,
+      "number": 3,
+      "text": "దీని వెన్న చంద్రుడు"
+    },
+    {
+      "row": 4,
+      "number": 4,
+      "text": "కష్టపడి విప్పి, తర్వాత తలలు కలిపి"
+    },
+    {
+      "row": 5,
+      "number": 5,
+      "text": "ఇది లభ్యమవుతుంది"
+    },
+    {
+      "row": 6,
+      "number": 5,
+      "text": "లాగు"
+    },
+    {
+      "row": 7,
+      "number": 6,
+      "text": "కలువ, కొలను"
+    },
+    {
+      "row": 8,
+      "number": 9,
+      "text": "గు"
+    },
+    {
+      "row": 9,
+      "number": 10,
+      "text": "ఎవరివి వాళ్ళని"
+    },
+    {
+      "row": 10,
+      "number": 12,
+      "text": "అలనాటి ఆంధ్రావని"
+    },
+    {
+      "row": 11,
+      "number": 15,
+      "text": "ఆద్యంతాలు"
+    },
+    {
+      "row": 12,
+      "number": 17,
+      "text": "- పడతారేమో, జాగ్రత్త?"
+    },
+    {
+      "row": 13,
+      "number": 19,
+      "text": "బురద నెరిసిందా?"
+    },
+    {
+      "row": 14,
+      "number": 20,
+      "text": "ఈ నిప్పు 3లో వుందంటారు"
+    },
+    {
+      "row": 15,
+      "number": 22,
+      "text": "గడ్డికి నేస్తం?"
+    },
+    {
+      "row": 16,
+      "number": 23,
+      "text": "ఒకనాటి గొప్ప ఆయుధం"
+    }
+  ]
+}
