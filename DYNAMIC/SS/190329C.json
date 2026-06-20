@@ -1,141 +1,7 @@
 ﻿{
   "sheetName": "190329",
   "identity": "190329C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "మప్పితం, మర్యాద",
-      "rightNumber": 11,
-      "rightText": "ఇందులో విభక్తి లోపంలేదు"
-    },
-    {
-      "leftNumber": 4,
-      "leftText": "దంపతుల కోరిక",
-      "rightNumber": 13,
-      "rightText": "అష్టపది (ఛందస్పుకాదు)"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "దీనితో రోమన్ హిస్టరీ ప్రారంభం కాలేదు",
-      "rightNumber": 16,
-      "rightText": "భీముడు, ఆంజనేయుడు"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "మందూ, ఇదీ!",
-      "rightNumber": 18,
-      "rightText": "మంత్రీ! లయంతో నీ ఆఫీసు"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "ఋణం నిప్పు కాదు, నీరు",
-      "rightNumber": 20,
-      "rightText": "గోరువంక"
-    },
-    {
-      "leftNumber": 2,
-      "leftText": "ఒకటైతే స్త్రీ, రెండైతే ప్స్!",
-      "rightNumber": 21,
-      "rightText": "దొరకడానికి పోతేకద? అక్కడే ఉంది స్వర్గం"
-    },
-    {
-      "leftNumber": 3,
-      "leftText": "నామాట, అదే అందరినోటా",
-      "rightNumber": 23,
-      "rightText": "ఇలాగా అల్లడం జడ"
-    },
-    {
-      "leftNumber": 4,
-      "leftText": "పలాయన వాదుల నినాదం",
-      "rightNumber": 24,
-      "rightText": "వెలితి 11 నిలువులో చూడు"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "అడుక్కోవడం అభినయించడానికా",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 6,
-      "leftText": "“కన్యాశుల్కం” లో ఒక ఇంటి పేరు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "సెలవియ్యండి, ఇలాంటి మాటలు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "ఈ ప్రొడ్యూసరుకి తల్లిలేదు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "నేటి వీడు రేపటి రేడు కావచ్చు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "నామవాచకం పదిలో రెండు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "విధి ఇదంటారు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "తాళం లేని తాళం",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "మాసకానితిథి",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "పూజారి మాత్రం ఇవ్వడు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "పిల్లికూన వెయ్యి రూపాయలు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "సంఘటనలు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "ఆహా",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 28,
-      "leftText": "నిజం మొదలు నీలుగు",
-      "rightNumber": null,
-      "rightText": null
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -247,7 +113,7 @@
       "text": "నిజం మొదలు నీలుగు"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 11,

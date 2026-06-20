@@ -1,99 +1,7 @@
 ﻿{
   "sheetName": "200543",
   "identity": "200543C",
-  "rows": [
-    {
-      "leftNumber": 4,
-      "leftText": "ఎడిటర్ చేసేది?",
-      "rightNumber": 1,
-      "rightText": "స్టీమరు"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "ఫుట్ బాల్ ఆట",
-      "rightNumber": 2,
-      "rightText": "రచనంలో పచనం"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "వినిపించేది",
-      "rightNumber": 3,
-      "rightText": "నగలేని నగదు ముమ్మారు"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "తల లేని అల",
-      "rightNumber": 4,
-      "rightText": "టెక్నిక్"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "ముఖం",
-      "rightNumber": 5,
-      "rightText": "సమూహం"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "పంచాది",
-      "rightNumber": 6,
-      "rightText": "- కవులు ముగ్గురు"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "- మనడం అంటే మరణం",
-      "rightNumber": 9,
-      "rightText": "1970వ దశాబ్దాన్ని ఇలా వర్ణించారు కొందరు విప్లవకవులు"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "ఖయ్యాం చెయ్యనిది",
-      "rightNumber": 10,
-      "rightText": "వాక్యం ఇదయితే కావ్యం"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "ఇసుక రసికుని గుణానికి శిరచ్ఛేదం",
-      "rightNumber": 12,
-      "rightText": "ఇందులో ఇది ఇక్కడే ఉంది"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "24 తిరిగిన రోజు",
-      "rightNumber": 15,
-      "rightText": "బహుదిన విపర్యాసం"
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "వడతో ఒక పాండవుడు",
-      "rightNumber": 17,
-      "rightText": "కొందరు వాడేది (కుత్తుక కోతకు)"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "చలి యిసుక",
-      "rightNumber": 19,
-      "rightText": "శతకకారుడు"
-    },
-    {
-      "leftNumber": 24,
-      "leftText": "ప్రధానం చేసేది",
-      "rightNumber": 20,
-      "rightText": "రుద్దు"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "అనుపమ సృష్టి. అదో చిత్రం",
-      "rightNumber": 22,
-      "rightText": "తలకిందైన ధరణి పాలకూర"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 23,
-      "rightText": "కలదు"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 4,
@@ -165,7 +73,7 @@
       "text": "అనుపమ సృష్టి. అదో చిత్రం"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

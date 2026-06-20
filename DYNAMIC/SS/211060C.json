@@ -1,123 +1,7 @@
 ﻿{
   "sheetName": "211060",
   "identity": "211060C",
-  "rows": [
-    {
-      "leftNumber": 3,
-      "leftText": "ఆ కెరటం",
-      "rightNumber": 1,
-      "rightText": "తాళ సప్తకంలో ఒకటి"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "వరూధిని వీణ దేనికి మేళం?",
-      "rightNumber": 2,
-      "rightText": "గ్రహంలో కుకని తల పెడితే భారతపాత్ర"
-    },
-    {
-      "leftNumber": 6,
-      "leftText": "కనరానిది కలిసి రావచ్చు.",
-      "rightNumber": 3,
-      "rightText": "ఎనమిది ముందర ఆద్యక్షరము"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "ఆకొన్న కంచెకు ఆహారం",
-      "rightNumber": 4,
-      "rightText": "మూడు మాత్రలు"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "అధమం",
-      "rightNumber": 5,
-      "rightText": "ఇది నేనన్నది"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "పాదితో పేలుతుంది",
-      "rightNumber": 7,
-      "rightText": "పడడం శ్రమ"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": null,
-      "rightNumber": 8,
-      "rightText": "భవుడు మన్మధుడు"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "జానకీ ఊర్మిళా",
-      "rightNumber": 10,
-      "rightText": "మధ్యమ పుష్టిలేని ఆస్థాన కవి"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "అమ్ము",
-      "rightNumber": 12,
-      "rightText": "ధ్వని విశేషం"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "అభినందనకీ, ఆప్యాయానికి",
-      "rightNumber": 14,
-      "rightText": "సారీ (బహువచనం)"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "అంటుకుంటే ప్రమాదం",
-      "rightNumber": 15,
-      "rightText": "ఆమ్రేడిస్తే సభలో కేకలు"
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "అటు వైపునుంచి వచ్చేది",
-      "rightNumber": 17,
-      "rightText": "నక్క అతిధి"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "మాయించడం మంచిది కాదు",
-      "rightNumber": 18,
-      "rightText": "ఎలక్షన్ల తుది ఘట్టం?"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "రేడు రేరాజు",
-      "rightNumber": 20,
-      "rightText": "బ్రాహ్మణి"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "చూ. 13",
-      "rightNumber": 21,
-      "rightText": "రత్నాలుకూడా ఇవే"
-    },
-    {
-      "leftNumber": 26,
-      "leftText": "మనసొంతం (తలకిందులు)",
-      "rightNumber": 23,
-      "rightText": "కూర్మ"
-    },
-    {
-      "leftNumber": 28,
-      "leftText": "కొండజాతి",
-      "rightNumber": 24,
-      "rightText": "గరువ మారితే ఆరింట ఒకటి"
-    },
-    {
-      "leftNumber": 30,
-      "leftText": "వినాయకుడు",
-      "rightNumber": 27,
-      "rightText": "కార్యశూరులు కట్టేది"
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "న - - రమ్మంటారు",
-      "rightNumber": 29,
-      "rightText": "ప్రాప్తించు"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 3,
@@ -214,7 +98,7 @@
       "text": "న - - రమ్మంటారు"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

@@ -1,93 +1,7 @@
 ﻿{
   "sheetName": "170606",
   "identity": "170606C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "తూర్పునుండి పడమరకు చూస్తే సహవాసాల దోషమని తెలుస్తుంది.",
-      "rightNumber": 1,
-      "rightText": "జావళి ప్రారంభం ... నిలయమునకు రమ"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "గ్రీకు అక్షరం. తెలుగయితే మీద?",
-      "rightNumber": 2,
-      "rightText": "ఇదో మలేరియా తెచ్చే ప్రాణి"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "భైరవయ్య కావ్యం",
-      "rightNumber": 3,
-      "rightText": "ఆరు – కథలు చెప్పాడు రావిశాస్త్రి"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "ఆరుకు అధ్యక్షుడు",
-      "rightNumber": 4,
-      "rightText": "సంగీత సర్వస్వం"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "తెలుగు సినీహీరో “చిరు”నామా!",
-      "rightNumber": 6,
-      "rightText": "ప్రాచీనారణ్యంలో నవీన దేశం"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "రెండుకు ప్రాస! మృత్యువును జయించేదంటారు.",
-      "rightNumber": 9,
-      "rightText": "అరణ్యం! దేవభాషలో కాదు, తెలుగులో!"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "మహర్షులు పెంచుకొనేది; ఆడపిల్లలు అల్లుకునేది",
-      "rightNumber": 10,
-      "rightText": "ఎవరన్నారు దేశభాషలందు తెలుగు లెస్స"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "కన్నడంలో సున్నా! ఇటీవల తెలుగు కవిత్వంలో కూడా ఇది శూన్యం.",
-      "rightNumber": 16,
-      "rightText": "నది"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "హుతభుక్కు - వధూవల్లభుడు. అందుకే వల్లభులనే బహువచనం చేయకూడదు.",
-      "rightNumber": 20,
-      "rightText": "చంద్రుణ్ణి తవ్వింది పదిహేడు"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "నియమాలు (ఎంతమంది పాటిస్తున్నారు?)",
-      "rightNumber": 21,
-      "rightText": "నిత్య బహువచనం, పాపా!"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "పో",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "చెయ్యి విభక్తి ప్రత్యయం",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "అక్షర మధ్యం ఆఖరిది",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "మూడు మాటలు, ముమ్మాటికి మొగుళ్ళు.",
-      "rightNumber": null,
-      "rightText": null
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -159,7 +73,7 @@
       "text": "మూడు మాటలు, ముమ్మాటికి మొగుళ్ళు."
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

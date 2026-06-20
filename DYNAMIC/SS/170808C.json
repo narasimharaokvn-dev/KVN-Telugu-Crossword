@@ -1,75 +1,7 @@
 ﻿{
   "sheetName": "170808",
   "identity": "170808C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "క్రికెట్లోకాలికి బుద్ధిచెప్పడాలు కాబోలు!",
-      "rightNumber": 1,
-      "rightText": "71 తిరగెయ్యాలి"
-    },
-    {
-      "leftNumber": 3,
-      "leftText": "లక్ష్మీపతి కవిసార్వభౌముడు.",
-      "rightNumber": 2,
-      "rightText": "20 తల. దేవుడి యిల్లు."
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "32లో కామి లేడు; భూమి తిరగబడింది.",
-      "rightNumber": 4,
-      "rightText": "బొడ్డులో విషం?"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "కొమ్ముల్లేని కులుకు కోపానిక్కారణం.",
-      "rightNumber": 5,
-      "rightText": "ప్రథమా విభక్తి."
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "చదరంగంలో నాలుగో వంతు.",
-      "rightNumber": 6,
-      "rightText": "మన కవితా పితామహుణ్ణి వికటకవి ఇలా పిలిచాడు."
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "గౌతమబుద్దుని మహాప్రస్థానం.",
-      "rightNumber": 10,
-      "rightText": "ఇదో ఎడారి"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "క్షయకి సూచన.",
-      "rightNumber": 11,
-      "rightText": "ఆంతా మరణించడంలో ఉండి నీళ్ళల్లో ఉంటుంది."
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "సంపద విశాఖపట్టణంలో దొరకొచ్చు.",
-      "rightNumber": 13,
-      "rightText": "ప్రజానాట్యమండలి వారి నాటకం (మొదట ప్రశ్నించు!)"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "తిరగబడే గగనంలో పక్షి",
-      "rightNumber": 14,
-      "rightText": "ఏమిట? గమనంలో తిరిగి చూడు మగతనానికి."
-    },
-    {
-      "leftNumber": 20,
-      "leftText": "రమణాస్థాన్ మహర్షి ఇంటి పేరు.",
-      "rightNumber": 18,
-      "rightText": "సూలకాయుణ్ణి దీనితో పోలుస్తారు."
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "(మిలనేకా)మారువేషంలో ఒక రాక్షసుడు.",
-      "rightNumber": 19,
-      "rightText": "సగం ఇవతల సగం ఆవతల"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -126,7 +58,7 @@
       "text": "(మిలనేకా)మారువేషంలో ఒక రాక్షసుడు."
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

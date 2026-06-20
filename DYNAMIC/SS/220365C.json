@@ -1,117 +1,7 @@
 ﻿{
   "sheetName": "220365",
   "identity": "220365C",
-  "rows": [
-    {
-      "leftNumber": 5,
-      "leftText": "ఆదివారానికి సోమవారం",
-      "rightNumber": 1,
-      "rightText": "చిన్నదైనా శుభసూచకం!"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "రక్షణ",
-      "rightNumber": 2,
-      "rightText": "మిక్కిలి"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "మధ్య",
-      "rightNumber": 3,
-      "rightText": "ప్రచార సాధనం"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "సాగు",
-      "rightNumber": 4,
-      "rightText": "బానిసలా, సినిమాలా కోరేది"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "పన్నీరు - అంటారు గులాబిని",
-      "rightNumber": 6,
-      "rightText": "నిదానించడానికి"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "మధుర దైవం",
-      "rightNumber": 8,
-      "rightText": "కావాలి కంటికి, ఇంటికి!"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "తలతిరుగుడు రచయిత్రి",
-      "rightNumber": 10,
-      "rightText": "రోదసీయాత్ర చేసింది"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "స్నానానికి సబ్బు",
-      "rightNumber": 12,
-      "rightText": "గురజాడ బొమ్మ"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "సూరకవిది సుత్తి పెట్టు",
-      "rightNumber": 13,
-      "rightText": "విచారం"
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "ఒక వ్యాపార కేంద్రం",
-      "rightNumber": 14,
-      "rightText": "చెట్టు"
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "మనం ఉంటున్నది",
-      "rightNumber": 16,
-      "rightText": "లోహవిశేషం"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "రుచి విశేషం",
-      "rightNumber": 20,
-      "rightText": "ఒకరకం భూమి. దాన్ని అక్రమంగా ఆక్రమించేవాడు!"
-    },
-    {
-      "leftNumber": 24,
-      "leftText": "నిరంకుశ పరిపాలనలో అక్రమం",
-      "rightNumber": 22,
-      "rightText": "సగం ఋతువు"
-    },
-    {
-      "leftNumber": 26,
-      "leftText": "సంధ్యారాగం",
-      "rightNumber": 23,
-      "rightText": "ఇవి కాలుటకా? చెడిపోయి మారుటకా?"
-    },
-    {
-      "leftNumber": 27,
-      "leftText": "బహుశా",
-      "rightNumber": 25,
-      "rightText": "పలుకులలో తిరిగిన లోయ"
-    },
-    {
-      "leftNumber": 29,
-      "leftText": "దీనిలోనే తెలుగుతనం ఉంది.",
-      "rightNumber": 26,
-      "rightText": "ఎడారిలో ఒంటె"
-    },
-    {
-      "leftNumber": 30,
-      "leftText": "ఉభయులకు మిత్రుడైన కవి.",
-      "rightNumber": 28,
-      "rightText": "తిరగేసి ఆరగించు"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 29,
-      "rightText": "ఒట్టు ఆజ్ఞ"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 5,
@@ -198,7 +88,7 @@
       "text": "ఉభయులకు మిత్రుడైన కవి."
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

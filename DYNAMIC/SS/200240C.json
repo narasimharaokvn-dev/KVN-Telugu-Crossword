@@ -1,117 +1,7 @@
 ﻿{
   "sheetName": "200240",
   "identity": "200240C",
-  "rows": [
-    {
-      "leftNumber": 4,
-      "leftText": "అష్టావధానికి పరీక్ష",
-      "rightNumber": 1,
-      "rightText": "నమస్కారం"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "వాద్యం (కృష్ణ కర్ణామృతానికి)",
-      "rightNumber": 2,
-      "rightText": "జలాశయం"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "వంశానుక్రమం",
-      "rightNumber": 3,
-      "rightText": "వాడు చెప్పేది నమ్మకు"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "ఒక దిక్కులో సగం",
-      "rightNumber": 4,
-      "rightText": "వృక్ష విశేషం"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "12 నిలువు కలగలుపు",
-      "rightNumber": 5,
-      "rightText": "తలకొట్టి తలకిందులు చేసి దీవిస్తా"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "శత్రువులు రోదించితే నియమాలు",
-      "rightNumber": 6,
-      "rightText": "రెమ్మలు"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "పూలచెట్టు",
-      "rightNumber": 9,
-      "rightText": "శూద్రకుని సృష్టి"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "అలంకరణ",
-      "rightNumber": 10,
-      "rightText": "తేనెటీగ"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "ఇదో విద్య",
-      "rightNumber": 12,
-      "rightText": "శృంఖలాలు"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "వర్షం వత్సరం కాదు",
-      "rightNumber": 15,
-      "rightText": "భట్రాజుల ప్రత్యేకత"
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "శరీరభాగం",
-      "rightNumber": 17,
-      "rightText": "తరంగిణి కలగలపు"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 19,
-      "rightText": "స్నిగ్ధత"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 22,
-      "rightText": "కవచము"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 20,
-      "rightText": "శిరోభాగం"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 24,
-      "rightText": "మాజీ మంత్రిగారి ఇంటి పేరు"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 22,
-      "rightText": "ఒక్కొక్కరికి"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 25,
-      "rightText": "ఇదిప్పుడు కాదు"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 23,
-      "rightText": "నడుం జారిన ముగ్గురు"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 4,
@@ -168,7 +58,7 @@
       "text": "శరీరభాగం"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

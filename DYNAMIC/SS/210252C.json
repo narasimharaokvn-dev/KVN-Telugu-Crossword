@@ -1,123 +1,7 @@
 ﻿{
   "sheetName": "210252",
   "identity": "210252C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "పశుగ్రాసపు క్రియావాచకం",
-      "rightNumber": 1,
-      "rightText": "వీటితో పెళ్ళిళ్ళు 2. ఒక పత్రిక"
-    },
-    {
-      "leftNumber": 3,
-      "leftText": "కొందరికి గొర్రెల మంద",
-      "rightNumber": 3,
-      "rightText": "కొలత"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "నల్లసూటు",
-      "rightNumber": 4,
-      "rightText": "తలలేని భజన"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "హిందీ చిత్రానికి తెలుగు మూలం",
-      "rightNumber": 5,
-      "rightText": "నడుంలేని పువ్వు"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "ఆ ఆయితే ఆటు, ఈ అయితే ఇటు",
-      "rightNumber": 6,
-      "rightText": "ఒంటికి వచ్చేది"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "సినిమా తార",
-      "rightNumber": 7,
-      "rightText": "కన్నడానికి లేదు"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "కొత్త ఆయితే",
-      "rightNumber": 8,
-      "rightText": "18 నిలువులో రెండో సగం"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "తేలు విషం ఇక్కడే",
-      "rightNumber": 11,
-      "rightText": "ఈ యుగానికి చిహ్నం"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "గడ్డిలోనే ఇది 16. ధనం అబద్ధం",
-      "rightNumber": 14,
-      "rightText": "జిల్లా తిరిగితే నిద్ర"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "తెలుగుకి చివర, ఇంగ్లీషుకి మధ్య",
-      "rightNumber": 15,
-      "rightText": "మంత్రం, బంధం"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "18 నిలువులో సగం",
-      "rightNumber": 18,
-      "rightText": "చాలా మంది జిహ్వలకి సహజమే"
-    },
-    {
-      "leftNumber": 20,
-      "leftText": "ఆ, ఈ ఏ",
-      "rightNumber": 19,
-      "rightText": "ఉంటే రాయచ్చు"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "పాము యొక్క బిడ్డ",
-      "rightNumber": 21,
-      "rightText": "కుట్టొచ్చు. జాగ్రత్త"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "శివాజీ?",
-      "rightNumber": 22,
-      "rightText": "సాల"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "ఆటీలేని దీపం సాక్షాత్తు స్వర్గమే",
-      "rightNumber": 23,
-      "rightText": "ప్రవాళంలో ఒకటికన్న ఎక్కువ భాషలు"
-    },
-    {
-      "leftNumber": 27,
-      "leftText": "పాడితే వినాలని వుండదూ?",
-      "rightNumber": 24,
-      "rightText": "తాత్పర్యం దీని తర్వాత"
-    },
-    {
-      "leftNumber": 29,
-      "leftText": "ఒక వృత్తికారుడు 31. తమిళనాడులో ఇది లేదు",
-      "rightNumber": 26,
-      "rightText": "వొదులు"
-    },
-    {
-      "leftNumber": 32,
-      "leftText": "ఆమ్రేడిస్తే కాంతి",
-      "rightNumber": 28,
-      "rightText": "అతగాడి ఫ్యాషన్"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 30,
-      "rightText": "ఒక చెట్టు (తల కిందులు)"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -209,7 +93,7 @@
       "text": "ఆమ్రేడిస్తే కాంతి"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

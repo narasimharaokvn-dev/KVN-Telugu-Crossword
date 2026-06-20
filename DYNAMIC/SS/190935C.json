@@ -1,123 +1,7 @@
 ﻿{
   "sheetName": "190935",
   "identity": "190935C",
-  "rows": [
-    {
-      "leftNumber": 4,
-      "leftText": "మర్యాదకాదు",
-      "rightNumber": 1,
-      "rightText": "నవాబులకు కానుక"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "శ్రీరంగంలో శ్రీరంగనాథుడు",
-      "rightNumber": 2,
-      "rightText": "కచేరీలో రాగం తర్వాత"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "పోకముందు",
-      "rightNumber": 3,
-      "rightText": "66 33"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "చవకైనది నీతి",
-      "rightNumber": 4,
-      "rightText": "తిథి"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "పృథివీపతిని ఇలా అంటారు.",
-      "rightNumber": 5,
-      "rightText": "తిరు\n' పక్షికి కలిగిన పాట్లు"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "గౌరీకి గంగ",
-      "rightNumber": 6,
-      "rightText": "భారతంలో ఒక స్త్రీ"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "దంచడానికి డబ్బుతో చూస్తాయి",
-      "rightNumber": 9,
-      "rightText": "శతక కారుడు."
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "వాయ",
-      "rightNumber": 10,
-      "rightText": "శృంగారాదులు"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "వ్యక్తి ఆ దేవుడు",
-      "rightNumber": 12,
-      "rightText": "ఇతగాడు కాడు నీరు కాకి"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "ఉభయచరం",
-      "rightNumber": 15,
-      "rightText": "చాంచల్యం"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 17,
-      "rightText": "మిక్కటము అనికూడా అనవచ్చును"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 19,
-      "rightText": "అశ్వగతి విశేషం"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 21,
-      "rightText": "సమాసంలో వెలితి"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 22,
-      "rightText": "మంత్రులు తరుచు చేసేది"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 20,
-      "rightText": "పలు ముమ్మారు"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 24,
-      "rightText": "ఆలోచించడు"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 25,
-      "rightText": "ఇంటికన్న గుడి"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 22,
-      "rightText": "లత కాని లత"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 23,
-      "rightText": "తెలిసిన దిక్కులో ప్రవహిస్తుంది."
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 4,
@@ -169,7 +53,7 @@
       "text": "ఉభయచరం"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

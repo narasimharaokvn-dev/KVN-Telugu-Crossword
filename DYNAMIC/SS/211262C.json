@@ -1,129 +1,7 @@
 ﻿{
   "sheetName": "211262",
   "identity": "211262C",
-  "rows": [
-    {
-      "leftNumber": 3,
-      "leftText": "బకాసురిడిది వేరు",
-      "rightNumber": 1,
-      "rightText": "తమ్మకంటి"
-    },
-    {
-      "leftNumber": 6,
-      "leftText": "బొంగరం తిరుగుడు",
-      "rightNumber": 2,
-      "rightText": "ఎవరో గిరిగీస్తే"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "అల్లాగా?",
-      "rightNumber": 3,
-      "rightText": "11 రేడియో ఫీచర్"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "పువ్వుల్లో పువ్వు",
-      "rightNumber": 4,
-      "rightText": "అర్ధం అసంపూర్ణం"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "శ్రోతలకు మనవి",
-      "rightNumber": 5,
-      "rightText": "2 తిరుగుబాటు"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "కాదంటే అన్యాయం",
-      "rightNumber": 6,
-      "rightText": "గౌతముడికి బుద్ధి చెప్పింది"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "ఉనికి చిటికెడు సేపు",
-      "rightNumber": 7,
-      "rightText": "అని"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "దీర్ఘాక్షరాలు",
-      "rightNumber": 8,
-      "rightText": "వైద్యుడు నిదానించేది"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "క...క...క... (భాష)",
-      "rightNumber": 11,
-      "rightText": "చూడు 3"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "పాతనాణెం",
-      "rightNumber": 14,
-      "rightText": "ఆరగింపు"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "5 పదిచెయ్యడం",
-      "rightNumber": 15,
-      "rightText": "విద్యలకు విజయనగరం"
-    },
-    {
-      "leftNumber": 20,
-      "leftText": "ఒకదేశ",
-      "rightNumber": 18,
-      "rightText": "కవికాని దండి"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "17 కన్నా పాతనాణెం",
-      "rightNumber": 19,
-      "rightText": "చెవులకు సంగీతం"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "గద్దెనెక్కినా పాలించలేదు.",
-      "rightNumber": 21,
-      "rightText": "జ్యోతిబాసు గణితం"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "కొనడం ఆకర్షించడం",
-      "rightNumber": 22,
-      "rightText": "వసంతంలో చిగురిస్తుంది."
-    },
-    {
-      "leftNumber": 27,
-      "leftText": "బ్రహ్మచర్యము",
-      "rightNumber": 23,
-      "rightText": "వాయుభోక్త"
-    },
-    {
-      "leftNumber": 29,
-      "leftText": "రెండు పిల్లులకు ఒక కోతి",
-      "rightNumber": 24,
-      "rightText": "చేరేది కంచి"
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "చీకటిలో కనబడుతుంది",
-      "rightNumber": 6,
-      "rightText": "లక్ష"
-    },
-    {
-      "leftNumber": 32,
-      "leftText": "హద్దు (సరి చేరినా చేరకున్నా)",
-      "rightNumber": 28,
-      "rightText": "మిత్రభేదంలో ముఖ్యపాత్ర"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 30,
-      "rightText": "కాడు సేనాధిపతి"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 3,
@@ -220,7 +98,7 @@
       "text": "హద్దు (సరి చేరినా చేరకున్నా)"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

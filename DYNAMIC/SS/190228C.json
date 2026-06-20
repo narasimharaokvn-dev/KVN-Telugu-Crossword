@@ -1,105 +1,7 @@
 ﻿{
   "sheetName": "190228",
   "identity": "190228C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "__అంటే మనమే!",
-      "rightNumber": 2,
-      "rightText": "కాదు (పువ్వు కాదు"
-    },
-    {
-      "leftNumber": 4,
-      "leftText": "విప్లవాల తల్లి",
-      "rightNumber": 3,
-      "rightText": "ఒకటి కంటే రెండు నయం"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "ఈమె అగ్ని ప్రవేశం ఒక కావ్యవస్తువు",
-      "rightNumber": 4,
-      "rightText": "ఒక రాగం"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "పొడి పొడిగా నవ సమాజం!",
-      "rightNumber": 5,
-      "rightText": "చెవికి అలంకారం"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "మునితో సాయంత్రం",
-      "rightNumber": 6,
-      "rightText": "వేదాలలో చెట్టు"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "ఇది లేని ప్రపంచం ఎప్పుడో?",
-      "rightNumber": 8,
-      "rightText": "మన దేశంలో రాష్ట్రం"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "సృష్టిలో తీయనిది",
-      "rightNumber": 10,
-      "rightText": "వక్త్ కా వజీర్? ఒక యింటి పేరు"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "రాత్రి లేదా త్రిరా",
-      "rightNumber": 11,
-      "rightText": "మృకండుసూ"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "ఒక సినీగేయం మొదలు (చివర పొల్లు అక్షరం వదిలి)",
-      "rightNumber": 13,
-      "rightText": "you know కాదు యూ నో"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "గ్రాంధిక లో చేస్తుంది",
-      "rightNumber": 16,
-      "rightText": "అణాలో భాగం"
-    },
-    {
-      "leftNumber": 1,
-      "leftText": "అగి",
-      "rightNumber": 18,
-      "rightText": "చెప్పు"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "వాడు వీడు కావాలంటే వావీ వెళ్ళిపో",
-      "rightNumber": 20,
-      "rightText": "కోటవాకిలి"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "సాహిత్య సంస్థలో పోతేనేమి!",
-      "rightNumber": 21,
-      "rightText": "మూలధనం బురదేనా"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "సాము",
-      "rightNumber": 23,
-      "rightText": "చేసేది కోతి"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 24,
-      "rightText": "ఈ దానం తలా పిడికెడు"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 26,
-      "rightText": "దున్నపోతు"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -171,7 +73,7 @@
       "text": "సాము"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 2,

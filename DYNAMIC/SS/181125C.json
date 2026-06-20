@@ -1,117 +1,7 @@
 ﻿{
   "sheetName": "181125",
   "identity": "181125C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "నీటిలో పుట్టిన పువ్వు",
-      "rightNumber": 1,
-      "rightText": "పాముకాని పాము"
-    },
-    {
-      "leftNumber": 4,
-      "leftText": "ఈ చిలక నిజంగా చిలకకాదు",
-      "rightNumber": 2,
-      "rightText": "ముఖ్యమైనవి 27"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "ఈ దోసకాయకి జిత్తులు తెలియవు",
-      "rightNumber": 3,
-      "rightText": "తీగవాద్యం"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "ఈ వారం ఏడిటిలో ఒకటి",
-      "rightNumber": 5,
-      "rightText": "అమ్మనాయనే!"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "పొడుగులుకావు, ఒడ్డులు కలది",
-      "rightNumber": 6,
-      "rightText": "పది మిల్లియన్లు"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "పంచుకోవడంలో భాగం",
-      "rightNumber": 7,
-      "rightText": "పాండవుల్లో సహదేవుడు"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "ఈ చిలక నిజంగా చిలకే",
-      "rightNumber": 10,
-      "rightText": "నరం కొలిమితిత్తి"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "అర్హుడు కాడు",
-      "rightNumber": 14,
-      "rightText": "కొలమానం, సగమానిక"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "నీవీ, నావీ",
-      "rightNumber": 15,
-      "rightText": "సరిహద్దు"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "అర్జునుడు",
-      "rightNumber": 16,
-      "rightText": "యంత్రం తిరగబడ్డ లక్ష్మీ"
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "ఒకజాతి పక్షి",
-      "rightNumber": 17,
-      "rightText": "కాళ్ళకి పని చెప్పు"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "కాబట్టి అరణ్యం",
-      "rightNumber": 19,
-      "rightText": "చప్పుడు నములుతున్నప్పుడు"
-    },
-    {
-      "leftNumber": 24,
-      "leftText": "భార్య",
-      "rightNumber": 20,
-      "rightText": "ఉక్కు ఫ్యాక్టరీ ఉంది"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "ఒక వటవృక్షంలో పెద్దకొమ్మ",
-      "rightNumber": 21,
-      "rightText": "పేదవాళ్ళ పాయసం"
-    },
-    {
-      "leftNumber": 28,
-      "leftText": "మద్దెలతో మొర పెట్టింది",
-      "rightNumber": 23,
-      "rightText": "కాలం"
-    },
-    {
-      "leftNumber": 29,
-      "leftText": "లక్షలో, సేరులో ఒకభాగం",
-      "rightNumber": 24,
-      "rightText": "సినీదర్శకుడు, విష్ణుభక్తుడు"
-    },
-    {
-      "leftNumber": 30,
-      "leftText": "నల్లి",
-      "rightNumber": 26,
-      "rightText": "ఇతడేమీ నోరులేనివాడుకాడు"
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "కోనేరు",
-      "rightNumber": 27,
-      "rightText": "ఇది కట్టాలని ఎవరూ కోరరు"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -203,7 +93,7 @@
       "text": "కోనేరు"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

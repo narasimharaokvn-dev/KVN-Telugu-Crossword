@@ -1,99 +1,7 @@
 ﻿{
   "sheetName": "191238",
   "identity": "191238C",
-  "rows": [
-    {
-      "leftNumber": 4,
-      "leftText": "బహువచనంలో బాధలు",
-      "rightNumber": 1,
-      "rightText": "వాయవ్యాస్త్రం"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "ఆరోజుల్లో ఇదీ ఒక పజిలే!",
-      "rightNumber": 2,
-      "rightText": "కీలెరిగి పెట్టేది"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "తులాభారం",
-      "rightNumber": 3,
-      "rightText": "కుక్కకి మనిషిమీద, ఆస్తికులకు దేవుని మీద"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "అగ్గికి ఆచూకి",
-      "rightNumber": 4,
-      "rightText": "జాస్తి"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "అప్పుడప్పుడువడకుతుంది",
-      "rightNumber": 5,
-      "rightText": "విషం"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "నలుపు",
-      "rightNumber": 6,
-      "rightText": "పల్లెటూళ్ళలో దొరుకుతుంది"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "కవి నక్షత్రం",
-      "rightNumber": 9,
-      "rightText": "జబర్దస్తీకి కావాలి"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "అశ్వధాటి",
-      "rightNumber": 10,
-      "rightText": "ఉదాహరణకి కురుక్షేత్రం"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "జలం ధరిత్రి",
-      "rightNumber": 12,
-      "rightText": "మొల్లం కావాలన్నాడు అల్లసాని"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "రాకపోవడం అమ్మాయి పేరు",
-      "rightNumber": 15,
-      "rightText": "స్త్రీ"
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "పిడిలో ధాన్యాదులను రాల్చడం",
-      "rightNumber": 17,
-      "rightText": "ఊరిపేరు, ఇంటిపేరు"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "తిరుపతి పంచశిఖలలో దిగువది (చూ. కృష్ణశాస్త్రి\nవేమన శతకం)",
-      "rightNumber": 19,
-      "rightText": "బెనెగల్ పాత్ర"
-    },
-    {
-      "leftNumber": 24,
-      "leftText": "చిన్న కుంపటి",
-      "rightNumber": 20,
-      "rightText": "ముక్కిడి"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "కవితకి, కడగడానికీ",
-      "rightNumber": 22,
-      "rightText": "సంతో సంతానం"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 23,
-      "rightText": "కొరగానితనానికి ఉపమానం"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 4,
@@ -165,7 +73,7 @@
       "text": "కవితకి, కడగడానికీ"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

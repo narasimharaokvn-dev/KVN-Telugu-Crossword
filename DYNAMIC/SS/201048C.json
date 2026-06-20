@@ -1,129 +1,7 @@
 ﻿{
   "sheetName": "201048",
   "identity": "201048C",
-  "rows": [
-    {
-      "leftNumber": "19,38",
-      "leftText": "ఈయింపు సహించలేం",
-      "rightNumber": 1,
-      "rightText": "చెట్టు ఇది కాదు"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "కర్ణుడీల్గె (ఆర్గురిలో ఇద్దరిచేత)",
-      "rightNumber": 2,
-      "rightText": "లేకుంటే"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "శుంఠకి తండ్రి?",
-      "rightNumber": 3,
-      "rightText": "సందడి సమయంలో విభజించేది"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "పాత వర్ణన\nవర్గం",
-      "rightNumber": 4,
-      "rightText": "పూర్వాశ్రమంలో ఫౌంటెన్"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "రాయి గీయబడుతుంది",
-      "rightNumber": 5,
-      "rightText": "ఫిడేలు విద్వాంసుడు"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "ఒక దేవుడి వాహనం",
-      "rightNumber": 6,
-      "rightText": "జలచరం"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "ఒక దేవుడి ఆయుధం",
-      "rightNumber": 7,
-      "rightText": "ఆజ్ఞ"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "మాట వినబడుతుంది",
-      "rightNumber": 8,
-      "rightText": "రాలు"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "నేనంటే 5",
-      "rightNumber": 11,
-      "rightText": "వాలు చక్రాయుధం"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "K.K.K.",
-      "rightNumber": 14,
-      "rightText": "ఏనుగు లుండేవి?"
-    },
-    {
-      "leftNumber": 20,
-      "leftText": "బ్రదుకు",
-      "rightNumber": 15,
-      "rightText": "ఆంజనేయస్వామి"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "ఒక రంగు",
-      "rightNumber": 18,
-      "rightText": "శివక్షేత్రము"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "ఎక్కడ చుక్కలు? ఎక్కడ సూర్య చంద్రులు?",
-      "rightNumber": 19,
-      "rightText": "సినీ మాంతం"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "దండయాత్ర తిరుగుబాటు",
-      "rightNumber": 21,
-      "rightText": "పదబంధం"
-    },
-    {
-      "leftNumber": 27,
-      "leftText": "ఎమర్జెన్సీలో నోళ్ళకు",
-      "rightNumber": 22,
-      "rightText": "ఇందులో దిగవద్దు"
-    },
-    {
-      "leftNumber": 29,
-      "leftText": "ఆహారం --గా వుండాలి.",
-      "rightNumber": 23,
-      "rightText": "ఈడు చక్రవర్తి"
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "అసత్యం",
-      "rightNumber": 24,
-      "rightText": "సస్యం"
-    },
-    {
-      "leftNumber": 32,
-      "leftText": "ఈ కవిత్వం భట్రాజులు చెప్పరు.",
-      "rightNumber": 26,
-      "rightText": "సూదితోనే"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 28,
-      "rightText": "సమీపించి"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 30,
-      "rightText": "జ్ఞానం"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": "19,38",
@@ -215,7 +93,7 @@
       "text": "ఈ కవిత్వం భట్రాజులు చెప్పరు."
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

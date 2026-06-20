@@ -1,129 +1,7 @@
 ﻿{
   "sheetName": "170202",
   "identity": "170202C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "రేడియోలో తిరుగు టపా",
-      "rightNumber": 1,
-      "rightText": "తలకిందులైన కమ్యూనిస్టు పార్టీ ఇందులోనే బతకాలి"
-    },
-    {
-      "leftNumber": 2,
-      "leftText": "భూమి ఖరీదు",
-      "rightNumber": 3,
-      "rightText": "ఎప్పుడూ మీదనే ఉంటాడు"
-    },
-    {
-      "leftNumber": 4,
-      "leftText": "నోరులేని గుంపు",
-      "rightNumber": 4,
-      "rightText": "మీదకు చూడు, కనబడుతుంది"
-    },
-    {
-      "leftNumber": 6,
-      "leftText": "కవిత్వం మధ్య నునుపులు మొదలెట్టి ఆకర్ణించు",
-      "rightNumber": 5,
-      "rightText": "“__దంపుడు” అని కొన్ని ఉపన్యాసాలను వర్ణించవచ్చు"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "అనడు, కనడు, వినడు, ఆకవి లేడు, పో!",
-      "rightNumber": 7,
-      "rightText": "దీనికోసం నిఘంటువుల్లో వెతుక్కో"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "ఇదో మంట, రోకలి మింగితే చల్లారదు",
-      "rightNumber": 8,
-      "rightText": "26 తిరగేసి ఇది కలిపితే మందహాసం"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "చెడిపోయిన ఊళ్ళలో వ్యాపారకేంద్రం",
-      "rightNumber": 9,
-      "rightText": "జనసంఘీయుల దేవత, పాలిస్తుంది, వొట్టిపోకుంటే"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "తత్త్వమసిలో ఉన్నావు",
-      "rightNumber": 10,
-      "rightText": "శిలలమీద మనిషి, నుదుటి మీద దేవుడు రాసేది."
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "అన్ని పితలాటకాలకీ నాన్న ముందుంటాడు",
-      "rightNumber": 12,
-      "rightText": "వంటింట్లోనూ, వాటికన్ లోనూ"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "“అమెరికా కాగితం _\" అన్నాడు మావో",
-      "rightNumber": 13,
-      "rightText": "ఇదో రంగు నీ లిమఋక్కుల ప్రారంభం"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "తల తిరిగిన తీగ",
-      "rightNumber": 15,
-      "rightText": "తల పుచ్చిపోతే ఇది ప్రారంభమౌతుందా?"
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "డుకారం చేరిస్తే పెనిమిటి కాగలడు",
-      "rightNumber": 18,
-      "rightText": "దీర్ఘాంత ద్విరేఫధ్వని ఒక ఆహ్వానం"
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "తప్పకుండా వస్తుంది",
-      "rightNumber": 20,
-      "rightText": "అదృష్టం, అతి గర్వంలో వెనకనుంచి"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "కనుదెరచి చూడరా శిష్యా ! కనబడుతుంది చక్రం",
-      "rightNumber": 21,
-      "rightText": "పండు"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "గురుతిడని చోట వెనక్కి చూసి పరిభ్రమించు",
-      "rightNumber": 22,
-      "rightText": "ఎవరివి నువ్వు? తిరిగేసి వెదుక్కోవూ!"
-    },
-    {
-      "leftNumber": 27,
-      "leftText": "ఇంటికి వింటికి కావాలి",
-      "rightNumber": 24,
-      "rightText": "తొడలొలిచిచ్చిన దాత శత్రుశిబిరంలో దాగున్నాడు"
-    },
-    {
-      "leftNumber": 28,
-      "leftText": "వాచీలో వెతుకు “వెంట్రుక _”",
-      "rightNumber": 26,
-      "rightText": "8 నిలువు చూడు"
-    },
-    {
-      "leftNumber": 30,
-      "leftText": "ఆతడిలో చెమ్మ",
-      "rightNumber": 27,
-      "rightText": "రోగనిదానానికి డాక్టర్లు ముందుగా చూసేది"
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "చుక్కకి ప్రాస ఇదే, పర్యాయపదం ఇదే",
-      "rightNumber": 29,
-      "rightText": "రెండు స్వరాలు చాలు"
-    },
-    {
-      "leftNumber": 32,
-      "leftText": "పరుపుకింద రక్తపిపాసి",
-      "rightNumber": 30,
-      "rightText": "కతలల్లి కల కరిగితే అమ్మ"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -225,7 +103,7 @@
       "text": "పరుపుకింద రక్తపిపాసి"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

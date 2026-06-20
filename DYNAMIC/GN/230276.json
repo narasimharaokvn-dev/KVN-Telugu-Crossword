@@ -1,0 +1,456 @@
+{
+  "image": "230276.png",
+  "gridSize": 15,
+  "numbers": [
+    {
+      "number": 1,
+      "row": 1,
+      "col": 1,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 2,
+      "row": 1,
+      "col": 3,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 3,
+      "row": 1,
+      "col": 6,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 4,
+      "row": 1,
+      "col": 9,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 5,
+      "row": 1,
+      "col": 10,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 6,
+      "row": 1,
+      "col": 13,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 7,
+      "row": 1,
+      "col": 15,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 8,
+      "row": 2,
+      "col": 3,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 9,
+      "row": 2,
+      "col": 5,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 10,
+      "row": 2,
+      "col": 8,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 11,
+      "row": 2,
+      "col": 12,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 12,
+      "row": 3,
+      "col": 5,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 13,
+      "row": 3,
+      "col": 8,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 14,
+      "row": 4,
+      "col": 2,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 15,
+      "row": 4,
+      "col": 7,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 16,
+      "row": 4,
+      "col": 11,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 17,
+      "row": 4,
+      "col": 14,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 18,
+      "row": 5,
+      "col": 1,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 19,
+      "row": 5,
+      "col": 10,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 20,
+      "row": 5,
+      "col": 12,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 21,
+      "row": 5,
+      "col": 14,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 22,
+      "row": 6,
+      "col": 1,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 23,
+      "row": 6,
+      "col": 3,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 24,
+      "row": 6,
+      "col": 6,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 25,
+      "row": 6,
+      "col": 8,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 26,
+      "row": 6,
+      "col": 9,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 27,
+      "row": 6,
+      "col": 11,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 28,
+      "row": 6,
+      "col": 13,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 29,
+      "row": 7,
+      "col": 8,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 30,
+      "row": 7,
+      "col": 12,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 31,
+      "row": 8,
+      "col": 3,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 32,
+      "row": 8,
+      "col": 4,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 33,
+      "row": 8,
+      "col": 7,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 34,
+      "row": 8,
+      "col": 11,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 35,
+      "row": 9,
+      "col": 6,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 36,
+      "row": 9,
+      "col": 14,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 37,
+      "row": 10,
+      "col": 1,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 38,
+      "row": 11,
+      "col": 7,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 39,
+      "row": 11,
+      "col": 9,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 40,
+      "row": 11,
+      "col": 10,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 41,
+      "row": 11,
+      "col": 12,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 42,
+      "row": 11,
+      "col": 15,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 43,
+      "row": 12,
+      "col": 1,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 44,
+      "row": 12,
+      "col": 6,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 45,
+      "row": 12,
+      "col": 9,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 46,
+      "row": 12,
+      "col": 14,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 47,
+      "row": 13,
+      "col": 5,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 48,
+      "row": 13,
+      "col": 7,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 49,
+      "row": 14,
+      "col": 4,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 50,
+      "row": 14,
+      "col": 10,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 51,
+      "row": 14,
+      "col": 11,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 52,
+      "row": 14,
+      "col": 13,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 53,
+      "row": 15,
+      "col": 1,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 54,
+      "row": 15,
+      "col": 6,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 55,
+      "row": 15,
+      "col": 11,
+      "starts": [
+        "across"
+      ]
+    }
+  ]
+}

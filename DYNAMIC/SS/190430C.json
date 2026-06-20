@@ -1,105 +1,7 @@
 ﻿{
   "sheetName": "190430",
   "identity": "190430C",
-  "rows": [
-    {
-      "leftNumber": 4,
-      "leftText": "ఎవరికో చరిత్ర? వెనకనుంచి వెన్నెల పిట్ట",
-      "rightNumber": 2,
-      "rightText": ".. దండగ, క్షుద్ర సాహిత్యం"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "గురజాడ సృష్టి",
-      "rightNumber": 3,
-      "rightText": "కూర్మి"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "అరెబాబా కాకారాయడు ఊదేస్తున్నాడు.",
-      "rightNumber": 4,
-      "rightText": "విభక్తి వినాయకునిది"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "శపించు",
-      "rightNumber": 5,
-      "rightText": "ఇది కొనడం మంచిది"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "కందుకూరి కవి",
-      "rightNumber": 6,
-      "rightText": "ఇడ్లీ నేస్తం"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "దీర్ఘాక్షరం",
-      "rightNumber": 8,
-      "rightText": "మాకీ ... నకు పాండు క్ష్మాపాలుడు"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "సిగ్గేం కాను",
-      "rightNumber": 10,
-      "rightText": "పాపజాతి"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "జీవితం గాలికి ప్రాస",
-      "rightNumber": 11,
-      "rightText": "పాట"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "ఎటు చూసినా మోసమో?",
-      "rightNumber": 13,
-      "rightText": "బ్రహ్మ విష్ణు మహేశ్వరులు"
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "వా! వా!",
-      "rightNumber": 16,
-      "rightText": "రాజ్ కపూర్ వేషం"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "న్యాయం పాలిస్తుంది",
-      "rightNumber": 18,
-      "rightText": "నడు"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "అవసరానికి రమ్మంటుంది. ఒక ప్రసిద్ధ పద్యం ఆరంభం",
-      "rightNumber": 20,
-      "rightText": "త్రినేత్రుడు"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "అరటి పర్యాయపదం",
-      "rightNumber": 21,
-      "rightText": "కులమా, పాడా? ఈదేవికి"
-    },
-    {
-      "leftNumber": 26,
-      "leftText": "1కి ప్రాస. చిరుగుకు మూత",
-      "rightNumber": 23,
-      "rightText": "అంటే (చిగురు)"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 24,
-      "rightText": "తిరగేసిన"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 2,
-      "rightText": "ఒక పోగు"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 4,
@@ -171,7 +73,7 @@
       "text": "1కి ప్రాస. చిరుగుకు మూత"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 2,

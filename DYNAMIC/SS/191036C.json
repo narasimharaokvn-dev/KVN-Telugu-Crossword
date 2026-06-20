@@ -1,117 +1,7 @@
 ﻿{
   "sheetName": "191036",
   "identity": "191036C",
-  "rows": [
-    {
-      "leftNumber": 4,
-      "leftText": "తార",
-      "rightNumber": 6,
-      "rightText": "తలమీద ధరించునది"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "బతకలేడు, చావలేడు",
-      "rightNumber": 9,
-      "rightText": "అడిగినవన్నీ ఇస్తుంది"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "తలక్రిందుల చెరసాల",
-      "rightNumber": 10,
-      "rightText": "ఉన్నటులుండి"
-    },
-    {
-      "leftNumber": 1,
-      "leftText": "ఆంధ్ర - తాపీ",
-      "rightNumber": 12,
-      "rightText": "ఏదుపందులూ, వాటికుండేవి."
-    },
-    {
-      "leftNumber": 2,
-      "leftText": "ఆమ్రేడిస్తే కొట్టుకోవడం",
-      "rightNumber": 15,
-      "rightText": "శాంతి చిహ్నం"
-    },
-    {
-      "leftNumber": 3,
-      "leftText": "దీర్ఘం",
-      "rightNumber": 17,
-      "rightText": "ప్రస్తుతం"
-    },
-    {
-      "leftNumber": 4,
-      "leftText": "ఇనుము విరిగితే ఇది",
-      "rightNumber": 19,
-      "rightText": "కోరికలు కొంచెం ఆగమంటాయి"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "ఆ",
-      "rightNumber": 20,
-      "rightText": "బాపిరాజుగారి నాయకుడు."
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "కుమ్మరి కాని మొల్ల",
-      "rightNumber": 22,
-      "rightText": "దీర్ఘాంతద్విరేఫధ్వని"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "చెయ్యి మారితే విధము",
-      "rightNumber": 23,
-      "rightText": "కావ్యనాయిక"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "స్త్రీ రాగం",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "చక్రికి వాసుకి",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "గొంతు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "ఇంటి పేరు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "పడగైనా, పటమైనా ఎగిరేదే",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "పిడకలవేట ఎక్కడ?",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 24,
-      "leftText": "శ్రుతి సాధనలు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "మొసలి",
-      "rightNumber": null,
-      "rightText": null
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 4,
@@ -203,7 +93,7 @@
       "text": "మొసలి"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 6,

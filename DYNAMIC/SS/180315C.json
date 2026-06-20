@@ -1,147 +1,7 @@
 ﻿{
   "sheetName": "180315",
   "identity": "180315C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "ఈ సభ్యుల బృందం వల్ల లోక మిటీవల మారిందా?",
-      "rightNumber": 1,
-      "rightText": "తెలుగులో కవిత్వం"
-    },
-    {
-      "leftNumber": 3,
-      "leftText": "సైన్యం తిరుగుబాటుతో ప్రభుత్వ పతనం",
-      "rightNumber": 2,
-      "rightText": "ఒకటీ ఇంకొకటీ"
-    },
-    {
-      "leftNumber": 4,
-      "leftText": "ఇదంతా కృ.శా. అక్షయపాత్ర",
-      "rightNumber": 4,
-      "rightText": "ఇది ఇచ్చేవాడు వైద్యుడా?"
-    },
-    {
-      "leftNumber": 6,
-      "leftText": "సాధారణంగా తాత్పర్యానికి ముందు",
-      "rightNumber": 5,
-      "rightText": "పోయిన యేడు"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "ఆచ్ఛాదించు",
-      "rightNumber": 7,
-      "rightText": "పునుక తాలుపు వేలుపు"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "ఇది పండు కాదు, కాయ",
-      "rightNumber": 8,
-      "rightText": "తుదిలేని వడ్డీతో మొదలులేని రూకలు. ఫలితం ఒక పువ్వు"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "వేలంలో వినిపిస్తాయి.",
-      "rightNumber": 10,
-      "rightText": "బాణం తిరుగుబాటు"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "ముందు వెనకా చూడకుండా ఆరంభించడు చూసి క్రీడించు",
-      "rightNumber": 12,
-      "rightText": "ఇందులో సగం"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "సుకుమారికోసం తిప్పుకో, మలిపుట",
-      "rightNumber": 14,
-      "rightText": "మకార పంచకంలో మత్తు కలిగించేది"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "నవరుచులలో ఒక గరువ మారింది",
-      "rightNumber": 16,
-      "rightText": "గాడిద చేసేదా?"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "ఇంగ్లీష్ కంపనీకి హ్రస్వరూపం",
-      "rightNumber": 20,
-      "rightText": "ఈ గుడ్డలు గొంతులు కోయడానికా?"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "చెయ్యి చతుర్థీ విభక్తి",
-      "rightNumber": 21,
-      "rightText": "... హఠావో అంటే పోతుందా?"
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "తీసుకురా",
-      "rightNumber": 22,
-      "rightText": "స్త్రీలకిది సింగారమంటారు"
-    },
-    {
-      "leftNumber": 20,
-      "leftText": "అరగనిది, తరగనిది",
-      "rightNumber": 23,
-      "rightText": "లింగభేదంతో నిమిత్తంలేకుండా అందరూ కనేది"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "పెద్ద రైతుకు ట్రాక్టర్లు, చిన్న సేద్యగాడికి ఇది?",
-      "rightNumber": 24,
-      "rightText": "పరీక్షా? కెమిస్ట్రీలో కావచ్చు"
-    },
-    {
-      "leftNumber": 24,
-      "leftText": "ఇది ఆడకపోతే ప్రమాదం",
-      "rightNumber": 27,
-      "rightText": "అపరాధాలు"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "ఓరీ, తులువా! దాచిన పద్ధతులు బయటపెట్టు",
-      "rightNumber": 28,
-      "rightText": "మెరీనా"
-    },
-    {
-      "leftNumber": 26,
-      "leftText": "కలత నిద్రలో మధుర గాయని",
-      "rightNumber": 30,
-      "rightText": "ఆవిరియంత్రంలో అగుపించే పువ్వు"
-    },
-    {
-      "leftNumber": 28,
-      "leftText": "నాంచారి?",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 29,
-      "leftText": "దీనికి తకారం ఇతడు రాసేదవుతుంది",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "ఒక రాగవిశేషం",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 32,
-      "leftText": "ఇన్ఫ్లుయెన్ఆ",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 33,
-      "leftText": "రేచుక్క, పగటిచుక్క",
-      "rightNumber": null,
-      "rightText": null
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -258,7 +118,7 @@
       "text": "రేచుక్క, పగటిచుక్క"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

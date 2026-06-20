@@ -386,33 +386,41 @@
   }
 
   function getAcrossEntries(){
+    if(Array.isArray(state.clueData.crossEntries) && state.clueData.crossEntries.length){
+      return state.clueData.crossEntries.filter(Boolean);
+    }
+
     if(Array.isArray(state.clueData.leftEntries) && state.clueData.leftEntries.length){
       return state.clueData.leftEntries.filter(Boolean);
     }
 
     return (state.clueData.rows || []).filter(function(row){
-      return row && row.leftNumber;
+      return row && (row.crossNumber || row.leftNumber);
     }).map(function(row){
       return {
         row: row.row || null,
-        number: row.leftNumber,
-        text: row.leftText
+        number: row.crossNumber || row.leftNumber,
+        text: row.crossText || row.leftText
       };
     });
   }
 
   function getDownEntries(){
+    if(Array.isArray(state.clueData.downEntries) && state.clueData.downEntries.length){
+      return state.clueData.downEntries.filter(Boolean);
+    }
+
     if(Array.isArray(state.clueData.rightEntries) && state.clueData.rightEntries.length){
       return state.clueData.rightEntries.filter(Boolean);
     }
 
     return (state.clueData.rows || []).filter(function(row){
-      return row && row.rightNumber;
+      return row && (row.downNumber || row.rightNumber);
     }).map(function(row){
       return {
         row: row.row || null,
-        number: row.rightNumber,
-        text: row.rightText
+        number: row.downNumber || row.rightNumber,
+        text: row.downText || row.rightText
       };
     });
   }

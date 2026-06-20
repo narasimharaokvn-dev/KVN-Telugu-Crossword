@@ -1,129 +1,7 @@
 ﻿{
   "sheetName": "201149",
   "identity": "201149C",
-  "rows": [
-    {
-      "leftNumber": 3,
-      "leftText": "తి కలిస్తే ఆజ్ఞ",
-      "rightNumber": 1,
-      "rightText": "కృష్ణపక్షి?"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "బియ్యపు గింజకు రక్షణా కవచం",
-      "rightNumber": 2,
-      "rightText": "అడిగింది అది లేక"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "ఒక భూతం",
-      "rightNumber": 3,
-      "rightText": "ఇంతకు రెండింతలు"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "వ్యవసాయి వేసేది (తలక్రిందులు)",
-      "rightNumber": 4,
-      "rightText": "ఒక సంఖ్య"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "వృక్ష విశేషం",
-      "rightNumber": 5,
-      "rightText": "గారె వేడిగా ఉంది"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "దూర్వాసుడు",
-      "rightNumber": 6,
-      "rightText": "ఒకటి, రెండూ"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "పిల్లలకి ఏడుపు",
-      "rightNumber": 7,
-      "rightText": "30 ఉత్తరానికి చివర"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "సూత్రధారిణి",
-      "rightNumber": 8,
-      "rightText": "కొన్ని భాషలకి లేదు"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "మూడో విష్ణువు",
-      "rightNumber": 11,
-      "rightText": "కీర్తనమౌను, మనికి నర్తనమౌను (కృష్ణశాస్త్రి)"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "ఎగురుతుందె కాని పక్షి కాదు",
-      "rightNumber": 14,
-      "rightText": "సిరిమావో?"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "వినబడుతుంది గాని కనబడదు",
-      "rightNumber": 15,
-      "rightText": "25 రం."
-    },
-    {
-      "leftNumber": 20,
-      "leftText": "ఉదాహరణకి ఊదా",
-      "rightNumber": 18,
-      "rightText": "కిటికీ"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "మహి జననీ జనని",
-      "rightNumber": 19,
-      "rightText": "నల్లవాడి తిరుగుబాటు"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "ఇంగ్లండులో తేనెటీగ",
-      "rightNumber": 21,
-      "rightText": "ఒక ఉపకరణము"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "ఇది పానగల్లు పార్కులోనే దొరుకుతుంది",
-      "rightNumber": 22,
-      "rightText": "ఉభయపక్షాలు కలిస్తే"
-    },
-    {
-      "leftNumber": 27,
-      "leftText": "ఋషుల నిష్ఠ",
-      "rightNumber": 23,
-      "rightText": "వాపోయిన వాహనం"
-    },
-    {
-      "leftNumber": 29,
-      "leftText": "దాశరథి",
-      "rightNumber": 24,
-      "rightText": "క్రీ.పూ."
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "కొందరు దీన్ని 16గా మార్చగలరు",
-      "rightNumber": 26,
-      "rightText": "ప్రకారంలో అభ్యుదయం"
-    },
-    {
-      "leftNumber": 32,
-      "leftText": "ఒక కాలమానం",
-      "rightNumber": 28,
-      "rightText": "మనది మధ్యాక్కర లేని మనస్సు"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 30,
-      "rightText": "చూడు 7"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 3,
@@ -220,7 +98,7 @@
       "text": "ఒక కాలమానం"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

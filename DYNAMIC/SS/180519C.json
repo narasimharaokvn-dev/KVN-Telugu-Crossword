@@ -1,111 +1,7 @@
 ﻿{
   "sheetName": "180519",
   "identity": "180519C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "పంచమి",
-      "rightNumber": 1,
-      "rightText": "పంచతంత్రాలలో మొదటి రెండు"
-    },
-    {
-      "leftNumber": 3,
-      "leftText": "విభజన",
-      "rightNumber": 2,
-      "rightText": "ఏం లేదు"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "సామరస్యంలో తిరుగుడు",
-      "rightNumber": 3,
-      "rightText": "భారతనారి ధరించేది"
-    },
-    {
-      "leftNumber": 6,
-      "leftText": "శిలాద్రవం",
-      "rightNumber": 4,
-      "rightText": "కొందరు గాయకులకిది ఇష్టం"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "లిస్టు",
-      "rightNumber": 5,
-      "rightText": "కాల్పదగ్గది"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "అడవి",
-      "rightNumber": 7,
-      "rightText": "పాదుక"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "లక్ష్మి, సరస్వతి, పార్వతి",
-      "rightNumber": 8,
-      "rightText": "జాజికాయ"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "ఎవరికి మరదళ్ళు?",
-      "rightNumber": 9,
-      "rightText": "బాణం"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "బ్రహ్మ, విష్ణువు, శివుడు",
-      "rightNumber": 11,
-      "rightText": "వెల్లువ వరమిచ్చేది"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "తిథి",
-      "rightNumber": 13,
-      "rightText": "ఆధిక్యం తగదు"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "మెత్తని శరీరం కలది",
-      "rightNumber": 16,
-      "rightText": "స్త్రీ"
-    },
-    {
-      "leftNumber": 20,
-      "leftText": "భాషనిపించుకో ముందు",
-      "rightNumber": 17,
-      "rightText": "నెమిలి"
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "ఒక నాయిక",
-      "rightNumber": 18,
-      "rightText": "చనిపోయిన"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "పాషాణం",
-      "rightNumber": 19,
-      "rightText": "అచ్చ తెలుగులో కవిత్వం"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "మధ్య",
-      "rightNumber": 23,
-      "rightText": "పద"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "పిసినిగొట్టు వేటకాడు",
-      "rightNumber": 24,
-      "rightText": "9 అడ్డం కాబట్టి"
-    },
-    {
-      "leftNumber": 26,
-      "leftText": "4 నిలువు పాడే స్థలమా?",
-      "rightNumber": null,
-      "rightText": null
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -192,7 +88,7 @@
       "text": "4 నిలువు పాడే స్థలమా?"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

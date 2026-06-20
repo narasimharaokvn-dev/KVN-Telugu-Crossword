@@ -1,99 +1,7 @@
 ﻿{
   "sheetName": "190632",
   "identity": "190632C",
-  "rows": [
-    {
-      "leftNumber": 4,
-      "leftText": "కావ్యనాయిక",
-      "rightNumber": 1,
-      "rightText": "ఎందుకీ కాకి అరుపులు"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "ఉపనిషత్సారం అంటారు",
-      "rightNumber": 2,
-      "rightText": "మరో లోకపు నాట్యతార"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "ఉన్న కాకి అయితే అప్రయోజకుడు",
-      "rightNumber": 3,
-      "rightText": "కెరటము"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "కట్టడానికి వయసు తక్కువ",
-      "rightNumber": 4,
-      "rightText": "ఇది నా గీతి"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "తిరగబడ్డ కథానాయిక (రచన: వెంకట పార్వతీశ్వర కవులు)",
-      "rightNumber": 5,
-      "rightText": "ఇతనిదే పై చేయి పై"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "ఎవరిని? (తిక్కన గారన్నట్టు)",
-      "rightNumber": 6,
-      "rightText": "ఆఖరి ఆశ్రమంలో వుంటుంది"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "మాటలాడి (రాయలవారి పద్యం నుంచి)",
-      "rightNumber": 9,
-      "rightText": "అంత శ్శత్రువు లిద్దరు"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "గుడ్డికానిగుడ్డి",
-      "rightNumber": 10,
-      "rightText": "7 లో ఒక శ్లోకం మొదలు"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "చిరనివాసం",
-      "rightNumber": 12,
-      "rightText": "గింజుకుని సచ్చిపోరా, గుమ్మం ముందు"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "ఇంగ్లీషులో వ్యవహారం తెలుగులో నిర్వహించు",
-      "rightNumber": 15,
-      "rightText": "కృష్ణుడు 7 బోధించిందెవరికి?"
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "బహువచనంలో ధాన్యవిశేషం",
-      "rightNumber": 17,
-      "rightText": "కిరివచియించినదానికి మొదటి తిరుగుడే తుది"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "తరంగ సంసారం ఒక దిక్పాలుడి ఊరు",
-      "rightNumber": 19,
-      "rightText": "బయల్దేరు ఖరీదులు"
-    },
-    {
-      "leftNumber": 24,
-      "leftText": "సూర్యుడివీ, చంద్రుడువీ",
-      "rightNumber": 20,
-      "rightText": "భవభూతి పృథ్వి"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "బెస్తకాదు, పిట్ట",
-      "rightNumber": 22,
-      "rightText": "రాగాని కిరువై పులా పాతనాణెం"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 23,
-      "rightText": "తెనాలి రామకథలో వ్యభిచారం"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 4,
@@ -165,7 +73,7 @@
       "text": "బెస్తకాదు, పిట్ట"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

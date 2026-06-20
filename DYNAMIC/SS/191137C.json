@@ -1,99 +1,7 @@
 ﻿{
   "sheetName": "191137",
   "identity": "191137C",
-  "rows": [
-    {
-      "leftNumber": 4,
-      "leftText": "అసమగ్రాంధ్ర సాహిత్య చరిత్రంలో ఆరుద్ర దూడ",
-      "rightNumber": 1,
-      "rightText": "తరుచుకాదు"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "సంక్రాంతి సందేశం",
-      "rightNumber": 2,
-      "rightText": "చేమిరి"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "స్! తగ్గు! నవ్వు",
-      "rightNumber": 3,
-      "rightText": "ఆకాశవాణి చెప్పేది"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "శ్రీపాద వారి భారతం (పొడి అక్షరాలు)",
-      "rightNumber": 4,
-      "rightText": "దంచినమ్మకు బుక్కిందే ..."
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "తామరసాక్షి",
-      "rightNumber": 5,
-      "rightText": "కాపు మాసిన పుస్తకాలు"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "లక్ష్మి",
-      "rightNumber": 6,
-      "rightText": "తిరిగింది వెన్నెల రేయి"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "మానవ విపరిణామం. అరణ్యమా?",
-      "rightNumber": 9,
-      "rightText": "ఎక్కడ బృహదీశ్వరుడు? ఎక్కడి సరస్వతీ మహలు?"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "బాకీకి వేధించే చెట్టు",
-      "rightNumber": 10,
-      "rightText": "నటీమణినదికి ప్రమాదం"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "మిశ్రం ప్రాణ గొడ్డం",
-      "rightNumber": 12,
-      "rightText": "వేదాల్లో ఒక చెట్టు"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "రాజుల సరదా",
-      "rightNumber": 15,
-      "rightText": "ఉపనిషన్మధువు లొలికిన చోటు"
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "ముక్కాలు తెగిన ఉపశాఖ",
-      "rightNumber": 17,
-      "rightText": "శతపత్ర పత్రం"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "రఘువంశం (రామ ణంకాదు)",
-      "rightNumber": 19,
-      "rightText": "జింక"
-    },
-    {
-      "leftNumber": 24,
-      "leftText": "ప్రహేళికకు విరుగుడు?",
-      "rightNumber": 20,
-      "rightText": "ఉజ్జయినీ ఆక్క"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "ఇది పెట్టేది ఇదే!",
-      "rightNumber": 22,
-      "rightText": "పాముదయితే జాగ్రత్త!"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 23,
-      "rightText": "డౌటేహం అన్నాడు భ.కా.రా."
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 4,
@@ -165,7 +73,7 @@
       "text": "ఇది పెట్టేది ఇదే!"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

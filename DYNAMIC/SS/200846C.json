@@ -1,129 +1,7 @@
 ﻿{
   "sheetName": "200846",
   "identity": "200846C",
-  "rows": [
-    {
-      "leftNumber": "20,39",
-      "leftText": "డీజో",
-      "rightNumber": 1,
-      "rightText": "జ్వాలాముఖి కవిత్వం"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "కోరి",
-      "rightNumber": 2,
-      "rightText": "కాలకం పుట్టుమచ్చ"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "నిజం ఉన్న చక్కదనం",
-      "rightNumber": 3,
-      "rightText": "దీని కిందికే గడ"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "ఆఫీసులో, భరతనాట్యంలో",
-      "rightNumber": 4,
-      "rightText": "వెంటనే"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "కొండమ్మ",
-      "rightNumber": 5,
-      "rightText": "బాళికి తాళింది 16 చూడుడు"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "విసురు",
-      "rightNumber": 6,
-      "rightText": "రెండో 12 గంటలు"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "నాలు నమస్కారాలు",
-      "rightNumber": 7,
-      "rightText": "నాపురం లేనిది"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "కోరు మోసకాడు",
-      "rightNumber": 8,
-      "rightText": "ఇంగ్లీషులో ప్రవహించేది, తెలుగులో వికసించేది"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "బింబం నెలకొకసారి",
-      "rightNumber": 11,
-      "rightText": "వని కునికి పట్టు"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "ఈ పత్రిక",
-      "rightNumber": 14,
-      "rightText": "విజయ 15 పండుగ"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "సమూహం",
-      "rightNumber": 15,
-      "rightText": "పండుగ రోజులు"
-    },
-    {
-      "leftNumber": 20,
-      "leftText": "తనం ధూర్తగుణం",
-      "rightNumber": 18,
-      "rightText": "అందెల రవళి"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "నోటికూత",
-      "rightNumber": 19,
-      "rightText": "కావ్యనాయిక"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "మన రాష్ట్రపు దేహళి",
-      "rightNumber": 21,
-      "rightText": "సర్కస్ పిల్ల"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "తోటకూరది, తలక్రిందులు",
-      "rightNumber": 22,
-      "rightText": "ప్రసవించె"
-    },
-    {
-      "leftNumber": 27,
-      "leftText": "ప్రసిద్ధి చెందెను",
-      "rightNumber": 23,
-      "rightText": "బొమ్మలు మాట్లాడవు"
-    },
-    {
-      "leftNumber": 29,
-      "leftText": "ఎడ్రసులు ఉపన్యాసాలు కావు",
-      "rightNumber": 24,
-      "rightText": "కొండరెక్కలు కోసింది"
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "బొమ్మల ముడిదినుసు",
-      "rightNumber": 26,
-      "rightText": "నడిచే నాలుగోవంతు"
-    },
-    {
-      "leftNumber": 32,
-      "leftText": "మైకాపుట్టిల్లు",
-      "rightNumber": 28,
-      "rightText": "పీతదీ, పందిదీ"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 30,
-      "rightText": "బొరియమాదిరి"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": "20,39",
@@ -220,7 +98,7 @@
       "text": "మైకాపుట్టిల్లు"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

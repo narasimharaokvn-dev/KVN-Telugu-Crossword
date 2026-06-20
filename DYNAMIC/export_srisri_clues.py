@@ -24,10 +24,10 @@ def row_to_record(row):
     while len(values) < 4:
         values.append(None)
     return {
-        "leftNumber": values[0],
-        "leftText": values[1],
-        "rightNumber": values[2],
-        "rightText": values[3],
+        "crossNumber": values[0],
+        "crossText": values[1],
+        "downNumber": values[2],
+        "downText": values[3],
     }
 
 
@@ -36,9 +36,8 @@ def has_content(record):
 
 
 def build_sheet_payload(sheet_name, worksheet):
-    row_records = []
-    left_entries = []
-    right_entries = []
+    cross_entries = []
+    down_entries = []
 
     for row_index, row in enumerate(
         worksheet.iter_rows(values_only=True),
@@ -48,32 +47,29 @@ def build_sheet_payload(sheet_name, worksheet):
         if not has_content(record):
             continue
 
-        row_records.append(record)
-
-        if record["leftNumber"] is not None or record["leftText"] is not None:
-            left_entries.append(
+        if record["crossNumber"] is not None or record["crossText"] is not None:
+            cross_entries.append(
                 {
                     "row": row_index,
-                    "number": record["leftNumber"],
-                    "text": record["leftText"],
+                    "number": record["crossNumber"],
+                    "text": record["crossText"],
                 }
             )
 
-        if record["rightNumber"] is not None or record["rightText"] is not None:
-            right_entries.append(
+        if record["downNumber"] is not None or record["downText"] is not None:
+            down_entries.append(
                 {
                     "row": row_index,
-                    "number": record["rightNumber"],
-                    "text": record["rightText"],
+                    "number": record["downNumber"],
+                    "text": record["downText"],
                 }
             )
 
     return {
         "sheetName": sheet_name,
         "identity": f"{sheet_name}C",
-        "rows": row_records,
-        "leftEntries": left_entries,
-        "rightEntries": right_entries,
+        "crossEntries": cross_entries,
+        "downEntries": down_entries,
     }
 
 

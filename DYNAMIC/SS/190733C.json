@@ -1,99 +1,7 @@
 ﻿{
   "sheetName": "190733",
   "identity": "190733C",
-  "rows": [
-    {
-      "leftNumber": 4,
-      "leftText": "పెద్ద సైజు భూతం",
-      "rightNumber": 1,
-      "rightText": "శిరచ్ఛేదం?"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "పొట్టి చెట్టు",
-      "rightNumber": 2,
-      "rightText": "వంక"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "అచ్చ తెలుగు గ్రహం",
-      "rightNumber": 3,
-      "rightText": "కన్నప్ప"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "తలపై నా, కోటలోనా",
-      "rightNumber": 4,
-      "rightText": "పరిహరించినా అపరిమితం."
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "ఇచ్ఛ",
-      "rightNumber": 5,
-      "rightText": "ఈ కారం చమత్కారం."
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "8లో ఒకటి",
-      "rightNumber": 6,
-      "rightText": "ఊరి పేరు."
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "చే",
-      "rightNumber": 9,
-      "rightText": "లక్షణం (కవులకీ నియంతలకీ)"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "4, లేక 8, లేక",
-      "rightNumber": 10,
-      "rightText": "చెట్టబట్టినది"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": null,
-      "rightNumber": 12,
-      "rightText": "3000"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "లేనిది",
-      "rightNumber": 15,
-      "rightText": "రాగం లాగడం"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "5",
-      "rightNumber": 17,
-      "rightText": "రాలేని నర్తకి చేసేవి."
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "దీవించకు",
-      "rightNumber": 19,
-      "rightText": "కత్తి"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "ఇది పోతన కవికి ఇష్టం",
-      "rightNumber": 20,
-      "rightText": "ఉదాహరణకు ద"
-    },
-    {
-      "leftNumber": 24,
-      "leftText": "భారతంలో దుష్టులు.",
-      "rightNumber": 22,
-      "rightText": "తొడుక్కోవలె"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "ఇవికానీ సినిమా పత్రికలు లేవు.",
-      "rightNumber": 23,
-      "rightText": "ఈతం ఇప్పటి కర్మకాదు."
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 4,
@@ -170,7 +78,7 @@
       "text": "ఇవికానీ సినిమా పత్రికలు లేవు."
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

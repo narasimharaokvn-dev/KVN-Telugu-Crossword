@@ -1,135 +1,7 @@
 ﻿{
   "sheetName": "180620",
   "identity": "180620C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "దిగంబర్హులు",
-      "rightNumber": 1,
-      "rightText": "దాసరి మారితే అరవంలో అలాగే"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "స్త్రీ",
-      "rightNumber": 2,
-      "rightText": "భూతేందు ధారాధరా"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "ఒక దేవుడు",
-      "rightNumber": 3,
-      "rightText": "యముడు"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "పారదారికాధికరణంలో మార్గం",
-      "rightNumber": 4,
-      "rightText": "అగ్ని"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "కావాలి",
-      "rightNumber": 5,
-      "rightText": "స్త్రీ వాచకం"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "నడిచే నాలుగో వంతు",
-      "rightNumber": 6,
-      "rightText": "అయిదులు"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "తలలేని చుక్కవర్తి",
-      "rightNumber": 10,
-      "rightText": "తార"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "ఒకడు, ఇంకొకడు",
-      "rightNumber": 14,
-      "rightText": "ఇదే వరుస"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "ఇంగ్లీషు రమ్ము, సంస్కృతపు నీళ్ళు",
-      "rightNumber": 16,
-      "rightText": "ఒక జలపాతం"
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "పార్వతి",
-      "rightNumber": 17,
-      "rightText": "సర్ సి. ఆర్. రెడ్డి ఇంటి పేరు"
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "హింసతోనూ, అహింసతోనూ చెయ్యవచ్చు",
-      "rightNumber": 20,
-      "rightText": "ఒక అప్సరస"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "సీనీతార",
-      "rightNumber": 21,
-      "rightText": "సంస్కృతంలో అబద్ధం చెప్పకు"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 24,
-      "rightText": "లోపలి నిజం మిశ్రసమాసం"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 2,
-      "rightText": "వర్ణం"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 25,
-      "rightText": "నలుగురిలోనూ, ఎనమండుగురిలోనూ ఉన్న శ్రద్ధ"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 26,
-      "rightText": "లేనివాళ్ళు"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 27,
-      "rightText": "అత్తమీది కోపం దీని మీదనా?"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 27,
-      "rightText": "జోడి"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 28,
-      "rightText": "వేదన"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 29,
-      "rightText": "ఇందులో కార్మికులు పనిచేస్తారు."
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 30,
-      "rightText": "సంగీత స్వరాలు"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -191,7 +63,7 @@
       "text": "సీనీతార"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

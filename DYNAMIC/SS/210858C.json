@@ -1,129 +1,7 @@
 ﻿{
   "sheetName": "210858",
   "identity": "210858C",
-  "rows": [
-    {
-      "leftNumber": 3,
-      "leftText": "ఆభరణం",
-      "rightNumber": 1,
-      "rightText": "జన చైనాకు 1949లో"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "ప్రార్థనకు ప్రారంభం",
-      "rightNumber": 2,
-      "rightText": "రారు అంటే అతిశయించు"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "చావకుంటే తినవచ్చు",
-      "rightNumber": 3,
-      "rightText": "సింహాలకు, జంతువులకు"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "ఆవు మనమరాలు",
-      "rightNumber": 4,
-      "rightText": "జమీందార్ల నౌకర్లు"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "కాలభాగం",
-      "rightNumber": 6,
-      "rightText": "కాని, ఎరుపు"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "ఫాషన్ తీక్షణత",
-      "rightNumber": 6,
-      "rightText": "చెట్టు, పెదవి"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "లోకువ",
-      "rightNumber": 7,
-      "rightText": "రా అంటే వచ్చేది"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "కాలంతో రాలేవి",
-      "rightNumber": 8,
-      "rightText": "ఎం కాదు"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "ఇకారం ఇంటికన్నా పదిలం",
-      "rightNumber": 11,
-      "rightText": "19 కొందరికి బూతుమాట"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "15, 23 అడ్డంలో పైసలు",
-      "rightNumber": 14,
-      "rightText": "వదులు కాదు"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "కొనడం చావడం",
-      "rightNumber": 15,
-      "rightText": "23 అడ్డం పాతరూపాయి"
-    },
-    {
-      "leftNumber": 20,
-      "leftText": "చంద్రునిది ఆయుధం",
-      "rightNumber": 18,
-      "rightText": "దక్షిణానికి గౌతమీనది"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "టైమ్ లిమిట్",
-      "rightNumber": 19,
-      "rightText": "చూ. 11"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "చూ. 15 నిలువు",
-      "rightNumber": 21,
-      "rightText": "కూడుకొన్నది"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "ఆ ఇది కోరేది ఆహారం",
-      "rightNumber": 22,
-      "rightText": "మధ్యలో వస్తుంది చూరు"
-    },
-    {
-      "leftNumber": 27,
-      "leftText": "రామాయణ భారతాల్లో ఉంది",
-      "rightNumber": 23,
-      "rightText": "ఉదాహరణకు కవితాసమితి"
-    },
-    {
-      "leftNumber": 29,
-      "leftText": "దంతవీణ ధ్వన్యనుకరణ",
-      "rightNumber": 24,
-      "rightText": "ఎక్కువ కాదు"
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "లేనివాళ్ళకు దేవుడు",
-      "rightNumber": 26,
-      "rightText": "29లో సగం"
-    },
-    {
-      "leftNumber": 32,
-      "leftText": "అయిపోయింది",
-      "rightNumber": 28,
-      "rightText": "ఆకారంలో మౌని"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 30,
-      "rightText": "సరిపోయిన వడగళ్ళు"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 3,
@@ -220,7 +98,7 @@
       "text": "అయిపోయింది"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

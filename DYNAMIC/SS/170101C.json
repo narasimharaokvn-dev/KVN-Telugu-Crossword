@@ -1,147 +1,7 @@
 ﻿{
   "sheetName": "170101",
   "identity": "170101C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "నాలో సగం",
-      "rightNumber": 2,
-      "rightText": "ఆడదాని ఆద్యంతాలు కెరటం"
-    },
-    {
-      "leftNumber": 2,
-      "leftText": "పద్మార్కం",
-      "rightNumber": 3,
-      "rightText": "ఇతని మతంలో దేవుడు లేడు"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "ఇంగ్లీషు చెట్టు",
-      "rightNumber": 4,
-      "rightText": "అసంపూర్ణ గ్రంథం తొమ్మిదవది"
-    },
-    {
-      "leftNumber": 6,
-      "leftText": "రెండు లఘువులు",
-      "rightNumber": 6,
-      "rightText": "ఈ ఇల్లు భారతంలో తగలడింది"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "తిరగబడ్డ బంధువు",
-      "rightNumber": 8,
-      "rightText": "Koloo"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "7 భార్య 2",
-      "rightNumber": 9,
-      "rightText": "2లో 3 పాదం మొదలు"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "అటునుండి అమ్మాయి",
-      "rightNumber": 10,
-      "rightText": "ప్రధానేంద్రియం"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "వాద్య విశేషం",
-      "rightNumber": 11,
-      "rightText": "ఒక ఉభయచరం"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "తమర్ని ఏకవచనంలో",
-      "rightNumber": 13,
-      "rightText": "జనకుని జామాత"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "ఈ తగవు మధురవాణి సూచించింది",
-      "rightNumber": 14,
-      "rightText": "దీర్ఘం"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "మధ్యమ పాండవుడు",
-      "rightNumber": 16,
-      "rightText": "కృశ్చేవ్ పేరు"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "30 అడ్డంతో కలవ్వచ్చు",
-      "rightNumber": 21,
-      "rightText": "రే"
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "ఇది లేని గది ఉంటుందా?",
-      "rightNumber": 22,
-      "rightText": "లోపలి"
-    },
-    {
-      "leftNumber": 20,
-      "leftText": "ఆకర్ణించి",
-      "rightNumber": 24,
-      "rightText": "విమానాశ్రయం"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "జలాశయ విశేషం",
-      "rightNumber": 26,
-      "rightText": "అసతి"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "సమూహం",
-      "rightNumber": 27,
-      "rightText": "ఇది లేని గది ఉండదు"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "దుష్టచతుష్టయంలో ఒకడు",
-      "rightNumber": 29,
-      "rightText": "కష్టజీవి కి ఇరువైపులా ఉండేవాడు"
-    },
-    {
-      "leftNumber": 27,
-      "leftText": "స్త్రీ",
-      "rightNumber": 30,
-      "rightText": "చెరసాల"
-    },
-    {
-      "leftNumber": 28,
-      "leftText": "దిట్ట",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 30,
-      "leftText": "స్నేహానికి భర్తృహరి ఉపమానం",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "సరే",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 32,
-      "leftText": "ఎటు చూసినా నవ్విస్తాడు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 33,
-      "leftText": "ద్విగుణిస్తే వీడ్కోలు",
-      "rightNumber": null,
-      "rightText": null
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -258,7 +118,7 @@
       "text": "ద్విగుణిస్తే వీడ్కోలు"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 2,
@@ -282,7 +142,7 @@
     {
       "row": 5,
       "number": 8,
-      "text": "Koloo"
+      "text": "గుర్రం"
     },
     {
       "row": 6,

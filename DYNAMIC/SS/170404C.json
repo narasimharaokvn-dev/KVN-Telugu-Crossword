@@ -1,99 +1,7 @@
 ﻿{
   "sheetName": "170404",
   "identity": "170404C",
-  "rows": [
-    {
-      "leftNumber": 2,
-      "leftText": "విశ్వనాథ సత్యనారాయణలో ఉన్న రెండింటిలో ఒకటి మదీయం",
-      "rightNumber": 1,
-      "rightText": "ఊకదంపుడు; బహుశా శాసనసభల్లో"
-    },
-    {
-      "leftNumber": 4,
-      "leftText": "వ్యధారహిత వ్యవధానము; అదే అడవి, అదే నీరు",
-      "rightNumber": 3,
-      "rightText": "తాపకప్రథగల జత; ఒక జానపద గాథ"
-    },
-    {
-      "leftNumber": 6,
-      "leftText": "ఒక బెజవాడ వీక్లీ; తల లేదు",
-      "rightNumber": 4,
-      "rightText": "60లో ఒకటి తిరిగెయ్యి"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "ఈనాటి సాహిత్య బాధ్యత ఎవరిమీద ఉంది?",
-      "rightNumber": 5,
-      "rightText": "ఇది కూడా తిరిగేస్తే తాడు"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "ఎప్పుడూ హృదయం లేని సరదా",
-      "rightNumber": 7,
-      "rightText": "ఒక బొట్టు (కుంకుమతో, కస్తూరితో)"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "ఇదీ వరుస",
-      "rightNumber": 9,
-      "rightText": "తిరగబడ్డ నోరు; ఇనియాకు వ్యవహారికం"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "పాతకాలపు ఉత్తరాలలో తమరూపం",
-      "rightNumber": 15,
-      "rightText": "లంక కొసనుండి లంక మొదటిదాకా, మధ్యని మధ్యకు ప్రారంభం. ఇదో పువ్వని వేరే చెప్పాలా?"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "గురుద్వయం; ఉదహారణకు శ్రీశ్రీ",
-      "rightNumber": 16,
-      "rightText": "మురఘన్మరుని “చిరు” నామా"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "తేనెటీగలోగల పానీయం",
-      "rightNumber": 17,
-      "rightText": "మహారాజు మాజీ రాజ్యం"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "వెలిగించే తెలుగుమాట; ఉప్పుతో ఒక్క పోలిక",
-      "rightNumber": 19,
-      "rightText": "అననాకార రహితమబ్లాక్షి మేను"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "కుటుంబ నియంత్రణ అంటే సంతానం తగ్గించుకోవడం",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "మన సమస్యలు దేనితో పూర్తి?",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 20,
-      "leftText": "లుంగీకి స్త్రీలింగం?",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "జనక నందనుడిలో వెనకనుండి మూడక్షరాలు; అర్థం ఏమిటని అడగొద్దు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "శివుని గొంతుకలో, విష్ణుని గుండెలమీద నిలువు",
-      "rightNumber": null,
-      "rightText": null
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 2,
@@ -170,7 +78,7 @@
       "text": "శివుని గొంతుకలో, విష్ణుని గుండెలమీద నిలువు"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

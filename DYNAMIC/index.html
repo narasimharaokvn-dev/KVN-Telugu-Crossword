@@ -98,10 +98,35 @@ body{
   line-height:1.6;
 }
 
+.library{
+  display:grid;
+  gap:20px;
+}
+
+.section{
+  background:#ffffff;
+  border:1px solid var(--border);
+  border-radius:22px;
+  box-shadow:var(--shadow);
+  padding:20px;
+}
+
+.section h2{
+  margin:0 0 8px;
+  font-size:1.4rem;
+}
+
+.section p{
+  margin:0;
+  color:var(--muted);
+  line-height:1.55;
+}
+
 .grid{
   display:grid;
   grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
   gap:18px;
+  margin-top:18px;
 }
 
 .card{
@@ -124,9 +149,9 @@ body{
   padding:18px;
 }
 
-.card-body h2{
+.card-body h3{
   margin:0 0 8px;
-  font-size:1.2rem;
+  font-size:1.1rem;
 }
 
 .card-body p{
@@ -177,7 +202,7 @@ body{
 <div class="page">
   <div class="hero">
     <h1>Dynamic Puzzle Library</h1>
-    <p>This library uses your new model: each puzzle stays as three separate files in <code>SS</code> and the shared view in <code>puzzle.html</code> fetches them at runtime.</p>
+    <p>This library uses your new model: each puzzle stays as separate data files inside source folders such as <code>SS</code> and <code>GN</code>, while <code>puzzle.html</code> fetches them at runtime.</p>
   </div>
 
   <div class="toolbar">
@@ -186,8 +211,8 @@ body{
   </div>
 
   <div class="status" id="status" hidden></div>
-  <div class="summary" id="summary">Loading puzzle index...</div>
-  <div class="grid" id="libraryGrid"></div>
+  <div class="summary" id="summary">Loading puzzle indexes...</div>
+  <div class="library" id="libraryGrid"></div>
 </div>
 
 <script>
@@ -199,30 +224,25 @@ document.addEventListener("DOMContentLoaded", loadLibrary);
 
 async function loadLibrary(){
   try{
-    const response = await fetch("SS/index.json", { cache: "no-store" });
-    if(!response.ok){
-      throw new Error("Could not load SS/index.json");
-    }
+    const sources = await fetchJson("sources.json");
+    const folders = Array.isArray(sources.folders) ? sources.folders : [];
+    const sections = await Promise.all(folders.map(loadFolderSection));
 
-    const text = await response.text();
-    const payload = JSON.parse(text.replace(/^\uFEFF/, ""));
-    const puzzles = Array.isArray(payload.puzzles) ? payload.puzzles : [];
+    const total = sections.reduce(function(sum, section){ return sum + section.total; }, 0);
+    const complete = sections.reduce(function(sum, section){ return sum + section.complete.length; }, 0);
+    const incomplete = sections.reduce(function(sum, section){ return sum + section.incomplete.length; }, 0);
+    const latestParts = sections
+      .filter(function(section){ return section.latestCompleteId; })
+      .map(function(section){ return section.title + ": " + section.latestCompleteId; });
 
-    const complete = puzzles.filter(function(item){ return item.complete; });
-    const incomplete = puzzles.filter(function(item){ return !item.complete; });
-
-    summary.textContent = "Loaded " + puzzles.length + " puzzle ids. " + complete.length + " are complete triples and " + incomplete.length + " are incomplete. The latest complete puzzle is " + (payload.latestCompleteId || "not set") + ".";
+    summary.textContent = "Loaded " + total + " puzzle ids across " + sections.length + " folders. " + complete + " are complete triples and " + incomplete + " are incomplete. Latest complete puzzle by folder: " + (latestParts.join(" | ") || "not set") + ".";
 
     libraryGrid.innerHTML = "";
-    complete.forEach(function(puzzle){
-      libraryGrid.appendChild(createCard(puzzle, true));
-    });
-
-    incomplete.forEach(function(puzzle){
-      libraryGrid.appendChild(createCard(puzzle, false));
+    sections.forEach(function(section){
+      libraryGrid.appendChild(createSection(section));
     });
   }catch(error){
-    summary.textContent = "Could not load the puzzle index.";
+    summary.textContent = "Could not load the puzzle indexes.";
     const suffix = location.protocol === "file:"
       ? " If you open this outside Codex, use GitHub Pages or a local web server."
       : "";
@@ -230,24 +250,75 @@ async function loadLibrary(){
   }
 }
 
-function createCard(puzzle, complete){
+async function fetchJson(path){
+  const response = await fetch(path, { cache: "no-store" });
+  if(!response.ok){
+    throw new Error("Could not load " + path);
+  }
+
+  const text = await response.text();
+  return JSON.parse(text.replace(/^\uFEFF/, ""));
+}
+
+async function loadFolderSection(folder){
+  const payload = await fetchJson(folder.index);
+  const puzzles = Array.isArray(payload.puzzles) ? payload.puzzles : [];
+  return {
+    id: folder.id,
+    title: folder.title || folder.id,
+    assetBase: folder.assetBase || (folder.id + "/"),
+    latestCompleteId: payload.latestCompleteId || "",
+    complete: puzzles.filter(function(item){ return item.complete; }),
+    incomplete: puzzles.filter(function(item){ return !item.complete; }),
+    total: puzzles.length
+  };
+}
+
+function createSection(section){
+  const wrapper = document.createElement("section");
+  wrapper.className = "section";
+
+  const heading = document.createElement("h2");
+  heading.textContent = section.title + " (" + section.id + ")";
+
+  const description = document.createElement("p");
+  description.textContent = "Latest complete puzzle: " + (section.latestCompleteId || "not set") + ". Complete: " + section.complete.length + ". Incomplete: " + section.incomplete.length + ".";
+
+  const innerGrid = document.createElement("div");
+  innerGrid.className = "grid";
+
+  section.complete.forEach(function(puzzle){
+    innerGrid.appendChild(createCard(section, puzzle, true));
+  });
+
+  section.incomplete.forEach(function(puzzle){
+    innerGrid.appendChild(createCard(section, puzzle, false));
+  });
+
+  wrapper.appendChild(heading);
+  wrapper.appendChild(description);
+  wrapper.appendChild(innerGrid);
+  return wrapper;
+}
+
+function createCard(section, puzzle, complete){
   const card = document.createElement("article");
   card.className = "card";
 
   const image = document.createElement("img");
   image.alt = puzzle.title || puzzle.id;
-  image.src = complete ? ("SS/" + puzzle.imageFile) : "../Telugu_image.png";
+  image.src = complete ? (section.assetBase + puzzle.imageFile) : "../Telugu_image.png";
 
   const body = document.createElement("div");
   body.className = "card-body";
 
-  const title = document.createElement("h2");
+  const title = document.createElement("h3");
   title.textContent = puzzle.title || puzzle.id;
 
   const description = document.createElement("p");
   description.textContent = complete
     ? "Three-file puzzle: image, grid JSON, and clues JSON."
-    : "This id is incomplete in SS and needs missing files before it can open.";
+    : "This id is incomplete in " + section.id + " and needs missing files before it can open.";
 
   const meta = document.createElement("div");
   meta.className = "meta";
@@ -264,12 +335,12 @@ function createCard(puzzle, complete){
   const openLink = document.createElement("a");
   openLink.textContent = complete ? "Open Puzzle" : "Incomplete";
   openLink.className = complete ? "primary" : "disabled";
-  openLink.href = complete ? ("puzzle.html?puzzle=" + encodeURIComponent(puzzle.id)) : "#";
+  openLink.href = complete ? ("puzzle.html?folder=" + encodeURIComponent(section.id) + "&puzzle=" + encodeURIComponent(puzzle.id)) : "#";
 
   const dataLink = document.createElement("a");
   dataLink.textContent = "Grid JSON";
   dataLink.className = "secondary";
-  dataLink.href = complete ? ("SS/" + puzzle.gridFile) : "#";
+  dataLink.href = complete ? (section.assetBase + puzzle.gridFile) : "#";
 
   actions.appendChild(openLink);
   actions.appendChild(dataLink);

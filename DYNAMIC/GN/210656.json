@@ -1,0 +1,295 @@
+{
+  "image": "210656.png",
+  "gridSize": 15,
+  "numbers": [
+    {
+      "number": 1,
+      "row": 1,
+      "col": 1,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 2,
+      "row": 1,
+      "col": 3,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 3,
+      "row": 1,
+      "col": 7,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 4,
+      "row": 1,
+      "col": 9,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 5,
+      "row": 1,
+      "col": 13,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 6,
+      "row": 1,
+      "col": 15,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 7,
+      "row": 2,
+      "col": 7,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 8,
+      "row": 3,
+      "col": 1,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 9,
+      "row": 3,
+      "col": 4,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 10,
+      "row": 3,
+      "col": 12,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 11,
+      "row": 4,
+      "col": 3,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 12,
+      "row": 4,
+      "col": 6,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 13,
+      "row": 4,
+      "col": 10,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 14,
+      "row": 5,
+      "col": 8,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 15,
+      "row": 6,
+      "col": 4,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 16,
+      "row": 7,
+      "col": 1,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 17,
+      "row": 7,
+      "col": 2,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 18,
+      "row": 7,
+      "col": 14,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 19,
+      "row": 8,
+      "col": 5,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 20,
+      "row": 8,
+      "col": 9,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 21,
+      "row": 9,
+      "col": 1,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 22,
+      "row": 9,
+      "col": 8,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 23,
+      "row": 9,
+      "col": 14,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 24,
+      "row": 9,
+      "col": 15,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 25,
+      "row": 10,
+      "col": 4,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 26,
+      "row": 10,
+      "col": 12,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 27,
+      "row": 12,
+      "col": 3,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 28,
+      "row": 12,
+      "col": 10,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 29,
+      "row": 12,
+      "col": 13,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 30,
+      "row": 13,
+      "col": 1,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 31,
+      "row": 13,
+      "col": 12,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 32,
+      "row": 14,
+      "col": 7,
+      "starts": [
+        "across",
+        "down"
+      ]
+    },
+    {
+      "number": 33,
+      "row": 14,
+      "col": 9,
+      "starts": [
+        "down"
+      ]
+    },
+    {
+      "number": 34,
+      "row": 15,
+      "col": 1,
+      "starts": [
+        "across"
+      ]
+    },
+    {
+      "number": 35,
+      "row": 15,
+      "col": 9,
+      "starts": [
+        "across"
+      ]
+    }
+  ]
+}

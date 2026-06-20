@@ -1,111 +1,7 @@
 ﻿{
   "sheetName": "170707",
   "identity": "170707C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "గరువ మారిన 2 నిలువు",
-      "rightNumber": 1,
-      "rightText": "మాడ్రన్ పొయెట్. ఉదాహరణకు కుందుర్తి"
-    },
-    {
-      "leftNumber": 3,
-      "leftText": "గవర్నమెంటు అతిథిగృహము",
-      "rightNumber": 2,
-      "rightText": "ఆరులో ఒకటి"
-    },
-    {
-      "leftNumber": 6,
-      "leftText": "మ... మ... మ... మాట",
-      "rightNumber": 3,
-      "rightText": "కొందరు మిరియాలతో కలిపి నూరుతారు."
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "పడిసెం పది రోగాలు",
-      "rightNumber": 4,
-      "rightText": "విశ్వామిత్రుని తండ్రి మధ్య శూన్యంలో మహాత్ముడు"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "చక్రవర్తి ఆహుతి",
-      "rightNumber": 5,
-      "rightText": "బలరాముడు వృద్ధుడు"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "ఆడ కాదు (మగ కూడా కాదిక్కడ)",
-      "rightNumber": 7,
-      "rightText": "త్రివేణి కాదు ఒకటే"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "విసిరేయడంలో అహంకార సూచన",
-      "rightNumber": 8,
-      "rightText": "... కొట్టేదాన్ని కొట్టాలి"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "ఈవాడ ఒక ఊరు",
-      "rightNumber": 10,
-      "rightText": "వీరా? లేక సమర్పించనా?"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "శాస్త్రీయ పరిభాషలో వివాహిత (అవివాహిత కూడా కావచ్చు)",
-      "rightNumber": 12,
-      "rightText": "పగటి రాజుకు పట్టమహిషి కావచ్చు."
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "సేన",
-      "rightNumber": 16,
-      "rightText": "శూద్రక నాయిక"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "నరవర నీచే ... వరమడిగిన కుంతిచేత",
-      "rightNumber": 18,
-      "rightText": "ఇదో అవతారం"
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "శస్త్రపాణి నిరాయుధుడై కావడితో తిరుగుతాడు.",
-      "rightNumber": 19,
-      "rightText": "ఆటకి పాటకి ఇది చెల్లుతుంది"
-    },
-    {
-      "leftNumber": 20,
-      "leftText": "ఒక వరుసలో రెండు",
-      "rightNumber": 20,
-      "rightText": "ఉన్నారా? (ఇది వస్తే లేకపోవచ్చు)"
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "వేదపండితునికి ఇష్టమైన కాయ కాబోలు",
-      "rightNumber": 22,
-      "rightText": "మూడు లఘువులు ఒక గురువు, అప్పుడొక కొండ"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "మొనగాడు (అల్లికలోనా?)",
-      "rightNumber": 24,
-      "rightText": "స్వాములారు (లేదా వారి గుర్రం)"
-    },
-    {
-      "leftNumber": 26,
-      "leftText": "ముణబామరా! తిప్పితే తిరుగులేదు.",
-      "rightNumber": 25,
-      "rightText": "అంతా ఇంతే అన్నారు, ఆదిశంకరులు"
-    },
-    {
-      "leftNumber": 27,
-      "leftText": "తెల్లనిది కాదు, నల్లనిది!",
-      "rightNumber": null,
-      "rightText": null
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -192,7 +88,7 @@
       "text": "తెల్లనిది కాదు, నల్లనిది!"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

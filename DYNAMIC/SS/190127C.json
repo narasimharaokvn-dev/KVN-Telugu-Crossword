@@ -1,99 +1,7 @@
 ﻿{
   "sheetName": "190127",
   "identity": "190127C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "నాకు జూతో చెలగాటమా? ఎంత వాటం.",
-      "rightNumber": 2,
-      "rightText": "పులి ఆడదు, ఆడిస్తుంది."
-    },
-    {
-      "leftNumber": 4,
-      "leftText": "ఆ జోరు ఈవూరు.",
-      "rightNumber": 3,
-      "rightText": "తయారు చేస్తా చొక్కాయి"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "సరస్వతి మహల్ లైబ్రరీలో దొరకవచ్చు.",
-      "rightNumber": 4,
-      "rightText": "ఆనన"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "చెట్టు వెళ్ళడం.",
-      "rightNumber": 5,
-      "rightText": "ఇల్లా (లేక అల్లా)"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "21 అయితే వెళ్ళకు.",
-      "rightNumber": 6,
-      "rightText": "ఆడు పక్షి"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "భ్రమించు మరలు",
-      "rightNumber": 8,
-      "rightText": "చెట్లకి, బండి చక్రాలకి ఉత్తరాలు"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "చింతలకు ముందు పుట్టేయా",
-      "rightNumber": 10,
-      "rightText": "తమిళనాయకుడు(అతని ఉచ్చారణలో)"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "షష్ఠి (60, LX)",
-      "rightNumber": 11,
-      "rightText": "ఎప్పుడని తురకసాయిబునా ఆడగటం"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "బ్రతుకు, బ్రతికేచోటు.",
-      "rightNumber": 13,
-      "rightText": "నిగమాంత శర్మ"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "ఇదెంత ఐదా?",
-      "rightNumber": 16,
-      "rightText": "చెయ్యడానికి నీవీ, నావి"
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "ఉదాహరణకు నర్మద.",
-      "rightNumber": 18,
-      "rightText": "కవిత్వానికి, పైత్యానికి"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "సంగీత సాంకేతికం.",
-      "rightNumber": 20,
-      "rightText": "పోలీసు స్టేషనుకాదు పాడటానికి"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "పి. ఆర్. కాలేజీలోని ఊరు.",
-      "rightNumber": 21,
-      "rightText": "ఇది తీరడానికి 11 అడ్డు"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "కన్నం వేసిన పాతనాణెం.",
-      "rightNumber": 23,
-      "rightText": "దీన్ని ఆమ్రేడిస్తే మూగడానికి అనుకరణ"
-    },
-    {
-      "leftNumber": 26,
-      "leftText": "దంచినమ్మక బొక్కిందే -",
-      "rightNumber": 24,
-      "rightText": "జల - మేఘం"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -170,7 +78,7 @@
       "text": "దంచినమ్మక బొక్కిందే -"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 2,

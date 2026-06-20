@@ -1,99 +1,7 @@
 ﻿{
   "sheetName": "190531",
   "identity": "190531C",
-  "rows": [
-    {
-      "leftNumber": 4,
-      "leftText": "తమిళనాడులో గ్రామం",
-      "rightNumber": 1,
-      "rightText": "గుర్రాల భాష"
-    },
-    {
-      "leftNumber": 7,
-      "leftText": "తులసి వనంలో కళంకం",
-      "rightNumber": 2,
-      "rightText": "అదృష్టం ఒక అంశ"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "మోసగాడు",
-      "rightNumber": 3,
-      "rightText": "తమాషాలు"
-    },
-    {
-      "leftNumber": 10,
-      "leftText": "కరిగించే పాత్ర",
-      "rightNumber": 4,
-      "rightText": "మజిలీలు"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "శత్రువుల్ని కొట్టడం ఎలా?",
-      "rightNumber": 5,
-      "rightText": "స్తోత్ర పాఠకుడు"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "స్త్రీ (మకారాది)",
-      "rightNumber": 6,
-      "rightText": "ప్రమద్వర"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "మంగలికత్తి (ఎటుతిప్పినా(rf)",
-      "rightNumber": 9,
-      "rightText": "పార్వతి"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "ఉదాహరణకి పుష్పకం",
-      "rightNumber": 10,
-      "rightText": "బలి నడిగింది గజమే"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "వరి",
-      "rightNumber": 12,
-      "rightText": "మూడు గణాలు (దేవుడి దయకోసం)"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "ఒక కవి ఇంటి పేరు",
-      "rightNumber": 15,
-      "rightText": "పాత సరదాల పత్రిక"
-    },
-    {
-      "leftNumber": 21,
-      "leftText": "ఆవు కనేది.",
-      "rightNumber": 17,
-      "rightText": "గలాటాలు (ఛందో బద్దమైనవి)"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "ఎన్ని బిరుదులున్నా చెళ్ళపిళ్ళవారికి ఇదంటే ఇష్టం",
-      "rightNumber": 19,
-      "rightText": "జాతీయ - (- సన్నివేశం)"
-    },
-    {
-      "leftNumber": 24,
-      "leftText": "సమర్పణ",
-      "rightNumber": 20,
-      "rightText": "బ్రహ్మ"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "నోటికి పెదవులు",
-      "rightNumber": 22,
-      "rightText": "25"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 23,
-      "rightText": "ముందడుగు వద్దు (వెనుకంజ కాదు)"
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 4,
@@ -165,7 +73,7 @@
       "text": "నోటికి పెదవులు"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

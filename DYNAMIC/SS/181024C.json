@@ -1,117 +1,7 @@
 ﻿{
   "sheetName": "181024",
   "identity": "181024C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "లోహాన్ని లాగుతుంది",
-      "rightNumber": 1,
-      "rightText": "ఒక రాగం కాదు ఇంకో రాగం"
-    },
-    {
-      "leftNumber": 4,
-      "leftText": "ఒక మనో వికారం",
-      "rightNumber": 2,
-      "rightText": "ఒక విద్య"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "పానుగంటి వారి సృష్టి",
-      "rightNumber": 3,
-      "rightText": "పువ్వుల చెట్టు"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "ఉర్దూలో ఒక సంఖ్య",
-      "rightNumber": 5,
-      "rightText": "హలం లేని వారికులం నిరర్థకం"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "హ్రస్వం",
-      "rightNumber": 6,
-      "rightText": "తమరు (నల్లగా వుంటారా?)"
-    },
-    {
-      "leftNumber": 12,
-      "leftText": "తలకట్టు",
-      "rightNumber": 7,
-      "rightText": "ఇందులోనే వుంది మిత్రభేదం"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "అటునుంచి రాడు",
-      "rightNumber": 10,
-      "rightText": "సుయోధనుడు"
-    },
-    {
-      "leftNumber": 14,
-      "leftText": "మునిమాపు",
-      "rightNumber": 14,
-      "rightText": "12 నెలలు"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "కూతురు",
-      "rightNumber": 15,
-      "rightText": "మావటీడు రథసారథి"
-    },
-    {
-      "leftNumber": 18,
-      "leftText": "పిమ్మట కాదు, మొదట",
-      "rightNumber": 16,
-      "rightText": "పునర్జన్మలో శిఖండి"
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "మొదట కాదు, పిమ్మట",
-      "rightNumber": 17,
-      "rightText": "ఇదే అది"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "సాయిబాబా కాలేజిలో ఏముంది ఊదటానికి?",
-      "rightNumber": 19,
-      "rightText": "సినిమా కాదు దాన్ని చూపించేది"
-    },
-    {
-      "leftNumber": 24,
-      "leftText": "జాతిభేదం",
-      "rightNumber": 20,
-      "rightText": "రాందాసా?"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "తిట్టు",
-      "rightNumber": 21,
-      "rightText": "పట్టాలు లేకపోతే నిరుద్యోగులు"
-    },
-    {
-      "leftNumber": 28,
-      "leftText": "డీడీడీడీ",
-      "rightNumber": 23,
-      "rightText": "హనుమంతుడికి సముద్రం"
-    },
-    {
-      "leftNumber": 29,
-      "leftText": "ఒక కాయ తీగ",
-      "rightNumber": 24,
-      "rightText": "-మహాముని పురాణ ప్రసిద్ధుడు"
-    },
-    {
-      "leftNumber": 30,
-      "leftText": "ఇవి కూడా రాళ్ళే",
-      "rightNumber": 26,
-      "rightText": "ఈ జల సేతువు ఎందుకు బంధించడం?"
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "రాళ్ళే ఇవి కూడా",
-      "rightNumber": 27,
-      "rightText": "నాడు తిరిగింది."
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -203,7 +93,7 @@
       "text": "రాళ్ళే ఇవి కూడా"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

@@ -1,147 +1,7 @@
 ﻿{
   "sheetName": "210353",
   "identity": "210353C",
-  "rows": [
-    {
-      "leftNumber": 1,
-      "leftText": "ఇంకో ఈశ్వరి",
-      "rightNumber": 7,
-      "rightText": "నాటు వైద్యుడు?"
-    },
-    {
-      "leftNumber": 3,
-      "leftText": "ముక్కున ఉంటుంది",
-      "rightNumber": 8,
-      "rightText": "స్థలం"
-    },
-    {
-      "leftNumber": 2,
-      "leftText": "21తో భాష్యం",
-      "rightNumber": 10,
-      "rightText": "సినిమాలో కమేడియన్"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "తనలో",
-      "rightNumber": 12,
-      "rightText": "సమయం"
-    },
-    {
-      "leftNumber": 3,
-      "leftText": "తొలి ఋతువు",
-      "rightNumber": 14,
-      "rightText": "30"
-    },
-    {
-      "leftNumber": 6,
-      "leftText": "కోటి జనాభా",
-      "rightNumber": 15,
-      "rightText": "భట్టు భారతీయుడే"
-    },
-    {
-      "leftNumber": 4,
-      "leftText": "వీధి అందనిది",
-      "rightNumber": 17,
-      "rightText": "దమ్మొక మృగమ్ము!"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "ఒక పేక ముక్క",
-      "rightNumber": 18,
-      "rightText": "లాండ్రీ మృగం"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "ఒకటి సొంతం",
-      "rightNumber": 20,
-      "rightText": "మనడం కాంతి సూచన"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "తల్లి",
-      "rightNumber": 21,
-      "rightText": "చూ. 2"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "ఒక లేడీ డాక్టర్",
-      "rightNumber": 23,
-      "rightText": "శతకానికి మకుటం"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "గిరీశం సాక్షి",
-      "rightNumber": 24,
-      "rightText": "ప్రాకైత లక్షణం (తలక్రిందులు)"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "“పాతాళభైరవి” లో పాత్ర",
-      "rightNumber": 27,
-      "rightText": "ఆమ్రేడితంలో తిరుగుడు"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "రండి (లేదా పొండి)",
-      "rightNumber": 29,
-      "rightText": "బ్రహ్మి"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "భూమికి సరిహద్దు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "యాత్రలో ఇది వాక్యంలో కామా",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "రెండు గణాలు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "అదృష్టాలు కాబోలు",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "అయినా మానవచ్చు.",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 26,
-      "leftText": "పారిభాషిక పదం (నాట్యంలో)",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 28,
-      "leftText": "జవాబు కోరేది",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 30,
-      "leftText": "పౌరాణిక నాయిక",
-      "rightNumber": null,
-      "rightText": null
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "ఈ కోటి 6 కన్నా ఎక్కువ",
-      "rightNumber": null,
-      "rightText": null
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 1,
@@ -258,7 +118,7 @@
       "text": "ఈ కోటి 6 కన్నా ఎక్కువ"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 7,

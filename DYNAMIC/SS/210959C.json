@@ -1,123 +1,7 @@
 ﻿{
   "sheetName": "210959",
   "identity": "210959C",
-  "rows": [
-    {
-      "leftNumber": 3,
-      "leftText": "సనాతనాధునాతనా సంగీతంలో దరువు",
-      "rightNumber": 1,
-      "rightText": "ఒక మహమ్మదు"
-    },
-    {
-      "leftNumber": 5,
-      "leftText": "భాస్కరుని ముద్దు పేరు",
-      "rightNumber": 2,
-      "rightText": "భాష సజీవం"
-    },
-    {
-      "leftNumber": 6,
-      "leftText": "వాడు బ్రతుకనేర్చిన వాడు",
-      "rightNumber": 3,
-      "rightText": "లాట లేకున్నా ఉన్నా కలహం"
-    },
-    {
-      "leftNumber": 8,
-      "leftText": "గొంతుకలో పచ్చి వెలక్కాయ",
-      "rightNumber": 4,
-      "rightText": "24 గంట దేశం"
-    },
-    {
-      "leftNumber": 9,
-      "leftText": "కొందరి మాటలు",
-      "rightNumber": 5,
-      "rightText": "గజాష్టకంలో కవి"
-    },
-    {
-      "leftNumber": 11,
-      "leftText": "జాతరగాలుల ప్రారంభస్థలం",
-      "rightNumber": 7,
-      "rightText": "ఒకనాటి పత్రిక, ఈ నాటి సినిమా"
-    },
-    {
-      "leftNumber": 13,
-      "leftText": "చేసి చాయం గలది",
-      "rightNumber": 8,
-      "rightText": "ప్రాణం వున్నంతవరకే"
-    },
-    {
-      "leftNumber": 15,
-      "leftText": "అత్యున్నతికి హేతువు",
-      "rightNumber": 10,
-      "rightText": "పడకటిళ్ళలో నిలువుటద్దాల లోవుంటాయి"
-    },
-    {
-      "leftNumber": 16,
-      "leftText": "జైల్ సింగ్ కేంద్ర కాబినెట్ లో తల లేని పి.వి.",
-      "rightNumber": 12,
-      "rightText": "వినిపించనిది మరీ మధురం"
-    },
-    {
-      "leftNumber": 17,
-      "leftText": "ఖనిజం",
-      "rightNumber": 14,
-      "rightText": "వరాహ నది"
-    },
-    {
-      "leftNumber": 19,
-      "leftText": "నీరం నీరజం",
-      "rightNumber": 15,
-      "rightText": "ఒకనాటి 7"
-    },
-    {
-      "leftNumber": 22,
-      "leftText": "పంచమం చక్కెర",
-      "rightNumber": 17,
-      "rightText": "రంగస్థ నటుని ఇంటి పేరు"
-    },
-    {
-      "leftNumber": 23,
-      "leftText": "మూషికాలయం",
-      "rightNumber": 18,
-      "rightText": "వాడు కలిగించేది, వినోదం"
-    },
-    {
-      "leftNumber": 25,
-      "leftText": "చూసేది కన్నుకాదు",
-      "rightNumber": 20,
-      "rightText": "గాలి, వేలుపు"
-    },
-    {
-      "leftNumber": 26,
-      "leftText": "తలపడు",
-      "rightNumber": 21,
-      "rightText": "ఇంగ్లీషు తిండికి క్రికెట్ లో బ్రేకు"
-    },
-    {
-      "leftNumber": 28,
-      "leftText": "గొడ్డులో లేదు, గొడ్లలో వుంది",
-      "rightNumber": 23,
-      "rightText": "తిలకించండి"
-    },
-    {
-      "leftNumber": 30,
-      "leftText": "మంతరంలో సిరి",
-      "rightNumber": 24,
-      "rightText": "సాదీస్తాన్"
-    },
-    {
-      "leftNumber": 31,
-      "leftText": "గడియారంలో వెంట్రుక",
-      "rightNumber": 27,
-      "rightText": "సాగితేనే సిద్ధి"
-    },
-    {
-      "leftNumber": null,
-      "leftText": null,
-      "rightNumber": 29,
-      "rightText": "పిట్ట వాగుతుంది."
-    }
-  ],
-  "leftEntries": [
+  "crossEntries": [
     {
       "row": 1,
       "number": 3,
@@ -209,7 +93,7 @@
       "text": "గడియారంలో వెంట్రుక"
     }
   ],
-  "rightEntries": [
+  "downEntries": [
     {
       "row": 1,
       "number": 1,

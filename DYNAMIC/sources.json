@@ -7,6 +7,13 @@
       "index": "SS/index.json",
       "assetBase": "SS/",
       "solutionBase": "PUZZLE/"
+    },
+    {
+      "id": "GN",
+      "title": "GN",
+      "index": "GN/index.json",
+      "assetBase": "GN/",
+      "solutionBase": "PUZZLE/"
     }
   ]
 }
