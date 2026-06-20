@@ -286,6 +286,7 @@
 
   function onImageLoad(){
     dom.loading.hidden = true;
+    normalizeGridData();
     validateGridData();
     classifyGridFromImage();
     buildNumbering();
@@ -293,6 +294,42 @@
     renderClueLists();
     focusFirstCell();
     updateLayout();
+  }
+
+  function normalizeGridData(){
+    if(Array.isArray(state.gridData.rowLines) &&
+       Array.isArray(state.gridData.colLines) &&
+       state.gridData.cellNumbers &&
+       typeof state.gridData.cellNumbers === "object"){
+      return;
+    }
+
+    if(Number.isInteger(state.gridData.gridSize) && Array.isArray(state.gridData.numbers)){
+      const gridSize = state.gridData.gridSize;
+      const rowLines = [];
+      const colLines = [];
+      const cellNumbers = {};
+
+      for(let index = 0; index <= gridSize; index++){
+        const ratio = index / gridSize;
+        rowLines.push(ratio);
+        colLines.push(ratio);
+      }
+
+      state.gridData.numbers.forEach(function(entry){
+        if(!entry) return;
+        const row = Number(entry.row) - 1;
+        const col = Number(entry.col) - 1;
+        const number = Number(entry.number);
+        if(row >= 0 && col >= 0 && number){
+          cellNumbers[row + "-" + col] = number;
+        }
+      });
+
+      state.gridData.rowLines = rowLines;
+      state.gridData.colLines = colLines;
+      state.gridData.cellNumbers = cellNumbers;
+    }
   }
 
   function validateGridData(){
