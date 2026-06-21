@@ -4,91 +4,101 @@
   "crossEntries": [
     {
       "row": 1,
+      "number": 1,
+      "text": "దీనితో పెడర్ధాల అర్ధం అటు  ఇటూ"
+    },
+    {
+      "row": 2,
       "number": 3,
       "text": "మర్యాదస్తుడు అసమాపక క్రియ"
     },
     {
-      "row": 2,
+      "row": 3,
       "number": 5,
       "text": "– ఆడేది పోటీ"
     },
     {
-      "row": 3,
+      "row": 4,
       "number": 7,
       "text": "నిద్రకి పచ్చజెండా"
     },
     {
-      "row": 4,
+      "row": 5,
       "number": 9,
       "text": "సరిగ"
     },
     {
-      "row": 5,
+      "row": 6,
       "number": 10,
       "text": "పళ్ళకీ కొమ్మలకీ"
     },
     {
-      "row": 6,
+      "row": 7,
       "number": 12,
       "text": "చీమలశ్రమ"
     },
     {
-      "row": 7,
+      "row": 8,
       "number": 13,
       "text": "లంచం ?"
     },
     {
-      "row": 8,
+      "row": 9,
       "number": 15,
       "text": "ఆహ్వానించు"
     },
     {
-      "row": 9,
+      "row": 10,
       "number": 16,
       "text": "చెట్టు వెళ్ళడం"
     },
     {
-      "row": 10,
+      "row": 11,
       "number": 17,
       "text": "పై"
     },
     {
-      "row": 11,
+      "row": 12,
+      "number": 18,
+      "text": "ఏడు"
+    },
+    {
+      "row": 13,
       "number": 20,
       "text": "శక్తి రెండు స్వరాలు"
     },
     {
-      "row": 12,
-      "number": 2,
+      "row": 14,
+      "number": 22,
       "text": "కచ్చా ?"
     },
     {
-      "row": 13,
+      "row": 15,
       "number": 23,
       "text": "భూదాన గ్రహీత"
     },
     {
-      "row": 14,
+      "row": 16,
       "number": 25,
       "text": "నీ, నా"
     },
     {
-      "row": 15,
+      "row": 17,
       "number": 27,
       "text": "అతిధులకు"
     },
     {
-      "row": 16,
+      "row": 18,
       "number": 29,
       "text": "సమాధ్యవస్థలు"
     },
     {
-      "row": 17,
+      "row": 19,
       "number": 31,
       "text": "టాలు ఏకవచనమే"
     },
     {
-      "row": 18,
+      "row": 20,
       "number": 32,
       "text": "హాకీలో గమ్యం"
     }

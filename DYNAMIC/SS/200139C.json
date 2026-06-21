@@ -69,84 +69,85 @@
     },
     {
       "row": 14,
+      "number": 25,
+      "text": "అమూల్యమైనదా?"
+    }
+  ],
+  "downEntries": [
+    {
+      "row": 1,
       "number": 1,
       "text": "ఆరు"
     },
     {
-      "row": 15,
+      "row": 2,
       "number": 2,
       "text": "కులం ఫలించటం"
     },
     {
-      "row": 16,
+      "row": 3,
       "number": 3,
       "text": "సహజ కర్మకాదు"
     },
     {
-      "row": 17,
+      "row": 4,
       "number": 4,
       "text": "అంతా ఉంది కావ్యంలో"
     },
     {
-      "row": 18,
+      "row": 5,
       "number": 5,
       "text": "గుంట"
     },
     {
-      "row": 19,
+      "row": 6,
       "number": 6,
       "text": "రెండో తరగతి పౌరులా?"
     },
     {
-      "row": 20,
+      "row": 7,
       "number": 9,
       "text": "విస్ఫులింగాలు"
     },
     {
-      "row": 21,
+      "row": 8,
       "number": 10,
       "text": "సుప్రభాతం?"
     },
     {
-      "row": 22,
+      "row": 9,
       "number": 12,
       "text": "శివుడు"
     },
     {
-      "row": 23,
+      "row": 10,
       "number": 15,
       "text": "దగ్గర చుట్టం"
     },
     {
-      "row": 24,
+      "row": 11,
       "number": 17,
       "text": "ఆఫ్రికా అమ్మాయి"
     },
     {
-      "row": 25,
+      "row": 12,
       "number": 19,
       "text": "24కి వాడుక రూపం"
     },
     {
-      "row": 26,
+      "row": 13,
       "number": 20,
       "text": "చేరువలో"
     },
     {
-      "row": 27,
-      "number": 2,
+      "row": 14,
+      "number": 22,
       "text": "దెబ్బ"
     },
     {
-      "row": 28,
-      "number": 25,
-      "text": "అమూల్యమైనదా?"
-    },
-    {
-      "row": 29,
+      "row": 15,
       "number": 23,
       "text": "ఏం లేదు"
     }
-  ],
-  "downEntries": []
+  ]
 }

@@ -4,43 +4,43 @@
   "crossEntries": [
     {
       "row": 1,
+      "number": 1,
+      "text": "పూర్వం తూర్పు"
+    },
+    {
+      "row": 2,
       "number": 3,
       "text": "ఆ కెరటం"
     },
     {
-      "row": 2,
+      "row": 3,
       "number": 5,
       "text": "వరూధిని వీణ దేనికి మేళం?"
     },
     {
-      "row": 3,
+      "row": 4,
       "number": 6,
       "text": "కనరానిది కలిసి రావచ్చు."
     },
     {
-      "row": 4,
+      "row": 5,
       "number": 8,
       "text": "ఆకొన్న కంచెకు ఆహారం"
     },
     {
-      "row": 5,
+      "row": 6,
       "number": 9,
       "text": "అధమం"
     },
     {
-      "row": 6,
+      "row": 7,
       "number": 11,
       "text": "పాదితో పేలుతుంది"
     },
     {
-      "row": 7,
-      "number": 13,
-      "text": null
-    },
-    {
       "row": 8,
-      "number": 25,
-      "text": "జానకీ ఊర్మిళా"
+      "number": 13,
+      "text": "25. జానకీ ఊర్మిళా"
     },
     {
       "row": 9,
