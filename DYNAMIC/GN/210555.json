@@ -1,363 +1,84 @@
 {
-  "image": "210555.png",
-  "gridSize": 15,
-  "numbers": [
-    {
-      "number": 1,
-      "row": 1,
-      "col": 5,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 2,
-      "row": 1,
-      "col": 7,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 3,
-      "row": 1,
-      "col": 9,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 4,
-      "row": 1,
-      "col": 13,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 5,
-      "row": 2,
-      "col": 2,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 6,
-      "row": 2,
-      "col": 7,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 7,
-      "row": 2,
-      "col": 12,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 8,
-      "row": 3,
-      "col": 1,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 9,
-      "row": 3,
-      "col": 11,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 10,
-      "row": 4,
-      "col": 1,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 11,
-      "row": 4,
-      "col": 3,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 12,
-      "row": 4,
-      "col": 5,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 13,
-      "row": 4,
-      "col": 6,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 14,
-      "row": 4,
-      "col": 9,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 15,
-      "row": 4,
-      "col": 14,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 16,
-      "row": 6,
-      "col": 1,
-      "starts": [
-        "across",
-        "down"
-      ]
-    },
-    {
-      "number": 17,
-      "row": 6,
-      "col": 5,
-      "starts": [
-        "across",
-        "down"
-      ]
-    },
-    {
-      "number": 18,
-      "row": 6,
-      "col": 7,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 19,
-      "row": 6,
-      "col": 9,
-      "starts": [
-        "across",
-        "down"
-      ]
-    },
-    {
-      "number": 20,
-      "row": 6,
-      "col": 14,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 21,
-      "row": 7,
-      "col": 13,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 22,
-      "row": 8,
-      "col": 1,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 23,
-      "row": 8,
-      "col": 3,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 24,
-      "row": 8,
-      "col": 7,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 25,
-      "row": 8,
-      "col": 11,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 26,
-      "row": 8,
-      "col": 13,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 27,
-      "row": 8,
-      "col": 15,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 28,
-      "row": 10,
-      "col": 1,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 29,
-      "row": 10,
-      "col": 5,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 30,
-      "row": 10,
-      "col": 9,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 31,
-      "row": 10,
-      "col": 10,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 32,
-      "row": 10,
-      "col": 13,
-      "starts": [
-        "across",
-        "down"
-      ]
-    },
-    {
-      "number": 33,
-      "row": 12,
-      "col": 1,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 34,
-      "row": 12,
-      "col": 4,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 35,
-      "row": 12,
-      "col": 5,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 36,
-      "row": 12,
-      "col": 7,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 37,
-      "row": 12,
-      "col": 9,
-      "starts": [
-        "across",
-        "down"
-      ]
-    },
-    {
-      "number": 38,
-      "row": 12,
-      "col": 11,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 39,
-      "row": 12,
-      "col": 13,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 40,
-      "row": 12,
-      "col": 15,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 41,
-      "row": 13,
-      "col": 3,
-      "starts": [
-        "down"
-      ]
-    },
-    {
-      "number": 42,
-      "row": 14,
-      "col": 1,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 43,
-      "row": 14,
-      "col": 7,
-      "starts": [
-        "across"
-      ]
-    },
-    {
-      "number": 44,
-      "row": 14,
-      "col": 11,
-      "starts": [
-        "across"
-      ]
-    }
-  ]
+  "rowLines": [
+    0,
+    0.05266666666666666,
+    0.10533333333333332,
+    0.158,
+    0.21066666666666664,
+    0.2633333333333333,
+    0.316,
+    0.36866666666666664,
+    0.4213333333333333,
+    0.4739999999999999,
+    0.5266666666666666,
+    0.5793333333333333,
+    0.632,
+    0.6846666666666666,
+    0.7373333333333333,
+    0.7899999999999999
+  ],
+  "colLines": [
+    0,
+    0.064,
+    0.128,
+    0.192,
+    0.256,
+    0.31999999999999995,
+    0.384,
+    0.448,
+    0.512,
+    0.576,
+    0.6399999999999999,
+    0.704,
+    0.768,
+    0.832,
+    0.896,
+    0.96
+  ],
+  "cellNumbers": {
+    "0-4": 1,
+    "0-6": 2,
+    "0-8": 3,
+    "0-12": 4,
+    "1-1": 5,
+    "1-6": 6,
+    "1-11": 7,
+    "2-0": 8,
+    "2-10": 9,
+    "3-0": 10,
+    "3-2": 11,
+    "3-4": 12,
+    "3-5": 13,
+    "3-8": 14,
+    "3-13": 15,
+    "5-0": 16,
+    "5-4": 17,
+    "5-6": 18,
+    "5-8": 19,
+    "5-13": 20,
+    "6-12": 21,
+    "7-0": 22,
+    "7-2": 23,
+    "7-6": 24,
+    "7-10": 25,
+    "7-12": 26,
+    "7-14": 27,
+    "9-0": 28,
+    "9-4": 29,
+    "9-8": 30,
+    "9-9": 31,
+    "9-12": 32,
+    "11-0": 33,
+    "11-3": 34,
+    "11-4": 35,
+    "11-6": 36,
+    "11-8": 37,
+    "11-10": 38,
+    "11-12": 39,
+    "11-14": 40,
+    "12-2": 41,
+    "13-0": 42,
+    "13-6": 43,
+    "13-10": 44
+  }
 }

@@ -85,6 +85,12 @@ body{
   background:#f5fafc;
 }
 
+.toolbar button:disabled{
+  cursor:default;
+  background:#eef2f5;
+  color:#9aa7b4;
+}
+
 .toolbar button[hidden]{
   display:none;
 }

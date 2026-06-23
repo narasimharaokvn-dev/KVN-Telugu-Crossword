@@ -11,11 +11,13 @@
   <div id="headerSection">
     <header class="hero">
       <h1 id="puzzleTitle">Dynamic Puzzle</h1>
-      <p id="puzzleSubtitle">Shared view reading image, grid JSON, and clues JSON from the three files in <code>SS</code>.</p>
+      <p id="puzzleSubtitle">Shared view reading image, grid JSON, and clues JSON from separate puzzle data files.</p>
     </header>
 
     <div class="toolbar">
       <a id="libraryLink" href="index.html">Puzzle Library</a>
+      <button type="button" id="previousButton">Previous</button>
+      <button type="button" id="nextButton">Next</button>
       <div class="picker">
         <label for="folderSelect" class="picker-label">Folder</label>
         <select id="folderSelect" aria-label="Select folder"></select>
@@ -65,13 +67,13 @@
       </section>
     </div>
 
-    <p class="note">Open with <code>?puzzle=170101</code> or leave it blank to load the latest complete puzzle from <code>SS/index.json</code>.</p>
+    <p class="note">Open with <code>?folder=SS&amp;puzzle=170101</code> or leave it blank to load the latest complete puzzle across your configured folders.</p>
   </div>
 </div>
 
 <div class="overlay" id="solutionOverlay" hidden>
   <div class="overlay-card">
-    <button class="overlay-close" type="button" id="solutionClose" aria-label="Close solution">×</button>
+    <button class="overlay-close" type="button" id="solutionClose" aria-label="Close solution">&times;</button>
     <img id="solutionImage" alt="Puzzle solution">
   </div>
 </div>

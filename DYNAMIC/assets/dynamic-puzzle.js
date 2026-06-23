@@ -32,6 +32,8 @@
     puzzleSelect: document.getElementById("puzzleSelect"),
     saveButton: document.getElementById("saveButton"),
     clearButton: document.getElementById("clearButton"),
+    previousButton: document.getElementById("previousButton"),
+    nextButton: document.getElementById("nextButton"),
     solutionButton: document.getElementById("solutionButton"),
     libraryLink: document.getElementById("libraryLink"),
     image: document.getElementById("puzzleImage"),
@@ -70,6 +72,8 @@
   function wireEvents(){
     dom.saveButton.tabIndex = -1;
     dom.clearButton.tabIndex = -1;
+    dom.previousButton.tabIndex = -1;
+    dom.nextButton.tabIndex = -1;
     dom.solutionButton.tabIndex = -1;
 
     dom.folderSelect.addEventListener("change", function(){
@@ -78,6 +82,14 @@
 
     dom.puzzleSelect.addEventListener("change", function(){
       navigateToSelection(dom.folderSelect.value, dom.puzzleSelect.value);
+    });
+
+    dom.previousButton.addEventListener("click", function(){
+      navigateRelative(-1);
+    });
+
+    dom.nextButton.addEventListener("click", function(){
+      navigateRelative(1);
     });
 
     dom.saveButton.addEventListener("click", function(){
@@ -142,7 +154,16 @@
 
   async function loadSelectionFromQuery(){
     const params = new URLSearchParams(location.search);
-    const folderId = params.get("folder") || state.sources.latestFolder || firstFolderId();
+    const requestedFolderId = params.get("folder");
+    const requestedPuzzle = params.get("puzzle");
+    let folderId = requestedFolderId;
+
+    if(!folderId && !requestedPuzzle){
+      const latestChoice = await findLatestSelection();
+      folderId = latestChoice.folderId;
+    }
+
+    folderId = folderId || state.sources.latestFolder || firstFolderId();
     state.folderMeta = getFolderMeta(folderId);
     if(!state.folderMeta){
       throw new Error("Folder " + folderId + " is not available in sources.json");
@@ -151,7 +172,6 @@
     state.index = await fetchJson(state.folderMeta.index);
     populatePuzzleSelect();
 
-    const requestedPuzzle = params.get("puzzle");
     const puzzleMeta = selectPuzzle(state.index, requestedPuzzle);
     if(!puzzleMeta){
       throw new Error("No complete puzzle entry is available in " + state.folderMeta.id);
@@ -159,6 +179,7 @@
 
     dom.folderSelect.value = state.folderMeta.id;
     dom.puzzleSelect.value = puzzleMeta.id;
+    updateNavigationButtons();
     await loadPuzzle(puzzleMeta);
   }
 
@@ -173,6 +194,7 @@
     state.answers = loadAnswers();
 
     renderHeader();
+    updateNavigationButtons();
     dom.solutionButton.hidden = !state.solutionUrl;
     dom.image.addEventListener("load", onImageLoad, { once: true });
     dom.image.src = state.imageUrl;
@@ -211,6 +233,33 @@
       option.textContent = puzzle.id;
       dom.puzzleSelect.appendChild(option);
     });
+  }
+
+  async function findLatestSelection(){
+    const folders = Array.isArray(state.sources.folders) ? state.sources.folders : [];
+    let best = null;
+
+    for(const folder of folders){
+      try{
+        const indexData = await fetchJson(folder.index);
+        const puzzleMeta = selectPuzzle(indexData, null);
+        if(!puzzleMeta) continue;
+
+        const numericId = Number(puzzleMeta.id) || 0;
+        if(!best || numericId > best.numericId){
+          best = {
+            folderId: folder.id,
+            numericId: numericId
+          };
+        }
+      }catch(error){
+        continue;
+      }
+    }
+
+    return {
+      folderId: best ? best.folderId : (state.sources.latestFolder || firstFolderId())
+    };
   }
 
   function firstFolderId(){
@@ -258,6 +307,31 @@
     return puzzles.filter(function(item){
       return item.complete;
     });
+  }
+
+  function currentPuzzleIndex(){
+    const puzzles = getCompletePuzzles();
+    return puzzles.findIndex(function(item){
+      return state.puzzleMeta && item.id === state.puzzleMeta.id;
+    });
+  }
+
+  function updateNavigationButtons(){
+    const puzzles = getCompletePuzzles();
+    const index = currentPuzzleIndex();
+    dom.previousButton.disabled = index <= 0;
+    dom.nextButton.disabled = index < 0 || index >= puzzles.length - 1;
+  }
+
+  function navigateRelative(step){
+    const puzzles = getCompletePuzzles();
+    const index = currentPuzzleIndex();
+    if(index < 0) return;
+
+    const target = puzzles[index + step];
+    if(target){
+      navigateToSelection(state.folderMeta.id, target.id);
+    }
   }
 
   function navigateToSelection(folderId, puzzleId){
