@@ -347,11 +347,10 @@
   }
 
   function renderHeader(){
-    const folderLabel = state.folderMeta.title || state.folderMeta.id || "Dynamic";
     const title = state.puzzleMeta.title || state.puzzleMeta.id || "Dynamic Puzzle";
     document.title = title;
     dom.title.textContent = title;
-    dom.subtitle.textContent = folderLabel + " magazine puzzle.";
+    dom.subtitle.textContent = "Please click on any number for viewing the clue.";
   }
 
   function resolveAssetPath(basePath, fileName){
