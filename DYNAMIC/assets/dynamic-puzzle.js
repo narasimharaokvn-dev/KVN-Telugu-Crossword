@@ -351,7 +351,7 @@
     const title = state.puzzleMeta.title || state.puzzleMeta.id || "Dynamic Puzzle";
     document.title = title;
     dom.title.textContent = title;
-    dom.subtitle.textContent = folderLabel + " folder: template view loading puzzle image, grid JSON, and clues JSON separately.";
+    dom.subtitle.textContent = folderLabel + " magazine puzzle.";
   }
 
   function resolveAssetPath(basePath, fileName){
