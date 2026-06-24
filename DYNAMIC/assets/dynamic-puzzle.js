@@ -187,7 +187,7 @@
     state.puzzleMeta = puzzleMeta;
     state.gridData = await fetchJson(resolveAssetPath(state.folderMeta.assetBase, puzzleMeta.gridFile));
     state.clueData = await fetchJson(resolveAssetPath(state.folderMeta.assetBase, puzzleMeta.clueFile));
-    state.imageUrl = resolveAssetPath(state.folderMeta.assetBase, puzzleMeta.imageFile);
+    state.imageUrl = await resolvePuzzleImageUrl(puzzleMeta);
     state.solutionUrl = puzzleMeta.solutionFile
       ? resolveAssetPath(state.folderMeta.solutionBase || state.folderMeta.assetBase, puzzleMeta.solutionFile)
       : "";
@@ -201,6 +201,68 @@
     if(dom.image.complete){
       onImageLoad();
     }
+  }
+
+  async function resolvePuzzleImageUrl(puzzleMeta){
+    const candidates = buildImageCandidates(puzzleMeta);
+    for(const candidate of candidates){
+      if(await canLoadImage(candidate)){
+        return candidate;
+      }
+    }
+
+    if(candidates.length){
+      return candidates[0];
+    }
+
+    throw new Error("Could not resolve puzzle image for " + puzzleMeta.id);
+  }
+
+  function buildImageCandidates(puzzleMeta){
+    const extensions = ["png", "gif", "jpg", "jpeg", "webp"];
+    const seen = new Set();
+    const candidates = [];
+    const imageFile = (puzzleMeta.imageFile || "").trim();
+    const puzzleId = String(puzzleMeta.id || "").trim();
+
+    function addCandidate(fileName){
+      if(!fileName) return;
+      const resolved = resolveAssetPath(state.folderMeta.assetBase, fileName);
+      if(seen.has(resolved)) return;
+      seen.add(resolved);
+      candidates.push(resolved);
+    }
+
+    addCandidate(imageFile);
+
+    const baseName = imageFile
+      ? imageFile.replace(/\.[^.]+$/, "")
+      : puzzleId;
+
+    extensions.forEach(function(ext){
+      addCandidate(baseName + "." + ext);
+    });
+
+    if(puzzleId && puzzleId !== baseName){
+      extensions.forEach(function(ext){
+        addCandidate(puzzleId + "." + ext);
+      });
+    }
+
+    return candidates;
+  }
+
+  function canLoadImage(url){
+    return new Promise(function(resolve){
+      const probe = new Image();
+      probe.onload = function(){
+        resolve(true);
+      };
+      probe.onerror = function(){
+        resolve(false);
+      };
+      probe.src = url;
+    });
   }
 
   async function fetchJson(path){
