@@ -2,6 +2,27 @@
   "latestFolder": "SS",
   "folders": [
     {
+      "id": "AJ",
+      "title": "AJ",
+      "index": "AJ/index.json",
+      "assetBase": "AJ/",
+      "solutionBase": "PUZZLE/"
+    },
+    {
+      "id": "SA",
+      "title": "SA",
+      "index": "SA/index.json",
+      "assetBase": "SA/",
+      "solutionBase": "PUZZLE/"
+    },
+    {
+      "id": "HI",
+      "title": "HI",
+      "index": "HI/index.json",
+      "assetBase": "HI/",
+      "solutionBase": "PUZZLE/"
+    },
+    {
       "id": "EE",
       "title": "EE",
       "index": "EE/index.json",

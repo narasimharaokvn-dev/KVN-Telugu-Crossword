@@ -1,0 +1,60 @@
+{
+  "latestCompleteId": "260614",
+  "puzzles": [
+    {
+      "id": "260614",
+      "title": "HI Puzzle 260614",
+      "imageFile": "260614.png",
+      "gridFile": "260614.json",
+      "clueFile": "260614C.json",
+      "solutionFile": null,
+      "acrossCount": 16,
+      "downCount": 16,
+      "complete": true
+    },
+    {
+      "id": "260607",
+      "title": "HI Puzzle 260607",
+      "imageFile": "260607.png",
+      "gridFile": "260607.json",
+      "clueFile": "260607C.json",
+      "solutionFile": null,
+      "acrossCount": 16,
+      "downCount": 16,
+      "complete": true
+    },
+    {
+      "id": "260531",
+      "title": "HI Puzzle 260531",
+      "imageFile": "260531.gif",
+      "gridFile": "260531.json",
+      "clueFile": "260531C.json",
+      "solutionFile": null,
+      "acrossCount": 23,
+      "downCount": 19,
+      "complete": true
+    },
+    {
+      "id": "260524",
+      "title": "HI Puzzle 260524",
+      "imageFile": "260524.gif",
+      "gridFile": "260524.json",
+      "clueFile": "260524C.json",
+      "solutionFile": null,
+      "acrossCount": 16,
+      "downCount": 16,
+      "complete": true
+    },
+    {
+      "id": "260517",
+      "title": "HI Puzzle 260517",
+      "imageFile": "260517.gif",
+      "gridFile": "260517.json",
+      "clueFile": "260517C.json",
+      "solutionFile": null,
+      "acrossCount": 14,
+      "downCount": 16,
+      "complete": true
+    }
+  ]
+}

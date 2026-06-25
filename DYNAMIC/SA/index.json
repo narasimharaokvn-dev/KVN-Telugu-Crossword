@@ -1,0 +1,38 @@
+{
+  "latestCompleteId": "260614",
+  "puzzles": [
+    {
+      "id": "260614",
+      "title": "SA Puzzle 260614",
+      "imageFile": "260614.png",
+      "gridFile": "260614.json",
+      "clueFile": "260614C.json",
+      "solutionFile": null,
+      "acrossCount": 23,
+      "downCount": 20,
+      "complete": true
+    },
+    {
+      "id": "260607",
+      "title": "SA Puzzle 260607",
+      "imageFile": "260607.gif",
+      "gridFile": "260607.json",
+      "clueFile": "260607C.json",
+      "solutionFile": null,
+      "acrossCount": 22,
+      "downCount": 23,
+      "complete": true
+    },
+    {
+      "id": "260531",
+      "title": "SA Puzzle 260531",
+      "imageFile": "260531.gif",
+      "gridFile": "260531.json",
+      "clueFile": "260531C.json",
+      "solutionFile": null,
+      "acrossCount": 23,
+      "downCount": 19,
+      "complete": true
+    }
+  ]
+}

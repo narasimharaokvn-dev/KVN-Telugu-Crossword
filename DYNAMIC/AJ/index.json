@@ -1,0 +1,115 @@
+{
+  "latestCompleteId": "260714",
+  "puzzles": [
+    {
+      "id": "260714",
+      "title": "AJ Puzzle 260714",
+      "imageFile": "260714.png",
+      "gridFile": "260714.json",
+      "clueFile": "260714C.json",
+      "solutionFile": null,
+      "acrossCount": 26,
+      "downCount": 28,
+      "complete": true
+    },
+    {
+      "id": "260607",
+      "title": "AJ Puzzle 260607",
+      "imageFile": "260607.gif",
+      "gridFile": "260607.json",
+      "clueFile": "260607C.json",
+      "solutionFile": null,
+      "acrossCount": 27,
+      "downCount": 28,
+      "complete": true
+    },
+    {
+      "id": "260531",
+      "title": "AJ Puzzle 260531",
+      "imageFile": "260531.gif",
+      "gridFile": "260531.json",
+      "clueFile": "260531C.json",
+      "solutionFile": null,
+      "acrossCount": 28,
+      "downCount": 31,
+      "complete": true
+    },
+    {
+      "id": "260524",
+      "title": "AJ Puzzle 260524",
+      "imageFile": "260524.gif",
+      "gridFile": "260524.json",
+      "clueFile": "260524C.json",
+      "solutionFile": null,
+      "acrossCount": 25,
+      "downCount": 26,
+      "complete": true
+    },
+    {
+      "id": "260517",
+      "title": "AJ Puzzle 260517",
+      "imageFile": "260517.gif",
+      "gridFile": "260517.json",
+      "clueFile": "260517C.json",
+      "solutionFile": null,
+      "acrossCount": 26,
+      "downCount": 27,
+      "complete": true
+    },
+    {
+      "id": "260322",
+      "title": "AJ Puzzle 260322",
+      "imageFile": "260322.png",
+      "gridFile": "260322.json",
+      "clueFile": "260322C.json",
+      "solutionFile": null,
+      "acrossCount": 24,
+      "downCount": 27,
+      "complete": true
+    },
+    {
+      "id": "260308",
+      "title": "AJ Puzzle 260308",
+      "imageFile": "260308.png",
+      "gridFile": "260308.json",
+      "clueFile": "260308C.json",
+      "solutionFile": null,
+      "acrossCount": 26,
+      "downCount": 25,
+      "complete": true
+    },
+    {
+      "id": "260301",
+      "title": "AJ Puzzle 260301",
+      "imageFile": "260301.png",
+      "gridFile": "260301.json",
+      "clueFile": "260301C.json",
+      "solutionFile": null,
+      "acrossCount": 23,
+      "downCount": 26,
+      "complete": true
+    },
+    {
+      "id": "260222",
+      "title": "AJ Puzzle 260222",
+      "imageFile": "260222.png",
+      "gridFile": "260222.json",
+      "clueFile": "260222C.json",
+      "solutionFile": null,
+      "acrossCount": 27,
+      "downCount": 25,
+      "complete": true
+    },
+    {
+      "id": "260215",
+      "title": "AJ Puzzle 260215",
+      "imageFile": "260215.png",
+      "gridFile": "260215.json",
+      "clueFile": "260215C.json",
+      "solutionFile": null,
+      "acrossCount": 30,
+      "downCount": 27,
+      "complete": true
+    }
+  ]
+}
