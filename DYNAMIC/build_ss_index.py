@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parent
 SOURCES_PATH = ROOT / "sources.json"
 PUZZLE_DIR = ROOT / "PUZZLE"
 FOLDER_TITLES = {
+    "EE": "EE",
     "SS": "Sri Sri",
     "GN": "GN",
 }

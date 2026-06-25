@@ -2,6 +2,13 @@
   "latestFolder": "SS",
   "folders": [
     {
+      "id": "EE",
+      "title": "EE",
+      "index": "EE/index.json",
+      "assetBase": "EE/",
+      "solutionBase": "PUZZLE/"
+    },
+    {
       "id": "SS",
       "title": "Sri Sri",
       "index": "SS/index.json",
