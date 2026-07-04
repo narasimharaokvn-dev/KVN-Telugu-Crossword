@@ -1,4 +1,7 @@
 (function(){
+  const LAST_SELECTION_KEY = "dynamic_puzzle_last_selection";
+  const SPLASH_ONE_MS = 2200;
+
   const state = {
     sources: null,
     folderMeta: null,
@@ -20,22 +23,28 @@
       down: new Map()
     },
     inputs: new Map(),
-    answers: {}
+    answers: {},
+    history: [],
+    historyIndex: -1
   };
 
   const dom = {
+    splashOne: document.getElementById("splashScreenOne"),
+    splashTwo: document.getElementById("splashScreenTwo"),
+    gameShell: document.getElementById("gameShell"),
+    startButton: document.getElementById("startButton"),
     title: document.getElementById("puzzleTitle"),
     subtitle: document.getElementById("puzzleSubtitle"),
     loading: document.getElementById("loadingCard"),
     banner: document.getElementById("statusBanner"),
     folderSelect: document.getElementById("folderSelect"),
     puzzleSelect: document.getElementById("puzzleSelect"),
-    saveButton: document.getElementById("saveButton"),
     clearButton: document.getElementById("clearButton"),
+    undoButton: document.getElementById("undoButton"),
+    redoButton: document.getElementById("redoButton"),
     previousButton: document.getElementById("previousButton"),
     nextButton: document.getElementById("nextButton"),
     solutionButton: document.getElementById("solutionButton"),
-    libraryLink: document.getElementById("libraryLink"),
     image: document.getElementById("puzzleImage"),
     grid: document.getElementById("grid"),
     acrossLabel: document.getElementById("acrossLabel"),
@@ -44,8 +53,6 @@
     downText: document.getElementById("downText"),
     acrossList: document.getElementById("acrossList"),
     downList: document.getElementById("downList"),
-    headerSection: document.getElementById("headerSection"),
-    scrollRegion: document.getElementById("scrollRegion"),
     solutionOverlay: document.getElementById("solutionOverlay"),
     solutionImage: document.getElementById("solutionImage"),
     solutionClose: document.getElementById("solutionClose")
@@ -55,6 +62,7 @@
 
   async function initialize(){
     wireEvents();
+    startSplashFlow();
 
     try{
       state.sources = await fetchJson("sources.json");
@@ -66,16 +74,11 @@
         ? " If you open this outside Codex, use GitHub Pages or a local web server."
         : "";
       showBanner((error.message || "Could not load puzzle data.") + suffix);
+      showGameScreen();
     }
   }
 
   function wireEvents(){
-    dom.saveButton.tabIndex = -1;
-    dom.clearButton.tabIndex = -1;
-    dom.previousButton.tabIndex = -1;
-    dom.nextButton.tabIndex = -1;
-    dom.solutionButton.tabIndex = -1;
-
     dom.folderSelect.addEventListener("change", function(){
       navigateToSelection(dom.folderSelect.value, "");
     });
@@ -92,19 +95,19 @@
       navigateRelative(1);
     });
 
-    dom.saveButton.addEventListener("click", function(){
-      persistAnswers();
-      showToast("Progress saved", "#2d9b57");
+    dom.undoButton.addEventListener("click", function(){
+      undoAnswers();
+    });
+
+    dom.redoButton.addEventListener("click", function(){
+      redoAnswers();
     });
 
     dom.clearButton.addEventListener("click", function(){
       if(!confirm("Clear all answers?")) return;
-      state.answers = {};
-      persistAnswers();
-      state.inputs.forEach(function(input){
-        input.value = "";
-      });
-      showToast("Answers cleared", "#c4473b");
+      applyAnswersSnapshot({});
+      pushHistorySnapshot();
+      showToast("Answers cleared", "#c84346");
     });
 
     dom.solutionButton.addEventListener("click", function(){
@@ -120,6 +123,8 @@
       }
     });
 
+    dom.startButton.addEventListener("click", showGameScreen);
+
     window.addEventListener("keydown", function(event){
       if(event.key === "Escape" && !dom.solutionOverlay.hidden){
         closeSolution();
@@ -131,25 +136,23 @@
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(refreshAfterResize, 80);
     });
+  }
 
-    if(window.visualViewport){
-      const viewport = window.visualViewport;
-      viewport.addEventListener("resize", updateLayout);
-      viewport.addEventListener("scroll", updateLayout);
+  function startSplashFlow(){
+    dom.splashOne.hidden = false;
+    dom.splashTwo.hidden = true;
+    dom.gameShell.hidden = true;
 
-      document.addEventListener("focusin", function(event){
-        if(event.target.matches(".entry input")){
-          setTimeout(function(){
-            updateLayout();
-            const inputRect = event.target.getBoundingClientRect();
-            const containerRect = dom.scrollRegion.getBoundingClientRect();
-            if(inputRect.bottom > containerRect.bottom - 20){
-              dom.scrollRegion.scrollTop += inputRect.bottom - containerRect.bottom + 50;
-            }
-          }, 250);
-        }
-      });
-    }
+    window.setTimeout(function(){
+      dom.splashOne.hidden = true;
+      dom.splashTwo.hidden = false;
+    }, SPLASH_ONE_MS);
+  }
+
+  function showGameScreen(){
+    dom.splashOne.hidden = true;
+    dom.splashTwo.hidden = true;
+    dom.gameShell.hidden = false;
   }
 
   async function loadSelectionFromQuery(){
@@ -157,10 +160,17 @@
     const requestedFolderId = params.get("folder");
     const requestedPuzzle = params.get("puzzle");
     let folderId = requestedFolderId;
+    let puzzleId = requestedPuzzle;
 
-    if(!folderId && !requestedPuzzle){
-      const latestChoice = await findLatestSelection();
-      folderId = latestChoice.folderId;
+    if(!folderId && !puzzleId){
+      const remembered = readLastSelection();
+      if(remembered){
+        folderId = remembered.folderId;
+        puzzleId = remembered.puzzleId;
+      }else{
+        const latestChoice = await findLatestSelection();
+        folderId = latestChoice.folderId;
+      }
     }
 
     folderId = folderId || state.sources.latestFolder || firstFolderId();
@@ -172,7 +182,7 @@
     state.index = await fetchJson(state.folderMeta.index);
     populatePuzzleSelect();
 
-    const puzzleMeta = selectPuzzle(state.index, requestedPuzzle);
+    const puzzleMeta = selectPuzzle(state.index, puzzleId);
     if(!puzzleMeta){
       throw new Error("No complete puzzle entry is available in " + state.folderMeta.id);
     }
@@ -185,6 +195,7 @@
 
   async function loadPuzzle(puzzleMeta){
     state.puzzleMeta = puzzleMeta;
+    persistLastSelection();
     state.gridData = await fetchJson(resolveAssetPath(state.folderMeta.assetBase, puzzleMeta.gridFile));
     state.clueData = await fetchJson(resolveAssetPath(state.folderMeta.assetBase, puzzleMeta.clueFile));
     state.imageUrl = await resolvePuzzleImageUrl(puzzleMeta);
@@ -192,9 +203,11 @@
       ? resolveAssetPath(state.folderMeta.solutionBase || state.folderMeta.assetBase, puzzleMeta.solutionFile)
       : "";
     state.answers = loadAnswers();
+    initializeHistory();
 
     renderHeader();
     updateNavigationButtons();
+    updateHistoryButtons();
     dom.solutionButton.hidden = !state.solutionUrl;
     dom.image.addEventListener("load", onImageLoad, { once: true });
     dom.image.src = state.imageUrl;
@@ -235,10 +248,7 @@
 
     addCandidate(imageFile);
 
-    const baseName = imageFile
-      ? imageFile.replace(/\.[^.]+$/, "")
-      : puzzleId;
-
+    const baseName = imageFile ? imageFile.replace(/\.[^.]+$/, "") : puzzleId;
     extensions.forEach(function(ext){
       addCandidate(baseName + "." + ext);
     });
@@ -255,12 +265,8 @@
   function canLoadImage(url){
     return new Promise(function(resolve){
       const probe = new Image();
-      probe.onload = function(){
-        resolve(true);
-      };
-      probe.onerror = function(){
-        resolve(false);
-      };
+      probe.onload = function(){ resolve(true); };
+      probe.onerror = function(){ resolve(false); };
       probe.src = url;
     });
   }
@@ -322,6 +328,24 @@
     return {
       folderId: best ? best.folderId : (state.sources.latestFolder || firstFolderId())
     };
+  }
+
+  function readLastSelection(){
+    try{
+      const raw = localStorage.getItem(LAST_SELECTION_KEY);
+      const parsed = raw ? JSON.parse(raw) : null;
+      if(!parsed || !parsed.folderId) return null;
+      return parsed;
+    }catch(error){
+      return null;
+    }
+  }
+
+  function persistLastSelection(){
+    localStorage.setItem(LAST_SELECTION_KEY, JSON.stringify({
+      folderId: state.folderMeta.id,
+      puzzleId: state.puzzleMeta.id
+    }));
   }
 
   function firstFolderId(){
@@ -409,10 +433,10 @@
   }
 
   function renderHeader(){
-    const title = state.puzzleMeta.title || state.puzzleMeta.id || "Dynamic Puzzle";
+    const title = state.puzzleMeta.title || state.puzzleMeta.id || "KVN Cross PJ";
     document.title = title;
     dom.title.textContent = title;
-    dom.subtitle.textContent = "Please click on any number for viewing the clue.";
+    dom.subtitle.textContent = "ఏ సంఖ్యపైనైనా నొక్కితే క్లూ కనిపిస్తుంది.";
   }
 
   function resolveAssetPath(basePath, fileName){
@@ -427,8 +451,14 @@
     buildNumbering();
     renderGrid();
     renderClueLists();
-    focusFirstCell();
-    updateLayout();
+    updateHistoryButtons();
+    if(state.inputs.size){
+      const firstKey = state.inputs.keys().next();
+      if(!firstKey.done){
+        const parts = firstKey.value.split("-").map(Number);
+        updateClueBox(parts[0], parts[1]);
+      }
+    }
   }
 
   function normalizeGridData(){
@@ -690,8 +720,13 @@
         input.addEventListener("input", function(){
           const value = input.value.length > 8 ? input.value.slice(-8) : input.value;
           input.value = value;
-          state.answers[key] = value;
+          if(value){
+            state.answers[key] = value;
+          }else{
+            delete state.answers[key];
+          }
           persistAnswers();
+          pushHistorySnapshot();
         });
 
         input.addEventListener("keydown", function(event){
@@ -820,14 +855,6 @@
     }
   }
 
-  function focusFirstCell(){
-    const firstKey = state.inputs.keys().next();
-    if(!firstKey.done){
-      const parts = firstKey.value.split("-").map(Number);
-      focusCell(parts[0], parts[1]);
-    }
-  }
-
   function moveInDirection(row, col, rowStep, colStep){
     let nextRow = row + rowStep;
     let nextCol = col + colStep;
@@ -849,23 +876,18 @@
 
   function refreshAfterResize(){
     if(!state.gridPattern.length) return;
-    renderGrid();
-    const active = document.activeElement;
-    if(active && active.matches(".entry input")){
-      updateClueBox(Number(active.dataset.row), Number(active.dataset.col));
-    }
-    updateLayout();
-  }
+    const active = document.activeElement && document.activeElement.matches(".entry input")
+      ? {
+          row: Number(document.activeElement.dataset.row),
+          col: Number(document.activeElement.dataset.col)
+        }
+      : null;
 
-  function updateLayout(){
-    if(window.innerWidth > 720 || !window.visualViewport) return;
-    const viewport = window.visualViewport;
-    const offsetTop = viewport.offsetTop;
-    const viewportHeight = viewport.height;
-    dom.headerSection.style.transform = "translateY(" + offsetTop + "px)";
-    const headerHeight = dom.headerSection.offsetHeight;
-    dom.scrollRegion.style.top = (headerHeight + offsetTop) + "px";
-    dom.scrollRegion.style.height = (viewportHeight - headerHeight) + "px";
+    renderGrid();
+    if(active){
+      focusCell(active.row, active.col);
+      updateClueBox(active.row, active.col);
+    }
   }
 
   function loadAnswers(){
@@ -883,6 +905,61 @@
 
   function getStorageKey(){
     return "dynamic_puzzle_answers_" + state.folderMeta.id + "_" + state.puzzleMeta.id;
+  }
+
+  function initializeHistory(){
+    state.history = [];
+    state.historyIndex = -1;
+    pushHistorySnapshot();
+  }
+
+  function snapshotAnswers(){
+    return JSON.parse(JSON.stringify(state.answers || {}));
+  }
+
+  function pushHistorySnapshot(){
+    const snapshot = snapshotAnswers();
+    const serialized = JSON.stringify(snapshot);
+    const current = state.historyIndex >= 0
+      ? JSON.stringify(state.history[state.historyIndex])
+      : null;
+
+    if(serialized === current){
+      updateHistoryButtons();
+      return;
+    }
+
+    state.history = state.history.slice(0, state.historyIndex + 1);
+    state.history.push(snapshot);
+    state.historyIndex = state.history.length - 1;
+    updateHistoryButtons();
+  }
+
+  function applyAnswersSnapshot(snapshot){
+    state.answers = JSON.parse(JSON.stringify(snapshot || {}));
+    persistAnswers();
+    state.inputs.forEach(function(input, key){
+      input.value = state.answers[key] || "";
+    });
+  }
+
+  function undoAnswers(){
+    if(state.historyIndex <= 0) return;
+    state.historyIndex -= 1;
+    applyAnswersSnapshot(state.history[state.historyIndex]);
+    updateHistoryButtons();
+  }
+
+  function redoAnswers(){
+    if(state.historyIndex >= state.history.length - 1) return;
+    state.historyIndex += 1;
+    applyAnswersSnapshot(state.history[state.historyIndex]);
+    updateHistoryButtons();
+  }
+
+  function updateHistoryButtons(){
+    dom.undoButton.disabled = state.historyIndex <= 0;
+    dom.redoButton.disabled = state.historyIndex >= state.history.length - 1 || state.historyIndex < 0;
   }
 
   function showBanner(message){
@@ -903,16 +980,19 @@
       "top:18px",
       "left:18px",
       "padding:10px 14px",
-      "border-radius:8px",
+      "border-radius:12px",
       "color:#ffffff",
       "background:" + background,
       "font-size:0.92rem",
-      "box-shadow:0 8px 18px rgba(0,0,0,0.18)",
+      "font-family:'Space Grotesk',sans-serif",
+      "font-weight:700",
+      "box-shadow:6px 6px 0 #1b1b1c",
+      "border:2px solid #1b1b1c",
       "z-index:9999"
     ].join(";");
     document.body.appendChild(toast);
     setTimeout(function(){
       toast.remove();
-    }, 1800);
+    }, 1400);
   }
 })();
