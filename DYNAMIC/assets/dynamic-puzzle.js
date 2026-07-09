@@ -1,6 +1,6 @@
 (function(){
   const LAST_SELECTION_KEY = "dynamic_puzzle_last_selection";
-  const SPLASH_ONE_MS = 2200;
+  const SPLASH_ONE_MS = 60000;
 
   const state = {
     sources: null,

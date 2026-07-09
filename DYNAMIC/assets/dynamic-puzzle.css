@@ -1,19 +1,16 @@
 :root{
   --bg:#fcf8f9;
   --paper:#ffffff;
-  --paper-soft:#f0edee;
-  --ink:#1b1b1c;
-  --ink-soft:#464555;
-  --line:#c7c4d7;
-  --primary:#4343d5;
-  --primary-soft:#e1e0ff;
-  --primary-box:#5d5fef;
-  --sun:#fcd442;
-  --sun-deep:#725c00;
-  --leaf:#4ade80;
-  --leaf-deep:#2c7a4b;
-  --danger:#c84346;
-  --danger-soft:#ffdad8;
+  --ink:#101010;
+  --ink-soft:#59606b;
+  --line:#c8c8c8;
+  --yellow:#ffe100;
+  --yellow-deep:#d7b000;
+  --green:#49d357;
+  --green-deep:#23913c;
+  --blue:#22698d;
+  --blue-deep:#0d3d5a;
+  --danger:#ffb4b4;
 }
 
 *{
@@ -23,10 +20,7 @@
 html,body{
   margin:0;
   min-height:100%;
-  background:
-    radial-gradient(circle at top left, rgba(67,67,213,0.08), transparent 28%),
-    radial-gradient(circle at bottom right, rgba(252,212,66,0.08), transparent 26%),
-    var(--bg);
+  background:var(--bg);
   color:var(--ink);
   font-family:"Plus Jakarta Sans","Noto Sans Telugu","Nirmala UI",sans-serif;
 }
@@ -47,228 +41,234 @@ input{
 
 .screen-splash{
   min-height:100vh;
-  padding:24px 18px;
+  padding:0;
 }
 
-.screen-splash-primary{
-  position:relative;
-  overflow:hidden;
-  background:
-    radial-gradient(rgba(0,0,0,0.09) 1px, transparent 1px),
-    var(--leaf);
-  background-size:24px 24px, auto;
-}
-
+.screen-splash-primary,
 .screen-splash-secondary{
-  display:grid;
-  grid-template-rows:1fr 1fr;
-  background:var(--bg);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--green);
 }
 
-.splash-banner{
+.splash-reference-image{
+  display:block;
+  width:100vw;
+  height:100vh;
+  object-fit:contain;
+  object-position:center;
+}
+
+.splash-second-wrap{
   position:relative;
-  z-index:3;
-  width:min(100%,960px);
-  margin:0 auto;
-  padding:20px 24px;
-  border:4px solid var(--ink);
-  background:var(--sun);
-  box-shadow:8px 8px 0 var(--ink);
-  text-align:center;
-}
-
-.splash-title-stack h1,
-.hero-brand h1{
-  margin:0;
-  font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
-  font-size:clamp(2rem,5vw,3.5rem);
-  line-height:1.05;
-  letter-spacing:-0.04em;
-}
-
-.splash-kicker,
-.hero-kicker{
-  margin:0 0 8px;
-  font-family:"JetBrains Mono",monospace;
-  font-size:0.92rem;
-  font-weight:700;
-  letter-spacing:0.35em;
-  text-transform:uppercase;
-}
-
-.splash-copy,
-#puzzleSubtitle{
-  margin:10px 0 0;
-  font-size:1rem;
-  color:var(--ink-soft);
-}
-
-.floating-word{
-  position:absolute;
+  width:100vw;
+  height:100vh;
   display:flex;
-  flex-direction:column;
-  gap:10px;
-  z-index:2;
-}
-
-.floating-word span,
-.floating-badge{
-  display:inline-flex;
   align-items:center;
   justify-content:center;
-  min-height:52px;
-  padding:12px 18px;
-  border:3px solid var(--ink);
-  border-radius:14px;
-  background:#fff36d;
-  box-shadow:6px 6px 0 var(--ink);
-  font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
-  font-weight:700;
-}
-
-.word-left{ top:20%; left:7%; }
-.word-center{ top:52%; left:22%; }
-.word-right{ right:7%; bottom:18%; align-items:flex-end; }
-
-.floating-badge{
-  position:absolute;
-  z-index:1;
-  background:var(--paper);
-}
-
-.badge-top-left{ top:9%; left:7%; color:#1e40af; border-color:#1e40af; }
-.badge-top-right{ top:8%; right:7%; color:#2563eb; border-color:#2563eb; }
-.badge-mid-right{ top:46%; right:6%; }
-.badge-bottom-right{ right:14%; bottom:7%; color:#1e3a8a; border-color:#1e3a8a; background:var(--sun); }
-
-.intro-panel{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  gap:18px;
-  text-align:center;
-  padding:28px 20px;
-}
-
-.intro-top{
-  background:#fff176;
-  border-bottom:3px solid rgba(27,27,28,0.12);
-}
-
-.intro-bottom{
-  background:#4caf50;
-  color:#ffffff;
-}
-
-.intro-panel p{
-  margin:0;
-  max-width:720px;
-  font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
-  font-size:clamp(1.5rem,3vw,2.35rem);
-  line-height:1.3;
-  font-weight:700;
-}
-
-.intro-small{
-  font-size:clamp(1rem,2vw,1.4rem) !important;
-  opacity:0.8;
-}
-
-.intro-emphasis{
-  padding-top:14px;
-  border-top:2px solid rgba(27,27,28,0.15);
 }
 
 .start-button{
-  margin-top:10px;
   padding:16px 24px;
   border:3px solid var(--ink);
   border-radius:14px;
-  background:var(--paper);
+  background:#ffffff;
   color:var(--ink);
   font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
   font-weight:700;
-  box-shadow:8px 8px 0 var(--ink);
+  box-shadow:6px 6px 0 var(--ink);
   cursor:pointer;
 }
 
 .start-button:active{
   transform:translate(3px, 3px);
-  box-shadow:5px 5px 0 var(--ink);
+  box-shadow:3px 3px 0 var(--ink);
+}
+
+.start-button-overlay{
+  position:absolute;
+  left:50%;
+  bottom:4vh;
+  transform:translateX(-50%);
+  z-index:10;
+}
+
+.start-button-overlay:active{
+  transform:translateX(calc(-50% + 3px)) translateY(3px);
 }
 
 .game-shell{
-  padding:18px 16px 32px;
+  max-width:1240px;
+  margin:0 auto;
+  padding:0 0 28px;
 }
 
 .game-hero{
-  max-width:1160px;
-  margin:0 auto 18px;
-  padding:18px;
   border:3px solid var(--ink);
-  border-radius:20px;
-  background:var(--sun);
-  box-shadow:8px 8px 0 var(--sun-deep);
+  background:var(--yellow);
+}
+
+.hero-poster-band{
+  display:grid;
+  grid-template-columns:68px 1fr 68px;
+  align-items:center;
+  padding:8px 8px 2px;
+}
+
+.hero-leaf{
+  text-align:center;
+  font-size:3rem;
+  color:#2e8b39;
+}
+
+.hero-brand{
+  text-align:center;
+}
+
+.hero-brand h1{
+  margin:0;
+  font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
+  font-size:clamp(2.4rem,6vw,4.2rem);
+  font-weight:700;
+  line-height:1;
+}
+
+.hero-mainline{
+  margin:4px 0 0;
+  font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
+  font-size:clamp(1.25rem,4vw,2.25rem);
+  font-weight:700;
+  line-height:1.05;
+}
+
+.hero-divider{
+  margin-top:8px;
+  font-size:1rem;
+  font-weight:700;
+  letter-spacing:0.08em;
 }
 
 .hero-controls{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.hero-controls-top{
   display:flex;
+  justify-content:center;
+  gap:28px;
   flex-wrap:wrap;
-  gap:12px;
-  margin-top:18px;
-  align-items:end;
+  padding-top:18px;
+}
+
+.selector-group{
+  display:flex;
+  align-items:center;
+  gap:16px;
+}
+
+.selector-label{
+  min-width:104px;
+  padding:12px 14px;
+  border:2px solid var(--blue-deep);
+  border-radius:14px;
+  background:var(--blue);
+  color:#ffffff;
+  text-align:center;
+  font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
+  font-size:1.08rem;
+  font-weight:700;
+  box-shadow:3px 3px 0 var(--blue-deep);
 }
 
 .picker-card{
-  display:flex;
-  flex-direction:column;
-  gap:6px;
   min-width:180px;
-  padding:12px;
-  border:2px solid var(--ink);
-  border-radius:14px;
-  background:var(--primary);
-  color:#ffffff;
-  box-shadow:4px 4px 0 var(--ink);
-}
-
-.picker-card label{
-  font-size:0.92rem;
-  font-weight:700;
+  height:46px;
+  border:2px solid var(--blue-deep);
+  background:var(--blue);
+  box-shadow:3px 3px 0 var(--blue-deep);
 }
 
 .picker-card select{
+  width:100%;
+  height:100%;
   border:none;
   background:transparent;
   color:#ffffff;
-  padding:0;
+  padding:0 12px;
   outline:none;
+  font-weight:700;
 }
 
 .picker-card select option{
   color:var(--ink);
 }
 
-.nav-chip,
-.utility-ribbon button{
-  min-height:50px;
-  padding:12px 16px;
+.hero-controls-bottom{
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  gap:18px;
+  align-items:center;
+  padding-top:12px;
+  padding-bottom:18px;
+}
+
+.action-cluster{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  align-items:center;
+}
+
+.current-puzzle-box{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:6px;
+}
+
+.current-puzzle-label{
+  font-size:0.9rem;
+  font-weight:700;
+  color:#6b420a;
+}
+
+.current-puzzle-title{
+  min-width:min(100%, 420px);
+  padding:12px 18px;
+  border:2px solid #000000;
+  background:#050505;
+  color:#ffffff;
+  text-align:center;
+  font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
+  font-size:clamp(1.25rem,3vw,2rem);
+  font-weight:700;
+}
+
+.current-puzzle-note{
+  margin:0;
+  color:#433800;
+  font-size:0.9rem;
+}
+
+.nav-chip{
+  min-height:42px;
+  padding:10px 16px;
   border:2px solid var(--ink);
-  border-radius:14px;
-  background:var(--paper);
+  border-radius:999px;
+  background:#f3f3ea;
   color:var(--ink);
-  box-shadow:4px 4px 0 var(--ink);
+  box-shadow:3px 3px 0 var(--ink);
   cursor:pointer;
   font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
   font-weight:700;
 }
 
-.nav-chip:disabled,
-.utility-ribbon button:disabled{
-  background:#ebe8e9;
-  color:#918f9f;
-  box-shadow:3px 3px 0 #b7b4c4;
+.nav-chip:disabled{
+  background:#ecebe3;
+  color:#8c8c8c;
+  box-shadow:2px 2px 0 #b8b8b8;
   cursor:default;
 }
 
@@ -276,76 +276,67 @@ input{
   display:none;
 }
 
-.utility-ribbon{
-  display:flex;
-  flex-wrap:wrap;
-  gap:12px;
-  justify-content:center;
-  margin-bottom:16px;
-}
-
-.utility-ribbon .danger{
-  background:var(--danger-soft);
-  color:#7a1824;
+.danger-chip{
+  background:var(--danger);
 }
 
 .game-stage{
-  max-width:1160px;
-  margin:0 auto;
+  margin-top:0;
 }
 
 .status-banner{
-  margin:0 auto 16px;
-  padding:14px 16px;
-  border:2px solid #ad7b12;
-  border-radius:14px;
-  background:#fff2c5;
-  color:#7e5610;
-  box-shadow:4px 4px 0 #ad7b12;
+  margin:12px 0 12px;
+  padding:12px 14px;
+  border:2px solid #a06d0a;
+  background:#fff0b5;
+  color:#6e4d0b;
 }
 
 .loading-card{
-  margin:0 auto 16px;
-  padding:14px 16px;
+  margin:10px 0 12px;
+  padding:12px 14px;
   border:2px solid var(--ink);
-  border-radius:14px;
-  background:var(--paper);
-  box-shadow:4px 4px 0 var(--ink);
+  background:#ffffff;
+  box-shadow:3px 3px 0 var(--ink);
   text-align:center;
 }
 
 .play-stage{
-  padding:14px;
-  border:3px solid var(--ink);
-  border-radius:22px;
-  background:#59bf6c;
-  box-shadow:8px 8px 0 var(--leaf-deep);
+  padding:0 8px 8px;
+  border-left:3px solid var(--ink);
+  border-right:3px solid var(--ink);
+  border-bottom:3px solid var(--ink);
+  background:var(--green);
+}
+
+.clue-preview-bar{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px;
+  margin:0 8px 8px;
 }
 
 .clue-box{
-  margin-bottom:18px;
-  padding:16px;
-  border:3px solid var(--ink);
-  border-radius:18px;
-  background:var(--paper);
-  box-shadow:4px 4px 0 var(--ink);
+  padding:6px 10px;
+  border:1px solid #bdbdbd;
+  background:#ffffff;
+}
+
+.clue-box-compact{
+  min-height:48px;
 }
 
 .clue-line{
-  min-height:2rem;
-  font-size:clamp(1rem,2vw,1.2rem);
+  font-size:clamp(0.95rem,2vw,1.12rem);
   font-weight:700;
-  line-height:1.3;
-}
-
-.clue-line + .clue-line{
-  margin-top:14px;
+  line-height:1.25;
 }
 
 .detail{
   display:block;
-  margin-top:6px;
+  margin-top:2px;
   color:var(--ink-soft);
+  font-size:0.92rem;
   font-weight:500;
 }
 
@@ -356,23 +347,21 @@ input{
 .puzzle-shell{
   display:flex;
   justify-content:center;
+  padding:0 8px 8px;
 }
 
 .puzzle-frame{
   position:relative;
-  width:min(100%,760px);
+  width:min(100%, 860px);
   padding:6px;
-  border:4px solid var(--ink);
-  border-radius:20px;
+  border:1px solid #999999;
   background:#ffffff;
-  box-shadow:6px 6px 0 var(--ink);
 }
 
 .puzzle-frame img{
   display:block;
   width:100%;
   height:auto;
-  border-radius:10px;
 }
 
 #grid{
@@ -384,15 +373,15 @@ input{
   display:grid;
   grid-template-columns:repeat(2, minmax(0, 1fr));
   gap:18px;
-  margin-top:20px;
+  margin-top:16px;
+  padding:0 8px;
 }
 
 .clue-panel{
   padding:16px;
-  border:3px solid var(--ink);
-  border-radius:18px;
+  border:2px solid var(--ink);
   background:var(--paper);
-  box-shadow:6px 6px 0 var(--ink);
+  box-shadow:3px 3px 0 var(--ink);
 }
 
 .clue-panel h2{
@@ -415,24 +404,23 @@ input{
   width:100%;
   padding:10px;
   border:2px solid transparent;
-  border-radius:12px;
   background:transparent;
   text-align:left;
   cursor:pointer;
 }
 
 .clue-item:hover{
-  background:#f6f3f4;
+  background:#f5f5ef;
 }
 
 .clue-item.active{
-  border-color:var(--primary);
-  background:var(--primary-soft);
-  box-shadow:3px 3px 0 var(--primary);
+  border-color:#1b6ddb;
+  background:#e7f0ff;
+  box-shadow:3px 3px 0 #1b6ddb;
 }
 
 .clue-number{
-  color:var(--primary);
+  color:#154d9a;
   font-family:"JetBrains Mono",monospace;
   font-weight:700;
 }
@@ -449,7 +437,6 @@ input{
   position:absolute;
   width:100%;
   height:100%;
-  border:1px solid transparent;
 }
 
 .entry input{
@@ -466,9 +453,8 @@ input{
 }
 
 .entry input:focus{
-  border-radius:4px;
-  box-shadow:inset 0 0 0 3px var(--primary);
-  background:rgba(225,224,255,0.68);
+  box-shadow:inset 0 0 0 3px #1f87cb;
+  background:rgba(213,242,255,0.72);
 }
 
 .overlay{
@@ -478,7 +464,7 @@ input{
   align-items:center;
   justify-content:center;
   padding:16px;
-  background:rgba(27,27,28,0.78);
+  background:rgba(0,0,0,0.78);
   z-index:2000;
 }
 
@@ -493,9 +479,8 @@ input{
   overflow:auto;
   padding:18px;
   border:3px solid var(--ink);
-  border-radius:20px;
   background:#ffffff;
-  box-shadow:12px 12px 0 var(--ink);
+  box-shadow:8px 8px 0 var(--ink);
 }
 
 .overlay-card img{
@@ -516,65 +501,97 @@ input{
   font-size:1.4rem;
 }
 
-@media (max-width: 920px){
+@media (max-width: 980px){
+  .hero-controls-bottom{
+    grid-template-columns:1fr;
+    justify-items:center;
+  }
+
+  .current-puzzle-box{
+    width:100%;
+  }
+
+  .current-puzzle-title{
+    width:100%;
+    min-width:0;
+  }
+
+  .action-cluster{
+    justify-content:center;
+  }
+
   .clue-columns{
     grid-template-columns:1fr;
   }
-
-  .floating-word,
-  .floating-badge{
-    transform:scale(0.9);
-  }
-
-  .word-left{ top:23%; left:3%; }
-  .word-center{ top:56%; left:8%; }
-  .word-right{ right:3%; bottom:18%; }
 }
 
 @media (max-width: 720px){
   .screen-splash{
-    padding:16px 12px;
+    padding:0;
   }
 
-  .splash-banner{
-    padding:16px;
+  .splash-reference-image{
+    width:100%;
+    height:100vh;
   }
 
-  .floating-word,
-  .floating-badge{
-    position:static;
-    margin:12px auto 0;
-    width:max-content;
-    max-width:100%;
+  .start-button-overlay{
+    bottom:3vh;
+    padding:14px 18px;
   }
 
-  .screen-splash-primary{
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-start;
-    gap:8px;
+  .hero-poster-band{
+    grid-template-columns:40px 1fr 40px;
+    padding:8px 4px 2px;
   }
 
-  .word-left,
-  .word-center,
-  .word-right{
-    align-items:center;
+  .hero-leaf{
+    font-size:2rem;
   }
 
-  .game-shell{
-    padding:14px 12px 24px;
+  .hero-mainline{
+    font-size:1.15rem;
+  }
+
+  .hero-divider{
+    font-size:0.85rem;
   }
 
   .hero-controls{
-    align-items:stretch;
+    padding-left:12px;
+    padding-right:12px;
   }
 
-  .picker-card,
+  .hero-controls-top{
+    gap:12px;
+  }
+
+  .selector-group{
+    width:100%;
+    gap:10px;
+  }
+
+  .selector-label{
+    min-width:90px;
+    font-size:0.95rem;
+  }
+
+  .picker-card{
+    flex:1;
+    min-width:0;
+  }
+
   .nav-chip{
     width:100%;
   }
 
+  .clue-preview-bar{
+    grid-template-columns:1fr;
+    margin-left:6px;
+    margin-right:6px;
+  }
+
   .play-stage{
-    padding:10px;
+    padding:0 6px 6px;
   }
 }

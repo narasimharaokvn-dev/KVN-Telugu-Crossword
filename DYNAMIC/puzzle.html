@@ -7,73 +7,66 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;700&family=JetBrains+Mono:wght@700&family=Noto+Sans+Telugu:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/dynamic-puzzle.css?v=20260703a">
+<link rel="stylesheet" href="assets/dynamic-puzzle.css?v=20260707g">
 </head>
 <body class="app-shell">
 <div class="screen-splash screen-splash-primary" id="splashScreenOne" aria-hidden="false">
-  <div class="splash-banner">
-    <div class="splash-title-stack">
-      <p class="splash-kicker">KVN</p>
-      <h1>తెలుగు Cross Word Puzzle</h1>
-    </div>
-    <p class="splash-copy">పదాల ఆట, తెలుగుయొక్క చురుకైన తాకిడి.</p>
-  </div>
-
-  <div class="floating-word word-left">
-    <span>గజిబిజి</span>
-    <span>గడినుడి</span>
-  </div>
-  <div class="floating-word word-center">
-    <span>పదకేళి</span>
-    <span>పదవినోదం</span>
-  </div>
-  <div class="floating-word word-right">
-    <span>మెదడుకు</span>
-    <span>మేత</span>
-  </div>
-
-  <div class="floating-badge badge-top-left">ఆంధ్రజ్యోతి</div>
-  <div class="floating-badge badge-top-right">ఈనాడు</div>
-  <div class="floating-badge badge-mid-right">ఈమాట</div>
-  <div class="floating-badge badge-bottom-right">సాక్షి</div>
+  <img class="splash-reference-image" src="assets/splash-screen-1.png" alt="KVN splash screen">
 </div>
 
 <div class="screen-splash screen-splash-secondary" id="splashScreenTwo" aria-hidden="true" hidden>
-  <section class="intro-panel intro-top">
-    <p>సులభమైన స్థాయి</p>
-    <p class="intro-small">నుండి</p>
-    <p>మెదడు పదును పెట్టే స్థాయి వరకు</p>
-    <p class="intro-emphasis">పాత కొత్తల కలయిక</p>
-  </section>
-
-  <section class="intro-panel intro-bottom">
-    <p>అడ్డం నిలువు కోసం</p>
-    <p>అడ్డదిడ్డంగా పరుగు పెట్టనక్కరలేదు</p>
-    <p>క్లూ నెంబరు గదిలోకి వస్తే చాలు</p>
-    <button type="button" id="startButton" class="start-button">ప్రారంభించండి</button>
-  </section>
+  <div class="splash-second-wrap">
+    <img class="splash-reference-image" src="assets/splash-screen-2.png" alt="KVN second splash screen">
+    <button type="button" id="startButton" class="start-button start-button-overlay">ప్రారంభించండి</button>
+  </div>
 </div>
 
 <div class="game-shell" id="gameShell" hidden>
   <header class="game-hero">
-    <div class="hero-brand">
-      <p class="hero-kicker">KVN</p>
-      <h1 id="puzzleTitle">KVN Cross PJ</h1>
-      <p id="puzzleSubtitle">ఏ సంఖ్యపైనైనా నొక్కితే క్లూ కనిపిస్తుంది.</p>
+    <div class="hero-poster-band">
+      <div class="hero-leaf hero-leaf-left">❦</div>
+      <div class="hero-brand">
+        <h1>✦ KVN ✦</h1>
+        <p class="hero-mainline">తెలుగు CROSS WORD PUZZLE</p>
+        <div class="hero-divider">• ── ❃ ── •</div>
+      </div>
+      <div class="hero-leaf hero-leaf-right">❦</div>
     </div>
 
-    <div class="hero-controls">
-      <div class="picker-card">
-        <label for="folderSelect">పత్రిక / Magazine</label>
-        <select id="folderSelect" aria-label="Select magazine"></select>
+    <div class="hero-controls hero-controls-top">
+      <div class="selector-group">
+        <div class="selector-label">సూచిక</div>
+        <div class="picker-card">
+          <select id="folderSelect" aria-label="Select magazine"></select>
+        </div>
       </div>
-      <div class="picker-card">
-        <label for="puzzleSelect">పజిల్ / Puzzle</label>
-        <select id="puzzleSelect" aria-label="Select puzzle"></select>
+
+      <div class="selector-group">
+        <div class="selector-label">సంఖ్య</div>
+        <div class="picker-card">
+          <select id="puzzleSelect" aria-label="Select puzzle"></select>
+        </div>
       </div>
-      <button type="button" id="previousButton" class="nav-chip">Previous</button>
-      <button type="button" id="nextButton" class="nav-chip">Next</button>
-      <button type="button" id="solutionButton" class="nav-chip" hidden>Solution</button>
+    </div>
+
+    <div class="hero-controls hero-controls-bottom">
+      <div class="action-cluster">
+        <button type="button" id="previousButton" class="nav-chip">Previous</button>
+        <button type="button" id="nextButton" class="nav-chip">Next</button>
+      </div>
+
+      <div class="current-puzzle-box">
+        <div class="current-puzzle-label">ఈ వారం పజిల్స్</div>
+        <div class="current-puzzle-title" id="puzzleTitle">KVN Cross PJ</div>
+        <p id="puzzleSubtitle" class="current-puzzle-note">ఏ సంఖ్యపైనైనా నొక్కితే క్లూ కనిపిస్తుంది.</p>
+      </div>
+
+      <div class="action-cluster">
+        <button type="button" id="undoButton" class="nav-chip">Undo</button>
+        <button type="button" id="redoButton" class="nav-chip">Redo</button>
+        <button type="button" id="clearButton" class="nav-chip danger-chip">Clear All</button>
+        <button type="button" id="solutionButton" class="nav-chip" hidden>Solution</button>
+      </div>
     </div>
   </header>
 
@@ -82,20 +75,19 @@
     <div class="loading-card" id="loadingCard">Loading puzzle...</div>
 
     <section class="play-stage">
-      <div class="utility-ribbon">
-        <button type="button" id="undoButton">Undo</button>
-        <button type="button" id="redoButton">Redo</button>
-        <button type="button" id="clearButton" class="danger">Clear All</button>
-      </div>
-
-      <div class="clue-box">
-        <div class="clue-line">
-          <span id="acrossLabel">- Across</span>
-          <span class="detail muted" id="acrossText">No clue</span>
+      <div class="clue-preview-bar">
+        <div class="clue-box clue-box-compact">
+          <div class="clue-line">
+            <span id="acrossLabel">- Across</span>
+            <span class="detail muted" id="acrossText">No clue</span>
+          </div>
         </div>
-        <div class="clue-line">
-          <span id="downLabel">- Down</span>
-          <span class="detail muted" id="downText">No clue</span>
+
+        <div class="clue-box clue-box-compact">
+          <div class="clue-line">
+            <span id="downLabel">- Down</span>
+            <span class="detail muted" id="downText">No clue</span>
+          </div>
         </div>
       </div>
 
@@ -112,6 +104,7 @@
         <h2>Across</h2>
         <div class="clue-list" id="acrossList"></div>
       </section>
+
       <section class="clue-panel">
         <h2>Down</h2>
         <div class="clue-list" id="downList"></div>
@@ -127,6 +120,6 @@
   </div>
 </div>
 
-<script src="assets/dynamic-puzzle.js?v=20260703a"></script>
+<script src="assets/dynamic-puzzle.js?v=20260707g"></script>
 </body>
 </html>
