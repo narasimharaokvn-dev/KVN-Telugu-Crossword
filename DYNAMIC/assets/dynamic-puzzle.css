@@ -138,7 +138,7 @@ input{
   padding:16px;
   border:3px solid var(--ink);
   border-radius:18px;
-  background:var(--green) !important;
+  background:#fffef2 !important;
   box-shadow:5px 5px 0 var(--ink);
 }
 
@@ -156,7 +156,7 @@ input{
 
 .choice-card-manual{
   grid-column:1 / -1;
-  background:var(--green) !important;
+  background:#fffef2 !important;
 }
 
 .choice-action{
