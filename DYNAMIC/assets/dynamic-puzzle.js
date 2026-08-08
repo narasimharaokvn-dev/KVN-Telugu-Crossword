@@ -35,6 +35,7 @@
     splashOne: document.getElementById("splashScreenOne"),
     splashTwo: document.getElementById("splashScreenTwo"),
     gameShell: document.getElementById("gameShell"),
+    splashStartButton: document.getElementById("splashStartButton"),
     latestButton: document.getElementById("latestButton"),
     latestChoiceText: document.getElementById("latestChoiceText"),
     recentButton: document.getElementById("recentButton"),
@@ -96,6 +97,8 @@
         showBanner(error.message || "Could not load selected magazine.");
       }
     });
+
+    dom.splashStartButton.addEventListener("click", showChoiceScreen);
 
     dom.latestButton.addEventListener("click", async function(){
       try{
@@ -191,8 +194,8 @@
     dom.gameShell.hidden = true;
 
     window.setTimeout(function(){
-      dom.splashOne.hidden = true;
-      dom.splashTwo.hidden = false;
+      if(dom.splashOne.hidden) return;
+      showChoiceScreen();
     }, SPLASH_ONE_MS);
   }
 

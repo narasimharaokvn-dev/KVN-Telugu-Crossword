@@ -90,6 +90,24 @@ input{
   box-shadow:3px 3px 0 var(--ink);
 }
 
+.splash-start-button{
+  position:absolute;
+  left:50%;
+  bottom:16px;
+  transform:translateX(-50%);
+  z-index:3;
+  min-height:44px;
+  padding:10px 22px;
+  border:3px solid var(--ink);
+  border-radius:999px;
+  background:var(--yellow);
+  color:var(--ink);
+  box-shadow:4px 4px 0 var(--ink);
+  cursor:pointer;
+  font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
+  font-weight:700;
+}
+
 .splash-second-wrap{
   position:relative;
   width:100vw;
@@ -624,7 +642,7 @@ input{
   height:100%;
   border:none;
   outline:none;
-  padding:24% 0 0;
+  padding:30% 0 0;
   background:transparent;
   text-align:center;
   font-family:"Noto Sans Telugu","Plus Jakarta Sans","Nirmala UI",sans-serif;
@@ -766,6 +784,14 @@ input{
     font-size:0.82rem;
     line-height:1.16;
     box-shadow:2px 2px 0 var(--ink);
+  }
+
+  .splash-start-button{
+    bottom:8px;
+    min-height:38px;
+    padding:8px 18px;
+    box-shadow:3px 3px 0 var(--ink);
+    font-size:0.92rem;
   }
 
   .start-button-overlay{
@@ -1003,8 +1029,8 @@ input{
     max-width:none;
     margin-left:calc((100% - 100vw) / 2);
     padding:2px;
-    border-left:1px solid #999999;
-    border-right:1px solid #999999;
+    border-left:3px solid #111111;
+    border-right:3px solid #111111;
   }
 
   #grid{
@@ -1012,6 +1038,6 @@ input{
   }
 
   .entry input{
-    padding-top:28%;
+    padding-top:34%;
   }
 }
