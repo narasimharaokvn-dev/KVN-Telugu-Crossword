@@ -239,11 +239,13 @@ input{
 }
 
 .hero-leaf-left{
-  background-image:url("header-leaves-left.png");
+  background-image:url("header-leaves-left.png?v=20260707m");
+  background-position:left bottom;
 }
 
 .hero-leaf-right{
-  background-image:url("header-leaves-right.png");
+  background-image:url("header-leaves-right.png?v=20260707m");
+  background-position:right bottom;
 }
 
 .hero-brand{
