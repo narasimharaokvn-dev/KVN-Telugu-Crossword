@@ -371,8 +371,8 @@ input{
   min-width:min(100%, 420px);
   padding:12px 18px;
   border:2px solid #000000;
-  background:#050505;
-  color:#ffffff;
+  background:var(--green);
+  color:var(--ink);
   text-align:center;
   font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
   font-size:clamp(1.25rem,3vw,2rem);
@@ -381,8 +381,9 @@ input{
 
 .current-puzzle-note{
   margin:0;
-  color:#433800;
-  font-size:0.9rem;
+  color:#111111;
+  font-size:clamp(1.02rem,2vw,1.22rem);
+  font-weight:700;
 }
 
 .nav-chip{
