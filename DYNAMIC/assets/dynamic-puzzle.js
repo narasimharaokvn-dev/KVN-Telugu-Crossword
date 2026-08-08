@@ -47,6 +47,7 @@
     folderSelect: document.getElementById("folderSelect"),
     puzzleSelect: document.getElementById("puzzleSelect"),
     backButton: document.getElementById("backButton"),
+    keyboardButton: document.getElementById("keyboardButton"),
     clearButton: document.getElementById("clearButton"),
     undoButton: document.getElementById("undoButton"),
     redoButton: document.getElementById("redoButton"),
@@ -123,6 +124,7 @@
     });
 
     dom.backButton.addEventListener("click", showChoiceScreen);
+    dom.keyboardButton.addEventListener("click", hideKeyboard);
 
     if(dom.previousButton){
       dom.previousButton.addEventListener("click", function(){
@@ -1073,6 +1075,12 @@
   function isTouchKeyboard(){
     return window.matchMedia &&
       window.matchMedia("(pointer: coarse), (max-width: 720px)").matches;
+  }
+
+  function hideKeyboard(){
+    if(document.activeElement && document.activeElement.matches(".entry input")){
+      document.activeElement.blur();
+    }
   }
 
   function refreshAfterResize(){

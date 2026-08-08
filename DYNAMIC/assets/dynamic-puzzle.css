@@ -91,12 +91,9 @@ input{
 }
 
 .splash-start-button{
-  position:absolute;
-  left:50%;
-  bottom:16px;
-  transform:translateX(-50%);
-  z-index:3;
+  justify-self:center;
   min-height:44px;
+  margin-top:2px;
   padding:10px 22px;
   border:3px solid var(--ink);
   border-radius:999px;
@@ -787,8 +784,8 @@ input{
   }
 
   .splash-start-button{
-    bottom:8px;
     min-height:38px;
+    margin-top:0;
     padding:8px 18px;
     box-shadow:3px 3px 0 var(--ink);
     font-size:0.92rem;
@@ -971,7 +968,7 @@ input{
 
   .gameplay-controls .action-cluster{
     display:grid;
-    grid-template-columns:1.25fr 0.8fr 0.8fr 1fr;
+    grid-template-columns:1.1fr 0.72fr 0.72fr 0.72fr 0.95fr;
     gap:6px;
     width:100%;
   }
