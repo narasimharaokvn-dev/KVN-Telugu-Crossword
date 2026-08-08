@@ -45,12 +45,14 @@
     banner: document.getElementById("statusBanner"),
     folderSelect: document.getElementById("folderSelect"),
     puzzleSelect: document.getElementById("puzzleSelect"),
+    backButton: document.getElementById("backButton"),
     clearButton: document.getElementById("clearButton"),
     undoButton: document.getElementById("undoButton"),
     redoButton: document.getElementById("redoButton"),
     previousButton: document.getElementById("previousButton"),
     nextButton: document.getElementById("nextButton"),
     solutionButton: document.getElementById("solutionButton"),
+    puzzleFrame: document.getElementById("puzzleFrame"),
     image: document.getElementById("puzzleImage"),
     grid: document.getElementById("grid"),
     acrossLabel: document.getElementById("acrossLabel"),
@@ -116,6 +118,8 @@
         showBanner(error.message || "Could not open selected puzzle.");
       }
     });
+
+    dom.backButton.addEventListener("click", showChoiceScreen);
 
     if(dom.previousButton){
       dom.previousButton.addEventListener("click", function(){
@@ -202,6 +206,15 @@
     });
   }
 
+  function showChoiceScreen(){
+    closeSolution();
+    closeRecent();
+    dom.splashOne.hidden = true;
+    dom.splashTwo.hidden = false;
+    dom.gameShell.hidden = true;
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   async function prepareChoiceScreen(){
     const params = new URLSearchParams(location.search);
     const requestedFolderId = params.get("folder");
@@ -246,6 +259,7 @@
   async function openPuzzleByIds(folderId, puzzleId){
     showGameScreen();
     dom.loading.hidden = false;
+    dom.puzzleFrame.classList.add("is-loading");
     dom.grid.innerHTML = "";
     dom.image.removeAttribute("src");
     dom.acrossLabel.textContent = "- Across";
@@ -275,6 +289,7 @@
     updateNavigationButtons();
     updateHistoryButtons();
     dom.solutionButton.hidden = !state.solutionUrl;
+    dom.puzzleFrame.classList.add("is-loading");
     dom.image.addEventListener("load", onImageLoad, { once: true });
     dom.image.src = state.imageUrl;
     if(dom.image.complete){
@@ -620,6 +635,7 @@
     classifyGridFromImage();
     buildNumbering();
     renderGrid();
+    dom.puzzleFrame.classList.remove("is-loading");
     renderClueLists();
     updateHistoryButtons();
     if(state.inputs.size){

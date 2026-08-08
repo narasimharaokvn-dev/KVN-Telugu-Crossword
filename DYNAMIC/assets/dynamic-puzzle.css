@@ -161,9 +161,9 @@ input{
   padding:10px 18px;
   border:2px solid var(--ink);
   border-radius:999px;
-  background:var(--blue);
-  color:#ffffff;
-  box-shadow:3px 3px 0 var(--blue-deep);
+  background:var(--green);
+  color:var(--ink);
+  box-shadow:3px 3px 0 var(--green-deep);
   cursor:pointer;
   font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
   font-weight:700;
@@ -282,23 +282,23 @@ input{
 .selector-label{
   min-width:104px;
   padding:12px 14px;
-  border:2px solid var(--blue-deep);
+  border:2px solid var(--green-deep);
   border-radius:14px;
-  background:var(--blue);
-  color:#ffffff;
+  background:var(--green);
+  color:var(--ink);
   text-align:center;
   font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
   font-size:1.08rem;
   font-weight:700;
-  box-shadow:3px 3px 0 var(--blue-deep);
+  box-shadow:3px 3px 0 var(--green-deep);
 }
 
 .picker-card{
   min-width:180px;
   height:46px;
-  border:2px solid var(--blue-deep);
-  background:var(--blue);
-  box-shadow:3px 3px 0 var(--blue-deep);
+  border:2px solid var(--green-deep);
+  background:var(--yellow);
+  box-shadow:3px 3px 0 var(--green-deep);
 }
 
 .picker-card select{
@@ -306,7 +306,7 @@ input{
   height:100%;
   border:none;
   background:transparent;
-  color:#ffffff;
+  color:var(--ink);
   padding:0 12px;
   outline:none;
   font-weight:700;
@@ -372,7 +372,7 @@ input{
   padding:10px 16px;
   border:2px solid var(--ink);
   border-radius:999px;
-  background:#f3f3ea;
+  background:var(--yellow);
   color:var(--ink);
   box-shadow:3px 3px 0 var(--ink);
   cursor:pointer;
@@ -392,7 +392,13 @@ input{
 }
 
 .danger-chip{
-  background:var(--danger);
+  background:#fff064;
+}
+
+.danger-chip:hover,
+.nav-chip:hover,
+.choice-action:hover{
+  filter:saturate(1.1) brightness(0.98);
 }
 
 .game-stage{
@@ -471,6 +477,15 @@ input{
   padding:6px;
   border:1px solid #999999;
   background:#ffffff;
+}
+
+.puzzle-frame.is-loading img,
+.puzzle-frame.is-loading #grid{
+  visibility:hidden;
+}
+
+.puzzle-frame.is-loading{
+  min-height:180px;
 }
 
 .puzzle-frame img{

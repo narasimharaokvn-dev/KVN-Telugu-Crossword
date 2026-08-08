@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;700&family=JetBrains+Mono:wght@700&family=Noto+Sans+Telugu:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/dynamic-puzzle.css?v=20260707j">
+<link rel="stylesheet" href="assets/dynamic-puzzle.css?v=20260707k">
 </head>
 <body class="app-shell">
 <div class="screen-splash screen-splash-primary" id="splashScreenOne" aria-hidden="false">
@@ -97,6 +97,7 @@
       </div>
 
       <div class="action-cluster">
+        <button type="button" id="backButton" class="nav-chip">Back</button>
         <button type="button" id="undoButton" class="nav-chip">Undo</button>
         <button type="button" id="redoButton" class="nav-chip">Redo</button>
         <button type="button" id="clearButton" class="nav-chip danger-chip">Clear All</button>
@@ -127,7 +128,7 @@
       </div>
 
       <div class="puzzle-shell">
-        <div class="puzzle-frame">
+        <div class="puzzle-frame is-loading" id="puzzleFrame">
           <img id="puzzleImage" alt="Puzzle image">
           <div id="grid"></div>
         </div>
@@ -153,6 +154,6 @@
   </div>
 </div>
 
-<script src="assets/dynamic-puzzle.js?v=20260707j"></script>
+<script src="assets/dynamic-puzzle.js?v=20260707k"></script>
 </body>
 </html>
