@@ -1,7 +1,7 @@
 (function(){
   const LAST_SELECTION_KEY = "dynamic_puzzle_last_selection";
   const RECENT_SELECTIONS_KEY = "dynamic_puzzle_recent_selections";
-  const SPLASH_ONE_MS = 3000;
+  const SPLASH_ONE_MS = 6000;
   const MAX_RECENT_SELECTIONS = 10;
 
   const state = {
