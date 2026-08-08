@@ -60,6 +60,7 @@ input{
 .screen-splash-primary{
   position:relative;
   overflow:hidden;
+  align-items:flex-start;
 }
 
 .splash-reference-image{
@@ -67,13 +68,13 @@ input{
   width:100vw;
   height:100vh;
   object-fit:contain;
-  object-position:center;
+  object-position:top center;
 }
 
 .splash-one-copy{
   position:absolute;
   left:50%;
-  bottom:12px;
+  top:min(calc(100vw * 1.03), calc(100vh - 170px));
   transform:translateX(-50%);
   display:grid;
   gap:6px;
@@ -754,7 +755,7 @@ input{
   }
 
   .splash-one-copy{
-    bottom:8px;
+    top:min(calc(100vw * 1.03), calc(100vh - 132px));
     gap:4px;
     width:94vw;
   }
@@ -810,9 +811,9 @@ input{
   }
 
   .choice-poster-band{
-    grid-template-columns:58px 1fr 58px;
-    padding:8px 4px 4px;
-    min-height:92px;
+    grid-template-columns:42px 1fr 42px;
+    padding:4px 4px 3px;
+    min-height:58px;
   }
 
   .choice-grid,
@@ -821,15 +822,61 @@ input{
   }
 
   .choice-grid{
-    padding:12px;
+    gap:8px;
+    padding:8px;
   }
 
   .choice-card{
     min-height:0;
+    gap:8px;
+    padding:10px;
+    border-width:2px;
+    border-radius:14px;
+    box-shadow:3px 3px 0 var(--ink);
+  }
+
+  .choice-card h2{
+    margin-bottom:3px;
+    font-size:1.02rem;
+    line-height:1.1;
+  }
+
+  .choice-card p{
+    font-size:0.82rem;
+    line-height:1.22;
+  }
+
+  .choice-action{
+    min-height:34px;
+    padding:6px 12px;
+    font-size:0.86rem;
+    box-shadow:2px 2px 0 var(--yellow-deep);
+  }
+
+  .manual-picker-row{
+    gap:8px;
   }
 
   .hero-leaf{
     min-height:82px;
+  }
+
+  .choice-screen .hero-leaf{
+    min-height:50px;
+  }
+
+  .choice-screen .hero-brand h1{
+    font-size:1.55rem;
+  }
+
+  .choice-screen .hero-mainline{
+    margin-top:1px;
+    font-size:0.88rem;
+    line-height:1;
+  }
+
+  .choice-screen .hero-divider{
+    display:none;
   }
 
   .hero-mainline{
@@ -851,17 +898,25 @@ input{
 
   .selector-group{
     width:100%;
-    gap:10px;
+    gap:6px;
   }
 
   .selector-label{
-    min-width:90px;
-    font-size:0.95rem;
+    min-width:76px;
+    padding:8px 10px;
+    font-size:0.82rem;
+    border-radius:11px;
   }
 
   .picker-card{
     flex:1;
     min-width:0;
+    height:36px;
+  }
+
+  .picker-card select{
+    padding:0 9px;
+    font-size:0.86rem;
   }
 
   .nav-chip{
@@ -932,21 +987,26 @@ input{
   }
 
   .play-stage{
-    padding:0 4px 4px;
+    padding:0 0 2px;
     border-left-width:2px;
     border-right-width:2px;
     border-bottom-width:2px;
   }
 
   .puzzle-shell{
-    padding:0 3px 4px;
+    padding:0;
   }
 
   .puzzle-frame{
-    padding:3px;
+    width:100vw;
+    max-width:none;
+    margin-left:calc((100% - 100vw) / 2);
+    padding:2px 0;
+    border-left:none;
+    border-right:none;
   }
 
   #grid{
-    inset:3px;
+    inset:2px 0;
   }
 }
