@@ -28,7 +28,9 @@
     answers: {},
     history: [],
     historyIndex: -1,
-    latestSelection: null
+    latestSelection: null,
+    lastFocusedInput: null,
+    lastVisualViewportHeight: window.visualViewport ? window.visualViewport.height : null
   };
 
   const dom = {
@@ -48,6 +50,7 @@
     puzzleSelect: document.getElementById("puzzleSelect"),
     backButton: document.getElementById("backButton"),
     keyboardButton: document.getElementById("keyboardButton"),
+    keyboardFloatButton: document.getElementById("keyboardFloatButton"),
     clearButton: document.getElementById("clearButton"),
     undoButton: document.getElementById("undoButton"),
     redoButton: document.getElementById("redoButton"),
@@ -124,7 +127,8 @@
     });
 
     dom.backButton.addEventListener("click", showChoiceScreen);
-    dom.keyboardButton.addEventListener("click", hideKeyboard);
+    wireKeyboardHideButton(dom.keyboardButton);
+    wireKeyboardHideButton(dom.keyboardFloatButton);
 
     if(dom.previousButton){
       dom.previousButton.addEventListener("click", function(){
@@ -188,6 +192,7 @@
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(refreshAfterResize, 80);
     });
+    wireKeyboardViewportWatcher();
   }
 
   function startSplashFlow(){
@@ -901,7 +906,17 @@
         input.value = state.answers[key] || "";
 
         input.addEventListener("focus", function(){
+          state.lastFocusedInput = input;
+          showKeyboardAssist();
           updateClueBox(row, col);
+        });
+
+        input.addEventListener("blur", function(){
+          window.setTimeout(function(){
+            if(!document.activeElement || !document.activeElement.matches(".entry input")){
+              hideKeyboardAssist();
+            }
+          }, 120);
         });
 
         input.addEventListener("click", function(){
@@ -1077,9 +1092,77 @@
       window.matchMedia("(pointer: coarse), (max-width: 720px)").matches;
   }
 
-  function hideKeyboard(){
-    if(document.activeElement && document.activeElement.matches(".entry input")){
-      document.activeElement.blur();
+  function wireKeyboardHideButton(button){
+    if(!button) return;
+    if(window.PointerEvent){
+      button.addEventListener("pointerdown", hideKeyboard);
+    }else{
+      button.addEventListener("touchstart", hideKeyboard);
+      button.addEventListener("mousedown", hideKeyboard);
+    }
+    button.addEventListener("click", hideKeyboard);
+  }
+
+  function hideKeyboard(event){
+    if(event){
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    const activeInput = document.activeElement && document.activeElement.matches(".entry input")
+      ? document.activeElement
+      : state.lastFocusedInput;
+
+    if(activeInput && activeInput.matches(".entry input")){
+      if(activeInput.dataset.keyboardHiding === "1"){
+        hideKeyboardAssist();
+        return;
+      }
+
+      const previousInputMode = activeInput.inputMode;
+      const previousReadOnly = activeInput.readOnly;
+      activeInput.dataset.keyboardHiding = "1";
+      activeInput.inputMode = "none";
+      activeInput.readOnly = true;
+      activeInput.blur();
+      document.body.setAttribute("tabindex", "-1");
+      document.body.focus({ preventScroll: true });
+      window.setTimeout(function(){
+        activeInput.readOnly = previousReadOnly;
+        activeInput.inputMode = previousInputMode || "text";
+        delete activeInput.dataset.keyboardHiding;
+      }, 250);
+    }
+
+    hideKeyboardAssist();
+  }
+
+  function wireKeyboardViewportWatcher(){
+    if(!window.visualViewport) return;
+
+    window.visualViewport.addEventListener("resize", function(){
+      const previousHeight = state.lastVisualViewportHeight;
+      const nextHeight = window.visualViewport.height;
+      state.lastVisualViewportHeight = nextHeight;
+
+      const activeInput = document.activeElement && document.activeElement.matches(".entry input")
+        ? document.activeElement
+        : null;
+
+      if(activeInput && isTouchKeyboard() && previousHeight && nextHeight - previousHeight > 80){
+        hideKeyboard();
+      }
+    });
+  }
+
+  function showKeyboardAssist(){
+    if(!dom.keyboardFloatButton || !isTouchKeyboard()) return;
+    dom.keyboardFloatButton.hidden = false;
+  }
+
+  function hideKeyboardAssist(){
+    if(dom.keyboardFloatButton){
+      dom.keyboardFloatButton.hidden = true;
     }
   }
 
