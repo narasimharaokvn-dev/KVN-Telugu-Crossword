@@ -57,12 +57,36 @@ input{
   background:var(--green);
 }
 
+.screen-splash-primary{
+  position:relative;
+  overflow:hidden;
+}
+
 .splash-reference-image{
   display:block;
   width:100vw;
   height:100vh;
   object-fit:contain;
   object-position:center;
+}
+
+.splash-one-copy{
+  position:absolute;
+  left:50%;
+  bottom:12px;
+  transform:translateX(-50%);
+  display:grid;
+  gap:6px;
+  width:min(92vw, 680px);
+  z-index:2;
+}
+
+.splash-one-copy .choice-intro{
+  padding:6px 12px;
+  border:2px solid var(--ink);
+  font-size:clamp(0.76rem, 2.4vw, 1rem);
+  line-height:1.15;
+  box-shadow:3px 3px 0 var(--ink);
 }
 
 .splash-second-wrap{
@@ -729,6 +753,19 @@ input{
     height:100vh;
   }
 
+  .splash-one-copy{
+    bottom:8px;
+    gap:4px;
+    width:94vw;
+  }
+
+  .splash-one-copy .choice-intro{
+    padding:5px 8px;
+    font-size:0.72rem;
+    line-height:1.12;
+    box-shadow:2px 2px 0 var(--ink);
+  }
+
   .start-button-overlay{
     bottom:3vh;
     padding:14px 18px;
@@ -738,6 +775,38 @@ input{
     grid-template-columns:58px 1fr 58px;
     padding:8px 4px 2px;
     min-height:92px;
+  }
+
+  .game-shell{
+    padding-bottom:10px;
+  }
+
+  .game-hero{
+    border-width:2px;
+  }
+
+  .game-shell .hero-poster-band{
+    grid-template-columns:32px 1fr 32px;
+    min-height:42px;
+    padding:2px 4px;
+  }
+
+  .game-shell .hero-leaf{
+    min-height:34px;
+  }
+
+  .game-shell .hero-brand h1{
+    font-size:1.35rem;
+  }
+
+  .game-shell .hero-mainline{
+    margin-top:0;
+    font-size:0.78rem;
+    line-height:1;
+  }
+
+  .game-shell .hero-divider{
+    display:none;
   }
 
   .choice-poster-band{
@@ -800,23 +869,22 @@ input{
   }
 
   .gameplay-controls{
-    gap:8px;
-    padding-top:8px;
-    padding-bottom:10px;
+    gap:5px;
+    padding:5px 8px 7px;
   }
 
   .gameplay-controls .current-puzzle-box{
-    gap:4px;
+    gap:2px;
   }
 
   .gameplay-controls .current-puzzle-title{
-    padding:8px 12px;
-    font-size:1.2rem;
+    padding:5px 8px;
+    font-size:1.02rem;
   }
 
   .gameplay-controls .current-puzzle-note{
-    font-size:0.98rem;
-    line-height:1.25;
+    font-size:0.78rem;
+    line-height:1.1;
   }
 
   .gameplay-controls .action-cluster{
@@ -828,24 +896,57 @@ input{
 
   .gameplay-controls .nav-chip{
     width:auto;
-    min-height:36px;
-    padding:7px 8px;
+    min-height:30px;
+    padding:4px 6px;
     box-shadow:2px 2px 0 var(--ink);
-    font-size:0.88rem;
+    font-size:0.78rem;
   }
 
   .gameplay-controls .symbol-chip{
     min-width:0;
-    font-size:1.25rem;
+    font-size:1rem;
   }
 
   .clue-preview-bar{
     grid-template-columns:1fr;
-    margin-left:6px;
-    margin-right:6px;
+    gap:4px;
+    margin:0 4px 5px;
+  }
+
+  .clue-box{
+    padding:4px 7px;
+  }
+
+  .clue-box-compact{
+    min-height:34px;
+  }
+
+  .clue-line{
+    font-size:0.82rem;
+    line-height:1.1;
+  }
+
+  .detail{
+    margin-top:1px;
+    font-size:0.78rem;
   }
 
   .play-stage{
-    padding:0 6px 6px;
+    padding:0 4px 4px;
+    border-left-width:2px;
+    border-right-width:2px;
+    border-bottom-width:2px;
+  }
+
+  .puzzle-shell{
+    padding:0 3px 4px;
+  }
+
+  .puzzle-frame{
+    padding:3px;
+  }
+
+  #grid{
+    inset:3px;
   }
 }
