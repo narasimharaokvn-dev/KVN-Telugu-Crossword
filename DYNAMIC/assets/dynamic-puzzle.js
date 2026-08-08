@@ -1250,8 +1250,12 @@
   }
 
   function updateHistoryButtons(){
-    dom.undoButton.disabled = state.historyIndex <= 0;
-    dom.redoButton.disabled = state.historyIndex >= state.history.length - 1 || state.historyIndex < 0;
+    const canUndo = state.historyIndex > 0;
+    const canRedo = state.historyIndex >= 0 && state.historyIndex < state.history.length - 1;
+    dom.undoButton.disabled = false;
+    dom.redoButton.disabled = false;
+    dom.undoButton.setAttribute("aria-disabled", canUndo ? "false" : "true");
+    dom.redoButton.setAttribute("aria-disabled", canRedo ? "false" : "true");
   }
 
   function showBanner(message){
