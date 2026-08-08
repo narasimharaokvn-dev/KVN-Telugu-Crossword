@@ -7,17 +7,73 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;700&family=JetBrains+Mono:wght@700&family=Noto+Sans+Telugu:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/dynamic-puzzle.css?v=20260707i">
+<link rel="stylesheet" href="assets/dynamic-puzzle.css?v=20260707j">
 </head>
 <body class="app-shell">
 <div class="screen-splash screen-splash-primary" id="splashScreenOne" aria-hidden="false">
   <img class="splash-reference-image" src="assets/splash-screen-1.png" alt="KVN splash screen">
 </div>
 
-<div class="screen-splash screen-splash-secondary" id="splashScreenTwo" aria-hidden="true" hidden>
-  <div class="splash-second-wrap">
-    <img class="splash-reference-image" src="assets/splash-screen-2.png" alt="KVN second splash screen">
-    <button type="button" id="startButton" class="start-button start-button-overlay">ప్రారంభించండి</button>
+<div class="screen-splash screen-splash-secondary choice-screen" id="splashScreenTwo" aria-hidden="true" hidden>
+  <div class="choice-shell">
+    <div class="choice-poster-band">
+      <div class="hero-leaf hero-leaf-left">❦</div>
+      <div class="hero-brand">
+        <h1>✦ KVN ✦</h1>
+        <p class="hero-mainline">తెలుగు CROSS WORD PUZZLE</p>
+        <div class="hero-divider">• ── ❃ ── •</div>
+      </div>
+      <div class="hero-leaf hero-leaf-right">❦</div>
+    </div>
+
+    <div class="choice-intro choice-intro-yellow">
+      సులభమైన స్థాయి నుండి మెదడు పదును పెట్టే స్థాయి వరకు - పాత, కొత్తల కలయిక.
+    </div>
+
+    <div class="choice-intro choice-intro-green">
+      సంఖ్యను ఎంచుకోండి. ఆడేటప్పుడు ప్రతి అక్షరం ఆటోసేవ్ అవుతుంది.
+    </div>
+
+    <div class="choice-grid">
+      <section class="choice-card">
+        <div>
+          <h2>తాజా పజిల్</h2>
+          <p id="latestChoiceText">Latest available puzzle</p>
+        </div>
+        <button type="button" id="latestButton" class="choice-action">ఆడండి</button>
+      </section>
+
+      <section class="choice-card">
+        <div>
+          <h2>ఇటీవల ఆడినవి</h2>
+          <p>చివరిగా తెరిచిన 10 పజిల్స్ జాబితా.</p>
+        </div>
+        <button type="button" id="recentButton" class="choice-action">జాబితా చూడండి</button>
+      </section>
+
+      <section class="choice-card choice-card-manual">
+        <div>
+          <h2>ఎంచుకుని ఆడండి</h2>
+          <p>మ్యాగజైన్ మరియు పజిల్ సంఖ్యను ఎంచుకోండి.</p>
+        </div>
+        <div class="manual-picker-row">
+          <div class="selector-group">
+            <div class="selector-label">మ్యాగజైన్</div>
+            <div class="picker-card">
+              <select id="folderSelect" aria-label="Select magazine"></select>
+            </div>
+          </div>
+
+          <div class="selector-group">
+            <div class="selector-label">సంఖ్య</div>
+            <div class="picker-card">
+              <select id="puzzleSelect" aria-label="Select puzzle"></select>
+            </div>
+          </div>
+        </div>
+        <button type="button" id="manualGoButton" class="choice-action choice-action-wide">ప్రారంభించండి</button>
+      </section>
+    </div>
   </div>
 </div>
 
@@ -33,28 +89,7 @@
       <div class="hero-leaf hero-leaf-right">❦</div>
     </div>
 
-    <div class="hero-controls hero-controls-top">
-      <div class="selector-group">
-        <div class="selector-label">సూచిక</div>
-        <div class="picker-card">
-          <select id="folderSelect" aria-label="Select magazine"></select>
-        </div>
-      </div>
-
-      <div class="selector-group">
-        <div class="selector-label">సంఖ్య</div>
-        <div class="picker-card">
-          <select id="puzzleSelect" aria-label="Select puzzle"></select>
-        </div>
-      </div>
-    </div>
-
-    <div class="hero-controls hero-controls-bottom">
-      <div class="action-cluster">
-        <button type="button" id="previousButton" class="nav-chip">Previous</button>
-        <button type="button" id="nextButton" class="nav-chip">Next</button>
-      </div>
-
+    <div class="hero-controls hero-controls-bottom gameplay-controls">
       <div class="current-puzzle-box">
         <div class="current-puzzle-label">ఈ వారం పజిల్స్</div>
         <div class="current-puzzle-title" id="puzzleTitle">KVN Cross PJ</div>
@@ -102,6 +137,15 @@
   </main>
 </div>
 
+<div class="overlay recent-overlay" id="recentOverlay" hidden>
+  <div class="overlay-card recent-card">
+    <button class="overlay-close" type="button" id="recentClose" aria-label="Close recent puzzles">&times;</button>
+    <h2>ఇటీవల ఆడిన పజిల్స్</h2>
+    <p class="recent-note">పై భాగంలో కొత్తది, క్రింద పాతది.</p>
+    <div id="recentList" class="recent-list"></div>
+  </div>
+</div>
+
 <div class="overlay" id="solutionOverlay" hidden>
   <div class="overlay-card">
     <button class="overlay-close" type="button" id="solutionClose" aria-label="Close solution">&times;</button>
@@ -109,6 +153,6 @@
   </div>
 </div>
 
-<script src="assets/dynamic-puzzle.js?v=20260707i"></script>
+<script src="assets/dynamic-puzzle.js?v=20260707j"></script>
 </body>
 </html>

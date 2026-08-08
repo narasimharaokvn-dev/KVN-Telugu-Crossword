@@ -74,6 +74,112 @@ input{
   justify-content:center;
 }
 
+.choice-screen{
+  align-items:stretch;
+  justify-content:center;
+  overflow:auto;
+  background:var(--green);
+}
+
+.choice-shell{
+  width:min(100%, 980px);
+  min-height:100vh;
+  border-left:3px solid var(--ink);
+  border-right:3px solid var(--ink);
+  background:var(--green);
+}
+
+.choice-poster-band{
+  display:grid;
+  grid-template-columns:68px 1fr 68px;
+  align-items:center;
+  border-bottom:2px solid var(--ink);
+  padding:8px 8px 4px;
+  background:var(--yellow);
+}
+
+.choice-intro{
+  margin:0;
+  padding:10px 18px;
+  text-align:center;
+  font-family:"Noto Sans Telugu","Plus Jakarta Sans",sans-serif;
+  font-size:clamp(1rem, 2.3vw, 1.35rem);
+  font-weight:700;
+  line-height:1.35;
+}
+
+.choice-intro-yellow{
+  background:var(--yellow);
+  border-bottom:2px solid var(--ink);
+}
+
+.choice-intro-green{
+  background:var(--green);
+  border-bottom:2px solid var(--green-deep);
+}
+
+.choice-grid{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:14px;
+  padding:18px;
+}
+
+.choice-card{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  gap:14px;
+  min-height:150px;
+  padding:16px;
+  border:3px solid var(--ink);
+  border-radius:18px;
+  background:#fffef2;
+  box-shadow:5px 5px 0 var(--ink);
+}
+
+.choice-card h2{
+  margin:0 0 6px;
+  font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
+  font-size:clamp(1.15rem, 2.5vw, 1.55rem);
+}
+
+.choice-card p{
+  margin:0;
+  color:#334155;
+  line-height:1.35;
+}
+
+.choice-card-manual{
+  grid-column:1 / -1;
+  background:#fff8ca;
+}
+
+.choice-action{
+  align-self:flex-start;
+  min-height:44px;
+  padding:10px 18px;
+  border:2px solid var(--ink);
+  border-radius:999px;
+  background:var(--blue);
+  color:#ffffff;
+  box-shadow:3px 3px 0 var(--blue-deep);
+  cursor:pointer;
+  font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
+  font-weight:700;
+}
+
+.choice-action-wide{
+  align-self:center;
+  min-width:180px;
+}
+
+.manual-picker-row{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:14px;
+}
+
 .start-button{
   padding:16px 24px;
   border:3px solid var(--ink);
@@ -217,6 +323,10 @@ input{
   align-items:center;
   padding-top:12px;
   padding-bottom:18px;
+}
+
+.gameplay-controls{
+  grid-template-columns:1fr auto;
 }
 
 .action-cluster{
@@ -493,6 +603,41 @@ input{
   height:auto;
 }
 
+.recent-card h2{
+  margin:0 42px 6px 0;
+  font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
+}
+
+.recent-note{
+  margin:0 0 14px;
+  color:var(--ink-soft);
+}
+
+.recent-list{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.recent-item{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+  width:100%;
+  padding:12px 14px;
+  border:2px solid var(--ink);
+  border-radius:14px;
+  background:#fffef2;
+  box-shadow:3px 3px 0 var(--ink);
+  text-align:left;
+  cursor:pointer;
+}
+
+.recent-item span,
+.recent-empty{
+  color:var(--ink-soft);
+}
+
 .overlay-close{
   position:absolute;
   top:10px;
@@ -510,6 +655,10 @@ input{
   .hero-controls-bottom{
     grid-template-columns:1fr;
     justify-items:center;
+  }
+
+  .gameplay-controls{
+    grid-template-columns:1fr;
   }
 
   .current-puzzle-box{
@@ -548,6 +697,24 @@ input{
   .hero-poster-band{
     grid-template-columns:40px 1fr 40px;
     padding:8px 4px 2px;
+  }
+
+  .choice-poster-band{
+    grid-template-columns:40px 1fr 40px;
+    padding:8px 4px 4px;
+  }
+
+  .choice-grid,
+  .manual-picker-row{
+    grid-template-columns:1fr;
+  }
+
+  .choice-grid{
+    padding:12px;
+  }
+
+  .choice-card{
+    min-height:0;
   }
 
   .hero-leaf{

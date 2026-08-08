@@ -1,6 +1,8 @@
 (function(){
   const LAST_SELECTION_KEY = "dynamic_puzzle_last_selection";
+  const RECENT_SELECTIONS_KEY = "dynamic_puzzle_recent_selections";
   const SPLASH_ONE_MS = 3000;
+  const MAX_RECENT_SELECTIONS = 10;
 
   const state = {
     sources: null,
@@ -25,14 +27,18 @@
     inputs: new Map(),
     answers: {},
     history: [],
-    historyIndex: -1
+    historyIndex: -1,
+    latestSelection: null
   };
 
   const dom = {
     splashOne: document.getElementById("splashScreenOne"),
     splashTwo: document.getElementById("splashScreenTwo"),
     gameShell: document.getElementById("gameShell"),
-    startButton: document.getElementById("startButton"),
+    latestButton: document.getElementById("latestButton"),
+    latestChoiceText: document.getElementById("latestChoiceText"),
+    recentButton: document.getElementById("recentButton"),
+    manualGoButton: document.getElementById("manualGoButton"),
     title: document.getElementById("puzzleTitle"),
     subtitle: document.getElementById("puzzleSubtitle"),
     loading: document.getElementById("loadingCard"),
@@ -53,6 +59,9 @@
     downText: document.getElementById("downText"),
     acrossList: document.getElementById("acrossList"),
     downList: document.getElementById("downList"),
+    recentOverlay: document.getElementById("recentOverlay"),
+    recentList: document.getElementById("recentList"),
+    recentClose: document.getElementById("recentClose"),
     solutionOverlay: document.getElementById("solutionOverlay"),
     solutionImage: document.getElementById("solutionImage"),
     solutionClose: document.getElementById("solutionClose")
@@ -67,33 +76,58 @@
     try{
       state.sources = await fetchJson("sources.json");
       populateFolderSelect();
-      await loadSelectionFromQuery();
+      await prepareChoiceScreen();
     }catch(error){
       dom.loading.hidden = true;
       const suffix = location.protocol === "file:"
         ? " If you open this outside Codex, use GitHub Pages or a local web server."
         : "";
       showBanner((error.message || "Could not load puzzle data.") + suffix);
-      showGameScreen();
     }
   }
 
   function wireEvents(){
-    dom.folderSelect.addEventListener("change", function(){
-      navigateToSelection(dom.folderSelect.value, "");
+    dom.folderSelect.addEventListener("change", async function(){
+      try{
+        await loadFolderForChooser(dom.folderSelect.value, "");
+      }catch(error){
+        showBanner(error.message || "Could not load selected magazine.");
+      }
     });
 
-    dom.puzzleSelect.addEventListener("change", function(){
-      navigateToSelection(dom.folderSelect.value, dom.puzzleSelect.value);
+    dom.latestButton.addEventListener("click", async function(){
+      try{
+        const latest = state.latestSelection || await findLatestSelection();
+        await openPuzzleByIds(latest.folderId, latest.puzzleId);
+      }catch(error){
+        showBanner(error.message || "Could not open latest puzzle.");
+      }
     });
 
-    dom.previousButton.addEventListener("click", function(){
-      navigateRelative(-1);
+    dom.recentButton.addEventListener("click", function(){
+      renderRecentList();
+      dom.recentOverlay.hidden = false;
     });
 
-    dom.nextButton.addEventListener("click", function(){
-      navigateRelative(1);
+    dom.manualGoButton.addEventListener("click", async function(){
+      try{
+        await openPuzzleByIds(dom.folderSelect.value, dom.puzzleSelect.value);
+      }catch(error){
+        showBanner(error.message || "Could not open selected puzzle.");
+      }
     });
+
+    if(dom.previousButton){
+      dom.previousButton.addEventListener("click", function(){
+        navigateRelative(-1);
+      });
+    }
+
+    if(dom.nextButton){
+      dom.nextButton.addEventListener("click", function(){
+        navigateRelative(1);
+      });
+    }
 
     dom.undoButton.addEventListener("click", function(){
       undoAnswers();
@@ -116,6 +150,13 @@
       dom.solutionOverlay.hidden = false;
     });
 
+    dom.recentClose.addEventListener("click", closeRecent);
+    dom.recentOverlay.addEventListener("click", function(event){
+      if(event.target === dom.recentOverlay){
+        closeRecent();
+      }
+    });
+
     dom.solutionClose.addEventListener("click", closeSolution);
     dom.solutionOverlay.addEventListener("click", function(event){
       if(event.target === dom.solutionOverlay){
@@ -123,9 +164,11 @@
       }
     });
 
-    dom.startButton.addEventListener("click", showGameScreen);
-
     window.addEventListener("keydown", function(event){
+      if(event.key === "Escape" && !dom.recentOverlay.hidden){
+        closeRecent();
+        return;
+      }
       if(event.key === "Escape" && !dom.solutionOverlay.hidden){
         closeSolution();
       }
@@ -159,28 +202,32 @@
     });
   }
 
-  async function loadSelectionFromQuery(){
+  async function prepareChoiceScreen(){
     const params = new URLSearchParams(location.search);
     const requestedFolderId = params.get("folder");
     const requestedPuzzle = params.get("puzzle");
-    let folderId = requestedFolderId;
-    let puzzleId = requestedPuzzle;
+    const remembered = readLastSelection();
 
-    if(!folderId && !puzzleId){
-      const remembered = readLastSelection();
-      if(remembered){
-        folderId = remembered.folderId;
-        puzzleId = remembered.puzzleId;
-      }else{
-        const latestChoice = await findLatestSelection();
-        folderId = latestChoice.folderId;
-      }
-    }
+    state.latestSelection = await findLatestSelection();
+    updateLatestChoiceText();
 
-    folderId = folderId || state.sources.latestFolder || firstFolderId();
-    state.folderMeta = getFolderMeta(folderId);
+    const folderId = requestedFolderId ||
+      (remembered && remembered.folderId) ||
+      (state.latestSelection && state.latestSelection.folderId) ||
+      state.sources.latestFolder ||
+      firstFolderId();
+    const puzzleId = requestedPuzzle ||
+      (remembered && remembered.puzzleId) ||
+      (state.latestSelection && state.latestSelection.puzzleId) ||
+      "";
+
+    await loadFolderForChooser(folderId, puzzleId);
+  }
+
+  async function loadFolderForChooser(folderId, puzzleId){
+    state.folderMeta = getFolderMeta(folderId || firstFolderId());
     if(!state.folderMeta){
-      throw new Error("Folder " + folderId + " is not available in sources.json");
+      throw new Error("Magazine " + folderId + " is not available.");
     }
 
     state.index = await fetchJson(state.folderMeta.index);
@@ -193,13 +240,28 @@
 
     dom.folderSelect.value = state.folderMeta.id;
     dom.puzzleSelect.value = puzzleMeta.id;
-    updateNavigationButtons();
+    return puzzleMeta;
+  }
+
+  async function openPuzzleByIds(folderId, puzzleId){
+    showGameScreen();
+    dom.loading.hidden = false;
+    dom.grid.innerHTML = "";
+    dom.image.removeAttribute("src");
+    dom.acrossLabel.textContent = "- Across";
+    dom.downLabel.textContent = "- Down";
+    dom.acrossText.textContent = "No clue";
+    dom.downText.textContent = "No clue";
+
+    const puzzleMeta = await loadFolderForChooser(folderId, puzzleId);
+    replaceUrlSelection(state.folderMeta.id, puzzleMeta.id);
     await loadPuzzle(puzzleMeta);
   }
 
   async function loadPuzzle(puzzleMeta){
     state.puzzleMeta = puzzleMeta;
     persistLastSelection();
+    persistRecentSelection();
     state.gridData = await fetchJson(resolveAssetPath(state.folderMeta.assetBase, puzzleMeta.gridFile));
     state.clueData = await fetchJson(resolveAssetPath(state.folderMeta.assetBase, puzzleMeta.clueFile));
     state.imageUrl = await resolvePuzzleImageUrl(puzzleMeta);
@@ -321,6 +383,8 @@
         if(!best || numericId > best.numericId){
           best = {
             folderId: folder.id,
+            puzzleId: puzzleMeta.id,
+            title: puzzleMeta.title || (folder.title || folder.id) + " " + puzzleMeta.id,
             numericId: numericId
           };
         }
@@ -330,8 +394,20 @@
     }
 
     return {
-      folderId: best ? best.folderId : (state.sources.latestFolder || firstFolderId())
+      folderId: best ? best.folderId : (state.sources.latestFolder || firstFolderId()),
+      puzzleId: best ? best.puzzleId : "",
+      title: best ? best.title : "Latest available puzzle"
     };
+  }
+
+  function updateLatestChoiceText(){
+    if(!dom.latestChoiceText) return;
+    if(!state.latestSelection){
+      dom.latestChoiceText.textContent = "Latest available puzzle";
+      return;
+    }
+
+    dom.latestChoiceText.textContent = formatSelectionLabel(state.latestSelection);
   }
 
   function readLastSelection(){
@@ -348,8 +424,88 @@
   function persistLastSelection(){
     localStorage.setItem(LAST_SELECTION_KEY, JSON.stringify({
       folderId: state.folderMeta.id,
-      puzzleId: state.puzzleMeta.id
+      puzzleId: state.puzzleMeta.id,
+      title: state.puzzleMeta.title || state.puzzleMeta.id,
+      accessedAt: Date.now()
     }));
+  }
+
+  function readRecentSelections(){
+    try{
+      const raw = localStorage.getItem(RECENT_SELECTIONS_KEY);
+      const parsed = raw ? JSON.parse(raw) : [];
+      return Array.isArray(parsed) ? parsed.filter(function(item){
+        return item && item.folderId && item.puzzleId;
+      }) : [];
+    }catch(error){
+      return [];
+    }
+  }
+
+  function persistRecentSelection(){
+    const current = {
+      folderId: state.folderMeta.id,
+      folderTitle: state.folderMeta.title || state.folderMeta.id,
+      puzzleId: state.puzzleMeta.id,
+      title: state.puzzleMeta.title || state.puzzleMeta.id,
+      accessedAt: Date.now()
+    };
+    const recent = readRecentSelections().filter(function(item){
+      return !(item.folderId === current.folderId && item.puzzleId === current.puzzleId);
+    });
+    recent.unshift(current);
+    localStorage.setItem(RECENT_SELECTIONS_KEY, JSON.stringify(recent.slice(0, MAX_RECENT_SELECTIONS)));
+  }
+
+  function renderRecentList(){
+    const recent = readRecentSelections();
+    dom.recentList.innerHTML = "";
+
+    if(!recent.length){
+      const empty = document.createElement("p");
+      empty.className = "recent-empty";
+      empty.textContent = "ఇంకా ఇటీవల ఆడిన పజిల్స్ లేవు.";
+      dom.recentList.appendChild(empty);
+      return;
+    }
+
+    recent.forEach(function(item){
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "recent-item";
+      button.innerHTML = "<strong></strong><span></span>";
+      button.querySelector("strong").textContent = formatSelectionLabel(item);
+      button.querySelector("span").textContent = formatAccessTime(item.accessedAt);
+      button.addEventListener("click", async function(){
+        closeRecent();
+        try{
+          await openPuzzleByIds(item.folderId, item.puzzleId);
+        }catch(error){
+          showBanner(error.message || "Could not open recent puzzle.");
+        }
+      });
+      dom.recentList.appendChild(button);
+    });
+  }
+
+  function formatSelectionLabel(item){
+    const folder = item.folderTitle || item.folderId || "";
+    const title = item.title || item.puzzleId || "";
+    return folder + " - " + title;
+  }
+
+  function formatAccessTime(value){
+    if(!value) return "";
+    try{
+      return new Date(value).toLocaleString("te-IN", {
+        day: "2-digit",
+        month: "short",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+    }catch(error){
+      return "";
+    }
   }
 
   function firstFolderId(){
@@ -407,6 +563,7 @@
   }
 
   function updateNavigationButtons(){
+    if(!dom.previousButton || !dom.nextButton) return;
     const puzzles = getCompletePuzzles();
     const index = currentPuzzleIndex();
     dom.previousButton.disabled = index <= 0;
@@ -434,6 +591,15 @@
     }
     const query = params.toString();
     window.location.href = "puzzle.html" + (query ? "?" + query : "");
+  }
+
+  function replaceUrlSelection(folderId, puzzleId){
+    const params = new URLSearchParams();
+    if(folderId) params.set("folder", folderId);
+    if(puzzleId) params.set("puzzle", puzzleId);
+    const query = params.toString();
+    const nextUrl = "puzzle.html" + (query ? "?" + query : "");
+    window.history.replaceState({}, "", nextUrl);
   }
 
   function renderHeader(){
@@ -977,6 +1143,10 @@
   function closeSolution(){
     dom.solutionOverlay.hidden = true;
     dom.solutionImage.removeAttribute("src");
+  }
+
+  function closeRecent(){
+    dom.recentOverlay.hidden = true;
   }
 
   function showToast(message, background){
