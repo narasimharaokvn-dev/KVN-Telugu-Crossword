@@ -74,7 +74,7 @@ input{
 .splash-one-copy{
   position:absolute;
   left:50%;
-  top:min(calc(100vw * 1.03), calc(100vh - 170px));
+  top:50%;
   transform:translateX(-50%);
   display:grid;
   gap:6px;
@@ -143,8 +143,8 @@ input{
 }
 
 .choice-intro-green{
-  background:var(--green);
-  border-bottom:2px solid var(--green-deep);
+  background:var(--yellow);
+  border-bottom:2px solid var(--ink);
 }
 
 .choice-grid{
@@ -624,7 +624,7 @@ input{
   height:100%;
   border:none;
   outline:none;
-  padding:18% 0 0;
+  padding:24% 0 0;
   background:transparent;
   text-align:center;
   font-family:"Noto Sans Telugu","Plus Jakarta Sans","Nirmala UI",sans-serif;
@@ -756,7 +756,7 @@ input{
   }
 
   .splash-one-copy{
-    top:min(calc(100vw * 1.03), calc(100vh - 132px));
+    top:50%;
     gap:4px;
     width:94vw;
   }
@@ -1012,6 +1012,6 @@ input{
   }
 
   .entry input{
-    padding-top:20%;
+    padding-top:28%;
   }
 }

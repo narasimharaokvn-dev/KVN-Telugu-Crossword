@@ -1,7 +1,7 @@
 (function(){
   const LAST_SELECTION_KEY = "dynamic_puzzle_last_selection";
   const RECENT_SELECTIONS_KEY = "dynamic_puzzle_recent_selections";
-  const SPLASH_ONE_MS = 6000;
+  const SPLASH_ONE_MS = 10000;
   const MAX_RECENT_SELECTIONS = 10;
 
   const state = {
@@ -936,6 +936,10 @@
 
           if(event.key === "ArrowDown"){
             event.preventDefault();
+            if(isTouchKeyboard()){
+              input.blur();
+              return;
+            }
             moveInDirection(row, col, 1, 0);
             return;
           }
@@ -1061,6 +1065,11 @@
       nextRow += rowStep;
       nextCol += colStep;
     }
+  }
+
+  function isTouchKeyboard(){
+    return window.matchMedia &&
+      window.matchMedia("(pointer: coarse), (max-width: 720px)").matches;
   }
 
   function refreshAfterResize(){
