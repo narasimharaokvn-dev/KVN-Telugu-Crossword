@@ -44,6 +44,11 @@ input{
   padding:0;
 }
 
+.screen-splash[hidden],
+.game-shell[hidden]{
+  display:none !important;
+}
+
 .screen-splash-primary,
 .screen-splash-secondary{
   display:flex;

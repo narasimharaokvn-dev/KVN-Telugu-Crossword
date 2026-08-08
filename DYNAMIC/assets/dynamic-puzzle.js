@@ -1,6 +1,6 @@
 (function(){
   const LAST_SELECTION_KEY = "dynamic_puzzle_last_selection";
-  const SPLASH_ONE_MS = 60000;
+  const SPLASH_ONE_MS = 3000;
 
   const state = {
     sources: null,
@@ -153,6 +153,10 @@
     dom.splashOne.hidden = true;
     dom.splashTwo.hidden = true;
     dom.gameShell.hidden = false;
+
+    window.requestAnimationFrame(function(){
+      refreshAfterResize();
+    });
   }
 
   async function loadSelectionFromQuery(){
@@ -772,10 +776,13 @@
     const acrossMap = getAcrossMap();
     const downMap = getDownMap();
 
-    dom.acrossList.innerHTML = "";
-    dom.downList.innerHTML = "";
     state.clueRows.across.clear();
     state.clueRows.down.clear();
+
+    if(!dom.acrossList || !dom.downList) return;
+
+    dom.acrossList.innerHTML = "";
+    dom.downList.innerHTML = "";
 
     state.clueStarts.across.forEach(function(item){
       dom.acrossList.appendChild(createClueRow("across", item.number, acrossMap[item.number] || ""));
