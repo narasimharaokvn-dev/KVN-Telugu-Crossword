@@ -100,13 +100,20 @@ input{
 }
 
 .choice-intro{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
   margin:0;
-  padding:10px 18px;
+  padding:14px 18px;
   text-align:center;
   font-family:"Noto Sans Telugu","Plus Jakarta Sans",sans-serif;
   font-size:clamp(1rem, 2.3vw, 1.35rem);
   font-weight:700;
   line-height:1.35;
+}
+
+.choice-intro span{
+  display:block;
 }
 
 .choice-intro-yellow{
@@ -135,7 +142,7 @@ input{
   padding:16px;
   border:3px solid var(--ink);
   border-radius:18px;
-  background:#fffef2;
+  background:var(--green);
   box-shadow:5px 5px 0 var(--ink);
 }
 
@@ -147,13 +154,13 @@ input{
 
 .choice-card p{
   margin:0;
-  color:#334155;
+  color:#17351b;
   line-height:1.35;
 }
 
 .choice-card-manual{
   grid-column:1 / -1;
-  background:#fff8ca;
+  background:var(--green);
 }
 
 .choice-action{
@@ -162,9 +169,9 @@ input{
   padding:10px 18px;
   border:2px solid var(--ink);
   border-radius:999px;
-  background:var(--green);
+  background:var(--yellow);
   color:var(--ink);
-  box-shadow:3px 3px 0 var(--green-deep);
+  box-shadow:3px 3px 0 var(--yellow-deep);
   cursor:pointer;
   font-family:"Space Grotesk","Noto Sans Telugu",sans-serif;
   font-weight:700;
