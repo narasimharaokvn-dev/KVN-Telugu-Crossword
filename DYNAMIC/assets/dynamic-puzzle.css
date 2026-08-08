@@ -399,6 +399,12 @@ input{
   font-weight:700;
 }
 
+.symbol-chip{
+  min-width:44px;
+  font-size:1.35rem;
+  line-height:1;
+}
+
 .nav-chip:disabled{
   background:#ecebe3;
   color:#8c8c8c;
@@ -791,6 +797,46 @@ input{
 
   .nav-chip{
     width:100%;
+  }
+
+  .gameplay-controls{
+    gap:8px;
+    padding-top:8px;
+    padding-bottom:10px;
+  }
+
+  .gameplay-controls .current-puzzle-box{
+    gap:4px;
+  }
+
+  .gameplay-controls .current-puzzle-title{
+    padding:8px 12px;
+    font-size:1.2rem;
+  }
+
+  .gameplay-controls .current-puzzle-note{
+    font-size:0.98rem;
+    line-height:1.25;
+  }
+
+  .gameplay-controls .action-cluster{
+    display:grid;
+    grid-template-columns:1.25fr 0.8fr 0.8fr 1fr;
+    gap:6px;
+    width:100%;
+  }
+
+  .gameplay-controls .nav-chip{
+    width:auto;
+    min-height:36px;
+    padding:7px 8px;
+    box-shadow:2px 2px 0 var(--ink);
+    font-size:0.88rem;
+  }
+
+  .gameplay-controls .symbol-chip{
+    min-width:0;
+    font-size:1.25rem;
   }
 
   .clue-preview-bar{
