@@ -1,4 +1,7 @@
 (function(){
+  const APP_BASE = document.documentElement.dataset.appBase || "";
+  const APP_PAGE = document.documentElement.dataset.appPage || "puzzle.html";
+  const SERVICE_WORKER_PATH = document.documentElement.dataset.serviceWorker || "";
   const LAST_SELECTION_KEY = "dynamic_puzzle_last_selection";
   const RECENT_SELECTIONS_KEY = "dynamic_puzzle_recent_selections";
   const SPLASH_ONE_MS = 10000;
@@ -77,6 +80,7 @@
   document.addEventListener("DOMContentLoaded", initialize);
 
   async function initialize(){
+    registerServiceWorker();
     wireEvents();
     startSplashFlow();
 
@@ -363,13 +367,45 @@
   }
 
   async function fetchJson(path){
-    const response = await fetch(path, { cache: "no-store" });
+    const resolvedPath = resolveAppPath(path);
+    const response = await fetch(resolvedPath, { cache: "no-store" });
     if(!response.ok){
-      throw new Error("Could not load " + path);
+      throw new Error("Could not load " + resolvedPath);
     }
 
     const text = await response.text();
     return JSON.parse(text.replace(/^\uFEFF/, ""));
+  }
+
+  function resolveAppPath(path){
+    if(!path) return path;
+    if(/^(?:[a-z]+:)?\/\//i.test(path) || path[0] === "/" || path.indexOf("data:") === 0){
+      return path;
+    }
+    if(APP_BASE && path.indexOf(APP_BASE) === 0){
+      return path;
+    }
+    return APP_BASE + path;
+  }
+
+  function buildAppUrl(query){
+    const suffix = query ? "?" + query : "";
+    if(!APP_PAGE || APP_PAGE === "." || APP_PAGE === "./"){
+      return suffix || location.pathname;
+    }
+    return APP_PAGE + suffix;
+  }
+
+  function registerServiceWorker(){
+    if(!SERVICE_WORKER_PATH || !("serviceWorker" in navigator) || location.protocol === "file:"){
+      return;
+    }
+
+    window.addEventListener("load", function(){
+      navigator.serviceWorker.register(SERVICE_WORKER_PATH).catch(function(){
+        // PWA support is optional; the puzzle must still run if registration is blocked.
+      });
+    });
   }
 
   function populateFolderSelect(){
@@ -615,7 +651,7 @@
       params.set("puzzle", puzzleId);
     }
     const query = params.toString();
-    window.location.href = "puzzle.html" + (query ? "?" + query : "");
+    window.location.href = buildAppUrl(query);
   }
 
   function replaceUrlSelection(folderId, puzzleId){
@@ -623,7 +659,7 @@
     if(folderId) params.set("folder", folderId);
     if(puzzleId) params.set("puzzle", puzzleId);
     const query = params.toString();
-    const nextUrl = "puzzle.html" + (query ? "?" + query : "");
+    const nextUrl = buildAppUrl(query);
     window.history.replaceState({}, "", nextUrl);
   }
 
@@ -635,7 +671,7 @@
   }
 
   function resolveAssetPath(basePath, fileName){
-    return (basePath || "") + fileName;
+    return resolveAppPath((basePath || "") + fileName);
   }
 
   function onImageLoad(){
@@ -1250,12 +1286,10 @@
   }
 
   function updateHistoryButtons(){
-    const canUndo = state.historyIndex > 0;
-    const canRedo = state.historyIndex >= 0 && state.historyIndex < state.history.length - 1;
     dom.undoButton.disabled = false;
     dom.redoButton.disabled = false;
-    dom.undoButton.setAttribute("aria-disabled", canUndo ? "false" : "true");
-    dom.redoButton.setAttribute("aria-disabled", canRedo ? "false" : "true");
+    dom.undoButton.removeAttribute("aria-disabled");
+    dom.redoButton.removeAttribute("aria-disabled");
   }
 
   function showBanner(message){

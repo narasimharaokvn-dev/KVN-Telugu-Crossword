@@ -1,0 +1,27 @@
+{
+  "name": "KVN Telugu Crossword Puzzle",
+  "short_name": "KVN Crossword",
+  "description": "Telugu crossword puzzle app with magazine and puzzle selection.",
+  "lang": "te",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#43cf59",
+  "theme_color": "#fff200",
+  "icons": [
+    {
+      "src": "DYNAMIC/assets/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "DYNAMIC/assets/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
