@@ -1,6 +1,138 @@
 {
-  "latestCompleteId": "260621",
+  "latestCompleteId": "260913",
   "puzzles": [
+    {
+      "id": "260913",
+      "title": "EE Puzzle 260913",
+      "imageFile": "260913.png",
+      "gridFile": "260913.json",
+      "clueFile": "260913C.json",
+      "solutionFile": null,
+      "acrossCount": 31,
+      "downCount": 30,
+      "complete": true
+    },
+    {
+      "id": "260906",
+      "title": "EE Puzzle 260906",
+      "imageFile": "260906.png",
+      "gridFile": "260906.json",
+      "clueFile": "260906C.json",
+      "solutionFile": null,
+      "acrossCount": 31,
+      "downCount": 27,
+      "complete": true
+    },
+    {
+      "id": "260830",
+      "title": "EE Puzzle 260830",
+      "imageFile": "260830.png",
+      "gridFile": "260830.json",
+      "clueFile": "260830C.json",
+      "solutionFile": null,
+      "acrossCount": 36,
+      "downCount": 27,
+      "complete": true
+    },
+    {
+      "id": "260823",
+      "title": "EE Puzzle 260823",
+      "imageFile": "260823.png",
+      "gridFile": "260823.json",
+      "clueFile": "260823C.json",
+      "solutionFile": null,
+      "acrossCount": 20,
+      "downCount": 21,
+      "complete": true
+    },
+    {
+      "id": "260816",
+      "title": "EE Puzzle 260816",
+      "imageFile": "260816.png",
+      "gridFile": "260816.json",
+      "clueFile": "260816C.json",
+      "solutionFile": null,
+      "acrossCount": 31,
+      "downCount": 33,
+      "complete": true
+    },
+    {
+      "id": "260809",
+      "title": "EE Puzzle 260809",
+      "imageFile": "260809.png",
+      "gridFile": "260809.json",
+      "clueFile": "260809C.json",
+      "solutionFile": null,
+      "acrossCount": 34,
+      "downCount": 31,
+      "complete": true
+    },
+    {
+      "id": "260802",
+      "title": "EE Puzzle 260802",
+      "imageFile": "260802.png",
+      "gridFile": "260802.json",
+      "clueFile": "260802C.json",
+      "solutionFile": null,
+      "acrossCount": 31,
+      "downCount": 29,
+      "complete": true
+    },
+    {
+      "id": "260726",
+      "title": "EE Puzzle 260726",
+      "imageFile": "260726.png",
+      "gridFile": "260726.json",
+      "clueFile": "260726C.json",
+      "solutionFile": null,
+      "acrossCount": 33,
+      "downCount": 31,
+      "complete": true
+    },
+    {
+      "id": "260719",
+      "title": "EE Puzzle 260719",
+      "imageFile": "260719.png",
+      "gridFile": "260719.json",
+      "clueFile": "260719C.json",
+      "solutionFile": null,
+      "acrossCount": 33,
+      "downCount": 27,
+      "complete": true
+    },
+    {
+      "id": "260712",
+      "title": "EE Puzzle 260712",
+      "imageFile": "260712.png",
+      "gridFile": "260712.json",
+      "clueFile": "260712C.json",
+      "solutionFile": null,
+      "acrossCount": 31,
+      "downCount": 26,
+      "complete": true
+    },
+    {
+      "id": "260705",
+      "title": "EE Puzzle 260705",
+      "imageFile": "260705.png",
+      "gridFile": "260705.json",
+      "clueFile": "260705C.json",
+      "solutionFile": null,
+      "acrossCount": 31,
+      "downCount": 34,
+      "complete": true
+    },
+    {
+      "id": "260628",
+      "title": "EE Puzzle 260628",
+      "imageFile": "260628.png",
+      "gridFile": "260628.json",
+      "clueFile": "260628C.json",
+      "solutionFile": null,
+      "acrossCount": 33,
+      "downCount": 27,
+      "complete": true
+    },
     {
       "id": "260621",
       "title": "EE Puzzle 260621",
