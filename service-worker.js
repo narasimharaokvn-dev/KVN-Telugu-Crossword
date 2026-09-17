@@ -1,4 +1,4 @@
-const CACHE_NAME = "kvn-crossword-pwa-20260708d";
+const CACHE_NAME = "kvn-crossword-pwa-20260917";
 const SHELL_FILES = [
   "./",
   "./index.html",
@@ -6,7 +6,7 @@ const SHELL_FILES = [
   "./DYNAMIC/puzzle.html",
   "./DYNAMIC/sources.json",
   "./DYNAMIC/assets/dynamic-puzzle.css?v=20260708d",
-  "./DYNAMIC/assets/dynamic-puzzle.js?v=20260708d",
+  "./DYNAMIC/assets/dynamic-puzzle.js?v=20260917",
   "./DYNAMIC/assets/header-leaves-left.png",
   "./DYNAMIC/assets/header-leaves-right.png",
   "./DYNAMIC/assets/splash-screen-1.png",

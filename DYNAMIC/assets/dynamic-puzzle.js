@@ -89,6 +89,7 @@
       populateFolderSelect();
       await prepareChoiceScreen();
     }catch(error){
+      showGameScreen();
       dom.loading.hidden = true;
       const suffix = location.protocol === "file:"
         ? " If you open this outside Codex, use GitHub Pages or a local web server."
@@ -249,6 +250,12 @@
       "";
 
     await loadFolderForChooser(folderId, puzzleId);
+    // A shared Sunday link opens that exact puzzle rather than only preselecting it.
+    if(requestedFolderId && requestedPuzzle){
+      const exists = getCompletePuzzles().some(function(item){ return item.id === requestedPuzzle; });
+      if(!exists) throw new Error("The shared puzzle is not available in this magazine.");
+      await openPuzzleByIds(requestedFolderId, requestedPuzzle);
+    }
   }
 
   async function loadFolderForChooser(folderId, puzzleId){
@@ -432,6 +439,19 @@
 
   async function findLatestSelection(){
     const folders = Array.isArray(state.sources.folders) ? state.sources.folders : [];
+    const preferred = state.sources.latestPuzzle;
+    const preferredFolder = preferred && folders.find(function(folder){ return folder.id === preferred.folderId; });
+    if(preferredFolder){
+      try{
+        const preferredIndex = await fetchJson(preferredFolder.index);
+        const preferredPuzzle = getCompletePuzzlesFromIndex(preferredIndex).find(function(item){ return item.id === preferred.puzzleId; });
+        if(preferredPuzzle){
+          return {folderId:preferredFolder.id,puzzleId:preferredPuzzle.id,title:preferredPuzzle.title || preferredPuzzle.id};
+        }
+      }catch(error){
+        // Keep the automatic selection available if a preferred puzzle cannot be loaded.
+      }
+    }
     let best = null;
 
     for(const folder of folders){
