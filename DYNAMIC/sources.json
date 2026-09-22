@@ -1,5 +1,5 @@
 {
-  "latestFolder": "SS",
+  "latestFolder": "EE",
   "folders": [
     {
       "id": "AJ",
@@ -43,5 +43,9 @@
       "assetBase": "GN/",
       "solutionBase": "PUZZLE/"
     }
-  ]
+  ],
+  "latestPuzzle": {
+    "folderId": "EE",
+    "puzzleId": "260920"
+  }
 }
