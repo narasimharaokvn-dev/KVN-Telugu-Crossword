@@ -1,6 +1,17 @@
 {
-  "latestCompleteId": "261004",
+  "latestCompleteId": "261011",
   "puzzles": [
+    {
+      "id": "261011",
+      "title": "EE Puzzle 261011",
+      "imageFile": "261011.png",
+      "gridFile": "261011.json",
+      "clueFile": "261011C.json",
+      "solutionFile": null,
+      "acrossCount": 36,
+      "downCount": 28,
+      "complete": true
+    },
     {
       "id": "261004",
       "title": "EE Puzzle 261004",
