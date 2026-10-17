@@ -1,6 +1,39 @@
 {
-  "latestCompleteId": "260927",
+  "latestCompleteId": "261018",
   "puzzles": [
+    {
+      "id": "261018",
+      "title": "EE Puzzle 261018",
+      "imageFile": "261018.png",
+      "gridFile": "261018.json",
+      "clueFile": "261018C.json",
+      "solutionFile": null,
+      "acrossCount": 33,
+      "downCount": 30,
+      "complete": true
+    },
+    {
+      "id": "261011",
+      "title": "EE Puzzle 261011",
+      "imageFile": "261011.png",
+      "gridFile": "261011.json",
+      "clueFile": "261011C.json",
+      "solutionFile": null,
+      "acrossCount": 36,
+      "downCount": 28,
+      "complete": true
+    },
+    {
+      "id": "261004",
+      "title": "EE Puzzle 261004",
+      "imageFile": "261004.png",
+      "gridFile": "261004.json",
+      "clueFile": "261004C.json",
+      "solutionFile": null,
+      "acrossCount": 33,
+      "downCount": 26,
+      "complete": true
+    },
     {
       "id": "260927",
       "title": "EE Puzzle 260927",
